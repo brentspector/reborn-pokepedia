@@ -6,15 +6,15 @@ workflows:
     name: Ionic App
     environment:
       vars:
-        XCODE_WORKSPACE: "ios/App/IonicApp.xcworkspace" # <- 'IonicApp' is the default workspace name for Capacitor projects
-        XCODE_SCHEME: "IonicApp" # <- 'IonicApp' is the default Scheme name for Capacitor projects
+        XCODE_WORKSPACE: "ios/App/App.xcworkspace"
+        XCODE_SCHEME: "App"
       node: lts
     scripts:
       - npm install
       - npx cap sync
       - |
         # build iOS
-        cd platforms/ios
+        cd ios
         pod install
         xcodebuild build -workspace "$XCODE_WORKSPACE" -scheme "$XCODE_SCHEME" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
     artifacts:
