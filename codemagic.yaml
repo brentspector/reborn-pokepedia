@@ -1,0 +1,25 @@
+workflows:
+  build-ios:
+    name: Build iOS App
+    instance_type: mac_mini
+    max_build_duration: 10
+    environment:
+      node: lts
+      npm: lts
+      xcode: latest
+    scripts:
+        - echo "iOS - Not Enabled"
+  build-web:
+    name: Build Web App
+    instance_type: mac_mini
+    max_build_duration: 10
+    environment:
+      node: lts
+      npm: lts
+      xcode: latest
+    scripts:
+        - ionic build
+        - ionic cap copy
+    cache:
+      cache-paths:
+        - $FCI_BUILD_DIR/node_modules
