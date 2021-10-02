@@ -1,12 +1,10 @@
-FROM node as build
+FROM node:lts-alpine as build
 WORKDIR /app
 COPY package*.json /app/
 RUN npm install
-RUN apt install git
+COPY ./public /app/
 COPY ./ /app/
 RUN npm run build
-RUN cd dist &&\
-    git init &&\
-    git add -A &&\
-    git commit -m 'deploy' &&\
-    git push -f git@github.com:brentspector/reborn-pokepedia.git master:gh-pages
+FROM nginx:mainline-alpine
+COPY --from=build /app/dist/ /var/www/html/reborn-pokepedia/
+COPY --from=build /app/nginx/nginx.conf /etc/nginx/conf.d/default.conf

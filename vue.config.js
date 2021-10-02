@@ -1,3 +1,5 @@
 module.exports = {
-    publicPath: '/reborn-pokepedia/'
+    publicPath: process.env.NODE_ENV === 'production'
+        ? '/reborn-pokepedia/'
+        : '/'
 }

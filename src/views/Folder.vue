@@ -72,7 +72,7 @@ export default defineComponent({
   setup() {
     const pokemonId = ref(1)
     const pokemonPath = () => {
-      return "/assets/pokemon/" + pokemonId.value + ".png"
+      return process.env.BASE_URL + "assets/pokemon/" + pokemonId.value + ".png"
     }
     return {
       pokemonId,
