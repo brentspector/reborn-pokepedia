@@ -100,3 +100,4 @@ Support her work on Patreon
 </a>
 <br>
 Thanks to [PokeAPI](https://pokeapi.co) for the sprites on [GitHub](https://github.com/PokeAPI/sprites/tree/master/sprites/pokemon/other/official-artwork)
+Thanks to [Fuyutarow](https://github.com/fuyutarow) for the Pokemon JSON data on [GitHub](https://github.com/fuyutarow/pokemon.json/blob/master/en/pokemon.json)

@@ -1,7 +1,12 @@
 <template>
   <ion-content fullscreen>
     <ion-list-header>Default</ion-list-header>
-    <ion-input v-model="pokemonId"></ion-input>
+                <ion-item>
+              <ion-label>Select a Pokemon</ion-label>
+              <ion-select v-model="pokemonId">
+                <ion-select-option v-for="(pk, idx) in pokemonData" :key="idx" :value="pk.no">{{ pk.name }}</ion-select-option>
+              </ion-select>
+            </ion-item>
     <ion-thumbnail class="ion-margin-start" style="--size:132px;">
       <img :src="pokemonPath()">
     </ion-thumbnail>
@@ -11,13 +16,13 @@
       <ion-list-header>Item thumbnails</ion-list-header>
       <ion-item>
         <ion-thumbnail slot="start">
-          <img src="/assets/pokemon/132.png">
+          <img :src="pokemonPath()">
         </ion-thumbnail>
         <ion-label>Lorem ipsum</ion-label>
       </ion-item>
       <ion-item>
         <ion-thumbnail slot="start">
-          <img src="/assets/pokemon/132.png">
+          <img :src="pokemonPath()">
         </ion-thumbnail>
         <ion-label>
           <h3>Lorem ipsum</h3>
@@ -26,7 +31,7 @@
       </ion-item>
       <ion-item>
         <ion-thumbnail slot="start">
-          <img src="/assets/pokemon/132.png">
+          <img :src="pokemonPath()">
         </ion-thumbnail>
         <ion-label>
           <h3>Lorem ipsum</h3>
@@ -36,13 +41,13 @@
       </ion-item>
       <ion-item>
         <ion-thumbnail slot="end">
-          <img src="/assets/pokemon/132.png">
+          <img :src="pokemonPath()">
         </ion-thumbnail>
         <ion-label>Lorem ipsum</ion-label>
       </ion-item>
       <ion-item>
         <ion-thumbnail slot="end">
-          <img src="/assets/pokemon/132.png">
+          <img :src="pokemonPath()">
         </ion-thumbnail>
         <ion-label>
           <h3>Lorem ipsum</h3>
@@ -51,7 +56,7 @@
       </ion-item>
       <ion-item>
         <ion-thumbnail slot="end">
-          <img src="/assets/pokemon/132.png">
+          <img :src="pokemonPath()">
         </ion-thumbnail>
         <ion-label>
           <h3>Lorem ipsum</h3>
@@ -64,11 +69,12 @@
 </template>
 
 <script>
-import { IonContent, IonInput, IonItem, IonLabel, IonThumbnail } from '@ionic/vue';
+import { IonContent, IonItem, IonLabel, IonThumbnail, IonSelect, IonSelectOption } from '@ionic/vue';
 import { defineComponent, ref } from 'vue';
+import { pokemonData } from './../data/pokemon'
 
 export default defineComponent({
-  components: { IonContent, IonInput, IonItem, IonLabel, IonThumbnail },
+  components: { IonContent, IonItem, IonLabel, IonThumbnail, IonSelect, IonSelectOption },
   setup() {
     const pokemonId = ref(1)
     const pokemonPath = () => {
@@ -76,6 +82,7 @@ export default defineComponent({
     }
     return {
       pokemonId,
+      pokemonData,
       pokemonPath
     }
   }
