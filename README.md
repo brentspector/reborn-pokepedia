@@ -9,11 +9,11 @@
 <p align="center">Guide for Pokemon Based on Progress in Game</p>
 
 <p align="center">
-  <a href="https://itunes.apple.com/us/app/gitpoint/id1251245162?mt=8">
+  <a href="https://img3.stockfresh.com/files/k/kikkerdirk/m/81/4759970_stock-photo-coming-soon.jpg">
     <img alt="Download on the App Store" title="App Store" src="http://i.imgur.com/0n2zqHD.png" width="140">
   </a>
 
-  <a href="https://play.google.com/store/apps/details?id=com.gitpoint">
+  <a href="https://img3.stockfresh.com/files/k/kikkerdirk/m/81/4759970_stock-photo-coming-soon.jpg">
     <img alt="Get it on Google Play" title="Google Play" src="http://i.imgur.com/mtGRPuM.png" width="140">
   </a>
 </p>
@@ -28,8 +28,6 @@
 - [Feedback](#feedback)
 - [Build Process](#build-process)
 - [Committing](#committing)
-- [Backers](#backers-)
-- [Sponsors](#sponsors-)
 - [Acknowledgments](#acknowledgments)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -68,6 +66,25 @@ Feel free to send us feedback by [Email](brent.spector@yahoo.com) or [file an is
 - `ionic serve` to spin up the web-app
 - `ionic capacitor open ios` requires appropriate setup in a [Mac Environment](https://ionicframework.com/docs/developing/ios)
 - `ionic capacitor open andriod` requires appropriate setup with [Android Studio](https://ionicframework.com/docs/developing/android)
+
+### Production Build
+
+Any commit to the `master` branch triggers a Github Action that rebuilds the project and updates https://brentspector.github.io/reborn-pokepedia/.
+
+However, if you wish to preview the production build locally, a Dockerfile has been created to do just that!
+
+From the project root, run the following commands
+
+```
+scripts/docker_build.sh
+scripts/docker_run.sh
+```
+
+Then navigate to `localhost:8080` to see the product.
+
+## Single File Component
+
+Vue.js recommends combining HTML, CSS, and Javascript into one file, represented with the `.vue` file extension. More details on the rationale behind this can be found at https://v3.vuejs.org/guide/single-file-component.html#how-it-works
 
 ## Committing
 
