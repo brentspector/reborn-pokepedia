@@ -1,4 +1,4 @@
-Dropdown by point in game
+* Dropdown by point in game
 Pokemon location data
 TM location data
 Tutor location data
@@ -6,3 +6,4 @@ Pokemon moveset data
 View pokemon data
 View location data
 View list of pokemon by point in game
+View moves available at point in game

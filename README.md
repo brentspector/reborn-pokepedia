@@ -86,6 +86,10 @@ Then navigate to `localhost:8080` to see the product.
 
 Vue.js recommends combining HTML, CSS, and Javascript into one file, represented with the `.vue` file extension. More details on the rationale behind this can be found at https://v3.vuejs.org/guide/single-file-component.html#how-it-works
 
+## Pokemon Data
+
+Data has been broken down into each generation, and some generations have been broken down into multiple portions. This is due to Babel (a compatibility library) deoptimizing files that exceed 500 kB. In order to keep build times short, files should be less than 500 kB if possible.
+
 ## Committing
 
 Run `npm run commit` to automatically use `Commitizen`.
@@ -100,4 +104,4 @@ Support her work on Patreon
 </a>
 <br>
 Thanks to [PokeAPI](https://pokeapi.co) for the sprites on [GitHub](https://github.com/PokeAPI/sprites/tree/master/sprites/pokemon/other/official-artwork)
-Thanks to [Fuyutarow](https://github.com/fuyutarow) for the Pokemon JSON data on [GitHub](https://github.com/fuyutarow/pokemon.json/blob/master/en/pokemon.json)
+Thanks to [Fuyutarow](https://github.com/fuyutarow) for the Pokemon JSON data on [GitHub](https://github.com/fuyutarow/pokemon.json/blob/master/en/)
