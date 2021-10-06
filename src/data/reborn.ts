@@ -79,6 +79,7 @@ export const gameLocations = [
     "Route 3",
     "Ruby, Sapphire, Emerald, Amethyst Caves",
     "Route 4",
+    "Calcenon City",
     "Ametrine City",
     "Glitch World",
     "Water Treatment Center",

@@ -105,3 +105,5 @@ Support her work on Patreon
 <br>
 Thanks to [PokeAPI](https://pokeapi.co) for the sprites on [GitHub](https://github.com/PokeAPI/sprites/tree/master/sprites/pokemon/other/official-artwork)
 Thanks to [Fuyutarow](https://github.com/fuyutarow) for the Pokemon JSON data on [GitHub](https://github.com/fuyutarow/pokemon.json/blob/master/en/)
+Thanks to [Starry Knight](https://www.rebornevo.com/forums/profile/73296-starry-knight/) for [E18 Pokemon Locations](https://www.rebornevo.com/forums/topic/42836-void-kissed-pokemon-location-guide/)
+Thanks to [Aegisth](https://www.rebornevo.com/forums/profile/77714-aegisth/) for [E18 Pokemon Spreadsheet](https://www.rebornevo.com/forums/topic/43367-e18-pokemon-locations-spreadsheet-all-wild-and-event-pokemon-plus-more/)

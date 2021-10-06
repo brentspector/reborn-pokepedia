@@ -250,6 +250,12 @@ export const pokemonData10 = [
         85,
         "Work Up"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Azurine Island",
+        "point": "Adrienn"
+      },      
     ]
   },
   {
@@ -496,7 +502,8 @@ export const pokemonData10 = [
         85,
         "Work Up"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 3,
@@ -776,11 +783,12 @@ export const pokemonData10 = [
         85,
         "Work Up"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 10033,
-    "name": "Venusaur-1",
+    "name": "Mega Venusaur",
     "stage": 3,
     "galar_dex": "Foreign",
     "base_stats": [
@@ -1048,6 +1056,12 @@ export const pokemonData10 = [
         85,
         "Work Up"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Peridot Ward",
+        "point": "Adrienn"
+      },      
     ]
   },
   {
@@ -1338,6 +1352,12 @@ export const pokemonData10 = [
         85,
         "Work Up"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Pyrous Mountain",
+        "point": "Adrienn"
+      },      
     ]
   },
   {
@@ -1619,6 +1639,12 @@ export const pokemonData10 = [
         85,
         "Work Up"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Pyrous Mountain",
+        "point": "Adrienn"
+      },      
     ]
   },
   {
@@ -1971,11 +1997,17 @@ export const pokemonData10 = [
         89,
         "Hurricane"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Pyrous Mountain",
+        "point": "Adrienn"
+      },      
     ]
   },
   {
     "no": 10034,
-    "name": "Charizard-1",
+    "name": "Mega Charizard X",
     "stage": 3,
     "galar_dex": 380,
     "base_stats": [
@@ -2323,11 +2355,17 @@ export const pokemonData10 = [
         89,
         "Hurricane"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Calcenon City",
+        "point": "Hardy"
+      },      
     ]
   },
   {
     "no": 10035,
-    "name": "Charizard-2",
+    "name": "Mega Charizard Y",
     "stage": 3,
     "galar_dex": 380,
     "base_stats": [
@@ -2675,7 +2713,8 @@ export const pokemonData10 = [
         89,
         "Hurricane"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 7,
