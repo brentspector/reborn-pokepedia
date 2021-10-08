@@ -25,7 +25,9 @@
         </ion-thumbnail>
         <ion-label>
           <h3>{{ pk.name }}</h3>
-          <p>{{ pk.types }}</p>
+          <ion-thumbnail class="ion-margin-start">
+            <img v-for="type in pk.types" :key="type" :src="pokemonTypePath(type)" :title="type">
+          </ion-thumbnail>
         </ion-label>
       </ion-item>
     </ion-list>
@@ -49,7 +51,7 @@ import { gamePoints, gameLocations } from './../data/reborn'
 export default defineComponent({
   components: { IonContent, IonItem, IonLabel, IonList, IonListHeader, IonThumbnail, IonSelect, IonSelectOption },
   setup() {
-    let pointInGame = reactive([{"no":2,"name":"Ivysaur"}])
+    let pointInGame = reactive([])
     const pokemonId = ref(1)
     const pokemonData = pokemonData10.concat(pokemonData11, pokemonData20, pokemonData30, pokemonData40, pokemonData50, pokemonData60, pokemonData70, pokemonData80)
     const pokemonPath = () => {
@@ -57,6 +59,9 @@ export default defineComponent({
     }
     const pokemonPath2 = (pkId) => {
       return process.env.BASE_URL + "assets/pokemon/" + pkId + ".png"
+    }
+    const pokemonTypePath = (typeStr) => {
+      return process.env.BASE_URL + "assets/types/" + typeStr + ".png"
     }
     const pokemonAvailable = (event) => {
       // Clear the reactive array
@@ -78,6 +83,7 @@ export default defineComponent({
       gameLocations,
       pokemonPath,
       pokemonPath2,
+      pokemonTypePath,
       pokemonAvailable
     }
   }

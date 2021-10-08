@@ -2998,6 +2998,12 @@ export const pokemonData10 = [
         85,
         "Work Up"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Byxbysion Wasteland",
+        "point": "Serra"
+      },      
     ]
   },
   {
@@ -3271,7 +3277,8 @@ export const pokemonData10 = [
         85,
         "Work Up"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 9,
@@ -3598,11 +3605,12 @@ export const pokemonData10 = [
         99,
         "Body Press"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 10036,
-    "name": "Blastoise-1",
+    "name": "Mega Blastoise",
     "stage": 3,
     "galar_dex": "Foreign",
     "base_stats": [
@@ -3929,6 +3937,12 @@ export const pokemonData10 = [
         99,
         "Body Press"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Charous Mountain",
+        "point": "Hardy"
+      },      
     ]
   },
   {
@@ -4002,6 +4016,12 @@ export const pokemonData10 = [
     ],
     "trs": [
       "None"
+    ],
+    "locations": [
+      {
+        "location": "Peridot Ward",
+        "point": "Julia"
+      },      
     ]
   },
   {
@@ -4074,7 +4094,8 @@ export const pokemonData10 = [
         46,
         "Iron Defense"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 12,
@@ -4346,6 +4367,12 @@ export const pokemonData10 = [
         96,
         "Pollen Puff"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Peridot Ward",
+        "point": "Adrienn"
+      },      
     ]
   },
   {
@@ -4401,7 +4428,8 @@ export const pokemonData10 = [
     ],
     "trs": [
       "None"
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 14,
@@ -4459,7 +4487,8 @@ export const pokemonData10 = [
         46,
         "Iron Defense"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 15,
@@ -4674,11 +4703,21 @@ export const pokemonData10 = [
         95,
         "Throat Chop"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Jasper Ward",
+        "point": "Taka/Pulse Tangrowth 2"
+      },
+      {
+        "location": "Malchous Forest",
+        "point": "Taka/Pulse Tangrowth 2"
+      }
     ]
   },
   {
     "no": 10091,
-    "name": "Beedrill-1",
+    "name": "Mega Beedrill",
     "stage": 3,
     "galar_dex": "Foreign",
     "base_stats": [
@@ -4889,6 +4928,16 @@ export const pokemonData10 = [
         95,
         "Throat Chop"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Jasper Ward",
+        "point": "Taka/Pulse Tangrowth 2"
+      },
+      {
+        "location": "Malchous Forest",
+        "point": "Taka/Pulse Tangrowth 2"
+      }
     ]
   },
   {
@@ -5023,6 +5072,24 @@ export const pokemonData10 = [
         89,
         "Hurricane"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Opal Ward",
+        "point": "Julia"
+      },
+      {
+        "location": "Jasper Ward",
+        "point": "Taka/Pulse Tangrowth 2"
+      },
+      {
+        "location": "Malchous Forest",
+        "point": "Taka/Pulse Tangrowth 2"
+      },
+      {
+        "location": "Glitch World",
+        "point": "T3RR4"
+      }
     ]
   },
   {
@@ -5161,6 +5228,24 @@ export const pokemonData10 = [
         89,
         "Hurricane"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Jasper Ward",
+        "point": "Taka/Pulse Tangrowth 2"
+      },
+      {
+        "location": "Beryl Ward",
+        "point": "Taka/ZEL/Pulse Tangrowth 3"
+      },
+      {
+        "location": "Malchous Forest",
+        "point": "Adrienn"
+      },
+      {
+        "location": "Opal Ward",
+        "point": "Adrienn"
+      }
     ]
   },
   {
@@ -5307,11 +5392,25 @@ export const pokemonData10 = [
         89,
         "Hurricane"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Jasper Ward",
+        "point": "Adrienn"
+      },
+      {
+        "location": "Malchous Forest",
+        "point": "Adrienn"
+      },
+      {
+        "location": "Teknite Ridge",
+        "point": "Titania"
+      }
     ]
   },
   {
     "no": 10073,
-    "name": "Pidgeot-1",
+    "name": "Mega Pidgeot",
     "stage": 3,
     "galar_dex": "Foreign",
     "base_stats": [
@@ -5453,6 +5552,12 @@ export const pokemonData10 = [
         89,
         "Hurricane"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Teknite Ridge",
+        "point": "Titania"
+      }
     ]
   },
   {
@@ -5650,11 +5755,25 @@ export const pokemonData10 = [
         86,
         "Wild Charge"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Opal Ward",
+        "point": "Julia"
+      },
+      {
+        "location": "Glitch World",
+        "point": "T3RR4"
+      },
+      {
+        "location": "Lapis Ward",
+        "point": "Adrienn"
+      }
     ]
   },
   {
     "no": 10091,
-    "name": "Rattata-1",
+    "name": "Rattata (Alolan)",
     "stage": 1,
     "galar_dex": "Foreign",
     "base_stats": [
@@ -5861,6 +5980,12 @@ export const pokemonData10 = [
         77,
         "Grass Knot"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Lapis Ward",
+        "point": "Shelly"
+      }
     ]
   },
   {
@@ -6090,11 +6215,17 @@ export const pokemonData10 = [
         97,
         "Psychic Fangs"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Lapis Ward",
+        "point": "Shelly"
+      }
     ]
   },
   {
     "no": 10092,
-    "name": "Raticate-1",
+    "name": "Raticate (Alolan)",
     "stage": 2,
     "galar_dex": "Foreign",
     "base_stats": [
@@ -6345,6 +6476,16 @@ export const pokemonData10 = [
         97,
         "Psychic Fangs"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Lapis Ward",
+        "point": "Shelly"
+      },
+      {
+        "location": "Opal Ward",
+        "point": "Adrienn"
+      }
     ]
   },
   {
@@ -6512,6 +6653,24 @@ export const pokemonData10 = [
         87,
         "Drill Run"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Opal Ward",
+        "point": "Julia"
+      },
+      {
+        "location": "Onyx Ward",
+        "point": "Florina"
+      },
+      {
+        "location": "Rhodochrine Jungle",
+        "point": "Taka/ZEL/Pulse Tangrowth 3"
+      },
+      {
+        "location": "Beryl Ward",
+        "point": "Taka/ZEL/Pulse Tangrowth 3"
+      }
     ]
   },
   {
@@ -6699,6 +6858,24 @@ export const pokemonData10 = [
         95,
         "Throat Chop"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Beryl Ward",
+        "point": "Taka/ZEL/Pulse Tangrowth 3"
+      },
+      {
+        "location": "Opal Ward",
+        "point": "Adrienn"
+      },
+      {
+        "location": "Onyx Ward",
+        "point": "Adrienn"
+      },
+      {
+        "location": "Rhodochrine Jungle",
+        "point": "Adrienn"
+      }
     ]
   },
   {
@@ -6877,6 +7054,24 @@ export const pokemonData10 = [
         78,
         "Sludge Wave"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Opal Ward",
+        "point": "Julia"
+      },
+      {
+        "location": "Beryl Ward",
+        "point": "Taka/ZEL/Pulse Tangrowth 3"
+      },
+      {
+        "location": "Byxbysion Wasteland",
+        "point": "Aya"
+      },
+      {
+        "location": "Glitch World",
+        "point": "T3RR4"
+      }
     ]
   },
   {
@@ -7091,6 +7286,28 @@ export const pokemonData10 = [
         95,
         "Throat Chop"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Beryl Ward",
+        "point": "Taka/ZEL/Pulse Tangrowth 3"
+      },
+      {
+        "location": "Byxbysion Wasteland",
+        "point": "Aya"
+      },
+      {
+        "location": "Tanzan Depths",
+        "point": "Noel"
+      },
+      {
+        "location": "Route 1",
+        "point": "Radomus"
+      },
+      {
+        "location": "Glitch World",
+        "point": "T3RR4"
+      }
     ]
   },
   {
@@ -7409,2413 +7626,12 @@ export const pokemonData10 = [
         90,
         "Play Rough"
       ]
-    ]
-  },
-  {
-    "no": 10080,
-    "name": "Pikachu-1",
-    "stage": 2,
-    "galar_dex": 194,
-    "base_stats": [
-      35,
-      55,
-      40,
-      50,
-      50,
-      90,
-      320
     ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-    ],
-    "gender-ratio": 0,
-    "catch-rate": 190,
-    "abilities": [
-      "Static",
-      "Static",
-      "Lightning Rod"
-    ],
-    "types": [
-      "Electric"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Light Ball",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Undiscovered"
-    ],
-    "hatch-cycles": 10,
-    "height": 0.4,
-    "weight": 6,
-    "color": "Yellow",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        1,
-        "Play Nice"
-      ],
-      [
-        1,
-        "Sweet Kiss"
-      ],
-      [
-        1,
-        "Nuzzle"
-      ],
-      [
-        1,
-        "Nasty Plot"
-      ],
-      [
-        1,
-        "Charm"
-      ],
-      [
-        1,
-        "Thunder Shock"
-      ],
-      [
-        1,
-        "Tail Whip"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Quick Attack"
-      ],
-      [
-        4,
-        "Thunder Wave"
-      ],
-      [
-        8,
-        "Double Team"
-      ],
-      [
-        12,
-        "Electro Ball"
-      ],
-      [
-        16,
-        "Feint"
-      ],
-      [
-        20,
-        "Spark"
-      ],
-      [
-        24,
-        "Agility"
-      ],
-      [
-        28,
-        "Slam"
-      ],
-      [
-        32,
-        "Discharge"
-      ],
-      [
-        36,
-        "Thunderbolt"
-      ],
-      [
-        40,
-        "Light Screen"
-      ],
-      [
-        44,
-        "Thunder"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        80,
-        "Volt Switch"
-      ],
-      [
-        82,
-        "Electroweb"
-      ],
-      [
-        87,
-        "Draining Kiss"
-      ],
-      [
-        90,
-        "Electric Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        80,
-        "Electro Ball"
-      ],
-      [
-        86,
-        "Wild Charge"
-      ],
-      [
-        90,
-        "Play Rough"
-      ]
-    ]
-  },
-  {
-    "no": 10081,
-    "name": "Pikachu-2",
-    "stage": 2,
-    "galar_dex": 194,
-    "base_stats": [
-      35,
-      55,
-      40,
-      50,
-      50,
-      90,
-      320
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-    ],
-    "gender-ratio": 0,
-    "catch-rate": 190,
-    "abilities": [
-      "Static",
-      "Static",
-      "Lightning Rod"
-    ],
-    "types": [
-      "Electric"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Light Ball",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Undiscovered"
-    ],
-    "hatch-cycles": 10,
-    "height": 0.4,
-    "weight": 6,
-    "color": "Yellow",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        1,
-        "Play Nice"
-      ],
-      [
-        1,
-        "Sweet Kiss"
-      ],
-      [
-        1,
-        "Nuzzle"
-      ],
-      [
-        1,
-        "Nasty Plot"
-      ],
-      [
-        1,
-        "Charm"
-      ],
-      [
-        1,
-        "Thunder Shock"
-      ],
-      [
-        1,
-        "Tail Whip"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Quick Attack"
-      ],
-      [
-        4,
-        "Thunder Wave"
-      ],
-      [
-        8,
-        "Double Team"
-      ],
-      [
-        12,
-        "Electro Ball"
-      ],
-      [
-        16,
-        "Feint"
-      ],
-      [
-        20,
-        "Spark"
-      ],
-      [
-        24,
-        "Agility"
-      ],
-      [
-        28,
-        "Slam"
-      ],
-      [
-        32,
-        "Discharge"
-      ],
-      [
-        36,
-        "Thunderbolt"
-      ],
-      [
-        40,
-        "Light Screen"
-      ],
-      [
-        44,
-        "Thunder"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        80,
-        "Volt Switch"
-      ],
-      [
-        82,
-        "Electroweb"
-      ],
-      [
-        87,
-        "Draining Kiss"
-      ],
-      [
-        90,
-        "Electric Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        80,
-        "Electro Ball"
-      ],
-      [
-        86,
-        "Wild Charge"
-      ],
-      [
-        90,
-        "Play Rough"
-      ]
-    ]
-  },
-  {
-    "no": 10082,
-    "name": "Pikachu-3",
-    "stage": 2,
-    "galar_dex": 194,
-    "base_stats": [
-      35,
-      55,
-      40,
-      50,
-      50,
-      90,
-      320
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-    ],
-    "gender-ratio": 0,
-    "catch-rate": 190,
-    "abilities": [
-      "Static",
-      "Static",
-      "Lightning Rod"
-    ],
-    "types": [
-      "Electric"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Light Ball",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Undiscovered"
-    ],
-    "hatch-cycles": 10,
-    "height": 0.4,
-    "weight": 6,
-    "color": "Yellow",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        1,
-        "Play Nice"
-      ],
-      [
-        1,
-        "Sweet Kiss"
-      ],
-      [
-        1,
-        "Nuzzle"
-      ],
-      [
-        1,
-        "Nasty Plot"
-      ],
-      [
-        1,
-        "Charm"
-      ],
-      [
-        1,
-        "Thunder Shock"
-      ],
-      [
-        1,
-        "Tail Whip"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Quick Attack"
-      ],
-      [
-        4,
-        "Thunder Wave"
-      ],
-      [
-        8,
-        "Double Team"
-      ],
-      [
-        12,
-        "Electro Ball"
-      ],
-      [
-        16,
-        "Feint"
-      ],
-      [
-        20,
-        "Spark"
-      ],
-      [
-        24,
-        "Agility"
-      ],
-      [
-        28,
-        "Slam"
-      ],
-      [
-        32,
-        "Discharge"
-      ],
-      [
-        36,
-        "Thunderbolt"
-      ],
-      [
-        40,
-        "Light Screen"
-      ],
-      [
-        44,
-        "Thunder"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        80,
-        "Volt Switch"
-      ],
-      [
-        82,
-        "Electroweb"
-      ],
-      [
-        87,
-        "Draining Kiss"
-      ],
-      [
-        90,
-        "Electric Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        80,
-        "Electro Ball"
-      ],
-      [
-        86,
-        "Wild Charge"
-      ],
-      [
-        90,
-        "Play Rough"
-      ]
-    ]
-  },
-  {
-    "no": 10083,
-    "name": "Pikachu-4",
-    "stage": 2,
-    "galar_dex": 194,
-    "base_stats": [
-      35,
-      55,
-      40,
-      50,
-      50,
-      90,
-      320
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-    ],
-    "gender-ratio": 0,
-    "catch-rate": 190,
-    "abilities": [
-      "Static",
-      "Static",
-      "Lightning Rod"
-    ],
-    "types": [
-      "Electric"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Light Ball",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Undiscovered"
-    ],
-    "hatch-cycles": 10,
-    "height": 0.4,
-    "weight": 6,
-    "color": "Yellow",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        1,
-        "Play Nice"
-      ],
-      [
-        1,
-        "Sweet Kiss"
-      ],
-      [
-        1,
-        "Nuzzle"
-      ],
-      [
-        1,
-        "Nasty Plot"
-      ],
-      [
-        1,
-        "Charm"
-      ],
-      [
-        1,
-        "Thunder Shock"
-      ],
-      [
-        1,
-        "Tail Whip"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Quick Attack"
-      ],
-      [
-        4,
-        "Thunder Wave"
-      ],
-      [
-        8,
-        "Double Team"
-      ],
-      [
-        12,
-        "Electro Ball"
-      ],
-      [
-        16,
-        "Feint"
-      ],
-      [
-        20,
-        "Spark"
-      ],
-      [
-        24,
-        "Agility"
-      ],
-      [
-        28,
-        "Slam"
-      ],
-      [
-        32,
-        "Discharge"
-      ],
-      [
-        36,
-        "Thunderbolt"
-      ],
-      [
-        40,
-        "Light Screen"
-      ],
-      [
-        44,
-        "Thunder"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        80,
-        "Volt Switch"
-      ],
-      [
-        82,
-        "Electroweb"
-      ],
-      [
-        87,
-        "Draining Kiss"
-      ],
-      [
-        90,
-        "Electric Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        80,
-        "Electro Ball"
-      ],
-      [
-        86,
-        "Wild Charge"
-      ],
-      [
-        90,
-        "Play Rough"
-      ]
-    ]
-  },
-  {
-    "no": 10084,
-    "name": "Pikachu-5",
-    "stage": 2,
-    "galar_dex": 194,
-    "base_stats": [
-      35,
-      55,
-      40,
-      50,
-      50,
-      90,
-      320
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-    ],
-    "gender-ratio": 0,
-    "catch-rate": 190,
-    "abilities": [
-      "Static",
-      "Static",
-      "Lightning Rod"
-    ],
-    "types": [
-      "Electric"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Light Ball",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Undiscovered"
-    ],
-    "hatch-cycles": 10,
-    "height": 0.4,
-    "weight": 6,
-    "color": "Yellow",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        1,
-        "Play Nice"
-      ],
-      [
-        1,
-        "Sweet Kiss"
-      ],
-      [
-        1,
-        "Nuzzle"
-      ],
-      [
-        1,
-        "Nasty Plot"
-      ],
-      [
-        1,
-        "Charm"
-      ],
-      [
-        1,
-        "Thunder Shock"
-      ],
-      [
-        1,
-        "Tail Whip"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Quick Attack"
-      ],
-      [
-        4,
-        "Thunder Wave"
-      ],
-      [
-        8,
-        "Double Team"
-      ],
-      [
-        12,
-        "Electro Ball"
-      ],
-      [
-        16,
-        "Feint"
-      ],
-      [
-        20,
-        "Spark"
-      ],
-      [
-        24,
-        "Agility"
-      ],
-      [
-        28,
-        "Slam"
-      ],
-      [
-        32,
-        "Discharge"
-      ],
-      [
-        36,
-        "Thunderbolt"
-      ],
-      [
-        40,
-        "Light Screen"
-      ],
-      [
-        44,
-        "Thunder"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        80,
-        "Volt Switch"
-      ],
-      [
-        82,
-        "Electroweb"
-      ],
-      [
-        87,
-        "Draining Kiss"
-      ],
-      [
-        90,
-        "Electric Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        80,
-        "Electro Ball"
-      ],
-      [
-        86,
-        "Wild Charge"
-      ],
-      [
-        90,
-        "Play Rough"
-      ]
-    ]
-  },
-  {
-    "no": 10094,
-    "name": "Pikachu-6",
-    "stage": 2,
-    "galar_dex": 194,
-    "base_stats": [
-      35,
-      55,
-      40,
-      50,
-      50,
-      90,
-      320
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-    ],
-    "gender-ratio": 0,
-    "catch-rate": 190,
-    "abilities": [
-      "Static",
-      "Static",
-      "Lightning Rod"
-    ],
-    "types": [
-      "Electric"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Light Ball",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Undiscovered"
-    ],
-    "hatch-cycles": 10,
-    "height": 0.4,
-    "weight": 6,
-    "color": "Yellow",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        1,
-        "Play Nice"
-      ],
-      [
-        1,
-        "Sweet Kiss"
-      ],
-      [
-        1,
-        "Nuzzle"
-      ],
-      [
-        1,
-        "Nasty Plot"
-      ],
-      [
-        1,
-        "Charm"
-      ],
-      [
-        1,
-        "Thunder Shock"
-      ],
-      [
-        1,
-        "Tail Whip"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Quick Attack"
-      ],
-      [
-        4,
-        "Thunder Wave"
-      ],
-      [
-        8,
-        "Double Team"
-      ],
-      [
-        12,
-        "Electro Ball"
-      ],
-      [
-        16,
-        "Feint"
-      ],
-      [
-        20,
-        "Spark"
-      ],
-      [
-        24,
-        "Agility"
-      ],
-      [
-        28,
-        "Slam"
-      ],
-      [
-        32,
-        "Discharge"
-      ],
-      [
-        36,
-        "Thunderbolt"
-      ],
-      [
-        40,
-        "Light Screen"
-      ],
-      [
-        44,
-        "Thunder"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        80,
-        "Volt Switch"
-      ],
-      [
-        82,
-        "Electroweb"
-      ],
-      [
-        87,
-        "Draining Kiss"
-      ],
-      [
-        90,
-        "Electric Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        80,
-        "Electro Ball"
-      ],
-      [
-        86,
-        "Wild Charge"
-      ],
-      [
-        90,
-        "Play Rough"
-      ]
-    ]
-  },
-  {
-    "no": 10095,
-    "name": "Pikachu-7",
-    "stage": 2,
-    "galar_dex": 194,
-    "base_stats": [
-      35,
-      55,
-      40,
-      50,
-      50,
-      90,
-      320
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-    ],
-    "gender-ratio": 0,
-    "catch-rate": 190,
-    "abilities": [
-      "Static",
-      "Static",
-      "Lightning Rod"
-    ],
-    "types": [
-      "Electric"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Light Ball",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Undiscovered"
-    ],
-    "hatch-cycles": 10,
-    "height": 0.4,
-    "weight": 6,
-    "color": "Yellow",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        1,
-        "Play Nice"
-      ],
-      [
-        1,
-        "Sweet Kiss"
-      ],
-      [
-        1,
-        "Nuzzle"
-      ],
-      [
-        1,
-        "Nasty Plot"
-      ],
-      [
-        1,
-        "Charm"
-      ],
-      [
-        1,
-        "Thunder Shock"
-      ],
-      [
-        1,
-        "Tail Whip"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Quick Attack"
-      ],
-      [
-        4,
-        "Thunder Wave"
-      ],
-      [
-        8,
-        "Double Team"
-      ],
-      [
-        12,
-        "Electro Ball"
-      ],
-      [
-        16,
-        "Feint"
-      ],
-      [
-        20,
-        "Spark"
-      ],
-      [
-        24,
-        "Agility"
-      ],
-      [
-        28,
-        "Slam"
-      ],
-      [
-        32,
-        "Discharge"
-      ],
-      [
-        36,
-        "Thunderbolt"
-      ],
-      [
-        40,
-        "Light Screen"
-      ],
-      [
-        44,
-        "Thunder"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        80,
-        "Volt Switch"
-      ],
-      [
-        82,
-        "Electroweb"
-      ],
-      [
-        87,
-        "Draining Kiss"
-      ],
-      [
-        90,
-        "Electric Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        80,
-        "Electro Ball"
-      ],
-      [
-        86,
-        "Wild Charge"
-      ],
-      [
-        90,
-        "Play Rough"
-      ]
-    ]
-  },
-  {
-    "no": 10096,
-    "name": "Pikachu-8",
-    "stage": 2,
-    "galar_dex": 194,
-    "base_stats": [
-      45,
-      80,
-      50,
-      75,
-      60,
-      120,
-      430
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 190,
-    "abilities": [
-      "Static",
-      "Static",
-      "Lightning Rod"
-    ],
-    "types": [
-      "Electric"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Light Ball",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Undiscovered"
-    ],
-    "hatch-cycles": 10,
-    "height": 0.4,
-    "weight": 6,
-    "color": "Yellow",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        80,
-        "Volt Switch"
-      ],
-      [
-        82,
-        "Electroweb"
-      ],
-      [
-        87,
-        "Draining Kiss"
-      ],
-      [
-        90,
-        "Electric Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        80,
-        "Electro Ball"
-      ],
-      [
-        86,
-        "Wild Charge"
-      ],
-      [
-        90,
-        "Play Rough"
-      ]
+    "locations": [
+      {
+        "location": "Onyx Ward",
+        "point": "Adrienn"
+      }
     ]
   },
   {
@@ -10151,11 +7967,17 @@ export const pokemonData10 = [
         90,
         "Play Rough"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Glitch World",
+        "point": "T3RR4"
+      }
     ]
   },
   {
     "no": 10100,
-    "name": "Raichu-1",
+    "name": "Raichu (Alolan)",
     "stage": 3,
     "galar_dex": 195,
     "base_stats": [
@@ -10507,6 +8329,12 @@ export const pokemonData10 = [
         90,
         "Play Rough"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Apophyll Beach",
+        "point": "Kiki"
+      }
     ]
   },
   {
@@ -10717,11 +8545,17 @@ export const pokemonData10 = [
         95,
         "Throat Chop"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Grand Staircase",
+        "point": "Shelly"
+      }
     ]
   },
   {
     "no": 10101,
-    "name": "Sandshrew-1",
+    "name": "Sandshrew (Alolan)",
     "stage": 1,
     "galar_dex": "Foreign",
     "base_stats": [
@@ -10932,6 +8766,12 @@ export const pokemonData10 = [
         95,
         "Throat Chop"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Citrine Mountain",
+        "point": "Shade"
+      }
     ]
   },
   {
@@ -11174,11 +9014,45 @@ export const pokemonData10 = [
         95,
         "Throat Chop"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Tanzan Depths",
+        "point": "Noel"
+      },
+      {
+        "location": "Tourmaline Desert",
+        "point": "Titania"
+      },
+      {
+        "location": "Mirage Tower",
+        "point": "Titania"
+      },
+      {
+        "location": "Sugiline Cave",
+        "point": "Titania"
+      },
+      {
+        "location": "Teknite Cave",
+        "point": "Titania"
+      },
+      {
+        "location": "Teknite Ridge",
+        "point": "Titania"
+      },
+      {
+        "location": "1R253 Scrapyard",
+        "point": "Titania"
+      },
+      {
+        "location": "Tourmaline Desert",
+        "point": "Titania"
+      }
     ]
   },
   {
     "no": 10102,
-    "name": "Sandslash-1",
+    "name": "Sandslash (Alolan)",
     "stage": 2,
     "galar_dex": "Foreign",
     "base_stats": [
@@ -11421,6 +9295,28 @@ export const pokemonData10 = [
         95,
         "Throat Chop"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Citrine Mountain",
+        "point": "Shade"
+      },
+      {
+        "location": "Tanzan Depths",
+        "point": "Noel"
+      },
+      {
+        "location": "Ametrine Mountain",
+        "point": "Charlotte"
+      },
+      {
+        "location": "Celestrine Mountain",
+        "point": "Shade"
+      },
+      {
+        "location": "Charous Mountain",
+        "point": "Hardy"
+      }
     ]
   },
   {
@@ -11591,6 +9487,12 @@ export const pokemonData10 = [
         91,
         "Venom Drench"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Byxbysion Tunnels",
+        "point": "Aya"
+      }
     ]
   },
   {
@@ -11764,6 +9666,16 @@ export const pokemonData10 = [
         91,
         "Venom Drench"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Beryl Ward",
+        "point": "Shade"
+      },
+      {
+        "location": "Byxbysion Tunnels",
+        "point": "Aya"
+      }
     ]
   },
   {
@@ -12098,7 +10010,8 @@ export const pokemonData10 = [
         99,
         "Body Press"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 32,
@@ -12272,6 +10185,16 @@ export const pokemonData10 = [
         91,
         "Venom Drench"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Onyx Ward",
+        "point": "Florina"
+      },
+      {
+        "location": "Byxbysion Tunnels",
+        "point": "Aya"
+      }
     ]
   },
   {
@@ -12450,6 +10373,12 @@ export const pokemonData10 = [
         91,
         "Venom Drench"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Byxbysion Tunnels",
+        "point": "Aya"
+      }
     ]
   },
   {
@@ -12789,7 +10718,8 @@ export const pokemonData10 = [
         99,
         "Body Press"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 35,
@@ -13210,6 +11140,16 @@ export const pokemonData10 = [
         92,
         "Dazzling Gleam"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Agate Circus",
+        "point": "Samson"
+      },
+      {
+        "location": "Glitch World",
+        "point": "T3RR4"
+      }
     ]
   },
   {
@@ -13637,7 +11577,8 @@ export const pokemonData10 = [
         92,
         "Dazzling Gleam"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 37,
@@ -13918,11 +11859,17 @@ export const pokemonData10 = [
         81,
         "Foul Play"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Agate Circus",
+        "point": "Samson"
+      }
     ]
   },
   {
     "no": 10103,
-    "name": "Vulpix-1",
+    "name": "Vulpix (Alolan)",
     "stage": 1,
     "galar_dex": 68,
     "base_stats": [
@@ -14187,6 +12134,12 @@ export const pokemonData10 = [
         81,
         "Foul Play"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Ametrine City",
+        "point": "T3RR4"
+      }
     ]
   },
   {
@@ -14498,11 +12451,12 @@ export const pokemonData10 = [
         82,
         "Stored Power"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 10104,
-    "name": "Ninetales-1",
+    "name": "Ninetales (Alolan)",
     "stage": 2,
     "galar_dex": 69,
     "base_stats": [
@@ -14814,6 +12768,12 @@ export const pokemonData10 = [
         92,
         "Dazzling Gleam"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Route 4",
+        "point": "Hardy"
+      }
     ]
   },
   {
@@ -15101,6 +13061,12 @@ export const pokemonData10 = [
         92,
         "Dazzling Gleam"
       ]
+    ],
+    "locations": [
+      {
+        "location": "7th Street",
+        "point": "Subseven Sanctum"
+      }
     ]
   },
   {
@@ -15404,6 +13370,12 @@ export const pokemonData10 = [
         92,
         "Dazzling Gleam"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Route 4",
+        "point": "Hardy"
+      }
     ]
   },
   {
@@ -15590,6 +13562,20 @@ export const pokemonData10 = [
         91,
         "Venom Drench"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Azurine Island",
+        "point": "Aya"
+      },
+      {
+        "location": "Byzbysion Tunnels",
+        "point": "Aya"
+      },
+      {
+        "location": "Glitch World",
+        "point": "T3RR4"
+      }
     ]
   },
   {
@@ -15788,6 +13774,20 @@ export const pokemonData10 = [
         91,
         "Venom Drench"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Azurine Island",
+        "point": "Aya"
+      },
+      {
+        "location": "Byzbysion Tunnels",
+        "point": "Aya"
+      },
+      {
+        "location": "Glitch World",
+        "point": "T3RR4"
+      }
     ]
   },
   {
@@ -16013,6 +14013,20 @@ export const pokemonData10 = [
         92,
         "Dazzling Gleam"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Obsidia Ward",
+        "point": "Florina"
+      },
+      {
+        "location": "Malchous Forest",
+        "point": "Taka/Pulse Tangrowth 2"
+      },
+      {
+        "location": "Beryl Ward",
+        "point": "Taka/ZEL/Pulse Tangrowth 3"
+      }
     ]
   },
   {
@@ -16240,6 +14254,28 @@ export const pokemonData10 = [
         92,
         "Dazzling Gleam"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Rhodochrine Jungle",
+        "point": "Taka/ZEL/Pulse Tangrowth 3"
+      },
+      {
+        "location": "Azurine Island",
+        "point": "Aya"
+      },
+      {
+        "location": "Chrysolia Forest",
+        "point": "Serra"
+      },
+      {
+        "location": "Jasper Ward",
+        "point": "Adrienn"
+      },
+      {
+        "location": "Malchous Forest",
+        "point": "Adrienn"
+      }
     ]
   },
   {
@@ -16492,6 +14528,12 @@ export const pokemonData10 = [
         96,
         "Pollen Puff"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Azurine Island",
+        "point": "Adrienn"
+      }
     ]
   },
   {
@@ -16676,6 +14718,40 @@ export const pokemonData10 = [
         77,
         "Grass Knot"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Malchous Forest",
+        "point": "Taka/Pulse Tangrowth 2"
+      },
+      {
+        "location": "Rhodochrine Jungle",
+        "point": "Taka/ZEL/Pulse Tangrowth 3"
+      },
+      {
+        "location": "Azurine Island",
+        "point": "Aya"
+      },
+      {
+        "location": "Tanzan Cove",
+        "point": "Serra"
+      },
+      {
+        "location": "Chrysolia Forest",
+        "point": "Serra"
+      },
+      {
+        "location": "South Aventurine Woods",
+        "point": "Radomus"
+      },
+      {
+        "location": "North Aventurine Woods",
+        "point": "Radomus"
+      },
+      {
+        "location": "Glitch World",
+        "point": "T3RR4"
+      }
     ]
   },
   {
@@ -16876,6 +14952,32 @@ export const pokemonData10 = [
         95,
         "Throat Chop"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Azurine Island",
+        "point": "Aya"
+      },
+      {
+        "location": "Tanzan Cove",
+        "point": "Serra"
+      },
+      {
+        "location": "Glitch World",
+        "point": "T3RR4"
+      },
+      {
+        "location": "Jasper Ward",
+        "point": "Adrienn"
+      },
+      {
+        "location": "Malchous Forest",
+        "point": "Adrienn"
+      },
+      {
+        "location": "Rhodochrine Jungle",
+        "point": "Adrienn"
+      },
     ]
   },
   {
@@ -17022,6 +15124,16 @@ export const pokemonData10 = [
         91,
         "Venom Drench"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Obsidia Ward",
+        "point": "Florina"
+      },
+      {
+        "location": "Onyx Ward",
+        "point": "Florina"
+      }
     ]
   },
   {
@@ -17205,6 +15317,20 @@ export const pokemonData10 = [
         91,
         "Venom Drench"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Glitch World",
+        "point": "T3RR4"
+      },
+      {
+        "location": "Obsidia Ward",
+        "point": "Adrienn"
+      },
+      {
+        "location": "Onyx Ward",
+        "point": "Adrienn"
+      }
     ]
   },
   {
@@ -17456,11 +15582,21 @@ export const pokemonData10 = [
         85,
         "Work Up"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Grand Staircase",
+        "point": "Shelly"
+      },
+      {
+        "location": "Pyrous Mountain",
+        "point": "Kiki"
+      }
     ]
   },
   {
     "no": 10105,
-    "name": "Diglett-1",
+    "name": "Diglett (Alolan)",
     "stage": 1,
     "galar_dex": 164,
     "base_stats": [
@@ -17718,6 +15854,16 @@ export const pokemonData10 = [
         85,
         "Work Up"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Pyrous Mountain",
+        "point": "Kiki"
+      },
+      {
+        "location": "Tanzan Depths",
+        "point": "Noel"
+      }
     ]
   },
   {
@@ -18001,11 +16147,21 @@ export const pokemonData10 = [
         94,
         "High Horsepower"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Tanzan Depths",
+        "point": "Noel"
+      },
+      {
+        "location": "Tourmaline Desert",
+        "point": "Titania"
+      }
     ]
   },
   {
     "no": 10106,
-    "name": "Dugtrio-1",
+    "name": "Dugtrio (Alolan)",
     "stage": 2,
     "galar_dex": 165,
     "base_stats": [
@@ -18293,6 +16449,40 @@ export const pokemonData10 = [
         94,
         "High Horsepower"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Pyrous Mountain",
+        "point": "Kiki"
+      },
+      {
+        "location": "Tanzan Depths",
+        "point": "Noel"
+      },
+      {
+        "location": "Tourmaline Desert",
+        "point": "Titania"
+      },
+      {
+        "location": "Mirage Tower",
+        "point": "Titania"
+      },
+      {
+        "location": "Sugaline Cave",
+        "point": "Titania"
+      },
+      {
+        "location": "Teknite Cave",
+        "point": "Titania"
+      },
+      {
+        "location": "1R253 Scrapyard",
+        "point": "Titania"
+      },
+      {
+        "location": "Teknite Ridge",
+        "point": "Hardy"
+      }
     ]
   },
   {
