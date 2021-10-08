@@ -13569,7 +13569,7 @@ export const pokemonData10 = [
         "point": "Aya"
       },
       {
-        "location": "Byzbysion Tunnels",
+        "location": "Byxbysion Tunnels",
         "point": "Aya"
       },
       {
@@ -13781,7 +13781,7 @@ export const pokemonData10 = [
         "point": "Aya"
       },
       {
-        "location": "Byzbysion Tunnels",
+        "location": "Byxbysion Tunnels",
         "point": "Aya"
       },
       {
@@ -16468,7 +16468,7 @@ export const pokemonData10 = [
         "point": "Titania"
       },
       {
-        "location": "Sugaline Cave",
+        "location": "Sugiline Cave",
         "point": "Titania"
       },
       {

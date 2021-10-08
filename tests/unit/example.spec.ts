@@ -15,6 +15,6 @@ describe('Folder.vue', () => {
         }
       }
     })
-    expect(wrapper.text()).toMatch('Explore UI Components')
+    expect(wrapper.text()).toMatch('Select a Pokemon')
   })
 })
