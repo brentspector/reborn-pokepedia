@@ -93,6 +93,7 @@ export const gameLocations = [
     "1R253 Scrapyard",
     "Desert Town",
     "Once Upon A Somewhere/Waste of Time",
+    "Glassworks Factory",
     "Charous Mountain",
     "Argate City"
 ]

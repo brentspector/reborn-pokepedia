@@ -200,11 +200,49 @@ export const pokemonData11 = [
         76,
         "Stealth Rock"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Grand Staircase",
+        "point": "Shelly"
+      },
+      {
+        "location": "Underground Railnet",
+        "point": "Shade"
+      },
+      {
+        "location": "Apophyll Academy",
+        "point": "Kiki"
+      },
+      {
+        "location": "Apophyll Cave",
+        "point": "Kiki"
+      },
+      {
+        "location": "Pyrous Mountain",
+        "point": "Kiki"
+      },
+      {
+        "location": "Apophyll Beach",
+        "point": "Kiki"
+      },
+      {
+        "location": "Byxbysion Tunnels",
+        "point": "Aya"
+      },
+      {
+        "location": "Byxbysion Wasteland",
+        "point": "Aya"
+      },
+      {
+        "location": "Glitch World",
+        "point": "T3RR4"
+      }
     ]
   },
   {
-    "no": 10111,
-    "name": "Geodude-1",
+    "no": 10109,
+    "name": "Geodude (Alolan)",
     "stage": 1,
     "galar_dex": "Foreign",
     "base_stats": [
@@ -423,6 +461,20 @@ export const pokemonData11 = [
         76,
         "Stealth Rock"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Tanzan Mountain",
+        "point": "Serra"
+      },
+      {
+        "location": "Lost Railcave",
+        "point": "Serra"
+      },
+      {
+        "location": "Tanzan Depths",
+        "point": "Noel"
+      }
     ]
   },
   {
@@ -634,11 +686,61 @@ export const pokemonData11 = [
         94,
         "High Horsepower"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Grand Staircase",
+        "point": "Shelly"
+      },
+      {
+        "location": "Underground Railnet",
+        "point": "Shade"
+      },
+      {
+        "location": "Apophyll Academy",
+        "point": "Kiki"
+      },
+      {
+        "location": "Apophyll Cave",
+        "point": "Kiki"
+      },
+      {
+        "location": "Pyrous Mountain",
+        "point": "Kiki"
+      },
+      {
+        "location": "Apophyll Beach",
+        "point": "Kiki"
+      },
+      {
+        "location": "Byxbysion Wasteland",
+        "point": "Aya"
+      },
+      {
+        "location": "Iolia Valley",
+        "point": "Luna"
+      },
+      {
+        "location": "Route 3",
+        "point": "Charlotte"
+      },
+      {
+        "location": "Glitch World",
+        "point": "T3RR4"
+      },
+      {
+        "location": "Tanzan Depths",
+        "point": "Amaria"
+      },
+      {
+        "location": "Teknite Ridge",
+        "point": "Hardy"
+      }
     ]
   },
   {
     "no": 10110,
-    "name": "Graveler-1",
+    "name": "Graveler (Alolan)",
     "stage": 2,
     "galar_dex": "Foreign",
     "base_stats": [
@@ -869,7 +971,8 @@ export const pokemonData11 = [
         83,
         "Ally Switch"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 76,
@@ -1104,11 +1207,12 @@ export const pokemonData11 = [
         94,
         "High Horsepower"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 10111,
-    "name": "Golem-1",
+    "name": "Golem (Alolan)",
     "stage": 3,
     "galar_dex": "Foreign",
     "base_stats": [
@@ -1367,7 +1471,8 @@ export const pokemonData11 = [
         86,
         "Wild Charge"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 77,
@@ -1606,6 +1711,20 @@ export const pokemonData11 = [
         94,
         "High Horsepower"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Lapis Ward",
+        "point": "Shelly"
+      },
+      {
+        "location": "Route 1",
+        "point": "Radomus"
+      },
+      {
+        "location": "Vanhanen Labyrinth",
+        "point": "Radomus"
+      }
     ]
   },
   {

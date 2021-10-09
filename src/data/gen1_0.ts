@@ -4716,7 +4716,7 @@ export const pokemonData10 = [
     ]
   },
   {
-    "no": 10091,
+    "no": 10090,
     "name": "Mega Beedrill",
     "stage": 3,
     "galar_dex": "Foreign",
@@ -4931,12 +4931,8 @@ export const pokemonData10 = [
     ],
     "locations": [
       {
-        "location": "Jasper Ward",
-        "point": "Taka/Pulse Tangrowth 2"
-      },
-      {
-        "location": "Malchous Forest",
-        "point": "Taka/Pulse Tangrowth 2"
+        "location": "Glassworks Factory",
+        "point": "Hardy"
       }
     ]
   },
@@ -16771,11 +16767,29 @@ export const pokemonData10 = [
         95,
         "Throat Chop"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Opal Ward",
+        "point": "Julia"
+      },
+      {
+        "location": "Beryl Ward",
+        "point": "Corey"
+      },
+      {
+        "location": "Glitch World",
+        "point": "T3RR4"
+      },
+      {
+        "location": "Lapis Ward",
+        "point": "Adrienn"
+      }
     ]
   },
   {
     "no": 10107,
-    "name": "Meowth-1",
+    "name": "Meowth (Alolan)",
     "stage": 1,
     "galar_dex": 182,
     "base_stats": [
@@ -17059,11 +17073,17 @@ export const pokemonData10 = [
         95,
         "Throat Chop"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Lapis Ward",
+        "point": "Shelly"
+      }
     ]
   },
   {
     "no": 10158,
-    "name": "Meowth-2",
+    "name": "Meowth (Galarian)",
     "stage": 1,
     "galar_dex": 182,
     "base_stats": [
@@ -17342,7 +17362,8 @@ export const pokemonData10 = [
         95,
         "Throat Chop"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 53,
@@ -17641,11 +17662,25 @@ export const pokemonData10 = [
         95,
         "Throat Chop"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Opal Ward",
+        "point": "Adrienn"
+      },
+      {
+        "location": "Beryl Ward",
+        "point": "Adrienn"
+      },
+      {
+        "location": "Lapis Ward",
+        "point": "Adrienn"
+      }
     ]
   },
   {
     "no": 10108,
-    "name": "Persian-1",
+    "name": "Persian (Alolan)",
     "stage": 2,
     "galar_dex": 184,
     "base_stats": [
@@ -17956,6 +17991,12 @@ export const pokemonData10 = [
         95,
         "Throat Chop"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Lapis Ward",
+        "point": "Shelly"
+      }
     ]
   },
   {
@@ -18174,7 +18215,8 @@ export const pokemonData10 = [
         84,
         "Scald"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 55,
@@ -18420,6 +18462,16 @@ export const pokemonData10 = [
         98,
         "Liquidation"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Celestrine Mountain",
+        "point": "Charlotte"
+      },
+      {
+        "location": "Citrine Mountain",
+        "point": "Adrienn"
+      }
     ]
   },
   {
@@ -18701,6 +18753,12 @@ export const pokemonData10 = [
         85,
         "Work Up"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Obsidia Slums",
+        "point": "Obsidia Slums"
+      }
     ]
   },
   {
@@ -18998,6 +19056,16 @@ export const pokemonData10 = [
         95,
         "Throat Chop"
       ]
+    ],
+    "locations": [
+      {
+        "location": "South Aventurine Woods",
+        "point": "Radomus"
+      },
+      {
+        "location": "North Aventurine Woods",
+        "point": "Radomus"
+      }
     ]
   },
   {
@@ -19264,6 +19332,12 @@ export const pokemonData10 = [
         97,
         "Psychic Fangs"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Jasper Ward",
+        "point": "Taka/ZEL/Pulse Tangrowth 3"
+      }
     ]
   },
   {
@@ -19566,7 +19640,8 @@ export const pokemonData10 = [
         97,
         "Psychic Fangs"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 60,
@@ -19731,6 +19806,12 @@ export const pokemonData10 = [
         84,
         "Scald"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Tanzan Cove",
+        "point": "Serra"
+      }
     ]
   },
   {
@@ -19937,6 +20018,12 @@ export const pokemonData10 = [
         84,
         "Scald"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Tanzan Cove",
+        "point": "Serra"
+      }
     ]
   },
   {
@@ -20216,7 +20303,8 @@ export const pokemonData10 = [
         98,
         "Liquidation"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 63,
@@ -20470,6 +20558,12 @@ export const pokemonData10 = [
         92,
         "Dazzling Gleam"
       ]
+    ],
+    "locations": [
+      {
+        "location": "7th Street",
+        "point": "Subseven Sanctum"
+      }
     ]
   },
   {
@@ -20732,7 +20826,8 @@ export const pokemonData10 = [
         92,
         "Dazzling Gleam"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 65,
@@ -21018,11 +21113,12 @@ export const pokemonData10 = [
         92,
         "Dazzling Gleam"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 10037,
-    "name": "Alakazam-1",
+    "name": "Mega Alakazam",
     "stage": 3,
     "galar_dex": "Foreign",
     "base_stats": [
@@ -21304,7 +21400,8 @@ export const pokemonData10 = [
         92,
         "Dazzling Gleam"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 66,
@@ -21623,6 +21720,12 @@ export const pokemonData10 = [
         85,
         "Work Up"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Glitch World",
+        "point": "T3RR4"
+      }
     ]
   },
   {
@@ -21940,6 +22043,20 @@ export const pokemonData10 = [
         85,
         "Work Up"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Route 2",
+        "point": "Samson"
+      },
+      {
+        "location": "Celestrine Cascade",
+        "point": "Samson"
+      },
+      {
+        "location": "Glitch World",
+        "point": "T3RR4"
+      }
     ]
   },
   {
@@ -22291,7 +22408,8 @@ export const pokemonData10 = [
         95,
         "Throat Chop"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 69,
@@ -22449,6 +22567,32 @@ export const pokemonData10 = [
         77,
         "Grass Knot"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Obsidia Ward",
+        "point": "Florina"
+      },
+      {
+        "location": "Onyx Ward",
+        "point": "Florina"
+      },
+      {
+        "location": "Malchous Forest",
+        "point": "Taka/Pulse Tangrowth 2"
+      },
+      {
+        "location": "Rhodochrine Jungle",
+        "point": "Taka/ZEL/Pulse Tangrowth 3"
+      },
+      {
+        "location": "Beryl Ward",
+        "point": "Taka/ZEL/Pulse Tangrowth 3"
+      },
+      {
+        "location": "Obsidia Ward",
+        "point": "Adrienn"
+      }
     ]
   },
   {
@@ -22611,6 +22755,32 @@ export const pokemonData10 = [
         77,
         "Grass Knot"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Chrysolia Forest",
+        "point": "Serra"
+      },
+      {
+        "location": "Jasper Ward",
+        "point": "Adrienn"
+      },
+      {
+        "location": "Malchous Forest",
+        "point": "Adrienn"
+      },
+      {
+        "location": "Rhodochrine Jungle",
+        "point": "Adrienn"
+      },
+      {
+        "location": "Onyx Ward",
+        "point": "Adrienn"
+      },
+      {
+        "location": "Obsidia Ward",
+        "point": "Adrienn"
+      }
     ]
   },
   {
@@ -22797,7 +22967,8 @@ export const pokemonData10 = [
         77,
         "Grass Knot"
       ]
-    ]
+    ],
+    "locations": []
   },
   {
     "no": 72,
@@ -23008,6 +23179,16 @@ export const pokemonData10 = [
         92,
         "Dazzling Gleam"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Water Treatment Center",
+        "point": "Adrienn"
+      },
+      {
+        "location": "Azurine Lake",
+        "point": "Adrienn"
+      }
     ]
   },
   {
@@ -23231,6 +23412,12 @@ export const pokemonData10 = [
         92,
         "Dazzling Gleam"
       ]
+    ],
+    "locations": [
+      {
+        "location": "Azurine Lake",
+        "point": "Adrienn"
+      }
     ]
 }
 ]
