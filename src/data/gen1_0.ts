@@ -1,23423 +1,6199 @@
 export const pokemonData10 = [
   {
-    "no": 1,
-    "name": "Bulbasaur",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      45,
-      49,
-      49,
-      65,
-      65,
-      45,
-      318
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      1,
-      0,
-      0
-    ],
-    "gender-ratio": 31,
-    "catch-rate": 45,
-    "abilities": [
-      "Overgrow",
-      "Overgrow",
-      "Chlorophyll"
-    ],
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Galar Dex Monster",
-      "Grass"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.7,
-    "weight": 6.9,
-    "color": "Green",
-    "evolutions": [
-      {
-        "species": "Ivysaur-0",
-        "method": "LevelUp",
-        "method_value": 16
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Tackle"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        3,
-        "Vine Whip"
-      ],
-      [
-        6,
-        "Growth"
-      ],
-      [
-        9,
-        "Leech Seed"
-      ],
-      [
-        12,
-        "Razor Leaf"
-      ],
-      [
-        15,
-        "Poison Powder"
-      ],
-      [
-        15,
-        "Sleep Powder"
-      ],
-      [
-        18,
-        "Seed Bomb"
-      ],
-      [
-        21,
-        "Take Down"
-      ],
-      [
-        24,
-        "Sweet Scent"
-      ],
-      [
-        27,
-        "Synthesis"
-      ],
-      [
-        30,
-        "Worry Seed"
-      ],
-      [
-        33,
-        "Double-Edge"
-      ],
-      [
-        36,
-        "Solar Beam"
-      ]
-    ],
-    "egg_moves": [
-      "Skull Bash",
-      "Petal Dance",
-      "Curse",
-      "Ingrain",
-      "Nature Power",
-      "Toxic"
-    ],
-    "tms": [
-      [
-        10,
-        "Magical Leaf"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        50,
-        "Bullet Seed"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        88,
-        "Grassy Terrain"
-      ],
-      [
-        94,
-        "False Swipe"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        65,
-        "Energy Ball"
-      ],
-      [
-        71,
-        "Leaf Storm"
-      ],
-      [
-        72,
-        "Power Whip"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        85,
-        "Work Up"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Azurine Island",
-        "point": "Adrienn"
-      },      
-    ]
-  },
-  {
-    "no": 2,
-    "name": "Ivysaur",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      60,
-      62,
-      63,
-      80,
-      80,
-      60,
-      405
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      1,
-      1,
-      0
-    ],
-    "gender-ratio": 31,
-    "catch-rate": 45,
-    "abilities": [
-      "Overgrow",
-      "Overgrow",
-      "Chlorophyll"
-    ],
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Monster",
-      "Grass"
-    ],
-    "hatch-cycles": 20,
-    "height": 1,
-    "weight": 13,
-    "color": "Green",
-    "evolutions": [
-      {
-        "species": "Venusaur-0",
-        "method": "LevelUp",
-        "method_value": 32
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Tackle"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Vine Whip"
-      ],
-      [
-        1,
-        "Growth"
-      ],
-      [
-        9,
-        "Leech Seed"
-      ],
-      [
-        12,
-        "Razor Leaf"
-      ],
-      [
-        15,
-        "Poison Powder"
-      ],
-      [
-        15,
-        "Sleep Powder"
-      ],
-      [
-        20,
-        "Seed Bomb"
-      ],
-      [
-        25,
-        "Take Down"
-      ],
-      [
-        30,
-        "Sweet Scent"
-      ],
-      [
-        35,
-        "Synthesis"
-      ],
-      [
-        40,
-        "Worry Seed"
-      ],
-      [
-        45,
-        "Double-Edge"
-      ],
-      [
-        50,
-        "Solar Beam"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        10,
-        "Magical Leaf"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        50,
-        "Bullet Seed"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        88,
-        "Grassy Terrain"
-      ],
-      [
-        94,
-        "False Swipe"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        65,
-        "Energy Ball"
-      ],
-      [
-        71,
-        "Leaf Storm"
-      ],
-      [
-        72,
-        "Power Whip"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        85,
-        "Work Up"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 3,
-    "name": "Venusaur",
-    "stage": 3,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      80,
-      82,
-      83,
-      100,
-      100,
-      80,
-      525
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      2,
-      1,
-      0
-    ],
-    "gender-ratio": 31,
-    "catch-rate": 45,
-    "abilities": [
-      "Overgrow",
-      "Overgrow",
-      "Chlorophyll"
-    ],
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Monster",
-      "Grass"
-    ],
-    "hatch-cycles": 20,
-    "height": 2,
-    "weight": 100,
-    "color": "Green",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        0,
-        "Petal Blizzard"
-      ],
-      [
-        1,
-        "Petal Blizzard"
-      ],
-      [
-        1,
-        "Petal Dance"
-      ],
-      [
-        1,
-        "Tackle"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Vine Whip"
-      ],
-      [
-        1,
-        "Growth"
-      ],
-      [
-        9,
-        "Leech Seed"
-      ],
-      [
-        12,
-        "Razor Leaf"
-      ],
-      [
-        15,
-        "Poison Powder"
-      ],
-      [
-        15,
-        "Sleep Powder"
-      ],
-      [
-        20,
-        "Seed Bomb"
-      ],
-      [
-        25,
-        "Take Down"
-      ],
-      [
-        30,
-        "Sweet Scent"
-      ],
-      [
-        37,
-        "Synthesis"
-      ],
-      [
-        44,
-        "Worry Seed"
-      ],
-      [
-        51,
-        "Double-Edge"
-      ],
-      [
-        58,
-        "Solar Beam"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        10,
-        "Magical Leaf"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        50,
-        "Bullet Seed"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        88,
-        "Grassy Terrain"
-      ],
-      [
-        94,
-        "False Swipe"
-      ],
-      [
-        98,
-        "Stomping Tantrum"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        24,
-        "Outrage"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        65,
-        "Energy Ball"
-      ],
-      [
-        67,
-        "Earth Power"
-      ],
-      [
-        71,
-        "Leaf Storm"
-      ],
-      [
-        72,
-        "Power Whip"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        85,
-        "Work Up"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 10033,
-    "name": "Mega Venusaur",
-    "stage": 3,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      80,
-      100,
-      123,
-      122,
-      120,
-      80,
-      625
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      2,
-      1,
-      0
-    ],
-    "gender-ratio": 31,
-    "catch-rate": 45,
-    "abilities": [
-      "Thick Fat",
-      "Thick Fat",
-      "Thick Fat"
-    ],
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Monster",
-      "Grass"
-    ],
-    "hatch-cycles": 20,
-    "height": 2.4,
-    "weight": 155.5,
-    "color": "Green",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        0,
-        "Petal Blizzard"
-      ],
-      [
-        1,
-        "Petal Blizzard"
-      ],
-      [
-        1,
-        "Petal Dance"
-      ],
-      [
-        1,
-        "Tackle"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Vine Whip"
-      ],
-      [
-        1,
-        "Growth"
-      ],
-      [
-        9,
-        "Leech Seed"
-      ],
-      [
-        12,
-        "Razor Leaf"
-      ],
-      [
-        15,
-        "Poison Powder"
-      ],
-      [
-        15,
-        "Sleep Powder"
-      ],
-      [
-        20,
-        "Seed Bomb"
-      ],
-      [
-        25,
-        "Take Down"
-      ],
-      [
-        30,
-        "Sweet Scent"
-      ],
-      [
-        37,
-        "Synthesis"
-      ],
-      [
-        44,
-        "Worry Seed"
-      ],
-      [
-        51,
-        "Double-Edge"
-      ],
-      [
-        58,
-        "Solar Beam"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        10,
-        "Magical Leaf"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        50,
-        "Bullet Seed"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        88,
-        "Grassy Terrain"
-      ],
-      [
-        94,
-        "False Swipe"
-      ],
-      [
-        98,
-        "Stomping Tantrum"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        24,
-        "Outrage"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        65,
-        "Energy Ball"
-      ],
-      [
-        67,
-        "Earth Power"
-      ],
-      [
-        71,
-        "Leaf Storm"
-      ],
-      [
-        72,
-        "Power Whip"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        85,
-        "Work Up"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Peridot Ward",
-        "point": "Adrienn"
-      },      
-    ]
-  },
-  {
-    "no": 4,
-    "name": "Charmander",
-    "stage": 1,
-    "galar_dex": 378,
-    "base_stats": [
-      39,
-      52,
-      43,
-      60,
-      50,
-      65,
-      309
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1
-    ],
-    "gender-ratio": 31,
-    "catch-rate": 45,
-    "abilities": [
-      "Blaze",
-      "Blaze",
-      "Solar Power"
-    ],
-    "types": [
-      "Fire"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Monster",
-      "Dragon"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.6,
-    "weight": 8.5,
-    "color": "Red",
-    "evolutions": [
-      {
-        "species": "Charmeleon-0",
-        "method": "LevelUp",
-        "method_value": 16
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Scratch"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        4,
-        "Ember"
-      ],
-      [
-        8,
-        "Smokescreen"
-      ],
-      [
-        12,
-        "Dragon Breath"
-      ],
-      [
-        17,
-        "Fire Fang"
-      ],
-      [
-        20,
-        "Slash"
-      ],
-      [
-        24,
-        "Flamethrower"
-      ],
-      [
-        28,
-        "Scary Face"
-      ],
-      [
-        32,
-        "Fire Spin"
-      ],
-      [
-        36,
-        "Inferno"
-      ],
-      [
-        40,
-        "Flare Blitz"
-      ]
-    ],
-    "egg_moves": [
-      "Belly Drum",
-      "Ancient Power",
-      "Bite",
-      "Dragon Rush",
-      "Metal Claw",
-      "Counter",
-      "Wing Attack",
-      "Dragon Tail"
-    ],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        13,
-        "Fire Spin"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        26,
-        "Scary Face"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        38,
-        "WillOWisp"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        68,
-        "Fire Fang"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        78,
-        "Acrobatics"
-      ],
-      [
-        94,
-        "False Swipe"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        2,
-        "Flamethrower"
-      ],
-      [
-        15,
-        "Fire Blast"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        24,
-        "Outrage"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        36,
-        "Heat Wave"
-      ],
-      [
-        43,
-        "Overheat"
-      ],
-      [
-        47,
-        "Dragon Claw"
-      ],
-      [
-        51,
-        "Dragon Dance"
-      ],
-      [
-        55,
-        "Flare Blitz"
-      ],
-      [
-        62,
-        "Dragon Pulse"
-      ],
-      [
-        85,
-        "Work Up"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Pyrous Mountain",
-        "point": "Adrienn"
-      },      
-    ]
-  },
-  {
-    "no": 5,
-    "name": "Charmeleon",
-    "stage": 2,
-    "galar_dex": 379,
-    "base_stats": [
-      58,
-      64,
-      58,
-      80,
-      65,
-      80,
-      405
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      1,
-      0,
-      1
-    ],
-    "gender-ratio": 31,
-    "catch-rate": 45,
-    "abilities": [
-      "Blaze",
-      "Blaze",
-      "Solar Power"
-    ],
-    "types": [
-      "Fire"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Monster",
-      "Dragon"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.1,
-    "weight": 19,
-    "color": "Red",
-    "evolutions": [
-      {
-        "species": "Charizard-0",
-        "method": "LevelUp",
-        "method_value": 36
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Scratch"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Ember"
-      ],
-      [
-        1,
-        "Smokescreen"
-      ],
-      [
-        12,
-        "Dragon Breath"
-      ],
-      [
-        19,
-        "Fire Fang"
-      ],
-      [
-        24,
-        "Slash"
-      ],
-      [
-        30,
-        "Flamethrower"
-      ],
-      [
-        37,
-        "Scary Face"
-      ],
-      [
-        42,
-        "Fire Spin"
-      ],
-      [
-        48,
-        "Inferno"
-      ],
-      [
-        54,
-        "Flare Blitz"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        13,
-        "Fire Spin"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        26,
-        "Scary Face"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        38,
-        "WillOWisp"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        68,
-        "Fire Fang"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        78,
-        "Acrobatics"
-      ],
-      [
-        94,
-        "False Swipe"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        2,
-        "Flamethrower"
-      ],
-      [
-        15,
-        "Fire Blast"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        24,
-        "Outrage"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        36,
-        "Heat Wave"
-      ],
-      [
-        43,
-        "Overheat"
-      ],
-      [
-        47,
-        "Dragon Claw"
-      ],
-      [
-        51,
-        "Dragon Dance"
-      ],
-      [
-        55,
-        "Flare Blitz"
-      ],
-      [
-        62,
-        "Dragon Pulse"
-      ],
-      [
-        85,
-        "Work Up"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Pyrous Mountain",
-        "point": "Adrienn"
-      },      
-    ]
-  },
-  {
-    "no": 6,
-    "name": "Charizard",
-    "stage": 3,
-    "galar_dex": 380,
-    "base_stats": [
-      78,
-      84,
-      78,
-      109,
-      85,
-      100,
-      534
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      3,
-      0,
-      0
-    ],
-    "gender-ratio": 31,
-    "catch-rate": 45,
-    "abilities": [
-      "Blaze",
-      "Blaze",
-      "Solar Power"
-    ],
-    "types": [
-      "Fire",
-      "Flying"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Monster",
-      "Dragon"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.7,
-    "weight": 90.5,
-    "color": "Red",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        0,
-        "Air Slash"
-      ],
-      [
-        1,
-        "Air Slash"
-      ],
-      [
-        1,
-        "Dragon Claw"
-      ],
-      [
-        1,
-        "Heat Wave"
-      ],
-      [
-        1,
-        "Scratch"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Ember"
-      ],
-      [
-        1,
-        "Smokescreen"
-      ],
-      [
-        12,
-        "Dragon Breath"
-      ],
-      [
-        19,
-        "Fire Fang"
-      ],
-      [
-        24,
-        "Slash"
-      ],
-      [
-        30,
-        "Flamethrower"
-      ],
-      [
-        39,
-        "Scary Face"
-      ],
-      [
-        46,
-        "Fire Spin"
-      ],
-      [
-        54,
-        "Inferno"
-      ],
-      [
-        62,
-        "Flare Blitz"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        6,
-        "Fly"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        13,
-        "Fire Spin"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        26,
-        "Scary Face"
-      ],
-      [
-        30,
-        "Steel Wing"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        38,
-        "WillOWisp"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        68,
-        "Fire Fang"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        78,
-        "Acrobatics"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        92,
-        "Mystical Fire"
-      ],
-      [
-        94,
-        "False Swipe"
-      ],
-      [
-        95,
-        "Air Slash"
-      ],
-      [
-        97,
-        "Brutal Swing"
-      ],
-      [
-        99,
-        "Breaking Swipe"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        2,
-        "Flamethrower"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        15,
-        "Fire Blast"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        24,
-        "Outrage"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        36,
-        "Heat Wave"
-      ],
-      [
-        41,
-        "Blaze Kick"
-      ],
-      [
-        43,
-        "Overheat"
-      ],
-      [
-        47,
-        "Dragon Claw"
-      ],
-      [
-        51,
-        "Dragon Dance"
-      ],
-      [
-        55,
-        "Flare Blitz"
-      ],
-      [
-        62,
-        "Dragon Pulse"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        88,
-        "Heat Crash"
-      ],
-      [
-        89,
-        "Hurricane"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Pyrous Mountain",
-        "point": "Adrienn"
-      },      
-    ]
-  },
-  {
-    "no": 10034,
-    "name": "Mega Charizard X",
-    "stage": 3,
-    "galar_dex": 380,
-    "base_stats": [
-      78,
-      130,
-      111,
-      130,
-      85,
-      100,
-      634
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      3,
-      0,
-      0
-    ],
-    "gender-ratio": 31,
-    "catch-rate": 45,
-    "abilities": [
-      "Tough Claws",
-      "Tough Claws",
-      "Tough Claws"
-    ],
-    "types": [
-      "Fire",
-      "Dragon"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Monster",
-      "Dragon"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.7,
-    "weight": 110.5,
-    "color": "Black",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        0,
-        "Air Slash"
-      ],
-      [
-        1,
-        "Air Slash"
-      ],
-      [
-        1,
-        "Dragon Claw"
-      ],
-      [
-        1,
-        "Heat Wave"
-      ],
-      [
-        1,
-        "Scratch"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Ember"
-      ],
-      [
-        1,
-        "Smokescreen"
-      ],
-      [
-        12,
-        "Dragon Breath"
-      ],
-      [
-        19,
-        "Fire Fang"
-      ],
-      [
-        24,
-        "Slash"
-      ],
-      [
-        30,
-        "Flamethrower"
-      ],
-      [
-        39,
-        "Scary Face"
-      ],
-      [
-        46,
-        "Fire Spin"
-      ],
-      [
-        54,
-        "Inferno"
-      ],
-      [
-        62,
-        "Flare Blitz"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        6,
-        "Fly"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        13,
-        "Fire Spin"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        26,
-        "Scary Face"
-      ],
-      [
-        30,
-        "Steel Wing"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        38,
-        "WillOWisp"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        68,
-        "Fire Fang"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        78,
-        "Acrobatics"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        92,
-        "Mystical Fire"
-      ],
-      [
-        94,
-        "False Swipe"
-      ],
-      [
-        95,
-        "Air Slash"
-      ],
-      [
-        97,
-        "Brutal Swing"
-      ],
-      [
-        99,
-        "Breaking Swipe"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        2,
-        "Flamethrower"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        15,
-        "Fire Blast"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        24,
-        "Outrage"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        36,
-        "Heat Wave"
-      ],
-      [
-        41,
-        "Blaze Kick"
-      ],
-      [
-        43,
-        "Overheat"
-      ],
-      [
-        47,
-        "Dragon Claw"
-      ],
-      [
-        51,
-        "Dragon Dance"
-      ],
-      [
-        55,
-        "Flare Blitz"
-      ],
-      [
-        62,
-        "Dragon Pulse"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        88,
-        "Heat Crash"
-      ],
-      [
-        89,
-        "Hurricane"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Calcenon City",
-        "point": "Hardy"
-      },      
-    ]
-  },
-  {
-    "no": 10035,
-    "name": "Mega Charizard Y",
-    "stage": 3,
-    "galar_dex": 380,
-    "base_stats": [
-      78,
-      104,
-      78,
-      159,
-      115,
-      100,
-      634
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      3,
-      0,
-      0
-    ],
-    "gender-ratio": 31,
-    "catch-rate": 45,
-    "abilities": [
-      "Drought",
-      "Drought",
-      "Drought"
-    ],
-    "types": [
-      "Fire",
-      "Flying"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Monster",
-      "Dragon"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.7,
-    "weight": 100.5,
-    "color": "Red",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        0,
-        "Air Slash"
-      ],
-      [
-        1,
-        "Air Slash"
-      ],
-      [
-        1,
-        "Dragon Claw"
-      ],
-      [
-        1,
-        "Heat Wave"
-      ],
-      [
-        1,
-        "Scratch"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Ember"
-      ],
-      [
-        1,
-        "Smokescreen"
-      ],
-      [
-        12,
-        "Dragon Breath"
-      ],
-      [
-        19,
-        "Fire Fang"
-      ],
-      [
-        24,
-        "Slash"
-      ],
-      [
-        30,
-        "Flamethrower"
-      ],
-      [
-        39,
-        "Scary Face"
-      ],
-      [
-        46,
-        "Fire Spin"
-      ],
-      [
-        54,
-        "Inferno"
-      ],
-      [
-        62,
-        "Flare Blitz"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        6,
-        "Fly"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        13,
-        "Fire Spin"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        26,
-        "Scary Face"
-      ],
-      [
-        30,
-        "Steel Wing"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        38,
-        "WillOWisp"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        68,
-        "Fire Fang"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        78,
-        "Acrobatics"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        92,
-        "Mystical Fire"
-      ],
-      [
-        94,
-        "False Swipe"
-      ],
-      [
-        95,
-        "Air Slash"
-      ],
-      [
-        97,
-        "Brutal Swing"
-      ],
-      [
-        99,
-        "Breaking Swipe"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        2,
-        "Flamethrower"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        15,
-        "Fire Blast"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        24,
-        "Outrage"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        36,
-        "Heat Wave"
-      ],
-      [
-        41,
-        "Blaze Kick"
-      ],
-      [
-        43,
-        "Overheat"
-      ],
-      [
-        47,
-        "Dragon Claw"
-      ],
-      [
-        51,
-        "Dragon Dance"
-      ],
-      [
-        55,
-        "Flare Blitz"
-      ],
-      [
-        62,
-        "Dragon Pulse"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        88,
-        "Heat Crash"
-      ],
-      [
-        89,
-        "Hurricane"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 7,
-    "name": "Squirtle",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      44,
-      48,
-      65,
-      50,
-      64,
-      43,
-      314
-    ],
-    "ev_yield": [
-      0,
-      0,
-      1,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 31,
-    "catch-rate": 45,
-    "abilities": [
-      "Torrent",
-      "Torrent",
-      "Rain Dish"
-    ],
-    "types": [
-      "Water"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Monster",
-      "Water1"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.5,
-    "weight": 9,
-    "color": "Blue",
-    "evolutions": [
-      {
-        "species": "Wartortle-0",
-        "method": "LevelUp",
-        "method_value": 16
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Tackle"
-      ],
-      [
-        1,
-        "Tail Whip"
-      ],
-      [
-        3,
-        "Water Gun"
-      ],
-      [
-        6,
-        "Withdraw"
-      ],
-      [
-        9,
-        "Rapid Spin"
-      ],
-      [
-        12,
-        "Bite"
-      ],
-      [
-        15,
-        "Water Pulse"
-      ],
-      [
-        18,
-        "Protect"
-      ],
-      [
-        21,
-        "Rain Dance"
-      ],
-      [
-        24,
-        "Aqua Tail"
-      ],
-      [
-        27,
-        "Shell Smash"
-      ],
-      [
-        30,
-        "Iron Defense"
-      ],
-      [
-        33,
-        "Hydro Pump"
-      ],
-      [
-        36,
-        "Skull Bash"
-      ]
-    ],
-    "egg_moves": [
-      "Mirror Coat",
-      "Haze",
-      "Mist",
-      "Flail",
-      "Yawn",
-      "Fake Out",
-      "Aqua Ring",
-      "Aqua Jet",
-      "Water Spout",
-      "Life Dew"
-    ],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        35,
-        "Hail"
-      ],
-      [
-        36,
-        "Whirlpool"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        45,
-        "Dive"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        55,
-        "Brine"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        94,
-        "False Swipe"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        3,
-        "Hydro Pump"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        16,
-        "Waterfall"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        45,
-        "Muddy Water"
-      ],
-      [
-        46,
-        "Iron Defense"
-      ],
-      [
-        52,
-        "Gyro Ball"
-      ],
-      [
-        56,
-        "Aura Sphere"
-      ],
-      [
-        62,
-        "Dragon Pulse"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        84,
-        "Scald"
-      ],
-      [
-        85,
-        "Work Up"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Byxbysion Wasteland",
-        "point": "Serra"
-      },      
-    ]
-  },
-  {
-    "no": 8,
-    "name": "Wartortle",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      59,
-      63,
-      80,
-      65,
-      80,
-      58,
-      405
-    ],
-    "ev_yield": [
-      0,
-      0,
-      1,
-      0,
-      1,
-      0
-    ],
-    "gender-ratio": 31,
-    "catch-rate": 45,
-    "abilities": [
-      "Torrent",
-      "Torrent",
-      "Rain Dish"
-    ],
-    "types": [
-      "Water"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Monster",
-      "Water1"
-    ],
-    "hatch-cycles": 20,
-    "height": 1,
-    "weight": 22.5,
-    "color": "Blue",
-    "evolutions": [
-      {
-        "species": "Blastoise-0",
-        "method": "LevelUp",
-        "method_value": 36
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Tackle"
-      ],
-      [
-        1,
-        "Tail Whip"
-      ],
-      [
-        1,
-        "Water Gun"
-      ],
-      [
-        1,
-        "Withdraw"
-      ],
-      [
-        9,
-        "Rapid Spin"
-      ],
-      [
-        12,
-        "Bite"
-      ],
-      [
-        15,
-        "Water Pulse"
-      ],
-      [
-        20,
-        "Protect"
-      ],
-      [
-        25,
-        "Rain Dance"
-      ],
-      [
-        30,
-        "Aqua Tail"
-      ],
-      [
-        35,
-        "Shell Smash"
-      ],
-      [
-        40,
-        "Iron Defense"
-      ],
-      [
-        45,
-        "Hydro Pump"
-      ],
-      [
-        50,
-        "Skull Bash"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        35,
-        "Hail"
-      ],
-      [
-        36,
-        "Whirlpool"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        45,
-        "Dive"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        55,
-        "Brine"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        94,
-        "False Swipe"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        3,
-        "Hydro Pump"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        16,
-        "Waterfall"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        45,
-        "Muddy Water"
-      ],
-      [
-        46,
-        "Iron Defense"
-      ],
-      [
-        52,
-        "Gyro Ball"
-      ],
-      [
-        56,
-        "Aura Sphere"
-      ],
-      [
-        62,
-        "Dragon Pulse"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        84,
-        "Scald"
-      ],
-      [
-        85,
-        "Work Up"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 9,
-    "name": "Blastoise",
-    "stage": 3,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      79,
-      83,
-      100,
-      85,
-      105,
-      78,
-      530
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      3,
-      0
-    ],
-    "gender-ratio": 31,
-    "catch-rate": 45,
-    "abilities": [
-      "Torrent",
-      "Torrent",
-      "Rain Dish"
-    ],
-    "types": [
-      "Water"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Monster",
-      "Water1"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.6,
-    "weight": 85.5,
-    "color": "Blue",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        0,
-        "Flash Cannon"
-      ],
-      [
-        1,
-        "Flash Cannon"
-      ],
-      [
-        1,
-        "Tackle"
-      ],
-      [
-        1,
-        "Tail Whip"
-      ],
-      [
-        1,
-        "Water Gun"
-      ],
-      [
-        1,
-        "Withdraw"
-      ],
-      [
-        9,
-        "Rapid Spin"
-      ],
-      [
-        12,
-        "Bite"
-      ],
-      [
-        15,
-        "Water Pulse"
-      ],
-      [
-        20,
-        "Protect"
-      ],
-      [
-        25,
-        "Rain Dance"
-      ],
-      [
-        30,
-        "Aqua Tail"
-      ],
-      [
-        35,
-        "Shell Smash"
-      ],
-      [
-        42,
-        "Iron Defense"
-      ],
-      [
-        49,
-        "Hydro Pump"
-      ],
-      [
-        56,
-        "Skull Bash"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        35,
-        "Hail"
-      ],
-      [
-        36,
-        "Whirlpool"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        45,
-        "Dive"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        55,
-        "Brine"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        64,
-        "Avalanche"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        94,
-        "False Swipe"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        3,
-        "Hydro Pump"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        16,
-        "Waterfall"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        24,
-        "Outrage"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        45,
-        "Muddy Water"
-      ],
-      [
-        46,
-        "Iron Defense"
-      ],
-      [
-        52,
-        "Gyro Ball"
-      ],
-      [
-        56,
-        "Aura Sphere"
-      ],
-      [
-        58,
-        "Dark Pulse"
-      ],
-      [
-        62,
-        "Dragon Pulse"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        70,
-        "Flash Cannon"
-      ],
-      [
-        84,
-        "Scald"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        98,
-        "Liquidation"
-      ],
-      [
-        99,
-        "Body Press"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 10036,
-    "name": "Mega Blastoise",
-    "stage": 3,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      79,
-      103,
-      120,
-      135,
-      115,
-      78,
-      630
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      3,
-      0
-    ],
-    "gender-ratio": 31,
-    "catch-rate": 45,
-    "abilities": [
-      "Mega Launcher",
-      "Mega Launcher",
-      "Mega Launcher"
-    ],
-    "types": [
-      "Water"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Monster",
-      "Water1"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.6,
-    "weight": 101.1,
-    "color": "Blue",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        0,
-        "Flash Cannon"
-      ],
-      [
-        1,
-        "Flash Cannon"
-      ],
-      [
-        1,
-        "Tackle"
-      ],
-      [
-        1,
-        "Tail Whip"
-      ],
-      [
-        1,
-        "Water Gun"
-      ],
-      [
-        1,
-        "Withdraw"
-      ],
-      [
-        9,
-        "Rapid Spin"
-      ],
-      [
-        12,
-        "Bite"
-      ],
-      [
-        15,
-        "Water Pulse"
-      ],
-      [
-        20,
-        "Protect"
-      ],
-      [
-        25,
-        "Rain Dance"
-      ],
-      [
-        30,
-        "Aqua Tail"
-      ],
-      [
-        35,
-        "Shell Smash"
-      ],
-      [
-        42,
-        "Iron Defense"
-      ],
-      [
-        49,
-        "Hydro Pump"
-      ],
-      [
-        56,
-        "Skull Bash"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        35,
-        "Hail"
-      ],
-      [
-        36,
-        "Whirlpool"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        45,
-        "Dive"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        55,
-        "Brine"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        64,
-        "Avalanche"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        94,
-        "False Swipe"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        3,
-        "Hydro Pump"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        16,
-        "Waterfall"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        24,
-        "Outrage"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        45,
-        "Muddy Water"
-      ],
-      [
-        46,
-        "Iron Defense"
-      ],
-      [
-        52,
-        "Gyro Ball"
-      ],
-      [
-        56,
-        "Aura Sphere"
-      ],
-      [
-        58,
-        "Dark Pulse"
-      ],
-      [
-        62,
-        "Dragon Pulse"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        70,
-        "Flash Cannon"
-      ],
-      [
-        84,
-        "Scald"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        98,
-        "Liquidation"
-      ],
-      [
-        99,
-        "Body Press"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Charous Mountain",
-        "point": "Hardy"
-      },      
-    ]
-  },
-  {
-    "no": 10,
-    "name": "Caterpie",
-    "stage": 1,
-    "galar_dex": 13,
-    "base_stats": [
-      45,
-      30,
-      35,
-      20,
-      20,
-      45,
-      195
-    ],
-    "ev_yield": [
-      1,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 255,
-    "abilities": [
-      "Shield Dust",
-      "Shield Dust",
-      "Run Away"
-    ],
-    "types": [
-      "Bug"
-    ],
-    "items": [],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Bug"
-    ],
-    "hatch-cycles": 15,
-    "height": 0.3,
-    "weight": 2.9,
-    "color": "Green",
-    "evolutions": [
-      {
-        "species": "Metapod-0",
-        "method": "LevelUp",
-        "method_value": 7
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Tackle"
-      ],
-      [
-        1,
-        "String Shot"
-      ],
-      [
-        9,
-        "Bug Bite"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        82,
-        "Electroweb"
-      ]
-    ],
-    "trs": [
-      "None"
-    ],
-    "locations": [
-      {
-        "location": "Peridot Ward",
-        "point": "Julia"
-      },      
-    ]
-  },
-  {
-    "no": 11,
-    "name": "Metapod",
-    "stage": 2,
-    "galar_dex": 14,
-    "base_stats": [
-      50,
-      20,
-      55,
-      25,
-      25,
-      30,
-      205
-    ],
-    "ev_yield": [
-      0,
-      0,
-      2,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 120,
-    "abilities": [
-      "Shed Skin",
-      "Shed Skin",
-      "Shed Skin"
-    ],
-    "types": [
-      "Bug"
-    ],
-    "items": [],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Bug"
-    ],
-    "hatch-cycles": 15,
-    "height": 0.7,
-    "weight": 9.9,
-    "color": "Green",
-    "evolutions": [
-      {
-        "species": "Butterfree-0",
-        "method": "LevelUp",
-        "method_value": 10
-      }
-    ],
-    "level_up_moves": [
-      [
-        0,
-        "Harden"
-      ],
-      [
-        1,
-        "Harden"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        82,
-        "Electroweb"
-      ]
-    ],
-    "trs": [
-      [
-        46,
-        "Iron Defense"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 12,
-    "name": "Butterfree",
-    "stage": 3,
-    "galar_dex": 15,
-    "base_stats": [
-      60,
-      45,
-      50,
-      90,
-      80,
-      70,
-      395
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      2,
-      1,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 45,
-    "abilities": [
-      "Compound Eyes",
-      "Compound Eyes",
-      "Tinted Lens"
-    ],
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Silver Powder",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Bug"
-    ],
-    "hatch-cycles": 15,
-    "height": 1.1,
-    "weight": 32,
-    "color": "White",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        0,
-        "Gust"
-      ],
-      [
-        1,
-        "Gust"
-      ],
-      [
-        1,
-        "Harden"
-      ],
-      [
-        1,
-        "Tackle"
-      ],
-      [
-        1,
-        "String Shot"
-      ],
-      [
-        1,
-        "Bug Bite"
-      ],
-      [
-        4,
-        "Supersonic"
-      ],
-      [
-        8,
-        "Confusion"
-      ],
-      [
-        12,
-        "Poison Powder"
-      ],
-      [
-        12,
-        "Stun Spore"
-      ],
-      [
-        12,
-        "Sleep Powder"
-      ],
-      [
-        16,
-        "Psybeam"
-      ],
-      [
-        20,
-        "Whirlwind"
-      ],
-      [
-        24,
-        "Air Slash"
-      ],
-      [
-        28,
-        "Safeguard"
-      ],
-      [
-        32,
-        "Bug Buzz"
-      ],
-      [
-        36,
-        "Tailwind"
-      ],
-      [
-        40,
-        "Rage Powder"
-      ],
-      [
-        44,
-        "Quiver Dance"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        56,
-        "Uturn"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        78,
-        "Acrobatics"
-      ],
-      [
-        82,
-        "Electroweb"
-      ],
-      [
-        87,
-        "Draining Kiss"
-      ],
-      [
-        95,
-        "Air Slash"
-      ]
-    ],
-    "trs": [
-      [
-        11,
-        "Psychic"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        29,
-        "Baton Pass"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        40,
-        "Skill Swap"
-      ],
-      [
-        46,
-        "Iron Defense"
-      ],
-      [
-        61,
-        "Bug Buzz"
-      ],
-      [
-        65,
-        "Energy Ball"
-      ],
-      [
-        89,
-        "Hurricane"
-      ],
-      [
-        96,
-        "Pollen Puff"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Peridot Ward",
-        "point": "Adrienn"
-      },      
-    ]
-  },
-  {
-    "no": 13,
-    "name": "Weedle",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      40,
-      35,
-      30,
-      20,
-      20,
-      50,
-      195
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 255,
-    "abilities": [
-      "Shield Dust",
-      "Shield Dust",
-      "Run Away"
-    ],
-    "types": [
-      "Bug",
-      "Poison"
-    ],
-    "items": [],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Bug"
-    ],
-    "hatch-cycles": 15,
-    "height": 0.3,
-    "weight": 3.2,
-    "color": "Brown",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        82,
-        "Electroweb"
-      ]
-    ],
-    "trs": [
-      "None"
-    ],
-    "locations": []
-  },
-  {
-    "no": 14,
-    "name": "Kakuna",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      45,
-      25,
-      50,
-      25,
-      25,
-      35,
-      205
-    ],
-    "ev_yield": [
-      0,
-      0,
-      2,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 120,
-    "abilities": [
-      "Shed Skin",
-      "Shed Skin",
-      "Shed Skin"
-    ],
-    "types": [
-      "Bug",
-      "Poison"
-    ],
-    "items": [],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Bug"
-    ],
-    "hatch-cycles": 15,
-    "height": 0.6,
-    "weight": 10,
-    "color": "Yellow",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        82,
-        "Electroweb"
-      ]
-    ],
-    "trs": [
-      [
-        46,
-        "Iron Defense"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 15,
-    "name": "Beedrill",
-    "stage": 3,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      65,
-      90,
-      40,
-      45,
-      80,
-      75,
-      395
-    ],
-    "ev_yield": [
-      0,
-      2,
-      0,
-      0,
-      1,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 45,
-    "abilities": [
-      "Swarm",
-      "Swarm",
-      "Sniper"
-    ],
-    "types": [
-      "Bug",
-      "Poison"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Poison Barb",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Bug"
-    ],
-    "hatch-cycles": 15,
-    "height": 1,
-    "weight": 29.5,
-    "color": "Yellow",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        7,
-        "Pin Missile"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        56,
-        "Uturn"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        73,
-        "Cross Poison"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        78,
-        "Acrobatics"
-      ],
-      [
-        82,
-        "Electroweb"
-      ],
-      [
-        94,
-        "False Swipe"
-      ],
-      [
-        97,
-        "Brutal Swing"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        13,
-        "Focus Energy"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        29,
-        "Baton Pass"
-      ],
-      [
-        46,
-        "Iron Defense"
-      ],
-      [
-        54,
-        "Toxic Spikes"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        60,
-        "XScissor"
-      ],
-      [
-        87,
-        "Drill Run"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Jasper Ward",
-        "point": "Taka/Pulse Tangrowth 2"
-      },
-      {
-        "location": "Malchous Forest",
-        "point": "Taka/Pulse Tangrowth 2"
-      }
-    ]
-  },
-  {
-    "no": 10090,
-    "name": "Mega Beedrill",
-    "stage": 3,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      65,
-      150,
-      40,
-      15,
-      80,
-      145,
-      495
-    ],
-    "ev_yield": [
-      0,
-      2,
-      0,
-      0,
-      1,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 45,
-    "abilities": [
-      "Adaptability",
-      "Adaptability",
-      "Adaptability"
-    ],
-    "types": [
-      "Bug",
-      "Poison"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Poison Barb",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Bug"
-    ],
-    "hatch-cycles": 15,
-    "height": 1.4,
-    "weight": 40.5,
-    "color": "Yellow",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        7,
-        "Pin Missile"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        56,
-        "Uturn"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        73,
-        "Cross Poison"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        78,
-        "Acrobatics"
-      ],
-      [
-        82,
-        "Electroweb"
-      ],
-      [
-        94,
-        "False Swipe"
-      ],
-      [
-        97,
-        "Brutal Swing"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        13,
-        "Focus Energy"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        29,
-        "Baton Pass"
-      ],
-      [
-        46,
-        "Iron Defense"
-      ],
-      [
-        54,
-        "Toxic Spikes"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        60,
-        "XScissor"
-      ],
-      [
-        87,
-        "Drill Run"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Glassworks Factory",
-        "point": "Hardy"
-      }
-    ]
-  },
-  {
-    "no": 16,
-    "name": "Pidgey",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      40,
-      45,
-      40,
-      35,
-      35,
-      56,
-      251
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 255,
-    "abilities": [
-      "Keen Eye",
-      "Tangled Feet",
-      "Big Pecks"
-    ],
-    "types": [
-      "Normal",
-      "Flying"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Flying"
-    ],
-    "hatch-cycles": 15,
-    "height": 0.3,
-    "weight": 1.8,
-    "color": "Brown",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        6,
-        "Fly"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        30,
-        "Steel Wing"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        56,
-        "Uturn"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        95,
-        "Air Slash"
-      ]
-    ],
-    "trs": [
-      [
-        12,
-        "Agility"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        66,
-        "Brave Bird"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        89,
-        "Hurricane"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Opal Ward",
-        "point": "Julia"
-      },
-      {
-        "location": "Jasper Ward",
-        "point": "Taka/Pulse Tangrowth 2"
-      },
-      {
-        "location": "Malchous Forest",
-        "point": "Taka/Pulse Tangrowth 2"
-      },
-      {
-        "location": "Glitch World",
-        "point": "T3RR4"
-      }
-    ]
-  },
-  {
-    "no": 17,
-    "name": "Pidgeotto",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      63,
-      60,
-      55,
-      50,
-      50,
-      71,
-      349
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 120,
-    "abilities": [
-      "Keen Eye",
-      "Tangled Feet",
-      "Big Pecks"
-    ],
-    "types": [
-      "Normal",
-      "Flying"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Flying"
-    ],
-    "hatch-cycles": 15,
-    "height": 1.1,
-    "weight": 30,
-    "color": "Brown",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        6,
-        "Fly"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        30,
-        "Steel Wing"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        56,
-        "Uturn"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        95,
-        "Air Slash"
-      ]
-    ],
-    "trs": [
-      [
-        12,
-        "Agility"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        36,
-        "Heat Wave"
-      ],
-      [
-        66,
-        "Brave Bird"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        89,
-        "Hurricane"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Jasper Ward",
-        "point": "Taka/Pulse Tangrowth 2"
-      },
-      {
-        "location": "Beryl Ward",
-        "point": "Taka/ZEL/Pulse Tangrowth 3"
-      },
-      {
-        "location": "Malchous Forest",
-        "point": "Adrienn"
-      },
-      {
-        "location": "Opal Ward",
-        "point": "Adrienn"
-      }
-    ]
-  },
-  {
-    "no": 18,
-    "name": "Pidgeot",
-    "stage": 3,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      83,
-      80,
-      75,
-      70,
-      70,
-      101,
-      479
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      3
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 45,
-    "abilities": [
-      "Keen Eye",
-      "Tangled Feet",
-      "Big Pecks"
-    ],
-    "types": [
-      "Normal",
-      "Flying"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Flying"
-    ],
-    "hatch-cycles": 15,
-    "height": 1.5,
-    "weight": 39.5,
-    "color": "Brown",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        6,
-        "Fly"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        30,
-        "Steel Wing"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        56,
-        "Uturn"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        95,
-        "Air Slash"
-      ]
-    ],
-    "trs": [
-      [
-        12,
-        "Agility"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        36,
-        "Heat Wave"
-      ],
-      [
-        66,
-        "Brave Bird"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        89,
-        "Hurricane"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Jasper Ward",
-        "point": "Adrienn"
-      },
-      {
-        "location": "Malchous Forest",
-        "point": "Adrienn"
-      },
-      {
-        "location": "Teknite Ridge",
-        "point": "Titania"
-      }
-    ]
-  },
-  {
-    "no": 10073,
-    "name": "Mega Pidgeot",
-    "stage": 3,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      83,
-      80,
-      80,
-      135,
-      80,
-      121,
-      579
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      3
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 45,
-    "abilities": [
-      "No Guard",
-      "No Guard",
-      "No Guard"
-    ],
-    "types": [
-      "Normal",
-      "Flying"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Flying"
-    ],
-    "hatch-cycles": 15,
-    "height": 2.2,
-    "weight": 50.5,
-    "color": "Brown",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        6,
-        "Fly"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        30,
-        "Steel Wing"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        56,
-        "Uturn"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        95,
-        "Air Slash"
-      ]
-    ],
-    "trs": [
-      [
-        12,
-        "Agility"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        36,
-        "Heat Wave"
-      ],
-      [
-        66,
-        "Brave Bird"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        89,
-        "Hurricane"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Teknite Ridge",
-        "point": "Titania"
-      }
-    ]
-  },
-  {
-    "no": 19,
-    "name": "Rattata",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      30,
-      56,
-      35,
-      25,
-      35,
-      72,
-      253
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 255,
-    "abilities": [
-      "Run Away",
-      "Guts",
-      "Hustle"
-    ],
-    "types": [
-      "Normal"
-    ],
-    "items": [],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 15,
-    "height": 0.3,
-    "weight": 3.5,
-    "color": "Purple",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        42,
-        "Revenge"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        79,
-        "Retaliate"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        13,
-        "Focus Energy"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        37,
-        "Taunt"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        86,
-        "Wild Charge"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Opal Ward",
-        "point": "Julia"
-      },
-      {
-        "location": "Glitch World",
-        "point": "T3RR4"
-      },
-      {
-        "location": "Lapis Ward",
-        "point": "Adrienn"
-      }
-    ]
-  },
-  {
-    "no": 10091,
-    "name": "Rattata (Alolan)",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      30,
-      56,
-      35,
-      25,
-      35,
-      72,
-      253
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 255,
-    "abilities": [
-      "Gluttony",
-      "Hustle",
-      "Thick Fat"
-    ],
-    "types": [
-      "Dark",
-      "Normal"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Pecha Berry",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 15,
-    "height": 0.3,
-    "weight": 3.8,
-    "color": "Black",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        42,
-        "Revenge"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        79,
-        "Retaliate"
-      ],
-      [
-        85,
-        "Snarl"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        13,
-        "Focus Energy"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        37,
-        "Taunt"
-      ],
-      [
-        58,
-        "Dark Pulse"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Lapis Ward",
-        "point": "Shelly"
-      }
-    ]
-  },
-  {
-    "no": 20,
-    "name": "Raticate",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      55,
-      81,
-      60,
-      50,
-      70,
-      97,
-      413
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 127,
-    "abilities": [
-      "Run Away",
-      "Guts",
-      "Hustle"
-    ],
-    "types": [
-      "Normal"
-    ],
-    "items": [],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 15,
-    "height": 0.7,
-    "weight": 18.5,
-    "color": "Brown",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        26,
-        "Scary Face"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        42,
-        "Revenge"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        79,
-        "Retaliate"
-      ],
-      [
-        98,
-        "Stomping Tantrum"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        13,
-        "Focus Energy"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        37,
-        "Taunt"
-      ],
-      [
-        53,
-        "Close Combat"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        86,
-        "Wild Charge"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ],
-      [
-        97,
-        "Psychic Fangs"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Lapis Ward",
-        "point": "Shelly"
-      }
-    ]
-  },
-  {
-    "no": 10092,
-    "name": "Raticate (Alolan)",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      75,
-      71,
-      70,
-      40,
-      80,
-      77,
-      413
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 127,
-    "abilities": [
-      "Gluttony",
-      "Hustle",
-      "Thick Fat"
-    ],
-    "types": [
-      "Dark",
-      "Normal"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Pecha Berry",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 15,
-    "height": 0.7,
-    "weight": 25.5,
-    "color": "Black",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        26,
-        "Scary Face"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        42,
-        "Revenge"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        79,
-        "Retaliate"
-      ],
-      [
-        85,
-        "Snarl"
-      ],
-      [
-        98,
-        "Stomping Tantrum"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        13,
-        "Focus Energy"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        37,
-        "Taunt"
-      ],
-      [
-        48,
-        "Bulk Up"
-      ],
-      [
-        53,
-        "Close Combat"
-      ],
-      [
-        58,
-        "Dark Pulse"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        78,
-        "Sludge Wave"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ],
-      [
-        97,
-        "Psychic Fangs"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Lapis Ward",
-        "point": "Shelly"
-      },
-      {
-        "location": "Opal Ward",
-        "point": "Adrienn"
-      }
-    ]
-  },
-  {
-    "no": 21,
-    "name": "Spearow",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      40,
-      60,
-      30,
-      31,
-      31,
-      70,
-      262
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 255,
-    "abilities": [
-      "Keen Eye",
-      "Keen Eye",
-      "Sniper"
-    ],
-    "types": [
-      "Normal",
-      "Flying"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Sharp Beak",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Flying"
-    ],
-    "hatch-cycles": 15,
-    "height": 0.3,
-    "weight": 2,
-    "color": "Brown",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        6,
-        "Fly"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        26,
-        "Scary Face"
-      ],
-      [
-        30,
-        "Steel Wing"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        56,
-        "Uturn"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        94,
-        "False Swipe"
-      ]
-    ],
-    "trs": [
-      [
-        12,
-        "Agility"
-      ],
-      [
-        13,
-        "Focus Energy"
-      ],
-      [
-        19,
-        "Tri Attack"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        29,
-        "Baton Pass"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        36,
-        "Heat Wave"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        87,
-        "Drill Run"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Opal Ward",
-        "point": "Julia"
-      },
-      {
-        "location": "Onyx Ward",
-        "point": "Florina"
-      },
-      {
-        "location": "Rhodochrine Jungle",
-        "point": "Taka/ZEL/Pulse Tangrowth 3"
-      },
-      {
-        "location": "Beryl Ward",
-        "point": "Taka/ZEL/Pulse Tangrowth 3"
-      }
-    ]
-  },
-  {
-    "no": 22,
-    "name": "Fearow",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      65,
-      90,
-      65,
-      61,
-      61,
-      100,
-      442
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 90,
-    "abilities": [
-      "Keen Eye",
-      "Keen Eye",
-      "Sniper"
-    ],
-    "types": [
-      "Normal",
-      "Flying"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Sharp Beak",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Flying"
-    ],
-    "hatch-cycles": 15,
-    "height": 1.2,
-    "weight": 38,
-    "color": "Brown",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        6,
-        "Fly"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        26,
-        "Scary Face"
-      ],
-      [
-        30,
-        "Steel Wing"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        56,
-        "Uturn"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        94,
-        "False Swipe"
-      ]
-    ],
-    "trs": [
-      [
-        12,
-        "Agility"
-      ],
-      [
-        13,
-        "Focus Energy"
-      ],
-      [
-        19,
-        "Tri Attack"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        29,
-        "Baton Pass"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        36,
-        "Heat Wave"
-      ],
-      [
-        66,
-        "Brave Bird"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        87,
-        "Drill Run"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Beryl Ward",
-        "point": "Taka/ZEL/Pulse Tangrowth 3"
-      },
-      {
-        "location": "Opal Ward",
-        "point": "Adrienn"
-      },
-      {
-        "location": "Onyx Ward",
-        "point": "Adrienn"
-      },
-      {
-        "location": "Rhodochrine Jungle",
-        "point": "Adrienn"
-      }
-    ]
-  },
-  {
-    "no": 23,
-    "name": "Ekans",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      35,
-      60,
-      44,
-      40,
-      54,
-      55,
-      288
-    ],
-    "ev_yield": [
-      0,
-      1,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 255,
-    "abilities": [
-      "Intimidate",
-      "Shed Skin",
-      "Unnerve"
-    ],
-    "types": [
-      "Poison"
-    ],
-    "items": [],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field",
-      "Dragon"
-    ],
-    "hatch-cycles": 20,
-    "height": 2,
-    "weight": 6.9,
-    "color": "Purple",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        26,
-        "Scary Face"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        97,
-        "Brutal Swing"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        58,
-        "Dark Pulse"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        73,
-        "Gunk Shot"
-      ],
-      [
-        78,
-        "Sludge Wave"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Opal Ward",
-        "point": "Julia"
-      },
-      {
-        "location": "Beryl Ward",
-        "point": "Taka/ZEL/Pulse Tangrowth 3"
-      },
-      {
-        "location": "Byxbysion Wasteland",
-        "point": "Aya"
-      },
-      {
-        "location": "Glitch World",
-        "point": "T3RR4"
-      }
-    ]
-  },
-  {
-    "no": 24,
-    "name": "Arbok",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      60,
-      95,
-      69,
-      65,
-      79,
-      80,
-      448
-    ],
-    "ev_yield": [
-      0,
-      2,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 90,
-    "abilities": [
-      "Intimidate",
-      "Shed Skin",
-      "Unnerve"
-    ],
-    "types": [
-      "Poison"
-    ],
-    "items": [],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field",
-      "Dragon"
-    ],
-    "hatch-cycles": 20,
-    "height": 3.5,
-    "weight": 65,
-    "color": "Purple",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        26,
-        "Scary Face"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        66,
-        "Thunder Fang"
-      ],
-      [
-        67,
-        "Ice Fang"
-      ],
-      [
-        68,
-        "Fire Fang"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        97,
-        "Brutal Swing"
-      ],
-      [
-        98,
-        "Stomping Tantrum"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        58,
-        "Dark Pulse"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        73,
-        "Gunk Shot"
-      ],
-      [
-        78,
-        "Sludge Wave"
-      ],
-      [
-        91,
-        "Venom Drench"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Beryl Ward",
-        "point": "Taka/ZEL/Pulse Tangrowth 3"
-      },
-      {
-        "location": "Byxbysion Wasteland",
-        "point": "Aya"
-      },
-      {
-        "location": "Tanzan Depths",
-        "point": "Noel"
-      },
-      {
-        "location": "Route 1",
-        "point": "Radomus"
-      },
-      {
-        "location": "Glitch World",
-        "point": "T3RR4"
-      }
-    ]
-  },
-  {
-    "no": 25,
-    "name": "Pikachu",
-    "stage": 2,
-    "galar_dex": 194,
-    "base_stats": [
-      35,
-      55,
-      40,
-      50,
-      50,
-      90,
-      320
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 190,
-    "abilities": [
-      "Static",
-      "Static",
-      "Lightning Rod"
-    ],
-    "types": [
-      "Electric"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Light Ball",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field",
-      "Fairy"
-    ],
-    "hatch-cycles": 10,
-    "height": 0.4,
-    "weight": 6,
-    "color": "Yellow",
-    "evolutions": [
-      {
-        "species": "Raichu-0",
-        "method": "UseItem",
-        "method_value": "83"
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Play Nice"
-      ],
-      [
-        1,
-        "Sweet Kiss"
-      ],
-      [
-        1,
-        "Nuzzle"
-      ],
-      [
-        1,
-        "Nasty Plot"
-      ],
-      [
-        1,
-        "Charm"
-      ],
-      [
-        1,
-        "Thunder Shock"
-      ],
-      [
-        1,
-        "Tail Whip"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Quick Attack"
-      ],
-      [
-        4,
-        "Thunder Wave"
-      ],
-      [
-        8,
-        "Double Team"
-      ],
-      [
-        12,
-        "Electro Ball"
-      ],
-      [
-        16,
-        "Feint"
-      ],
-      [
-        20,
-        "Spark"
-      ],
-      [
-        24,
-        "Agility"
-      ],
-      [
-        28,
-        "Slam"
-      ],
-      [
-        32,
-        "Discharge"
-      ],
-      [
-        36,
-        "Thunderbolt"
-      ],
-      [
-        40,
-        "Light Screen"
-      ],
-      [
-        44,
-        "Thunder"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        80,
-        "Volt Switch"
-      ],
-      [
-        82,
-        "Electroweb"
-      ],
-      [
-        87,
-        "Draining Kiss"
-      ],
-      [
-        90,
-        "Electric Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        80,
-        "Electro Ball"
-      ],
-      [
-        86,
-        "Wild Charge"
-      ],
-      [
-        90,
-        "Play Rough"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Onyx Ward",
-        "point": "Adrienn"
-      }
-    ]
-  },
-  {
-    "no": 26,
-    "name": "Raichu",
-    "stage": 3,
-    "galar_dex": 195,
-    "base_stats": [
-      60,
-      90,
-      55,
-      90,
-      80,
-      110,
-      485
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      3
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 75,
-    "abilities": [
-      "Static",
-      "Static",
-      "Lightning Rod"
-    ],
-    "types": [
-      "Electric"
-    ],
-    "items": [],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field",
-      "Fairy"
-    ],
-    "hatch-cycles": 10,
-    "height": 0.8,
-    "weight": 30,
-    "color": "Yellow",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        0,
-        "Thunder Punch"
-      ],
-      [
-        1,
-        "Thunder Punch"
-      ],
-      [
-        1,
-        "Play Nice"
-      ],
-      [
-        1,
-        "Sweet Kiss"
-      ],
-      [
-        1,
-        "Nuzzle"
-      ],
-      [
-        1,
-        "Nasty Plot"
-      ],
-      [
-        1,
-        "Charm"
-      ],
-      [
-        1,
-        "Thunder Wave"
-      ],
-      [
-        1,
-        "Double Team"
-      ],
-      [
-        1,
-        "Electro Ball"
-      ],
-      [
-        1,
-        "Feint"
-      ],
-      [
-        1,
-        "Spark"
-      ],
-      [
-        1,
-        "Agility"
-      ],
-      [
-        1,
-        "Slam"
-      ],
-      [
-        1,
-        "Discharge"
-      ],
-      [
-        1,
-        "Thunderbolt"
-      ],
-      [
-        1,
-        "Light Screen"
-      ],
-      [
-        1,
-        "Thunder"
-      ],
-      [
-        1,
-        "Thunder Shock"
-      ],
-      [
-        1,
-        "Tail Whip"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Quick Attack"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        62,
-        "Speed Swap"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        80,
-        "Volt Switch"
-      ],
-      [
-        82,
-        "Electroweb"
-      ],
-      [
-        87,
-        "Draining Kiss"
-      ],
-      [
-        90,
-        "Electric Terrain"
-      ],
-      [
-        93,
-        "Eerie Impulse"
-      ],
-      [
-        97,
-        "Brutal Swing"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        80,
-        "Electro Ball"
-      ],
-      [
-        86,
-        "Wild Charge"
-      ],
-      [
-        90,
-        "Play Rough"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Glitch World",
-        "point": "T3RR4"
-      }
-    ]
-  },
-  {
-    "no": 10100,
-    "name": "Raichu (Alolan)",
-    "stage": 3,
-    "galar_dex": 195,
-    "base_stats": [
-      60,
-      85,
-      50,
-      95,
-      85,
-      110,
-      485
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      3
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 75,
-    "abilities": [
-      "Surge Surfer",
-      "Surge Surfer",
-      "Surge Surfer"
-    ],
-    "types": [
-      "Electric",
-      "Psychic"
-    ],
-    "items": [],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field",
-      "Fairy"
-    ],
-    "hatch-cycles": 10,
-    "height": 0.7,
-    "weight": 21,
-    "color": "Brown",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        0,
-        "Psychic"
-      ],
-      [
-        1,
-        "Psychic"
-      ],
-      [
-        1,
-        "Play Nice"
-      ],
-      [
-        1,
-        "Sweet Kiss"
-      ],
-      [
-        1,
-        "Nuzzle"
-      ],
-      [
-        1,
-        "Nasty Plot"
-      ],
-      [
-        1,
-        "Charm"
-      ],
-      [
-        1,
-        "Thunder Wave"
-      ],
-      [
-        1,
-        "Double Team"
-      ],
-      [
-        1,
-        "Electro Ball"
-      ],
-      [
-        1,
-        "Feint"
-      ],
-      [
-        1,
-        "Spark"
-      ],
-      [
-        1,
-        "Agility"
-      ],
-      [
-        1,
-        "Slam"
-      ],
-      [
-        1,
-        "Discharge"
-      ],
-      [
-        1,
-        "Thunderbolt"
-      ],
-      [
-        1,
-        "Light Screen"
-      ],
-      [
-        1,
-        "Thunder"
-      ],
-      [
-        1,
-        "Thunder Shock"
-      ],
-      [
-        1,
-        "Tail Whip"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Quick Attack"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        62,
-        "Speed Swap"
-      ],
-      [
-        72,
-        "Magic Room"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        80,
-        "Volt Switch"
-      ],
-      [
-        82,
-        "Electroweb"
-      ],
-      [
-        87,
-        "Draining Kiss"
-      ],
-      [
-        90,
-        "Electric Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        11,
-        "Psychic"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        25,
-        "Psyshock"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        34,
-        "Future Sight"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        49,
-        "Calm Mind"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        80,
-        "Electro Ball"
-      ],
-      [
-        82,
-        "Stored Power"
-      ],
-      [
-        83,
-        "Ally Switch"
-      ],
-      [
-        86,
-        "Wild Charge"
-      ],
-      [
-        90,
-        "Play Rough"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Apophyll Beach",
-        "point": "Kiki"
-      }
-    ]
-  },
-  {
-    "no": 27,
-    "name": "Sandshrew",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      50,
-      75,
-      85,
-      20,
-      30,
-      40,
-      300
-    ],
-    "ev_yield": [
-      0,
-      0,
-      1,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 255,
-    "abilities": [
-      "Sand Veil",
-      "Sand Veil",
-      "Sand Rush"
-    ],
-    "types": [
-      "Ground"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Grip Claw",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.6,
-    "weight": 12,
-    "color": "Yellow",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        15,
-        "Dig"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        32,
-        "Sandstorm"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        49,
-        "Sand Tomb"
-      ],
-      [
-        53,
-        "Mud Shot"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        98,
-        "Stomping Tantrum"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        18,
-        "Leech Life"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        52,
-        "Gyro Ball"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        60,
-        "XScissor"
-      ],
-      [
-        67,
-        "Earth Power"
-      ],
-      [
-        76,
-        "Stealth Rock"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Grand Staircase",
-        "point": "Shelly"
-      }
-    ]
-  },
-  {
-    "no": 10101,
-    "name": "Sandshrew (Alolan)",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      50,
-      75,
-      90,
-      10,
-      35,
-      40,
-      300
-    ],
-    "ev_yield": [
-      0,
-      0,
-      1,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 255,
-    "abilities": [
-      "Snow Cloak",
-      "Snow Cloak",
-      "Slush Rush"
-    ],
-    "types": [
-      "Ice",
-      "Steel"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Grip Claw",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.7,
-    "weight": 40,
-    "color": "White",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        35,
-        "Hail"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        64,
-        "Avalanche"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        18,
-        "Leech Life"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        46,
-        "Iron Defense"
-      ],
-      [
-        52,
-        "Gyro Ball"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        60,
-        "XScissor"
-      ],
-      [
-        74,
-        "Iron Head"
-      ],
-      [
-        76,
-        "Stealth Rock"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Citrine Mountain",
-        "point": "Shade"
-      }
-    ]
-  },
-  {
-    "no": 28,
-    "name": "Sandslash",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      75,
-      100,
-      110,
-      45,
-      55,
-      65,
-      450
-    ],
-    "ev_yield": [
-      0,
-      0,
-      2,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 90,
-    "abilities": [
-      "Sand Veil",
-      "Sand Veil",
-      "Sand Rush"
-    ],
-    "types": [
-      "Ground"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Grip Claw",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 1,
-    "weight": 29.5,
-    "color": "Yellow",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        7,
-        "Pin Missile"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        32,
-        "Sandstorm"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        49,
-        "Sand Tomb"
-      ],
-      [
-        53,
-        "Mud Shot"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        98,
-        "Stomping Tantrum"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        18,
-        "Leech Life"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        23,
-        "Spikes"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        52,
-        "Gyro Ball"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        60,
-        "XScissor"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        67,
-        "Earth Power"
-      ],
-      [
-        75,
-        "Stone Edge"
-      ],
-      [
-        76,
-        "Stealth Rock"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        87,
-        "Drill Run"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Tanzan Depths",
-        "point": "Noel"
-      },
-      {
-        "location": "Tourmaline Desert",
-        "point": "Titania"
-      },
-      {
-        "location": "Mirage Tower",
-        "point": "Titania"
-      },
-      {
-        "location": "Sugiline Cave",
-        "point": "Titania"
-      },
-      {
-        "location": "Teknite Cave",
-        "point": "Titania"
-      },
-      {
-        "location": "Teknite Ridge",
-        "point": "Titania"
-      },
-      {
-        "location": "1R253 Scrapyard",
-        "point": "Titania"
-      },
-      {
-        "location": "Tourmaline Desert",
-        "point": "Titania"
-      }
-    ]
-  },
-  {
-    "no": 10102,
-    "name": "Sandslash (Alolan)",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      75,
-      100,
-      120,
-      25,
-      65,
-      65,
-      450
-    ],
-    "ev_yield": [
-      0,
-      0,
-      2,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 90,
-    "abilities": [
-      "Snow Cloak",
-      "Snow Cloak",
-      "Slush Rush"
-    ],
-    "types": [
-      "Ice",
-      "Steel"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Grip Claw",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.2,
-    "weight": 55,
-    "color": "Blue",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        7,
-        "Pin Missile"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        35,
-        "Hail"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        51,
-        "Icicle Spear"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        64,
-        "Avalanche"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        18,
-        "Leech Life"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        23,
-        "Spikes"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        46,
-        "Iron Defense"
-      ],
-      [
-        52,
-        "Gyro Ball"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        60,
-        "XScissor"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        74,
-        "Iron Head"
-      ],
-      [
-        76,
-        "Stealth Rock"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        87,
-        "Drill Run"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Citrine Mountain",
-        "point": "Shade"
-      },
-      {
-        "location": "Tanzan Depths",
-        "point": "Noel"
-      },
-      {
-        "location": "Ametrine Mountain",
-        "point": "Charlotte"
-      },
-      {
-        "location": "Celestrine Mountain",
-        "point": "Shade"
-      },
-      {
-        "location": "Charous Mountain",
-        "point": "Hardy"
-      }
-    ]
-  },
-  {
-    "no": 29,
-    "name": "Nidoran♀",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      55,
-      47,
-      52,
-      40,
-      40,
-      41,
-      275
-    ],
-    "ev_yield": [
-      1,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 254,
-    "catch-rate": 235,
-    "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Hustle"
-    ],
-    "types": [
-      "Poison"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Monster",
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.4,
-    "weight": 7,
-    "color": "Blue",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        15,
-        "Dig"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        13,
-        "Focus Energy"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        54,
-        "Toxic Spikes"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        91,
-        "Venom Drench"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Byxbysion Tunnels",
-        "point": "Aya"
-      }
-    ]
-  },
-  {
-    "no": 30,
-    "name": "Nidorina",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      70,
-      62,
-      67,
-      55,
-      55,
-      56,
-      365
-    ],
-    "ev_yield": [
-      2,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 254,
-    "catch-rate": 120,
-    "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Hustle"
-    ],
-    "types": [
-      "Poison"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Undiscovered"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.8,
-    "weight": 20,
-    "color": "Blue",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        15,
-        "Dig"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        98,
-        "Stomping Tantrum"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        13,
-        "Focus Energy"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        54,
-        "Toxic Spikes"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        91,
-        "Venom Drench"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Beryl Ward",
-        "point": "Shade"
-      },
-      {
-        "location": "Byxbysion Tunnels",
-        "point": "Aya"
-      }
-    ]
-  },
-  {
-    "no": 31,
-    "name": "Nidoqueen",
-    "stage": 3,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      90,
-      92,
-      87,
-      75,
-      85,
-      76,
-      505
-    ],
-    "ev_yield": [
-      3,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 254,
-    "catch-rate": 45,
-    "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Sheer Force"
-    ],
-    "types": [
-      "Poison",
-      "Ground"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Undiscovered"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.3,
-    "weight": 60,
-    "color": "Blue",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        32,
-        "Sandstorm"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        36,
-        "Whirlpool"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        49,
-        "Sand Tomb"
-      ],
-      [
-        53,
-        "Mud Shot"
-      ],
-      [
-        54,
-        "Rock Blast"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        64,
-        "Avalanche"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        77,
-        "Hex"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        98,
-        "Stomping Tantrum"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        2,
-        "Flamethrower"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        13,
-        "Focus Energy"
-      ],
-      [
-        15,
-        "Fire Blast"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        24,
-        "Outrage"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        37,
-        "Taunt"
-      ],
-      [
-        39,
-        "Superpower"
-      ],
-      [
-        54,
-        "Toxic Spikes"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        62,
-        "Dragon Pulse"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        67,
-        "Earth Power"
-      ],
-      [
-        75,
-        "Stone Edge"
-      ],
-      [
-        76,
-        "Stealth Rock"
-      ],
-      [
-        78,
-        "Sludge Wave"
-      ],
-      [
-        87,
-        "Drill Run"
-      ],
-      [
-        91,
-        "Venom Drench"
-      ],
-      [
-        94,
-        "High Horsepower"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ],
-      [
-        99,
-        "Body Press"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 32,
-    "name": "Nidoran♂",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      46,
-      57,
-      40,
-      40,
-      40,
-      50,
-      273
-    ],
-    "ev_yield": [
-      0,
-      1,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 0,
-    "catch-rate": 235,
-    "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Hustle"
-    ],
-    "types": [
-      "Poison"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Monster",
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.5,
-    "weight": 9,
-    "color": "Purple",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        15,
-        "Dig"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        96,
-        "Smart Strike"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        13,
-        "Focus Energy"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        54,
-        "Toxic Spikes"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        87,
-        "Drill Run"
-      ],
-      [
-        91,
-        "Venom Drench"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Onyx Ward",
-        "point": "Florina"
-      },
-      {
-        "location": "Byxbysion Tunnels",
-        "point": "Aya"
-      }
-    ]
-  },
-  {
-    "no": 33,
-    "name": "Nidorino",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      61,
-      72,
-      57,
-      55,
-      55,
-      65,
-      365
-    ],
-    "ev_yield": [
-      0,
-      2,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 0,
-    "catch-rate": 120,
-    "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Hustle"
-    ],
-    "types": [
-      "Poison"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Monster",
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.9,
-    "weight": 19.5,
-    "color": "Purple",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        15,
-        "Dig"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        96,
-        "Smart Strike"
-      ],
-      [
-        98,
-        "Stomping Tantrum"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        13,
-        "Focus Energy"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        54,
-        "Toxic Spikes"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        87,
-        "Drill Run"
-      ],
-      [
-        91,
-        "Venom Drench"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Byxbysion Tunnels",
-        "point": "Aya"
-      }
-    ]
-  },
-  {
-    "no": 34,
-    "name": "Nidoking",
-    "stage": 3,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      81,
-      102,
-      77,
-      85,
-      75,
-      85,
-      505
-    ],
-    "ev_yield": [
-      0,
-      3,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 0,
-    "catch-rate": 45,
-    "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Sheer Force"
-    ],
-    "types": [
-      "Poison",
-      "Ground"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Monster",
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.4,
-    "weight": 62,
-    "color": "Purple",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        32,
-        "Sandstorm"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        36,
-        "Whirlpool"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        49,
-        "Sand Tomb"
-      ],
-      [
-        53,
-        "Mud Shot"
-      ],
-      [
-        54,
-        "Rock Blast"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        64,
-        "Avalanche"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        77,
-        "Hex"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        96,
-        "Smart Strike"
-      ],
-      [
-        98,
-        "Stomping Tantrum"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        2,
-        "Flamethrower"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        13,
-        "Focus Energy"
-      ],
-      [
-        15,
-        "Fire Blast"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        24,
-        "Outrage"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        28,
-        "Megahorn"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        37,
-        "Taunt"
-      ],
-      [
-        39,
-        "Superpower"
-      ],
-      [
-        54,
-        "Toxic Spikes"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        62,
-        "Dragon Pulse"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        67,
-        "Earth Power"
-      ],
-      [
-        75,
-        "Stone Edge"
-      ],
-      [
-        76,
-        "Stealth Rock"
-      ],
-      [
-        78,
-        "Sludge Wave"
-      ],
-      [
-        87,
-        "Drill Run"
-      ],
-      [
-        91,
-        "Venom Drench"
-      ],
-      [
-        94,
-        "High Horsepower"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ],
-      [
-        99,
-        "Body Press"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 35,
-    "name": "Clefairy",
-    "stage": 2,
-    "galar_dex": 255,
-    "base_stats": [
-      70,
-      45,
-      48,
-      60,
-      65,
-      35,
-      323
-    ],
-    "ev_yield": [
-      2,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 191,
-    "catch-rate": 150,
-    "abilities": [
-      "Cute Charm",
-      "Magic Guard",
-      "Friend Guard"
-    ],
-    "types": [
-      "Fairy"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Moon Stone",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "Fast",
-    "egg-group": [
-      "Fairy"
-    ],
-    "hatch-cycles": 10,
-    "height": 0.6,
-    "weight": 7.5,
-    "color": "Pink",
-    "evolutions": [
-      {
-        "species": "Clefable-0",
-        "method": "UseItem",
-        "method_value": "81"
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Sing"
-      ],
-      [
-        1,
-        "Sweet Kiss"
-      ],
-      [
-        1,
-        "Disarming Voice"
-      ],
-      [
-        1,
-        "Encore"
-      ],
-      [
-        1,
-        "Charm"
-      ],
-      [
-        1,
-        "Splash"
-      ],
-      [
-        1,
-        "Pound"
-      ],
-      [
-        1,
-        "Copycat"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Defense Curl"
-      ],
-      [
-        4,
-        "Stored Power"
-      ],
-      [
-        8,
-        "Minimize"
-      ],
-      [
-        12,
-        "After You"
-      ],
-      [
-        16,
-        "Life Dew"
-      ],
-      [
-        20,
-        "Metronome"
-      ],
-      [
-        24,
-        "Moonlight"
-      ],
-      [
-        28,
-        "Gravity"
-      ],
-      [
-        32,
-        "Meteor Mash"
-      ],
-      [
-        36,
-        "Follow Me"
-      ],
-      [
-        40,
-        "Cosmic Power"
-      ],
-      [
-        44,
-        "Moonblast"
-      ],
-      [
-        48,
-        "Healing Wish"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        10,
-        "Magical Leaf"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        44,
-        "Imprison"
-      ],
-      [
-        47,
-        "Fake Tears"
-      ],
-      [
-        52,
-        "Bounce"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        63,
-        "Drain Punch"
-      ],
-      [
-        71,
-        "Wonder Room"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        79,
-        "Retaliate"
-      ],
-      [
-        87,
-        "Draining Kiss"
-      ],
-      [
-        89,
-        "Misty Terrain"
-      ],
-      [
-        92,
-        "Mystical Fire"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        2,
-        "Flamethrower"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        11,
-        "Psychic"
-      ],
-      [
-        14,
-        "Metronome"
-      ],
-      [
-        15,
-        "Fire Blast"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        19,
-        "Tri Attack"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        25,
-        "Psyshock"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        29,
-        "Baton Pass"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        38,
-        "Trick"
-      ],
-      [
-        42,
-        "Hyper Voice"
-      ],
-      [
-        44,
-        "Cosmic Power"
-      ],
-      [
-        49,
-        "Calm Mind"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        76,
-        "Stealth Rock"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        82,
-        "Stored Power"
-      ],
-      [
-        83,
-        "Ally Switch"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        90,
-        "Play Rough"
-      ],
-      [
-        92,
-        "Dazzling Gleam"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Agate Circus",
-        "point": "Samson"
-      },
-      {
-        "location": "Glitch World",
-        "point": "T3RR4"
-      }
-    ]
-  },
-  {
-    "no": 36,
-    "name": "Clefable",
-    "stage": 3,
-    "galar_dex": 256,
-    "base_stats": [
-      95,
-      70,
-      73,
-      95,
-      90,
-      60,
-      483
-    ],
-    "ev_yield": [
-      3,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 191,
-    "catch-rate": 25,
-    "abilities": [
-      "Cute Charm",
-      "Magic Guard",
-      "Unaware"
-    ],
-    "types": [
-      "Fairy"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Moon Stone",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "Fast",
-    "egg-group": [
-      "Fairy"
-    ],
-    "hatch-cycles": 10,
-    "height": 1.3,
-    "weight": 40,
-    "color": "Pink",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        1,
-        "Sing"
-      ],
-      [
-        1,
-        "Sweet Kiss"
-      ],
-      [
-        1,
-        "Disarming Voice"
-      ],
-      [
-        1,
-        "Encore"
-      ],
-      [
-        1,
-        "Charm"
-      ],
-      [
-        1,
-        "Stored Power"
-      ],
-      [
-        1,
-        "Minimize"
-      ],
-      [
-        1,
-        "After You"
-      ],
-      [
-        1,
-        "Life Dew"
-      ],
-      [
-        1,
-        "Metronome"
-      ],
-      [
-        1,
-        "Moonlight"
-      ],
-      [
-        1,
-        "Gravity"
-      ],
-      [
-        1,
-        "Meteor Mash"
-      ],
-      [
-        1,
-        "Follow Me"
-      ],
-      [
-        1,
-        "Cosmic Power"
-      ],
-      [
-        1,
-        "Moonblast"
-      ],
-      [
-        1,
-        "Healing Wish"
-      ],
-      [
-        1,
-        "Splash"
-      ],
-      [
-        1,
-        "Pound"
-      ],
-      [
-        1,
-        "Copycat"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Defense Curl"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        10,
-        "Magical Leaf"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        44,
-        "Imprison"
-      ],
-      [
-        47,
-        "Fake Tears"
-      ],
-      [
-        52,
-        "Bounce"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        63,
-        "Drain Punch"
-      ],
-      [
-        71,
-        "Wonder Room"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        79,
-        "Retaliate"
-      ],
-      [
-        87,
-        "Draining Kiss"
-      ],
-      [
-        89,
-        "Misty Terrain"
-      ],
-      [
-        92,
-        "Mystical Fire"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        2,
-        "Flamethrower"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        11,
-        "Psychic"
-      ],
-      [
-        14,
-        "Metronome"
-      ],
-      [
-        15,
-        "Fire Blast"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        19,
-        "Tri Attack"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        25,
-        "Psyshock"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        29,
-        "Baton Pass"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        38,
-        "Trick"
-      ],
-      [
-        42,
-        "Hyper Voice"
-      ],
-      [
-        44,
-        "Cosmic Power"
-      ],
-      [
-        49,
-        "Calm Mind"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        76,
-        "Stealth Rock"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        82,
-        "Stored Power"
-      ],
-      [
-        83,
-        "Ally Switch"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        90,
-        "Play Rough"
-      ],
-      [
-        92,
-        "Dazzling Gleam"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 37,
-    "name": "Vulpix",
-    "stage": 1,
-    "galar_dex": 68,
-    "base_stats": [
-      38,
-      41,
-      40,
-      50,
-      65,
-      65,
-      299
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1
-    ],
-    "gender-ratio": 191,
-    "catch-rate": 190,
-    "abilities": [
-      "Flash Fire",
-      "Flash Fire",
-      "Drought"
-    ],
-    "types": [
-      "Fire"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Charcoal",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.6,
-    "weight": 9.9,
-    "color": "Brown",
-    "evolutions": [
-      {
-        "species": "Ninetales-0",
-        "method": "UseItem",
-        "method_value": "82"
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Ember"
-      ],
-      [
-        1,
-        "Tail Whip"
-      ],
-      [
-        4,
-        "Disable"
-      ],
-      [
-        8,
-        "Quick Attack"
-      ],
-      [
-        12,
-        "Spite"
-      ],
-      [
-        16,
-        "Incinerate"
-      ],
-      [
-        20,
-        "Confuse Ray"
-      ],
-      [
-        24,
-        "Will-O-Wisp"
-      ],
-      [
-        28,
-        "Extrasensory"
-      ],
-      [
-        32,
-        "Flamethrower"
-      ],
-      [
-        36,
-        "Imprison"
-      ],
-      [
-        40,
-        "Fire Spin"
-      ],
-      [
-        44,
-        "Safeguard"
-      ],
-      [
-        48,
-        "Inferno"
-      ],
-      [
-        52,
-        "Grudge"
-      ],
-      [
-        56,
-        "Fire Blast"
-      ]
-    ],
-    "egg_moves": [
-      "Hypnosis",
-      "Flail",
-      "Howl",
-      "Memento",
-      "Baby-Doll Eyes",
-      "Roar",
-      "Flame Charge"
-    ],
-    "tms": [
-      [
-        13,
-        "Fire Spin"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        38,
-        "WillOWisp"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        44,
-        "Imprison"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        60,
-        "Power Swap"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        77,
-        "Hex"
-      ],
-      [
-        84,
-        "Tail Slap"
-      ],
-      [
-        92,
-        "Mystical Fire"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        2,
-        "Flamethrower"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        15,
-        "Fire Blast"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        36,
-        "Heat Wave"
-      ],
-      [
-        43,
-        "Overheat"
-      ],
-      [
-        55,
-        "Flare Blitz"
-      ],
-      [
-        58,
-        "Dark Pulse"
-      ],
-      [
-        65,
-        "Energy Ball"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        81,
-        "Foul Play"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Agate Circus",
-        "point": "Samson"
-      }
-    ]
-  },
-  {
-    "no": 10103,
-    "name": "Vulpix (Alolan)",
-    "stage": 1,
-    "galar_dex": 68,
-    "base_stats": [
-      38,
-      41,
-      40,
-      50,
-      65,
-      65,
-      299
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1
-    ],
-    "gender-ratio": 191,
-    "catch-rate": 190,
-    "abilities": [
-      "Snow Cloak",
-      "Snow Cloak",
-      "Snow Warning"
-    ],
-    "types": [
-      "Ice"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Snowball",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.6,
-    "weight": 9.9,
-    "color": "White",
-    "evolutions": [
-      {
-        "species": "Ninetales-1",
-        "method": "UseItem",
-        "method_value": "849"
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Powder Snow"
-      ],
-      [
-        1,
-        "Tail Whip"
-      ],
-      [
-        4,
-        "Disable"
-      ],
-      [
-        8,
-        "Ice Shard"
-      ],
-      [
-        12,
-        "Spite"
-      ],
-      [
-        16,
-        "Icy Wind"
-      ],
-      [
-        20,
-        "Confuse Ray"
-      ],
-      [
-        24,
-        "Aurora Beam"
-      ],
-      [
-        28,
-        "Extrasensory"
-      ],
-      [
-        32,
-        "Ice Beam"
-      ],
-      [
-        36,
-        "Imprison"
-      ],
-      [
-        40,
-        "Mist"
-      ],
-      [
-        44,
-        "Aurora Veil"
-      ],
-      [
-        48,
-        "Sheer Cold"
-      ],
-      [
-        52,
-        "Grudge"
-      ],
-      [
-        56,
-        "Blizzard"
-      ]
-    ],
-    "egg_moves": [
-      "Freeze-Dry",
-      "Hypnosis",
-      "Flail",
-      "Howl",
-      "Moonblast",
-      "Baby-Doll Eyes",
-      "Roar"
-    ],
-    "tms": [
-      [
-        15,
-        "Dig"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        35,
-        "Hail"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        44,
-        "Imprison"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        60,
-        "Power Swap"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        77,
-        "Hex"
-      ],
-      [
-        84,
-        "Tail Slap"
-      ],
-      [
-        87,
-        "Draining Kiss"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        58,
-        "Dark Pulse"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        81,
-        "Foul Play"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Ametrine City",
-        "point": "T3RR4"
-      }
-    ]
-  },
-  {
-    "no": 38,
-    "name": "Ninetales",
-    "stage": 2,
-    "galar_dex": 69,
-    "base_stats": [
-      73,
-      76,
-      75,
-      81,
-      100,
-      100,
-      505
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      1
-    ],
-    "gender-ratio": 191,
-    "catch-rate": 75,
-    "abilities": [
-      "Flash Fire",
-      "Flash Fire",
-      "Drought"
-    ],
-    "types": [
-      "Fire"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Charcoal",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.1,
-    "weight": 19.9,
-    "color": "Yellow",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        1,
-        "Nasty Plot"
-      ],
-      [
-        1,
-        "Incinerate"
-      ],
-      [
-        1,
-        "Spite"
-      ],
-      [
-        1,
-        "Incinerate"
-      ],
-      [
-        1,
-        "Confuse Ray"
-      ],
-      [
-        1,
-        "Will-O-Wisp"
-      ],
-      [
-        1,
-        "Extrasensory"
-      ],
-      [
-        1,
-        "Flamethrower"
-      ],
-      [
-        1,
-        "Imprison"
-      ],
-      [
-        1,
-        "Fire Spin"
-      ],
-      [
-        1,
-        "Safeguard"
-      ],
-      [
-        1,
-        "Inferno"
-      ],
-      [
-        1,
-        "Grudge"
-      ],
-      [
-        1,
-        "Fire Blast"
-      ],
-      [
-        1,
-        "Ember"
-      ],
-      [
-        1,
-        "Tail Whip"
-      ],
-      [
-        1,
-        "Disable"
-      ],
-      [
-        1,
-        "Quick Attack"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        13,
-        "Fire Spin"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        38,
-        "WillOWisp"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        44,
-        "Imprison"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        47,
-        "Fake Tears"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        60,
-        "Power Swap"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        77,
-        "Hex"
-      ],
-      [
-        84,
-        "Tail Slap"
-      ],
-      [
-        92,
-        "Mystical Fire"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        2,
-        "Flamethrower"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        15,
-        "Fire Blast"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        25,
-        "Psyshock"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        36,
-        "Heat Wave"
-      ],
-      [
-        43,
-        "Overheat"
-      ],
-      [
-        49,
-        "Calm Mind"
-      ],
-      [
-        55,
-        "Flare Blitz"
-      ],
-      [
-        58,
-        "Dark Pulse"
-      ],
-      [
-        65,
-        "Energy Ball"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        81,
-        "Foul Play"
-      ],
-      [
-        82,
-        "Stored Power"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 10104,
-    "name": "Ninetales (Alolan)",
-    "stage": 2,
-    "galar_dex": 69,
-    "base_stats": [
-      73,
-      67,
-      75,
-      81,
-      100,
-      109,
-      505
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-    ],
-    "gender-ratio": 191,
-    "catch-rate": 75,
-    "abilities": [
-      "Snow Cloak",
-      "Snow Cloak",
-      "Snow Warning"
-    ],
-    "types": [
-      "Ice",
-      "Fairy"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Snowball",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.1,
-    "weight": 19.9,
-    "color": "Blue",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        0,
-        "Dazzling Gleam"
-      ],
-      [
-        1,
-        "Dazzling Gleam"
-      ],
-      [
-        1,
-        "Nasty Plot"
-      ],
-      [
-        1,
-        "Spite"
-      ],
-      [
-        1,
-        "Icy Wind"
-      ],
-      [
-        1,
-        "Confuse Ray"
-      ],
-      [
-        1,
-        "Aurora Beam"
-      ],
-      [
-        1,
-        "Extrasensory"
-      ],
-      [
-        1,
-        "Ice Beam"
-      ],
-      [
-        1,
-        "Imprison"
-      ],
-      [
-        1,
-        "Mist"
-      ],
-      [
-        1,
-        "Aurora Veil"
-      ],
-      [
-        1,
-        "Sheer Cold"
-      ],
-      [
-        1,
-        "Grudge"
-      ],
-      [
-        1,
-        "Blizzard"
-      ],
-      [
-        1,
-        "Powder Snow"
-      ],
-      [
-        1,
-        "Tail Whip"
-      ],
-      [
-        1,
-        "Disable"
-      ],
-      [
-        1,
-        "Ice Shard"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        35,
-        "Hail"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        44,
-        "Imprison"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        47,
-        "Fake Tears"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        60,
-        "Power Swap"
-      ],
-      [
-        64,
-        "Avalanche"
-      ],
-      [
-        71,
-        "Wonder Room"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        77,
-        "Hex"
-      ],
-      [
-        84,
-        "Tail Slap"
-      ],
-      [
-        87,
-        "Draining Kiss"
-      ],
-      [
-        89,
-        "Misty Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        25,
-        "Psyshock"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        49,
-        "Calm Mind"
-      ],
-      [
-        58,
-        "Dark Pulse"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        81,
-        "Foul Play"
-      ],
-      [
-        82,
-        "Stored Power"
-      ],
-      [
-        92,
-        "Dazzling Gleam"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Route 4",
-        "point": "Hardy"
-      }
-    ]
-  },
-  {
-    "no": 39,
-    "name": "Jigglypuff",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      115,
-      45,
-      20,
-      45,
-      25,
-      20,
-      270
-    ],
-    "ev_yield": [
-      2,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 191,
-    "catch-rate": 170,
-    "abilities": [
-      "Cute Charm",
-      "Competitive",
-      "Friend Guard"
-    ],
-    "types": [
-      "Normal",
-      "Fairy"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Moon Stone",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "Fast",
-    "egg-group": [
-      "Fairy"
-    ],
-    "hatch-cycles": 10,
-    "height": 0.5,
-    "weight": 5.5,
-    "color": "Pink",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        20,
-        "SelfDestruct"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        47,
-        "Fake Tears"
-      ],
-      [
-        52,
-        "Bounce"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        63,
-        "Drain Punch"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        79,
-        "Retaliate"
-      ],
-      [
-        87,
-        "Draining Kiss"
-      ],
-      [
-        89,
-        "Misty Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        2,
-        "Flamethrower"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        11,
-        "Psychic"
-      ],
-      [
-        15,
-        "Fire Blast"
-      ],
-      [
-        19,
-        "Tri Attack"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        29,
-        "Baton Pass"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        42,
-        "Hyper Voice"
-      ],
-      [
-        52,
-        "Gyro Ball"
-      ],
-      [
-        76,
-        "Stealth Rock"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        83,
-        "Ally Switch"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        86,
-        "Wild Charge"
-      ],
-      [
-        90,
-        "Play Rough"
-      ],
-      [
-        92,
-        "Dazzling Gleam"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "7th Street",
-        "point": "Subseven Sanctum"
-      }
-    ]
-  },
-  {
-    "no": 40,
-    "name": "Wigglytuff",
-    "stage": 3,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      140,
-      70,
-      45,
-      85,
-      50,
-      45,
-      435
-    ],
-    "ev_yield": [
-      3,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 191,
-    "catch-rate": 50,
-    "abilities": [
-      "Cute Charm",
-      "Competitive",
-      "Frisk"
-    ],
-    "types": [
-      "Normal",
-      "Fairy"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Moon Stone",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "Fast",
-    "egg-group": [
-      "Fairy"
-    ],
-    "hatch-cycles": 10,
-    "height": 1,
-    "weight": 12,
-    "color": "Pink",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        20,
-        "SelfDestruct"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        47,
-        "Fake Tears"
-      ],
-      [
-        52,
-        "Bounce"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        63,
-        "Drain Punch"
-      ],
-      [
-        72,
-        "Magic Room"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        79,
-        "Retaliate"
-      ],
-      [
-        87,
-        "Draining Kiss"
-      ],
-      [
-        89,
-        "Misty Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        2,
-        "Flamethrower"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        11,
-        "Psychic"
-      ],
-      [
-        15,
-        "Fire Blast"
-      ],
-      [
-        19,
-        "Tri Attack"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        29,
-        "Baton Pass"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        42,
-        "Hyper Voice"
-      ],
-      [
-        52,
-        "Gyro Ball"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        76,
-        "Stealth Rock"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        83,
-        "Ally Switch"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        86,
-        "Wild Charge"
-      ],
-      [
-        90,
-        "Play Rough"
-      ],
-      [
-        92,
-        "Dazzling Gleam"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Route 4",
-        "point": "Hardy"
-      }
-    ]
-  },
-  {
-    "no": 41,
-    "name": "Zubat",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      40,
-      45,
-      35,
-      30,
-      40,
-      55,
-      245
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 255,
-    "abilities": [
-      "Inner Focus",
-      "Inner Focus",
-      "Infiltrator"
-    ],
-    "types": [
-      "Poison",
-      "Flying"
-    ],
-    "items": [],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Flying"
-    ],
-    "hatch-cycles": 15,
-    "height": 0.8,
-    "weight": 7.5,
-    "color": "Purple",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        6,
-        "Fly"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        30,
-        "Steel Wing"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        56,
-        "Uturn"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        78,
-        "Acrobatics"
-      ],
-      [
-        95,
-        "Air Slash"
-      ]
-    ],
-    "trs": [
-      [
-        12,
-        "Agility"
-      ],
-      [
-        18,
-        "Leech Life"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        36,
-        "Heat Wave"
-      ],
-      [
-        37,
-        "Taunt"
-      ],
-      [
-        66,
-        "Brave Bird"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        91,
-        "Venom Drench"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Azurine Island",
-        "point": "Aya"
-      },
-      {
-        "location": "Byxbysion Tunnels",
-        "point": "Aya"
-      },
-      {
-        "location": "Glitch World",
-        "point": "T3RR4"
-      }
-    ]
-  },
-  {
-    "no": 42,
-    "name": "Golbat",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      75,
-      80,
-      70,
-      65,
-      75,
-      90,
-      455
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 90,
-    "abilities": [
-      "Inner Focus",
-      "Inner Focus",
-      "Infiltrator"
-    ],
-    "types": [
-      "Poison",
-      "Flying"
-    ],
-    "items": [],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Flying"
-    ],
-    "hatch-cycles": 15,
-    "height": 1.6,
-    "weight": 55,
-    "color": "Purple",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        6,
-        "Fly"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        30,
-        "Steel Wing"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        56,
-        "Uturn"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        78,
-        "Acrobatics"
-      ],
-      [
-        95,
-        "Air Slash"
-      ]
-    ],
-    "trs": [
-      [
-        12,
-        "Agility"
-      ],
-      [
-        18,
-        "Leech Life"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        36,
-        "Heat Wave"
-      ],
-      [
-        37,
-        "Taunt"
-      ],
-      [
-        66,
-        "Brave Bird"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        91,
-        "Venom Drench"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Azurine Island",
-        "point": "Aya"
-      },
-      {
-        "location": "Byxbysion Tunnels",
-        "point": "Aya"
-      },
-      {
-        "location": "Glitch World",
-        "point": "T3RR4"
-      }
-    ]
-  },
-  {
-    "no": 43,
-    "name": "Oddish",
-    "stage": 1,
-    "galar_dex": 55,
-    "base_stats": [
-      45,
-      50,
-      55,
-      75,
-      65,
-      30,
-      320
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      1,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 255,
-    "abilities": [
-      "Chlorophyll",
-      "Chlorophyll",
-      "Run Away"
-    ],
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Absorb Bulb",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Grass"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.5,
-    "weight": 5.4,
-    "color": "Blue",
-    "evolutions": [
-      {
-        "species": "Gloom-0",
-        "method": "LevelUp",
-        "method_value": 21
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Absorb"
-      ],
-      [
-        1,
-        "Growth"
-      ],
-      [
-        4,
-        "Acid"
-      ],
-      [
-        8,
-        "Sweet Scent"
-      ],
-      [
-        12,
-        "Mega Drain"
-      ],
-      [
-        14,
-        "Poison Powder"
-      ],
-      [
-        16,
-        "Stun Spore"
-      ],
-      [
-        18,
-        "Sleep Powder"
-      ],
-      [
-        20,
-        "Giga Drain"
-      ],
-      [
-        24,
-        "Toxic"
-      ],
-      [
-        28,
-        "Moonblast"
-      ],
-      [
-        32,
-        "Grassy Terrain"
-      ],
-      [
-        36,
-        "Moonlight"
-      ],
-      [
-        40,
-        "Petal Dance"
-      ]
-    ],
-    "egg_moves": [
-      "Razor Leaf",
-      "Flail",
-      "Synthesis",
-      "Ingrain",
-      "Tickle",
-      "Teeter Dance",
-      "Nature Power",
-      "After You",
-      "Strength Sap",
-      "Leech Seed"
-    ],
-    "tms": [
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        50,
-        "Bullet Seed"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        88,
-        "Grassy Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        65,
-        "Energy Ball"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        92,
-        "Dazzling Gleam"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Obsidia Ward",
-        "point": "Florina"
-      },
-      {
-        "location": "Malchous Forest",
-        "point": "Taka/Pulse Tangrowth 2"
-      },
-      {
-        "location": "Beryl Ward",
-        "point": "Taka/ZEL/Pulse Tangrowth 3"
-      }
-    ]
-  },
-  {
-    "no": 44,
-    "name": "Gloom",
-    "stage": 2,
-    "galar_dex": 56,
-    "base_stats": [
-      60,
-      65,
-      70,
-      85,
-      75,
-      40,
-      395
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      2,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 120,
-    "abilities": [
-      "Chlorophyll",
-      "Chlorophyll",
-      "Stench"
-    ],
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Absorb Bulb",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Grass"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.8,
-    "weight": 8.6,
-    "color": "Blue",
-    "evolutions": [
-      {
-        "species": "Vileplume-0",
-        "method": "UseItem",
-        "method_value": "85"
-      },
-      {
-        "species": "Bellossom-0",
-        "method": "UseItem",
-        "method_value": "80"
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Absorb"
-      ],
-      [
-        1,
-        "Growth"
-      ],
-      [
-        1,
-        "Acid"
-      ],
-      [
-        1,
-        "Sweet Scent"
-      ],
-      [
-        12,
-        "Mega Drain"
-      ],
-      [
-        14,
-        "Poison Powder"
-      ],
-      [
-        16,
-        "Stun Spore"
-      ],
-      [
-        18,
-        "Sleep Powder"
-      ],
-      [
-        20,
-        "Giga Drain"
-      ],
-      [
-        26,
-        "Toxic"
-      ],
-      [
-        32,
-        "Moonblast"
-      ],
-      [
-        38,
-        "Grassy Terrain"
-      ],
-      [
-        44,
-        "Moonlight"
-      ],
-      [
-        50,
-        "Petal Dance"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        50,
-        "Bullet Seed"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        63,
-        "Drain Punch"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        88,
-        "Grassy Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        65,
-        "Energy Ball"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        92,
-        "Dazzling Gleam"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Rhodochrine Jungle",
-        "point": "Taka/ZEL/Pulse Tangrowth 3"
-      },
-      {
-        "location": "Azurine Island",
-        "point": "Aya"
-      },
-      {
-        "location": "Chrysolia Forest",
-        "point": "Serra"
-      },
-      {
-        "location": "Jasper Ward",
-        "point": "Adrienn"
-      },
-      {
-        "location": "Malchous Forest",
-        "point": "Adrienn"
-      }
-    ]
-  },
-  {
-    "no": 45,
-    "name": "Vileplume",
-    "stage": 3,
-    "galar_dex": 57,
-    "base_stats": [
-      75,
-      80,
-      85,
-      110,
-      90,
-      50,
-      490
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      3,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 45,
-    "abilities": [
-      "Chlorophyll",
-      "Chlorophyll",
-      "Effect Spore"
-    ],
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Absorb Bulb",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Grass"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.2,
-    "weight": 18.6,
-    "color": "Red",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        0,
-        "Petal Blizzard"
-      ],
-      [
-        1,
-        "Petal Blizzard"
-      ],
-      [
-        1,
-        "Aromatherapy"
-      ],
-      [
-        1,
-        "Mega Drain"
-      ],
-      [
-        1,
-        "Poison Powder"
-      ],
-      [
-        1,
-        "Stun Spore"
-      ],
-      [
-        1,
-        "Sleep Powder"
-      ],
-      [
-        1,
-        "Giga Drain"
-      ],
-      [
-        1,
-        "Toxic"
-      ],
-      [
-        1,
-        "Moonblast"
-      ],
-      [
-        1,
-        "Grassy Terrain"
-      ],
-      [
-        1,
-        "Moonlight"
-      ],
-      [
-        1,
-        "Petal Dance"
-      ],
-      [
-        1,
-        "Absorb"
-      ],
-      [
-        1,
-        "Growth"
-      ],
-      [
-        1,
-        "Acid"
-      ],
-      [
-        1,
-        "Sweet Scent"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        50,
-        "Bullet Seed"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        63,
-        "Drain Punch"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        88,
-        "Grassy Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        65,
-        "Energy Ball"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        78,
-        "Sludge Wave"
-      ],
-      [
-        92,
-        "Dazzling Gleam"
-      ],
-      [
-        96,
-        "Pollen Puff"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Azurine Island",
-        "point": "Adrienn"
-      }
-    ]
-  },
-  {
-    "no": 46,
-    "name": "Paras",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      35,
-      70,
-      55,
-      45,
-      55,
-      25,
-      285
-    ],
-    "ev_yield": [
-      0,
-      1,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 190,
-    "abilities": [
-      "Effect Spore",
-      "Dry Skin",
-      "Damp"
-    ],
-    "types": [
-      "Bug",
-      "Grass"
-    ],
-    "items": [
-      [
-        "Tiny Mushroom",
-        50
-      ],
-      [
-        "Big Mushroom",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Bug",
-      "Grass"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.3,
-    "weight": 5.4,
-    "color": "Red",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        50,
-        "Bullet Seed"
-      ],
-      [
-        73,
-        "Cross Poison"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        88,
-        "Grassy Terrain"
-      ],
-      [
-        94,
-        "False Swipe"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        18,
-        "Leech Life"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        60,
-        "XScissor"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Malchous Forest",
-        "point": "Taka/Pulse Tangrowth 2"
-      },
-      {
-        "location": "Rhodochrine Jungle",
-        "point": "Taka/ZEL/Pulse Tangrowth 3"
-      },
-      {
-        "location": "Azurine Island",
-        "point": "Aya"
-      },
-      {
-        "location": "Tanzan Cove",
-        "point": "Serra"
-      },
-      {
-        "location": "Chrysolia Forest",
-        "point": "Serra"
-      },
-      {
-        "location": "South Aventurine Woods",
-        "point": "Radomus"
-      },
-      {
-        "location": "North Aventurine Woods",
-        "point": "Radomus"
-      },
-      {
-        "location": "Glitch World",
-        "point": "T3RR4"
-      }
-    ]
-  },
-  {
-    "no": 47,
-    "name": "Parasect",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      60,
-      95,
-      80,
-      60,
-      80,
-      30,
-      405
-    ],
-    "ev_yield": [
-      0,
-      2,
-      1,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 75,
-    "abilities": [
-      "Effect Spore",
-      "Dry Skin",
-      "Damp"
-    ],
-    "types": [
-      "Bug",
-      "Grass"
-    ],
-    "items": [
-      [
-        "Tiny Mushroom",
-        50
-      ],
-      [
-        "Big Mushroom",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Bug",
-      "Grass"
-    ],
-    "hatch-cycles": 20,
-    "height": 1,
-    "weight": 29.5,
-    "color": "Red",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        50,
-        "Bullet Seed"
-      ],
-      [
-        73,
-        "Cross Poison"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        88,
-        "Grassy Terrain"
-      ],
-      [
-        94,
-        "False Swipe"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        18,
-        "Leech Life"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        60,
-        "XScissor"
-      ],
-      [
-        65,
-        "Energy Ball"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Azurine Island",
-        "point": "Aya"
-      },
-      {
-        "location": "Tanzan Cove",
-        "point": "Serra"
-      },
-      {
-        "location": "Glitch World",
-        "point": "T3RR4"
-      },
-      {
-        "location": "Jasper Ward",
-        "point": "Adrienn"
-      },
-      {
-        "location": "Malchous Forest",
-        "point": "Adrienn"
-      },
-      {
-        "location": "Rhodochrine Jungle",
-        "point": "Adrienn"
-      },
-    ]
-  },
-  {
-    "no": 48,
-    "name": "Venonat",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      60,
-      55,
-      50,
-      40,
-      55,
-      45,
-      305
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 190,
-    "abilities": [
-      "Compound Eyes",
-      "Tinted Lens",
-      "Run Away"
-    ],
-    "types": [
-      "Bug",
-      "Poison"
-    ],
-    "items": [],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Bug"
-    ],
-    "hatch-cycles": 20,
-    "height": 1,
-    "weight": 30,
-    "color": "Purple",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ]
-    ],
-    "trs": [
-      [
-        11,
-        "Psychic"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        18,
-        "Leech Life"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        29,
-        "Baton Pass"
-      ],
-      [
-        40,
-        "Skill Swap"
-      ],
-      [
-        54,
-        "Toxic Spikes"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        91,
-        "Venom Drench"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Obsidia Ward",
-        "point": "Florina"
-      },
-      {
-        "location": "Onyx Ward",
-        "point": "Florina"
-      }
-    ]
-  },
-  {
-    "no": 49,
-    "name": "Venomoth",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      70,
-      65,
-      60,
-      90,
-      75,
-      90,
-      450
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      1,
-      0,
-      1
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 75,
-    "abilities": [
-      "Shield Dust",
-      "Tinted Lens",
-      "Wonder Skin"
-    ],
-    "types": [
-      "Bug",
-      "Poison"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Shed Shell",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Bug"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.5,
-    "weight": 12.5,
-    "color": "Purple",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        56,
-        "Uturn"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        78,
-        "Acrobatics"
-      ]
-    ],
-    "trs": [
-      [
-        11,
-        "Psychic"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        18,
-        "Leech Life"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        29,
-        "Baton Pass"
-      ],
-      [
-        40,
-        "Skill Swap"
-      ],
-      [
-        54,
-        "Toxic Spikes"
-      ],
-      [
-        61,
-        "Bug Buzz"
-      ],
-      [
-        65,
-        "Energy Ball"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        91,
-        "Venom Drench"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Glitch World",
-        "point": "T3RR4"
-      },
-      {
-        "location": "Obsidia Ward",
-        "point": "Adrienn"
-      },
-      {
-        "location": "Onyx Ward",
-        "point": "Adrienn"
-      }
-    ]
-  },
-  {
-    "no": 50,
-    "name": "Diglett",
-    "stage": 1,
-    "galar_dex": 164,
-    "base_stats": [
-      10,
-      55,
-      25,
-      35,
-      45,
-      95,
-      265
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 255,
-    "abilities": [
-      "Sand Veil",
-      "Arena Trap",
-      "Sand Force"
-    ],
-    "types": [
-      "Ground"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Soft Sand",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.2,
-    "weight": 0.8,
-    "color": "Brown",
-    "evolutions": [
-      {
-        "species": "Dugtrio-0",
-        "method": "LevelUp",
-        "method_value": 26
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Sand Attack"
-      ],
-      [
-        1,
-        "Scratch"
-      ],
-      [
-        4,
-        "Growl"
-      ],
-      [
-        8,
-        "Astonish"
-      ],
-      [
-        12,
-        "Mud-Slap"
-      ],
-      [
-        16,
-        "Bulldoze"
-      ],
-      [
-        20,
-        "Sucker Punch"
-      ],
-      [
-        24,
-        "Slash"
-      ],
-      [
-        28,
-        "Sandstorm"
-      ],
-      [
-        32,
-        "Dig"
-      ],
-      [
-        36,
-        "Earth Power"
-      ],
-      [
-        40,
-        "Earthquake"
-      ],
-      [
-        44,
-        "Fissure"
-      ]
-    ],
-    "egg_moves": [
-      "Ancient Power",
-      "Headbutt",
-      "Final Gambit",
-      "Memento",
-      "Hone Claws"
-    ],
-    "tms": [
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        32,
-        "Sandstorm"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        98,
-        "Stomping Tantrum"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        67,
-        "Earth Power"
-      ],
-      [
-        76,
-        "Stealth Rock"
-      ],
-      [
-        83,
-        "Ally Switch"
-      ],
-      [
-        85,
-        "Work Up"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Grand Staircase",
-        "point": "Shelly"
-      },
-      {
-        "location": "Pyrous Mountain",
-        "point": "Kiki"
-      }
-    ]
-  },
-  {
-    "no": 10105,
-    "name": "Diglett (Alolan)",
-    "stage": 1,
-    "galar_dex": 164,
-    "base_stats": [
-      10,
-      55,
-      30,
-      35,
-      45,
-      90,
-      265
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 255,
-    "abilities": [
-      "Sand Veil",
-      "Tangling Hair",
-      "Sand Force"
-    ],
-    "types": [
-      "Ground",
-      "Steel"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Soft Sand",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.2,
-    "weight": 1,
-    "color": "Brown",
-    "evolutions": [
-      {
-        "species": "Dugtrio-1",
-        "method": "LevelUp",
-        "method_value": 26
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Sand Attack"
-      ],
-      [
-        1,
-        "Metal Claw"
-      ],
-      [
-        4,
-        "Growl"
-      ],
-      [
-        8,
-        "Astonish"
-      ],
-      [
-        12,
-        "Mud-Slap"
-      ],
-      [
-        16,
-        "Bulldoze"
-      ],
-      [
-        20,
-        "Sucker Punch"
-      ],
-      [
-        24,
-        "Iron Head"
-      ],
-      [
-        28,
-        "Sandstorm"
-      ],
-      [
-        32,
-        "Dig"
-      ],
-      [
-        36,
-        "Earth Power"
-      ],
-      [
-        40,
-        "Earthquake"
-      ],
-      [
-        44,
-        "Fissure"
-      ]
-    ],
-    "egg_moves": [
-      "Metal Sound",
-      "Ancient Power",
-      "Thrash",
-      "Headbutt",
-      "Final Gambit",
-      "Memento",
-      "Hone Claws"
-    ],
-    "tms": [
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        32,
-        "Sandstorm"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        98,
-        "Stomping Tantrum"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        46,
-        "Iron Defense"
-      ],
-      [
-        67,
-        "Earth Power"
-      ],
-      [
-        70,
-        "Flash Cannon"
-      ],
-      [
-        74,
-        "Iron Head"
-      ],
-      [
-        83,
-        "Ally Switch"
-      ],
-      [
-        85,
-        "Work Up"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Pyrous Mountain",
-        "point": "Kiki"
-      },
-      {
-        "location": "Tanzan Depths",
-        "point": "Noel"
-      }
-    ]
-  },
-  {
-    "no": 51,
-    "name": "Dugtrio",
-    "stage": 2,
-    "galar_dex": 165,
-    "base_stats": [
-      35,
-      100,
-      50,
-      50,
-      70,
-      120,
-      425
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 50,
-    "abilities": [
-      "Sand Veil",
-      "Arena Trap",
-      "Sand Force"
-    ],
-    "types": [
-      "Ground"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Soft Sand",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.7,
-    "weight": 33.3,
-    "color": "Brown",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        0,
-        "Sand Tomb"
-      ],
-      [
-        1,
-        "Sand Tomb"
-      ],
-      [
-        1,
-        "Night Slash"
-      ],
-      [
-        1,
-        "Tri Attack"
-      ],
-      [
-        1,
-        "Sand Attack"
-      ],
-      [
-        1,
-        "Scratch"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Astonish"
-      ],
-      [
-        12,
-        "Mud-Slap"
-      ],
-      [
-        16,
-        "Bulldoze"
-      ],
-      [
-        20,
-        "Sucker Punch"
-      ],
-      [
-        24,
-        "Slash"
-      ],
-      [
-        30,
-        "Sandstorm"
-      ],
-      [
-        36,
-        "Dig"
-      ],
-      [
-        42,
-        "Earth Power"
-      ],
-      [
-        48,
-        "Earthquake"
-      ],
-      [
-        54,
-        "Fissure"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        32,
-        "Sandstorm"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        49,
-        "Sand Tomb"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        98,
-        "Stomping Tantrum"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        19,
-        "Tri Attack"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        67,
-        "Earth Power"
-      ],
-      [
-        75,
-        "Stone Edge"
-      ],
-      [
-        76,
-        "Stealth Rock"
-      ],
-      [
-        78,
-        "Sludge Wave"
-      ],
-      [
-        83,
-        "Ally Switch"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        94,
-        "High Horsepower"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Tanzan Depths",
-        "point": "Noel"
-      },
-      {
-        "location": "Tourmaline Desert",
-        "point": "Titania"
-      }
-    ]
-  },
-  {
-    "no": 10106,
-    "name": "Dugtrio (Alolan)",
-    "stage": 2,
-    "galar_dex": 165,
-    "base_stats": [
-      35,
-      100,
-      60,
-      50,
-      70,
-      110,
-      425
-    ],
-    "ev_yield": [
-      0,
-      2,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 50,
-    "abilities": [
-      "Sand Veil",
-      "Tangling Hair",
-      "Sand Force"
-    ],
-    "types": [
-      "Ground",
-      "Steel"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Soft Sand",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.7,
-    "weight": 66.6,
-    "color": "Brown",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        0,
-        "Sand Tomb"
-      ],
-      [
-        1,
-        "Sand Tomb"
-      ],
-      [
-        1,
-        "Night Slash"
-      ],
-      [
-        1,
-        "Tri Attack"
-      ],
-      [
-        1,
-        "Sand Attack"
-      ],
-      [
-        1,
-        "Metal Claw"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Astonish"
-      ],
-      [
-        12,
-        "Mud-Slap"
-      ],
-      [
-        16,
-        "Bulldoze"
-      ],
-      [
-        20,
-        "Sucker Punch"
-      ],
-      [
-        24,
-        "Iron Head"
-      ],
-      [
-        30,
-        "Sandstorm"
-      ],
-      [
-        36,
-        "Dig"
-      ],
-      [
-        42,
-        "Earth Power"
-      ],
-      [
-        48,
-        "Earthquake"
-      ],
-      [
-        54,
-        "Fissure"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        32,
-        "Sandstorm"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        49,
-        "Sand Tomb"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        98,
-        "Stomping Tantrum"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        19,
-        "Tri Attack"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        46,
-        "Iron Defense"
-      ],
-      [
-        67,
-        "Earth Power"
-      ],
-      [
-        70,
-        "Flash Cannon"
-      ],
-      [
-        74,
-        "Iron Head"
-      ],
-      [
-        75,
-        "Stone Edge"
-      ],
-      [
-        78,
-        "Sludge Wave"
-      ],
-      [
-        83,
-        "Ally Switch"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        94,
-        "High Horsepower"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Pyrous Mountain",
-        "point": "Kiki"
-      },
-      {
-        "location": "Tanzan Depths",
-        "point": "Noel"
-      },
-      {
-        "location": "Tourmaline Desert",
-        "point": "Titania"
-      },
-      {
-        "location": "Mirage Tower",
-        "point": "Titania"
-      },
-      {
-        "location": "Sugiline Cave",
-        "point": "Titania"
-      },
-      {
-        "location": "Teknite Cave",
-        "point": "Titania"
-      },
-      {
-        "location": "1R253 Scrapyard",
-        "point": "Titania"
-      },
-      {
-        "location": "Teknite Ridge",
-        "point": "Hardy"
-      }
-    ]
-  },
-  {
-    "no": 52,
-    "name": "Meowth",
-    "stage": 1,
-    "galar_dex": 182,
-    "base_stats": [
-      40,
-      45,
-      35,
-      40,
-      40,
-      90,
-      290
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 255,
-    "abilities": [
-      "Pickup",
-      "Technician",
-      "Unnerve"
-    ],
-    "types": [
-      "Normal"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Quick Claw",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.4,
-    "weight": 4.2,
-    "color": "Yellow",
-    "evolutions": [
-      {
-        "species": "Persian-0",
-        "method": "LevelUp",
-        "method_value": 28
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Fake Out"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        4,
-        "Feint"
-      ],
-      [
-        8,
-        "Scratch"
-      ],
-      [
-        12,
-        "Pay Day"
-      ],
-      [
-        16,
-        "Bite"
-      ],
-      [
-        20,
-        "Taunt"
-      ],
-      [
-        24,
-        "Assurance"
-      ],
-      [
-        29,
-        "Fury Swipes"
-      ],
-      [
-        32,
-        "Screech"
-      ],
-      [
-        36,
-        "Slash"
-      ],
-      [
-        40,
-        "Nasty Plot"
-      ],
-      [
-        44,
-        "Play Rough"
-      ]
-    ],
-    "egg_moves": [
-      "Spite",
-      "Hypnosis",
-      "Last Resort",
-      "Flail",
-      "Tail Whip",
-      "Covet"
-    ],
-    "tms": [
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        56,
-        "Uturn"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        79,
-        "Retaliate"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        37,
-        "Taunt"
-      ],
-      [
-        42,
-        "Hyper Voice"
-      ],
-      [
-        58,
-        "Dark Pulse"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        73,
-        "Gunk Shot"
-      ],
-      [
-        81,
-        "Foul Play"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        90,
-        "Play Rough"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Opal Ward",
-        "point": "Julia"
-      },
-      {
-        "location": "Beryl Ward",
-        "point": "Corey"
-      },
-      {
-        "location": "Glitch World",
-        "point": "T3RR4"
-      },
-      {
-        "location": "Lapis Ward",
-        "point": "Adrienn"
-      }
-    ]
-  },
-  {
-    "no": 10107,
-    "name": "Meowth (Alolan)",
-    "stage": 1,
-    "galar_dex": 182,
-    "base_stats": [
-      40,
-      35,
-      35,
-      50,
-      40,
-      90,
-      290
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 255,
-    "abilities": [
-      "Pickup",
-      "Technician",
-      "Rattled"
-    ],
-    "types": [
-      "Dark"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Quick Claw",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.4,
-    "weight": 4.2,
-    "color": "Blue",
-    "evolutions": [
-      {
-        "species": "Persian-1",
-        "method": "LevelUpFriendship",
-        "method_value": "0"
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Fake Out"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        4,
-        "Feint"
-      ],
-      [
-        8,
-        "Scratch"
-      ],
-      [
-        12,
-        "Pay Day"
-      ],
-      [
-        16,
-        "Bite"
-      ],
-      [
-        20,
-        "Taunt"
-      ],
-      [
-        24,
-        "Assurance"
-      ],
-      [
-        29,
-        "Fury Swipes"
-      ],
-      [
-        32,
-        "Screech"
-      ],
-      [
-        36,
-        "Night Slash"
-      ],
-      [
-        40,
-        "Nasty Plot"
-      ],
-      [
-        44,
-        "Play Rough"
-      ]
-    ],
-    "egg_moves": [
-      "Spite",
-      "Hypnosis",
-      "Parting Shot",
-      "Flail",
-      "Flatter",
-      "Covet"
-    ],
-    "tms": [
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        56,
-        "Uturn"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        79,
-        "Retaliate"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        37,
-        "Taunt"
-      ],
-      [
-        42,
-        "Hyper Voice"
-      ],
-      [
-        58,
-        "Dark Pulse"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        73,
-        "Gunk Shot"
-      ],
-      [
-        81,
-        "Foul Play"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        90,
-        "Play Rough"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Lapis Ward",
-        "point": "Shelly"
-      }
-    ]
-  },
-  {
-    "no": 10158,
-    "name": "Meowth (Galarian)",
-    "stage": 1,
-    "galar_dex": 182,
-    "base_stats": [
-      50,
-      65,
-      55,
-      40,
-      40,
-      40,
-      290
-    ],
-    "ev_yield": [
-      0,
-      1,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 255,
-    "abilities": [
-      "Pickup",
-      "Tough Claws",
-      "Unnerve"
-    ],
-    "types": [
-      "Steel"
-    ],
-    "items": [],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.4,
-    "weight": 7.5,
-    "color": "Brown",
-    "evolutions": [
-      {
-        "species": "Perrserker-0",
-        "method": "LevelUp",
-        "method_value": 28
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Fake Out"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        4,
-        "Hone Claws"
-      ],
-      [
-        8,
-        "Scratch"
-      ],
-      [
-        12,
-        "Pay Day"
-      ],
-      [
-        16,
-        "Metal Claw"
-      ],
-      [
-        20,
-        "Taunt"
-      ],
-      [
-        24,
-        "Swagger"
-      ],
-      [
-        29,
-        "Fury Swipes"
-      ],
-      [
-        32,
-        "Screech"
-      ],
-      [
-        36,
-        "Slash"
-      ],
-      [
-        40,
-        "Metal Sound"
-      ],
-      [
-        44,
-        "Thrash"
-      ]
-    ],
-    "egg_moves": [
-      "Spite",
-      "Double-Edge",
-      "Curse",
-      "Flail",
-      "Night Slash",
-      "Covet"
-    ],
-    "tms": [
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        56,
-        "Uturn"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        79,
-        "Retaliate"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        37,
-        "Taunt"
-      ],
-      [
-        42,
-        "Hyper Voice"
-      ],
-      [
-        46,
-        "Iron Defense"
-      ],
-      [
-        52,
-        "Gyro Ball"
-      ],
-      [
-        58,
-        "Dark Pulse"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        73,
-        "Gunk Shot"
-      ],
-      [
-        74,
-        "Iron Head"
-      ],
-      [
-        81,
-        "Foul Play"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        90,
-        "Play Rough"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 53,
-    "name": "Persian",
-    "stage": 2,
-    "galar_dex": 184,
-    "base_stats": [
-      65,
-      70,
-      60,
-      65,
-      65,
-      115,
-      440
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 90,
-    "abilities": [
-      "Limber",
-      "Technician",
-      "Unnerve"
-    ],
-    "types": [
-      "Normal"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Quick Claw",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 1,
-    "weight": 32,
-    "color": "Yellow",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        0,
-        "Power Gem"
-      ],
-      [
-        1,
-        "Power Gem"
-      ],
-      [
-        1,
-        "Switcheroo"
-      ],
-      [
-        1,
-        "Fake Out"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Feint"
-      ],
-      [
-        1,
-        "Scratch"
-      ],
-      [
-        12,
-        "Pay Day"
-      ],
-      [
-        16,
-        "Bite"
-      ],
-      [
-        20,
-        "Taunt"
-      ],
-      [
-        24,
-        "Assurance"
-      ],
-      [
-        31,
-        "Fury Swipes"
-      ],
-      [
-        36,
-        "Screech"
-      ],
-      [
-        42,
-        "Slash"
-      ],
-      [
-        48,
-        "Nasty Plot"
-      ],
-      [
-        54,
-        "Play Rough"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        56,
-        "Uturn"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        79,
-        "Retaliate"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        37,
-        "Taunt"
-      ],
-      [
-        42,
-        "Hyper Voice"
-      ],
-      [
-        58,
-        "Dark Pulse"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        63,
-        "Power Gem"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        73,
-        "Gunk Shot"
-      ],
-      [
-        81,
-        "Foul Play"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        90,
-        "Play Rough"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Opal Ward",
-        "point": "Adrienn"
-      },
-      {
-        "location": "Beryl Ward",
-        "point": "Adrienn"
-      },
-      {
-        "location": "Lapis Ward",
-        "point": "Adrienn"
-      }
-    ]
-  },
-  {
-    "no": 10108,
-    "name": "Persian (Alolan)",
-    "stage": 2,
-    "galar_dex": 184,
-    "base_stats": [
-      65,
-      60,
-      60,
-      75,
-      65,
-      115,
-      440
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 90,
-    "abilities": [
-      "Fur Coat",
-      "Technician",
-      "Rattled"
-    ],
-    "types": [
-      "Dark"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Quick Claw",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.1,
-    "weight": 33,
-    "color": "Blue",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        0,
-        "Power Gem"
-      ],
-      [
-        1,
-        "Power Gem"
-      ],
-      [
-        1,
-        "Quash"
-      ],
-      [
-        1,
-        "Switcheroo"
-      ],
-      [
-        1,
-        "Fake Out"
-      ],
-      [
-        1,
-        "Growl"
-      ],
-      [
-        1,
-        "Feint"
-      ],
-      [
-        1,
-        "Scratch"
-      ],
-      [
-        12,
-        "Pay Day"
-      ],
-      [
-        16,
-        "Bite"
-      ],
-      [
-        20,
-        "Taunt"
-      ],
-      [
-        24,
-        "Assurance"
-      ],
-      [
-        31,
-        "Fury Swipes"
-      ],
-      [
-        36,
-        "Screech"
-      ],
-      [
-        42,
-        "Night Slash"
-      ],
-      [
-        48,
-        "Nasty Plot"
-      ],
-      [
-        54,
-        "Play Rough"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        29,
-        "Charm"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        47,
-        "Fake Tears"
-      ],
-      [
-        56,
-        "Uturn"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        79,
-        "Retaliate"
-      ],
-      [
-        85,
-        "Snarl"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        37,
-        "Taunt"
-      ],
-      [
-        42,
-        "Hyper Voice"
-      ],
-      [
-        58,
-        "Dark Pulse"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        63,
-        "Power Gem"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        73,
-        "Gunk Shot"
-      ],
-      [
-        81,
-        "Foul Play"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        90,
-        "Play Rough"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Lapis Ward",
-        "point": "Shelly"
-      }
-    ]
-  },
-  {
-    "no": 54,
-    "name": "Psyduck",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      50,
-      52,
-      48,
-      65,
-      50,
-      55,
-      320
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      1,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 190,
-    "abilities": [
-      "Damp",
-      "Cloud Nine",
-      "Swift Swim"
-    ],
-    "types": [
-      "Water"
-    ],
-    "items": [],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Water1",
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.8,
-    "weight": 19.6,
-    "color": "Yellow",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        35,
-        "Hail"
-      ],
-      [
-        36,
-        "Whirlpool"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        45,
-        "Dive"
-      ],
-      [
-        55,
-        "Brine"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        71,
-        "Wonder Room"
-      ],
-      [
-        76,
-        "Round"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        3,
-        "Hydro Pump"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        11,
-        "Psychic"
-      ],
-      [
-        16,
-        "Waterfall"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        25,
-        "Psyshock"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        34,
-        "Future Sight"
-      ],
-      [
-        49,
-        "Calm Mind"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        84,
-        "Scald"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 55,
-    "name": "Golduck",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      80,
-      82,
-      78,
-      95,
-      80,
-      85,
-      500
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      2,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 75,
-    "abilities": [
-      "Damp",
-      "Cloud Nine",
-      "Swift Swim"
-    ],
-    "types": [
-      "Water"
-    ],
-    "items": [],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Water1",
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.7,
-    "weight": 76.6,
-    "color": "Blue",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        35,
-        "Hail"
-      ],
-      [
-        36,
-        "Whirlpool"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        45,
-        "Dive"
-      ],
-      [
-        55,
-        "Brine"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        65,
-        "Shadow Claw"
-      ],
-      [
-        71,
-        "Wonder Room"
-      ],
-      [
-        75,
-        "Low Sweep"
-      ],
-      [
-        76,
-        "Round"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        3,
-        "Hydro Pump"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        7,
-        "Low Kick"
-      ],
-      [
-        11,
-        "Psychic"
-      ],
-      [
-        16,
-        "Waterfall"
-      ],
-      [
-        17,
-        "Amnesia"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        25,
-        "Psyshock"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        34,
-        "Future Sight"
-      ],
-      [
-        45,
-        "Muddy Water"
-      ],
-      [
-        49,
-        "Calm Mind"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        84,
-        "Scald"
-      ],
-      [
-        98,
-        "Liquidation"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Celestrine Mountain",
-        "point": "Charlotte"
-      },
-      {
-        "location": "Citrine Mountain",
-        "point": "Adrienn"
-      }
-    ]
-  },
-  {
-    "no": 56,
-    "name": "Mankey",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      40,
-      80,
-      35,
-      35,
-      45,
-      70,
-      305
-    ],
-    "ev_yield": [
-      0,
-      1,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 190,
-    "abilities": [
-      "Vital Spirit",
-      "Anger Point",
-      "Defiant"
-    ],
-    "types": [
-      "Fighting"
-    ],
-    "items": [],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.5,
-    "weight": 28,
-    "color": "Brown",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        26,
-        "Scary Face"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        42,
-        "Revenge"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        56,
-        "Uturn"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        75,
-        "Low Sweep"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        78,
-        "Acrobatics"
-      ],
-      [
-        79,
-        "Retaliate"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        98,
-        "Stomping Tantrum"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        7,
-        "Low Kick"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        13,
-        "Focus Energy"
-      ],
-      [
-        14,
-        "Metronome"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        24,
-        "Outrage"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        37,
-        "Taunt"
-      ],
-      [
-        43,
-        "Overheat"
-      ],
-      [
-        48,
-        "Bulk Up"
-      ],
-      [
-        53,
-        "Close Combat"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        73,
-        "Gunk Shot"
-      ],
-      [
-        85,
-        "Work Up"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Obsidia Slums",
-        "point": "Obsidia Slums"
-      }
-    ]
-  },
-  {
-    "no": 57,
-    "name": "Primeape",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      65,
-      105,
-      60,
-      60,
-      70,
-      95,
-      455
-    ],
-    "ev_yield": [
-      0,
-      2,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 75,
-    "abilities": [
-      "Vital Spirit",
-      "Anger Point",
-      "Defiant"
-    ],
-    "types": [
-      "Fighting"
-    ],
-    "items": [],
-    "exp-group": "MediumFast",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 1,
-    "weight": 32,
-    "color": "Brown",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        2,
-        "Pay Day"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        26,
-        "Scary Face"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        37,
-        "Beat Up"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        42,
-        "Revenge"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        56,
-        "Uturn"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        75,
-        "Low Sweep"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        78,
-        "Acrobatics"
-      ],
-      [
-        79,
-        "Retaliate"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        98,
-        "Stomping Tantrum"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        7,
-        "Low Kick"
-      ],
-      [
-        8,
-        "Thunderbolt"
-      ],
-      [
-        9,
-        "Thunder"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        13,
-        "Focus Energy"
-      ],
-      [
-        14,
-        "Metronome"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        24,
-        "Outrage"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        35,
-        "Uproar"
-      ],
-      [
-        37,
-        "Taunt"
-      ],
-      [
-        43,
-        "Overheat"
-      ],
-      [
-        48,
-        "Bulk Up"
-      ],
-      [
-        53,
-        "Close Combat"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        73,
-        "Gunk Shot"
-      ],
-      [
-        75,
-        "Stone Edge"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "South Aventurine Woods",
-        "point": "Radomus"
-      },
-      {
-        "location": "North Aventurine Woods",
-        "point": "Radomus"
-      }
-    ]
-  },
-  {
-    "no": 58,
-    "name": "Growlithe",
-    "stage": 1,
-    "galar_dex": 70,
-    "base_stats": [
-      55,
-      70,
-      45,
-      70,
-      50,
-      60,
-      350
-    ],
-    "ev_yield": [
-      0,
-      1,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 63,
-    "catch-rate": 190,
-    "abilities": [
-      "Intimidate",
-      "Flash Fire",
-      "Justified"
-    ],
-    "types": [
-      "Fire"
-    ],
-    "items": [],
-    "exp-group": "Slow",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.7,
-    "weight": 19,
-    "color": "Brown",
-    "evolutions": [
-      {
-        "species": "Arcanine-0",
-        "method": "UseItem",
-        "method_value": "82"
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Ember"
-      ],
-      [
-        1,
-        "Leer"
-      ],
-      [
-        4,
-        "Howl"
-      ],
-      [
-        8,
-        "Bite"
-      ],
-      [
-        12,
-        "Flame Wheel"
-      ],
-      [
-        16,
-        "Helping Hand"
-      ],
-      [
-        20,
-        "Agility"
-      ],
-      [
-        24,
-        "Fire Fang"
-      ],
-      [
-        28,
-        "Retaliate"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        36,
-        "Take Down"
-      ],
-      [
-        40,
-        "Flamethrower"
-      ],
-      [
-        44,
-        "Roar"
-      ],
-      [
-        48,
-        "Play Rough"
-      ],
-      [
-        52,
-        "Reversal"
-      ],
-      [
-        56,
-        "Flare Blitz"
-      ]
-    ],
-    "egg_moves": [
-      "Thrash",
-      "Double-Edge",
-      "Morning Sun",
-      "Covet",
-      "Double Kick"
-    ],
-    "tms": [
-      [
-        13,
-        "Fire Spin"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        38,
-        "WillOWisp"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        68,
-        "Fire Fang"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        79,
-        "Retaliate"
-      ],
-      [
-        85,
-        "Snarl"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        2,
-        "Flamethrower"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        15,
-        "Fire Blast"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        24,
-        "Outrage"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        36,
-        "Heat Wave"
-      ],
-      [
-        43,
-        "Overheat"
-      ],
-      [
-        53,
-        "Close Combat"
-      ],
-      [
-        55,
-        "Flare Blitz"
-      ],
-      [
-        86,
-        "Wild Charge"
-      ],
-      [
-        90,
-        "Play Rough"
-      ],
-      [
-        97,
-        "Psychic Fangs"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Jasper Ward",
-        "point": "Taka/ZEL/Pulse Tangrowth 3"
-      }
-    ]
-  },
-  {
-    "no": 59,
-    "name": "Arcanine",
-    "stage": 2,
-    "galar_dex": 71,
-    "base_stats": [
-      90,
-      110,
-      80,
-      100,
-      80,
-      95,
-      555
-    ],
-    "ev_yield": [
-      0,
-      2,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 63,
-    "catch-rate": 75,
-    "abilities": [
-      "Intimidate",
-      "Flash Fire",
-      "Justified"
-    ],
-    "types": [
-      "Fire"
-    ],
-    "items": [],
-    "exp-group": "Slow",
-    "egg-group": [
-      "Field"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.9,
-    "weight": 155,
-    "color": "Brown",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        0,
-        "Extreme Speed"
-      ],
-      [
-        1,
-        "Extreme Speed"
-      ],
-      [
-        1,
-        "Burn Up"
-      ],
-      [
-        1,
-        "Flame Wheel"
-      ],
-      [
-        1,
-        "Helping Hand"
-      ],
-      [
-        1,
-        "Agility"
-      ],
-      [
-        1,
-        "Fire Fang"
-      ],
-      [
-        1,
-        "Retaliate"
-      ],
-      [
-        1,
-        "Crunch"
-      ],
-      [
-        1,
-        "Take Down"
-      ],
-      [
-        1,
-        "Flamethrower"
-      ],
-      [
-        1,
-        "Roar"
-      ],
-      [
-        1,
-        "Play Rough"
-      ],
-      [
-        1,
-        "Reversal"
-      ],
-      [
-        1,
-        "Flare Blitz"
-      ],
-      [
-        1,
-        "Ember"
-      ],
-      [
-        1,
-        "Leer"
-      ],
-      [
-        1,
-        "Howl"
-      ],
-      [
-        1,
-        "Bite"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        13,
-        "Fire Spin"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        26,
-        "Scary Face"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        38,
-        "WillOWisp"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        40,
-        "Swift"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        66,
-        "Thunder Fang"
-      ],
-      [
-        68,
-        "Fire Fang"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        79,
-        "Retaliate"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        85,
-        "Snarl"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        2,
-        "Flamethrower"
-      ],
-      [
-        12,
-        "Agility"
-      ],
-      [
-        15,
-        "Fire Blast"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        24,
-        "Outrage"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        32,
-        "Crunch"
-      ],
-      [
-        36,
-        "Heat Wave"
-      ],
-      [
-        42,
-        "Hyper Voice"
-      ],
-      [
-        43,
-        "Overheat"
-      ],
-      [
-        53,
-        "Close Combat"
-      ],
-      [
-        55,
-        "Flare Blitz"
-      ],
-      [
-        62,
-        "Dragon Pulse"
-      ],
-      [
-        74,
-        "Iron Head"
-      ],
-      [
-        86,
-        "Wild Charge"
-      ],
-      [
-        90,
-        "Play Rough"
-      ],
-      [
-        97,
-        "Psychic Fangs"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 60,
-    "name": "Poliwag",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      40,
-      50,
-      40,
-      40,
-      40,
-      90,
-      300
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 255,
-    "abilities": [
-      "Water Absorb",
-      "Damp",
-      "Swift Swim"
-    ],
-    "types": [
-      "Water"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Water1"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.6,
-    "weight": 12.4,
-    "color": "Blue",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        15,
-        "Dig"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        35,
-        "Hail"
-      ],
-      [
-        36,
-        "Whirlpool"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        45,
-        "Dive"
-      ],
-      [
-        53,
-        "Mud Shot"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        3,
-        "Hydro Pump"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        11,
-        "Psychic"
-      ],
-      [
-        16,
-        "Waterfall"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        45,
-        "Muddy Water"
-      ],
-      [
-        84,
-        "Scald"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Tanzan Cove",
-        "point": "Serra"
-      }
-    ]
-  },
-  {
-    "no": 61,
-    "name": "Poliwhirl",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      65,
-      65,
-      65,
-      50,
-      50,
-      90,
-      385
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 120,
-    "abilities": [
-      "Water Absorb",
-      "Damp",
-      "Swift Swim"
-    ],
-    "types": [
-      "Water"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "King’s Rock",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Water1"
-    ],
-    "hatch-cycles": 20,
-    "height": 1,
-    "weight": 20,
-    "color": "Blue",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        35,
-        "Hail"
-      ],
-      [
-        36,
-        "Whirlpool"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        45,
-        "Dive"
-      ],
-      [
-        53,
-        "Mud Shot"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        3,
-        "Hydro Pump"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        11,
-        "Psychic"
-      ],
-      [
-        14,
-        "Metronome"
-      ],
-      [
-        16,
-        "Waterfall"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        45,
-        "Muddy Water"
-      ],
-      [
-        84,
-        "Scald"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Tanzan Cove",
-        "point": "Serra"
-      }
-    ]
-  },
-  {
-    "no": 62,
-    "name": "Poliwrath",
-    "stage": 3,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      90,
-      95,
-      95,
-      70,
-      90,
-      70,
-      510
-    ],
-    "ev_yield": [
-      0,
-      0,
-      3,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 45,
-    "abilities": [
-      "Water Absorb",
-      "Damp",
-      "Swift Swim"
-    ],
-    "types": [
-      "Water",
-      "Fighting"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "King’s Rock",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Water1"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.3,
-    "weight": 54,
-    "color": "Blue",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        35,
-        "Hail"
-      ],
-      [
-        36,
-        "Whirlpool"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        45,
-        "Dive"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        53,
-        "Mud Shot"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        63,
-        "Drain Punch"
-      ],
-      [
-        75,
-        "Low Sweep"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        3,
-        "Hydro Pump"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        11,
-        "Psychic"
-      ],
-      [
-        14,
-        "Metronome"
-      ],
-      [
-        16,
-        "Waterfall"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        39,
-        "Superpower"
-      ],
-      [
-        45,
-        "Muddy Water"
-      ],
-      [
-        48,
-        "Bulk Up"
-      ],
-      [
-        53,
-        "Close Combat"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        84,
-        "Scald"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        93,
-        "Darkest Lariat"
-      ],
-      [
-        94,
-        "High Horsepower"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ],
-      [
-        98,
-        "Liquidation"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 63,
-    "name": "Abra",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      25,
-      20,
-      15,
-      105,
-      55,
-      90,
-      310
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      1,
-      0,
-      0
-    ],
-    "gender-ratio": 63,
-    "catch-rate": 200,
-    "abilities": [
-      "Synchronize",
-      "Inner Focus",
-      "Magic Guard"
-    ],
-    "types": [
-      "Psychic"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Twisted Spoon",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "HumanLike"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.9,
-    "weight": 19.5,
-    "color": "Brown",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        60,
-        "Power Swap"
-      ],
-      [
-        61,
-        "Guard Swap"
-      ],
-      [
-        62,
-        "Speed Swap"
-      ],
-      [
-        63,
-        "Drain Punch"
-      ],
-      [
-        70,
-        "Trick Room"
-      ],
-      [
-        71,
-        "Wonder Room"
-      ],
-      [
-        72,
-        "Magic Room"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        91,
-        "Psychic Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        11,
-        "Psychic"
-      ],
-      [
-        14,
-        "Metronome"
-      ],
-      [
-        19,
-        "Tri Attack"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        25,
-        "Psyshock"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        37,
-        "Taunt"
-      ],
-      [
-        38,
-        "Trick"
-      ],
-      [
-        40,
-        "Skill Swap"
-      ],
-      [
-        49,
-        "Calm Mind"
-      ],
-      [
-        65,
-        "Energy Ball"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        81,
-        "Foul Play"
-      ],
-      [
-        83,
-        "Ally Switch"
-      ],
-      [
-        92,
-        "Dazzling Gleam"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "7th Street",
-        "point": "Subseven Sanctum"
-      }
-    ]
-  },
-  {
-    "no": 64,
-    "name": "Kadabra",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      40,
-      35,
-      30,
-      120,
-      70,
-      105,
-      400
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      2,
-      0,
-      0
-    ],
-    "gender-ratio": 63,
-    "catch-rate": 100,
-    "abilities": [
-      "Synchronize",
-      "Inner Focus",
-      "Magic Guard"
-    ],
-    "types": [
-      "Psychic"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Twisted Spoon",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "HumanLike"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.3,
-    "weight": 56.5,
-    "color": "Brown",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        60,
-        "Power Swap"
-      ],
-      [
-        61,
-        "Guard Swap"
-      ],
-      [
-        62,
-        "Speed Swap"
-      ],
-      [
-        63,
-        "Drain Punch"
-      ],
-      [
-        69,
-        "Psycho Cut"
-      ],
-      [
-        70,
-        "Trick Room"
-      ],
-      [
-        71,
-        "Wonder Room"
-      ],
-      [
-        72,
-        "Magic Room"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        91,
-        "Psychic Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        11,
-        "Psychic"
-      ],
-      [
-        14,
-        "Metronome"
-      ],
-      [
-        19,
-        "Tri Attack"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        25,
-        "Psyshock"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        34,
-        "Future Sight"
-      ],
-      [
-        37,
-        "Taunt"
-      ],
-      [
-        38,
-        "Trick"
-      ],
-      [
-        40,
-        "Skill Swap"
-      ],
-      [
-        49,
-        "Calm Mind"
-      ],
-      [
-        65,
-        "Energy Ball"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        81,
-        "Foul Play"
-      ],
-      [
-        83,
-        "Ally Switch"
-      ],
-      [
-        92,
-        "Dazzling Gleam"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 65,
-    "name": "Alakazam",
-    "stage": 3,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      55,
-      50,
-      45,
-      135,
-      95,
-      120,
-      500
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      3,
-      0,
-      0
-    ],
-    "gender-ratio": 63,
-    "catch-rate": 50,
-    "abilities": [
-      "Synchronize",
-      "Inner Focus",
-      "Magic Guard"
-    ],
-    "types": [
-      "Psychic"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Twisted Spoon",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "HumanLike"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.5,
-    "weight": 48,
-    "color": "Brown",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        44,
-        "Imprison"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        60,
-        "Power Swap"
-      ],
-      [
-        61,
-        "Guard Swap"
-      ],
-      [
-        62,
-        "Speed Swap"
-      ],
-      [
-        63,
-        "Drain Punch"
-      ],
-      [
-        69,
-        "Psycho Cut"
-      ],
-      [
-        70,
-        "Trick Room"
-      ],
-      [
-        71,
-        "Wonder Room"
-      ],
-      [
-        72,
-        "Magic Room"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        91,
-        "Psychic Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        11,
-        "Psychic"
-      ],
-      [
-        14,
-        "Metronome"
-      ],
-      [
-        19,
-        "Tri Attack"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        25,
-        "Psyshock"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        34,
-        "Future Sight"
-      ],
-      [
-        37,
-        "Taunt"
-      ],
-      [
-        38,
-        "Trick"
-      ],
-      [
-        40,
-        "Skill Swap"
-      ],
-      [
-        49,
-        "Calm Mind"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        65,
-        "Energy Ball"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        81,
-        "Foul Play"
-      ],
-      [
-        82,
-        "Stored Power"
-      ],
-      [
-        83,
-        "Ally Switch"
-      ],
-      [
-        92,
-        "Dazzling Gleam"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 10037,
-    "name": "Mega Alakazam",
-    "stage": 3,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      55,
-      50,
-      65,
-      175,
-      105,
-      150,
-      600
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      3,
-      0,
-      0
-    ],
-    "gender-ratio": 63,
-    "catch-rate": 50,
-    "abilities": [
-      "Trace",
-      "Trace",
-      "Trace"
-    ],
-    "types": [
-      "Psychic"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Twisted Spoon",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "HumanLike"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.2,
-    "weight": 48,
-    "color": "Brown",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        14,
-        "Thunder Wave"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        44,
-        "Imprison"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        60,
-        "Power Swap"
-      ],
-      [
-        61,
-        "Guard Swap"
-      ],
-      [
-        62,
-        "Speed Swap"
-      ],
-      [
-        63,
-        "Drain Punch"
-      ],
-      [
-        69,
-        "Psycho Cut"
-      ],
-      [
-        70,
-        "Trick Room"
-      ],
-      [
-        71,
-        "Wonder Room"
-      ],
-      [
-        72,
-        "Magic Room"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        91,
-        "Psychic Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        11,
-        "Psychic"
-      ],
-      [
-        14,
-        "Metronome"
-      ],
-      [
-        19,
-        "Tri Attack"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        25,
-        "Psyshock"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        31,
-        "Iron Tail"
-      ],
-      [
-        33,
-        "Shadow Ball"
-      ],
-      [
-        34,
-        "Future Sight"
-      ],
-      [
-        37,
-        "Taunt"
-      ],
-      [
-        38,
-        "Trick"
-      ],
-      [
-        40,
-        "Skill Swap"
-      ],
-      [
-        49,
-        "Calm Mind"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        65,
-        "Energy Ball"
-      ],
-      [
-        68,
-        "Nasty Plot"
-      ],
-      [
-        69,
-        "Zen Headbutt"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ],
-      [
-        81,
-        "Foul Play"
-      ],
-      [
-        82,
-        "Stored Power"
-      ],
-      [
-        83,
-        "Ally Switch"
-      ],
-      [
-        92,
-        "Dazzling Gleam"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 66,
-    "name": "Machop",
-    "stage": 1,
-    "galar_dex": 138,
-    "base_stats": [
-      70,
-      80,
-      50,
-      35,
-      35,
-      35,
-      305
-    ],
-    "ev_yield": [
-      0,
-      1,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 63,
-    "catch-rate": 180,
-    "abilities": [
-      "Guts",
-      "No Guard",
-      "Steadfast"
-    ],
-    "types": [
-      "Fighting"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Focus Band",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "HumanLike"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.8,
-    "weight": 19.5,
-    "color": "Gray",
-    "evolutions": [
-      {
-        "species": "Machoke-0",
-        "method": "LevelUp",
-        "method_value": 28
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Low Kick"
-      ],
-      [
-        1,
-        "Leer"
-      ],
-      [
-        4,
-        "Focus Energy"
-      ],
-      [
-        8,
-        "Revenge"
-      ],
-      [
-        12,
-        "Low Sweep"
-      ],
-      [
-        16,
-        "Knock Off"
-      ],
-      [
-        20,
-        "Scary Face"
-      ],
-      [
-        24,
-        "Vital Throw"
-      ],
-      [
-        29,
-        "Strength"
-      ],
-      [
-        32,
-        "Dual Chop"
-      ],
-      [
-        36,
-        "Bulk Up"
-      ],
-      [
-        40,
-        "Seismic Toss"
-      ],
-      [
-        44,
-        "Dynamic Punch"
-      ],
-      [
-        48,
-        "Cross Chop"
-      ],
-      [
-        52,
-        "Double-Edge"
-      ]
-    ],
-    "egg_moves": [
-      "Counter",
-      "Bullet Punch",
-      "Tickle",
-      "Quick Guard",
-      "Submission"
-    ],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        26,
-        "Scary Face"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        42,
-        "Revenge"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        75,
-        "Low Sweep"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        79,
-        "Retaliate"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        2,
-        "Flamethrower"
-      ],
-      [
-        7,
-        "Low Kick"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        13,
-        "Focus Energy"
-      ],
-      [
-        14,
-        "Metronome"
-      ],
-      [
-        15,
-        "Fire Blast"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        39,
-        "Superpower"
-      ],
-      [
-        48,
-        "Bulk Up"
-      ],
-      [
-        53,
-        "Close Combat"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        79,
-        "Heavy Slam"
-      ],
-      [
-        85,
-        "Work Up"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Glitch World",
-        "point": "T3RR4"
-      }
-    ]
-  },
-  {
-    "no": 67,
-    "name": "Machoke",
-    "stage": 2,
-    "galar_dex": 139,
-    "base_stats": [
-      80,
-      100,
-      70,
-      50,
-      60,
-      45,
-      405
-    ],
-    "ev_yield": [
-      0,
-      2,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 63,
-    "catch-rate": 90,
-    "abilities": [
-      "Guts",
-      "No Guard",
-      "Steadfast"
-    ],
-    "types": [
-      "Fighting"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Focus Band",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "HumanLike"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.5,
-    "weight": 70.5,
-    "color": "Gray",
-    "evolutions": [
-      {
-        "species": "Machamp-0",
-        "method": "Trade",
-        "method_value": "0"
-      }
-    ],
-    "level_up_moves": [
-      [
-        1,
-        "Low Kick"
-      ],
-      [
-        1,
-        "Leer"
-      ],
-      [
-        1,
-        "Focus Energy"
-      ],
-      [
-        1,
-        "Revenge"
-      ],
-      [
-        12,
-        "Low Sweep"
-      ],
-      [
-        16,
-        "Knock Off"
-      ],
-      [
-        20,
-        "Scary Face"
-      ],
-      [
-        24,
-        "Vital Throw"
-      ],
-      [
-        31,
-        "Strength"
-      ],
-      [
-        36,
-        "Dual Chop"
-      ],
-      [
-        42,
-        "Bulk Up"
-      ],
-      [
-        48,
-        "Seismic Toss"
-      ],
-      [
-        54,
-        "Dynamic Punch"
-      ],
-      [
-        60,
-        "Cross Chop"
-      ],
-      [
-        66,
-        "Double-Edge"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        26,
-        "Scary Face"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        42,
-        "Revenge"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        75,
-        "Low Sweep"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        79,
-        "Retaliate"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        98,
-        "Stomping Tantrum"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        2,
-        "Flamethrower"
-      ],
-      [
-        7,
-        "Low Kick"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        13,
-        "Focus Energy"
-      ],
-      [
-        14,
-        "Metronome"
-      ],
-      [
-        15,
-        "Fire Blast"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        39,
-        "Superpower"
-      ],
-      [
-        48,
-        "Bulk Up"
-      ],
-      [
-        53,
-        "Close Combat"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        79,
-        "Heavy Slam"
-      ],
-      [
-        85,
-        "Work Up"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Route 2",
-        "point": "Samson"
-      },
-      {
-        "location": "Celestrine Cascade",
-        "point": "Samson"
-      },
-      {
-        "location": "Glitch World",
-        "point": "T3RR4"
-      }
-    ]
-  },
-  {
-    "no": 68,
-    "name": "Machamp",
-    "stage": 3,
-    "galar_dex": 140,
-    "base_stats": [
-      90,
-      130,
-      80,
-      65,
-      85,
-      55,
-      505
-    ],
-    "ev_yield": [
-      0,
-      3,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 63,
-    "catch-rate": 45,
-    "abilities": [
-      "Guts",
-      "No Guard",
-      "Steadfast"
-    ],
-    "types": [
-      "Fighting"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Focus Band",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "HumanLike"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.6,
-    "weight": 130,
-    "color": "Gray",
-    "evolutions": [],
-    "level_up_moves": [
-      [
-        1,
-        "Wide Guard"
-      ],
-      [
-        1,
-        "Low Kick"
-      ],
-      [
-        1,
-        "Leer"
-      ],
-      [
-        1,
-        "Focus Energy"
-      ],
-      [
-        1,
-        "Revenge"
-      ],
-      [
-        12,
-        "Low Sweep"
-      ],
-      [
-        16,
-        "Knock Off"
-      ],
-      [
-        20,
-        "Scary Face"
-      ],
-      [
-        24,
-        "Vital Throw"
-      ],
-      [
-        31,
-        "Strength"
-      ],
-      [
-        36,
-        "Dual Chop"
-      ],
-      [
-        42,
-        "Bulk Up"
-      ],
-      [
-        48,
-        "Seismic Toss"
-      ],
-      [
-        54,
-        "Dynamic Punch"
-      ],
-      [
-        60,
-        "Cross Chop"
-      ],
-      [
-        66,
-        "Double-Edge"
-      ]
-    ],
-    "egg_moves": [],
-    "tms": [
-      [
-        0,
-        "Mega Punch"
-      ],
-      [
-        1,
-        "Mega Kick"
-      ],
-      [
-        3,
-        "Fire Punch"
-      ],
-      [
-        4,
-        "Ice Punch"
-      ],
-      [
-        5,
-        "Thunder Punch"
-      ],
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        15,
-        "Dig"
-      ],
-      [
-        17,
-        "Light Screen"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        22,
-        "Rock Slide"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        26,
-        "Scary Face"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        41,
-        "Helping Hand"
-      ],
-      [
-        42,
-        "Revenge"
-      ],
-      [
-        43,
-        "Brick Break"
-      ],
-      [
-        48,
-        "Rock Tomb"
-      ],
-      [
-        54,
-        "Rock Blast"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        58,
-        "Assurance"
-      ],
-      [
-        59,
-        "Fling"
-      ],
-      [
-        73,
-        "Cross Poison"
-      ],
-      [
-        75,
-        "Low Sweep"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        79,
-        "Retaliate"
-      ],
-      [
-        81,
-        "Bulldoze"
-      ],
-      [
-        98,
-        "Stomping Tantrum"
-      ]
-    ],
-    "trs": [
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        2,
-        "Flamethrower"
-      ],
-      [
-        7,
-        "Low Kick"
-      ],
-      [
-        10,
-        "Earthquake"
-      ],
-      [
-        13,
-        "Focus Energy"
-      ],
-      [
-        14,
-        "Metronome"
-      ],
-      [
-        15,
-        "Fire Blast"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        21,
-        "Reversal"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        39,
-        "Superpower"
-      ],
-      [
-        48,
-        "Bulk Up"
-      ],
-      [
-        53,
-        "Close Combat"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        64,
-        "Focus Blast"
-      ],
-      [
-        75,
-        "Stone Edge"
-      ],
-      [
-        79,
-        "Heavy Slam"
-      ],
-      [
-        85,
-        "Work Up"
-      ],
-      [
-        93,
-        "Darkest Lariat"
-      ],
-      [
-        94,
-        "High Horsepower"
-      ],
-      [
-        95,
-        "Throat Chop"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 69,
-    "name": "Bellsprout",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      50,
-      75,
-      35,
-      70,
-      30,
-      40,
-      300
-    ],
-    "ev_yield": [
-      0,
-      1,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 255,
-    "abilities": [
-      "Chlorophyll",
-      "Chlorophyll",
-      "Gluttony"
-    ],
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Grass"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.7,
-    "weight": 4,
-    "color": "Green",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        10,
-        "Magical Leaf"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        50,
-        "Bullet Seed"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        18,
-        "Leech Life"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        65,
-        "Energy Ball"
-      ],
-      [
-        72,
-        "Power Whip"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Obsidia Ward",
-        "point": "Florina"
-      },
-      {
-        "location": "Onyx Ward",
-        "point": "Florina"
-      },
-      {
-        "location": "Malchous Forest",
-        "point": "Taka/Pulse Tangrowth 2"
-      },
-      {
-        "location": "Rhodochrine Jungle",
-        "point": "Taka/ZEL/Pulse Tangrowth 3"
-      },
-      {
-        "location": "Beryl Ward",
-        "point": "Taka/ZEL/Pulse Tangrowth 3"
-      },
-      {
-        "location": "Obsidia Ward",
-        "point": "Adrienn"
-      }
-    ]
-  },
-  {
-    "no": 70,
-    "name": "Weepinbell",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      65,
-      90,
-      50,
-      85,
-      45,
-      55,
-      390
-    ],
-    "ev_yield": [
-      0,
-      2,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 120,
-    "abilities": [
-      "Chlorophyll",
-      "Chlorophyll",
-      "Gluttony"
-    ],
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Grass"
-    ],
-    "hatch-cycles": 20,
-    "height": 1,
-    "weight": 6.4,
-    "color": "Green",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        10,
-        "Magical Leaf"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        12,
-        "Solar Blade"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        50,
-        "Bullet Seed"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        18,
-        "Leech Life"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        65,
-        "Energy Ball"
-      ],
-      [
-        72,
-        "Power Whip"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Chrysolia Forest",
-        "point": "Serra"
-      },
-      {
-        "location": "Jasper Ward",
-        "point": "Adrienn"
-      },
-      {
-        "location": "Malchous Forest",
-        "point": "Adrienn"
-      },
-      {
-        "location": "Rhodochrine Jungle",
-        "point": "Adrienn"
-      },
-      {
-        "location": "Onyx Ward",
-        "point": "Adrienn"
-      },
-      {
-        "location": "Obsidia Ward",
-        "point": "Adrienn"
-      }
-    ]
-  },
-  {
-    "no": 71,
-    "name": "Victreebel",
-    "stage": 3,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      80,
-      105,
-      65,
-      100,
-      70,
-      70,
-      490
-    ],
-    "ev_yield": [
-      0,
-      3,
-      0,
-      0,
-      0,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 45,
-    "abilities": [
-      "Chlorophyll",
-      "Chlorophyll",
-      "Gluttony"
-    ],
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "items": [],
-    "exp-group": "MediumSlow",
-    "egg-group": [
-      "Grass"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.7,
-    "weight": 15.5,
-    "color": "Green",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        10,
-        "Magical Leaf"
-      ],
-      [
-        11,
-        "Solar Beam"
-      ],
-      [
-        12,
-        "Solar Blade"
-      ],
-      [
-        18,
-        "Reflect"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        34,
-        "Sunny Day"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        46,
-        "Weather Ball"
-      ],
-      [
-        50,
-        "Bullet Seed"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        88,
-        "Grassy Terrain"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        1,
-        "Body Slam"
-      ],
-      [
-        18,
-        "Leech Life"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        30,
-        "Encore"
-      ],
-      [
-        50,
-        "Leaf Blade"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        59,
-        "Seed Bomb"
-      ],
-      [
-        65,
-        "Energy Ball"
-      ],
-      [
-        71,
-        "Leaf Storm"
-      ],
-      [
-        72,
-        "Power Whip"
-      ],
-      [
-        77,
-        "Grass Knot"
-      ]
-    ],
-    "locations": []
-  },
-  {
-    "no": 72,
-    "name": "Tentacool",
-    "stage": 1,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      40,
-      40,
-      35,
-      50,
-      100,
-      70,
-      335
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 190,
-    "abilities": [
-      "Clear Body",
-      "Liquid Ooze",
-      "Rain Dish"
-    ],
-    "types": [
-      "Water",
-      "Poison"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Poison Barb",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "Slow",
-    "egg-group": [
-      "Water3"
-    ],
-    "hatch-cycles": 20,
-    "height": 0.9,
-    "weight": 45.5,
-    "color": "Blue",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        16,
-        "Screech"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        35,
-        "Hail"
-      ],
-      [
-        36,
-        "Whirlpool"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        45,
-        "Dive"
-      ],
-      [
-        55,
-        "Brine"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        73,
-        "Cross Poison"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        77,
-        "Hex"
-      ],
-      [
-        97,
-        "Brutal Swing"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        3,
-        "Hydro Pump"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        16,
-        "Waterfall"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        45,
-        "Muddy Water"
-      ],
-      [
-        54,
-        "Toxic Spikes"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        78,
-        "Sludge Wave"
-      ],
-      [
-        84,
-        "Scald"
-      ],
-      [
-        92,
-        "Dazzling Gleam"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Water Treatment Center",
-        "point": "Adrienn"
-      },
-      {
-        "location": "Azurine Lake",
-        "point": "Adrienn"
-      }
-    ]
-  },
-  {
-    "no": 73,
-    "name": "Tentacruel",
-    "stage": 2,
-    "galar_dex": "Foreign",
-    "base_stats": [
-      80,
-      70,
-      65,
-      80,
-      120,
-      100,
-      515
-    ],
-    "ev_yield": [
-      0,
-      0,
-      0,
-      0,
-      2,
-      0
-    ],
-    "gender-ratio": 127,
-    "catch-rate": 60,
-    "abilities": [
-      "Clear Body",
-      "Liquid Ooze",
-      "Rain Dish"
-    ],
-    "types": [
-      "Water",
-      "Poison"
-    ],
-    "items": [
-      [
-        "None",
-        50
-      ],
-      [
-        "Poison Barb",
-        5
-      ],
-      [
-        "None",
-        1
-      ]
-    ],
-    "exp-group": "Slow",
-    "egg-group": [
-      "Water3"
-    ],
-    "hatch-cycles": 20,
-    "height": 1.6,
-    "weight": 55,
-    "color": "Blue",
-    "evolutions": [],
-    "level_up_moves": [],
-    "egg_moves": [],
-    "tms": [
-      [
-        8,
-        "Hyper Beam"
-      ],
-      [
-        9,
-        "Giga Impact"
-      ],
-      [
-        16,
-        "Screech"
-      ],
-      [
-        19,
-        "Safeguard"
-      ],
-      [
-        21,
-        "Rest"
-      ],
-      [
-        23,
-        "Thief"
-      ],
-      [
-        24,
-        "Snore"
-      ],
-      [
-        25,
-        "Protect"
-      ],
-      [
-        27,
-        "Icy Wind"
-      ],
-      [
-        28,
-        "Giga Drain"
-      ],
-      [
-        31,
-        "Attract"
-      ],
-      [
-        33,
-        "Rain Dance"
-      ],
-      [
-        35,
-        "Hail"
-      ],
-      [
-        36,
-        "Whirlpool"
-      ],
-      [
-        39,
-        "Facade"
-      ],
-      [
-        45,
-        "Dive"
-      ],
-      [
-        55,
-        "Brine"
-      ],
-      [
-        57,
-        "Payback"
-      ],
-      [
-        73,
-        "Cross Poison"
-      ],
-      [
-        74,
-        "Venoshock"
-      ],
-      [
-        76,
-        "Round"
-      ],
-      [
-        77,
-        "Hex"
-      ],
-      [
-        97,
-        "Brutal Swing"
-      ]
-    ],
-    "trs": [
-      [
-        0,
-        "Swords Dance"
-      ],
-      [
-        3,
-        "Hydro Pump"
-      ],
-      [
-        4,
-        "Surf"
-      ],
-      [
-        5,
-        "Ice Beam"
-      ],
-      [
-        6,
-        "Blizzard"
-      ],
-      [
-        16,
-        "Waterfall"
-      ],
-      [
-        20,
-        "Substitute"
-      ],
-      [
-        22,
-        "Sludge Bomb"
-      ],
-      [
-        26,
-        "Endure"
-      ],
-      [
-        27,
-        "Sleep Talk"
-      ],
-      [
-        45,
-        "Muddy Water"
-      ],
-      [
-        54,
-        "Toxic Spikes"
-      ],
-      [
-        57,
-        "Poison Jab"
-      ],
-      [
-        78,
-        "Sludge Wave"
-      ],
-      [
-        84,
-        "Scald"
-      ],
-      [
-        91,
-        "Venom Drench"
-      ],
-      [
-        92,
-        "Dazzling Gleam"
-      ]
-    ],
-    "locations": [
-      {
-        "location": "Azurine Lake",
-        "point": "Adrienn"
-      }
-    ]
-}
-]
+    no: 1,
+    name: "Bulbasaur",
+    types: ["Grass", "Poison"],
+    stats: [45, 49, 49, 45, 65, 65],
+    level_up_moves: {
+      "1": ["TACKLE"],
+      "3": ["GROWL"],
+      "7": ["LEECHSEED"],
+      "9": ["VINEWHIP"],
+      "13": ["POISONPOWDER", "SLEEPPOWDER"],
+      "15": ["TAKEDOWN"],
+      "19": ["RAZORLEAF"],
+      "21": ["SWEETSCENT"],
+      "25": ["GROWTH"],
+      "27": ["DOUBLEEDGE"],
+      "31": ["WORRYSEED"],
+      "33": ["SYNTHESIS"],
+      "37": ["SEEDBOMB"],
+    },
+    egg_moves: [
+      "AMNESIA",
+      "CHARM",
+      "CURSE",
+      "ENDURE",
+      "GIGADRAIN",
+      "GRASSWHISTLE",
+      "GRASSYTERRAIN",
+      "INGRAIN",
+      "LEAFSTORM",
+      "MAGICALLEAF",
+      "NATUREPOWER",
+      "PETALDANCE",
+      "POWERWHIP",
+      "SKULLBASH",
+      "SLUDGE",
+    ],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "LIGHTSCREEN",
+      "PROTECT",
+      "SAFEGUARD",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "RETURN",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "ECHOEDVOICE",
+      "ENERGYBALL",
+      "SWORDSDANCE",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "NATUREPOWER",
+      "CONFIDE",
+      "CUT",
+      "STRENGTH",
+      "ROCKSMASH",
+      "FLASH",
+      "BIND",
+      "FURYCUTTER",
+      "GIGADRAIN",
+      "GRASSPLEDGE",
+      "HEADBUTT",
+      "KNOCKOFF",
+      "MUDSLAP",
+      "SEEDBOMB",
+      "SNORE",
+      "STRINGSHOT",
+      "SYNTHESIS",
+      "WORRYSEED",
+    ],
+    locations: [
+      { location: "Azurine Island", point: "Adrienn", method: "LandMorning" },
+    ],
+  },
+  {
+    no: 2,
+    name: "Ivysaur",
+    types: ["Grass", "Poison"],
+    stats: [60, 62, 63, 60, 80, 80],
+    level_up_moves: {
+      "1": ["TACKLE", "GROWL", "LEECHSEED"],
+      "3": ["GROWL"],
+      "7": ["LEECHSEED"],
+      "9": ["VINEWHIP"],
+      "13": ["POISONPOWDER", "SLEEPPOWDER"],
+      "15": ["TAKEDOWN"],
+      "20": ["RAZORLEAF"],
+      "23": ["SWEETSCENT"],
+      "28": ["GROWTH"],
+      "31": ["DOUBLEEDGE"],
+      "36": ["WORRYSEED"],
+      "39": ["SYNTHESIS"],
+      "44": ["SOLARBEAM"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "LIGHTSCREEN",
+      "PROTECT",
+      "SAFEGUARD",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "RETURN",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "ECHOEDVOICE",
+      "ENERGYBALL",
+      "SWORDSDANCE",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "NATUREPOWER",
+      "CONFIDE",
+      "CUT",
+      "STRENGTH",
+      "ROCKSMASH",
+      "FLASH",
+      "BIND",
+      "FURYCUTTER",
+      "GIGADRAIN",
+      "GRASSPLEDGE",
+      "HEADBUTT",
+      "KNOCKOFF",
+      "MUDSLAP",
+      "SEEDBOMB",
+      "SNORE",
+      "STRINGSHOT",
+      "SYNTHESIS",
+      "WORRYSEED",
+    ],
+    locations: [],
+  },
+  {
+    no: 3,
+    name: "Venusaur",
+    types: ["Grass", "Poison"],
+    stats: [80, 82, 83, 80, 100, 100],
+    level_up_moves: {
+      "0": ["PETALDANCE"],
+      "1": ["TACKLE", "GROWL", "LEECHSEED", "VINEWHIP"],
+      "3": ["GROWL"],
+      "7": ["LEECHSEED"],
+      "9": ["VINEWHIP"],
+      "13": ["POISONPOWDER", "SLEEPPOWDER"],
+      "15": ["TAKEDOWN"],
+      "20": ["RAZORLEAF"],
+      "23": ["SWEETSCENT"],
+      "28": ["GROWTH"],
+      "31": ["DOUBLEEDGE"],
+      "39": ["WORRYSEED"],
+      "45": ["SYNTHESIS"],
+      "50": ["PETALBLIZZARD"],
+      "53": ["SOLARBEAM"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "ROAR",
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "HYPERBEAM",
+      "LIGHTSCREEN",
+      "PROTECT",
+      "SAFEGUARD",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "EARTHQUAKE",
+      "RETURN",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "ECHOEDVOICE",
+      "ENERGYBALL",
+      "GIGAIMPACT",
+      "SWORDSDANCE",
+      "BULLDOZE",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "NATUREPOWER",
+      "CONFIDE",
+      "CUT",
+      "STRENGTH",
+      "ROCKSMASH",
+      "FLASH",
+      "ROCKCLIMB",
+      "BIND",
+      "BLOCK",
+      "FRENZYPLANT",
+      "FURYCUTTER",
+      "GIGADRAIN",
+      "GRASSPLEDGE",
+      "HEADBUTT",
+      "KNOCKOFF",
+      "MUDSLAP",
+      "OUTRAGE",
+      "SEEDBOMB",
+      "SNORE",
+      "STOMPINGTANTRUM",
+      "STRINGSHOT",
+      "SYNTHESIS",
+      "WORRYSEED",
+    ],
+    locations: [],
+  },
+  {
+    no: 10033,
+    name: "Mega Venusaur",
+    types: ["Grass", "Poison"],
+    stats: [80, 100, 123, 80, 122, 120],
+    level_up_moves: {
+      "0": ["PETALDANCE"],
+      "1": ["TACKLE", "GROWL", "LEECHSEED", "VINEWHIP"],
+      "3": ["GROWL"],
+      "7": ["LEECHSEED"],
+      "9": ["VINEWHIP"],
+      "13": ["POISONPOWDER", "SLEEPPOWDER"],
+      "15": ["TAKEDOWN"],
+      "20": ["RAZORLEAF"],
+      "23": ["SWEETSCENT"],
+      "28": ["GROWTH"],
+      "31": ["DOUBLEEDGE"],
+      "39": ["WORRYSEED"],
+      "45": ["SYNTHESIS"],
+      "50": ["PETALBLIZZARD"],
+      "53": ["SOLARBEAM"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "ROAR",
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "HYPERBEAM",
+      "LIGHTSCREEN",
+      "PROTECT",
+      "SAFEGUARD",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "EARTHQUAKE",
+      "RETURN",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "ECHOEDVOICE",
+      "ENERGYBALL",
+      "GIGAIMPACT",
+      "SWORDSDANCE",
+      "BULLDOZE",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "NATUREPOWER",
+      "CONFIDE",
+      "CUT",
+      "STRENGTH",
+      "ROCKSMASH",
+      "FLASH",
+      "ROCKCLIMB",
+      "BIND",
+      "BLOCK",
+      "FRENZYPLANT",
+      "FURYCUTTER",
+      "GIGADRAIN",
+      "GRASSPLEDGE",
+      "HEADBUTT",
+      "KNOCKOFF",
+      "MUDSLAP",
+      "OUTRAGE",
+      "SEEDBOMB",
+      "SNORE",
+      "STOMPINGTANTRUM",
+      "STRINGSHOT",
+      "SYNTHESIS",
+      "WORRYSEED",
+    ],
+    locations: [
+      {
+        location: "Peridot Ward",
+        point: "Amaria",
+        method: "Mulch Gathering Event (100%)",
+      },
+    ],
+  },
+  {
+    no: 4,
+    name: "Charmander",
+    types: ["Fire"],
+    stats: [39, 52, 43, 65, 60, 50],
+    level_up_moves: {
+      "1": ["SCRATCH", "GROWL"],
+      "7": ["EMBER"],
+      "10": ["SMOKESCREEN"],
+      "16": ["DRAGONRAGE"],
+      "19": ["SCARYFACE"],
+      "25": ["FIREFANG"],
+      "28": ["FLAMEBURST"],
+      "34": ["SLASH"],
+      "37": ["FLAMETHROWER"],
+      "43": ["FIRESPIN"],
+      "46": ["INFERNO"],
+    },
+    egg_moves: [
+      "AIRCUTTER",
+      "ANCIENTPOWER",
+      "BEATUP",
+      "BELLYDRUM",
+      "BITE",
+      "COUNTER",
+      "CRUNCH",
+      "DRAGONDANCE",
+      "DRAGONPULSE",
+      "DRAGONRUSH",
+      "FLAREBLITZ",
+      "FOCUSPUNCH",
+      "METALCLAW",
+      "OUTRAGE",
+    ],
+    tm_tutor_moves: [
+      "WORKUP",
+      "DRAGONCLAW",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "PROTECT",
+      "FRUSTRATION",
+      "RETURN",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "FLAMETHROWER",
+      "FIREBLAST",
+      "ROCKTOMB",
+      "AERIALACE",
+      "FACADE",
+      "FLAMECHARGE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "ECHOEDVOICE",
+      "OVERHEAT",
+      "FLING",
+      "WILLOWISP",
+      "SHADOWCLAW",
+      "SWORDSDANCE",
+      "ROCKSLIDE",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "POWERUPPUNCH",
+      "CONFIDE",
+      "CUT",
+      "STRENGTH",
+      "ROCKSMASH",
+      "FIREPLEDGE",
+      "FIREPUNCH",
+      "FOCUSPUNCH",
+      "FURYCUTTER",
+      "HEADBUTT",
+      "HEATWAVE",
+      "IRONTAIL",
+      "MUDSLAP",
+      "SNORE",
+      "SWIFT",
+      "THUNDERPUNCH",
+    ],
+    locations: [
+      { location: "Pyrous Mountain", point: "Adrienn", method: "SuperRod" },
+    ],
+  },
+  {
+    no: 5,
+    name: "Charmeleon",
+    types: ["Fire"],
+    stats: [58, 64, 58, 80, 80, 65],
+    level_up_moves: {
+      "1": ["SCRATCH", "GROWL", "EMBER"],
+      "7": ["EMBER"],
+      "10": ["SMOKESCREEN"],
+      "17": ["DRAGONRAGE"],
+      "21": ["SCARYFACE"],
+      "28": ["FIREFANG"],
+      "32": ["FLAMEBURST"],
+      "39": ["SLASH"],
+      "43": ["FLAMETHROWER"],
+      "50": ["FIRESPIN"],
+      "54": ["INFERNO"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "DRAGONCLAW",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "PROTECT",
+      "FRUSTRATION",
+      "RETURN",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "FLAMETHROWER",
+      "FIREBLAST",
+      "ROCKTOMB",
+      "AERIALACE",
+      "FACADE",
+      "FLAMECHARGE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "ECHOEDVOICE",
+      "OVERHEAT",
+      "FLING",
+      "WILLOWISP",
+      "SHADOWCLAW",
+      "SWORDSDANCE",
+      "ROCKSLIDE",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "POWERUPPUNCH",
+      "CONFIDE",
+      "CUT",
+      "STRENGTH",
+      "ROCKSMASH",
+      "FIREPLEDGE",
+      "FIREPUNCH",
+      "FOCUSPUNCH",
+      "FURYCUTTER",
+      "HEADBUTT",
+      "HEATWAVE",
+      "IRONTAIL",
+      "MUDSLAP",
+      "SNORE",
+      "SWIFT",
+      "THUNDERPUNCH",
+    ],
+    locations: [
+      { location: "Pyrous Mountain", point: "Adrienn", method: "SuperRod" },
+    ],
+  },
+  {
+    no: 6,
+    name: "Charizard",
+    types: ["Fire", "Flying"],
+    stats: [78, 84, 78, 100, 109, 85],
+    level_up_moves: {
+      "0": ["WINGATTACK"],
+      "1": [
+        "FLAREBLITZ",
+        "HEATWAVE",
+        "AIRSLASH",
+        "DRAGONCLAW",
+        "SHADOWCLAW",
+        "SCRATCH",
+        "GROWL",
+        "SMOKESCREEN",
+        "EMBER",
+      ],
+      "7": ["EMBER"],
+      "10": ["SMOKESCREEN"],
+      "17": ["DRAGONRAGE"],
+      "21": ["SCARYFACE"],
+      "28": ["FIREFANG"],
+      "32": ["FLAMEBURST"],
+      "41": ["SLASH"],
+      "47": ["FLAMETHROWER"],
+      "56": ["FIRESPIN"],
+      "62": ["INFERNO"],
+      "71": ["HEATWAVE"],
+      "77": ["FLAREBLITZ"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "DRAGONCLAW",
+      "ROAR",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "HYPERBEAM",
+      "PROTECT",
+      "ROOST",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "EARTHQUAKE",
+      "RETURN",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "FLAMETHROWER",
+      "FIREBLAST",
+      "ROCKTOMB",
+      "AERIALACE",
+      "FACADE",
+      "FLAMECHARGE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "ECHOEDVOICE",
+      "OVERHEAT",
+      "STEELWING",
+      "FOCUSBLAST",
+      "FLING",
+      "SKYDROP",
+      "BRUTALSWING",
+      "WILLOWISP",
+      "SHADOWCLAW",
+      "GIGAIMPACT",
+      "SWORDSDANCE",
+      "BULLDOZE",
+      "ROCKSLIDE",
+      "DRAGONTAIL",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "POWERUPPUNCH",
+      "CONFIDE",
+      "CUT",
+      "FLY",
+      "STRENGTH",
+      "ROCKSMASH",
+      "AIRCUTTER",
+      "BLASTBURN",
+      "DEFOG",
+      "DRAGONPULSE",
+      "FIREPLEDGE",
+      "FIREPUNCH",
+      "FOCUSPUNCH",
+      "FURYCUTTER",
+      "HEADBUTT",
+      "HEATWAVE",
+      "IRONTAIL",
+      "MUDSLAP",
+      "OMINOUSWIND",
+      "OUTRAGE",
+      "SNORE",
+      "SWIFT",
+      "TAILWIND",
+      "THUNDERPUNCH",
+      "TWISTER",
+    ],
+    locations: [
+      { location: "Pyrous Mountain", point: "Adrienn", method: "SuperRod" },
+    ],
+  },
+  {
+    no: 10034,
+    name: "Mega Charizard X",
+    types: ["Fire", "Dragon"],
+    stats: [78, 130, 111, 100, 130, 85],
+    level_up_moves: {
+      "0": ["WINGATTACK"],
+      "1": [
+        "FLAREBLITZ",
+        "HEATWAVE",
+        "AIRSLASH",
+        "DRAGONCLAW",
+        "SHADOWCLAW",
+        "SCRATCH",
+        "GROWL",
+        "SMOKESCREEN",
+        "EMBER",
+      ],
+      "7": ["EMBER"],
+      "10": ["SMOKESCREEN"],
+      "17": ["DRAGONRAGE"],
+      "21": ["SCARYFACE"],
+      "28": ["FIREFANG"],
+      "32": ["FLAMEBURST"],
+      "41": ["SLASH"],
+      "47": ["FLAMETHROWER"],
+      "56": ["FIRESPIN"],
+      "62": ["INFERNO"],
+      "71": ["HEATWAVE"],
+      "77": ["FLAREBLITZ"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "DRAGONCLAW",
+      "ROAR",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "HYPERBEAM",
+      "PROTECT",
+      "ROOST",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "EARTHQUAKE",
+      "RETURN",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "FLAMETHROWER",
+      "FIREBLAST",
+      "ROCKTOMB",
+      "AERIALACE",
+      "FACADE",
+      "FLAMECHARGE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "ECHOEDVOICE",
+      "OVERHEAT",
+      "STEELWING",
+      "FOCUSBLAST",
+      "FLING",
+      "SKYDROP",
+      "BRUTALSWING",
+      "WILLOWISP",
+      "SHADOWCLAW",
+      "GIGAIMPACT",
+      "SWORDSDANCE",
+      "BULLDOZE",
+      "ROCKSLIDE",
+      "DRAGONTAIL",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "POWERUPPUNCH",
+      "CONFIDE",
+      "CUT",
+      "FLY",
+      "STRENGTH",
+      "ROCKSMASH",
+      "AIRCUTTER",
+      "BLASTBURN",
+      "DEFOG",
+      "DRAGONPULSE",
+      "FIREPLEDGE",
+      "FIREPUNCH",
+      "FOCUSPUNCH",
+      "FURYCUTTER",
+      "HEADBUTT",
+      "HEATWAVE",
+      "IRONTAIL",
+      "MUDSLAP",
+      "OMINOUSWIND",
+      "OUTRAGE",
+      "SNORE",
+      "SWIFT",
+      "TAILWIND",
+      "THUNDERPUNCH",
+      "TWISTER",
+    ],
+    locations: [
+      {
+        location: "Calcenon City",
+        point: "Hardy",
+        method: "Rock Climb (100%)",
+      },
+    ],
+  },
+  {
+    no: 10035,
+    name: "Mega Charizard Y",
+    types: ["Fire", "Flying"],
+    stats: [78, 104, 78, 100, 159, 115],
+    level_up_moves: {
+      "0": ["WINGATTACK"],
+      "1": [
+        "FLAREBLITZ",
+        "HEATWAVE",
+        "AIRSLASH",
+        "DRAGONCLAW",
+        "SHADOWCLAW",
+        "SCRATCH",
+        "GROWL",
+        "SMOKESCREEN",
+        "EMBER",
+      ],
+      "7": ["EMBER"],
+      "10": ["SMOKESCREEN"],
+      "17": ["DRAGONRAGE"],
+      "21": ["SCARYFACE"],
+      "28": ["FIREFANG"],
+      "32": ["FLAMEBURST"],
+      "41": ["SLASH"],
+      "47": ["FLAMETHROWER"],
+      "56": ["FIRESPIN"],
+      "62": ["INFERNO"],
+      "71": ["HEATWAVE"],
+      "77": ["FLAREBLITZ"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "DRAGONCLAW",
+      "ROAR",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "HYPERBEAM",
+      "PROTECT",
+      "ROOST",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "EARTHQUAKE",
+      "RETURN",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "FLAMETHROWER",
+      "FIREBLAST",
+      "ROCKTOMB",
+      "AERIALACE",
+      "FACADE",
+      "FLAMECHARGE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "ECHOEDVOICE",
+      "OVERHEAT",
+      "STEELWING",
+      "FOCUSBLAST",
+      "FLING",
+      "SKYDROP",
+      "BRUTALSWING",
+      "WILLOWISP",
+      "SHADOWCLAW",
+      "GIGAIMPACT",
+      "SWORDSDANCE",
+      "BULLDOZE",
+      "ROCKSLIDE",
+      "DRAGONTAIL",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "POWERUPPUNCH",
+      "CONFIDE",
+      "CUT",
+      "FLY",
+      "STRENGTH",
+      "ROCKSMASH",
+      "AIRCUTTER",
+      "BLASTBURN",
+      "DEFOG",
+      "DRAGONPULSE",
+      "FIREPLEDGE",
+      "FIREPUNCH",
+      "FOCUSPUNCH",
+      "FURYCUTTER",
+      "HEADBUTT",
+      "HEATWAVE",
+      "IRONTAIL",
+      "MUDSLAP",
+      "OMINOUSWIND",
+      "OUTRAGE",
+      "SNORE",
+      "SWIFT",
+      "TAILWIND",
+      "THUNDERPUNCH",
+      "TWISTER",
+    ],
+    locations: [],
+  },
+  {
+    no: 7,
+    name: "Squirtle",
+    types: ["Water"],
+    stats: [44, 48, 65, 43, 50, 64],
+    level_up_moves: {
+      "1": ["TACKLE"],
+      "4": ["TAILWHIP"],
+      "7": ["WATERGUN"],
+      "10": ["WITHDRAW"],
+      "13": ["BUBBLE"],
+      "16": ["BITE"],
+      "19": ["RAPIDSPIN"],
+      "22": ["PROTECT"],
+      "25": ["WATERPULSE"],
+      "28": ["AQUATAIL"],
+      "31": ["SKULLBASH"],
+      "34": ["IRONDEFENSE"],
+      "37": ["RAINDANCE"],
+      "40": ["HYDROPUMP"],
+    },
+    egg_moves: [
+      "AQUAJET",
+      "AQUARING",
+      "AURASPHERE",
+      "BRINE",
+      "DRAGONPULSE",
+      "FAKEOUT",
+      "FLAIL",
+      "FORESIGHT",
+      "HAZE",
+      "MIRRORCOAT",
+      "MIST",
+      "MUDSPORT",
+      "MUDDYWATER",
+      "REFRESH",
+      "WATERSPOUT",
+      "YAWN",
+    ],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "HAIL",
+      "HIDDENPOWER",
+      "ICEBEAM",
+      "BLIZZARD",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "RETURN",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "ROCKTOMB",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "SCALD",
+      "FLING",
+      "GYROBALL",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "POWERUPPUNCH",
+      "CONFIDE",
+      "SURF",
+      "STRENGTH",
+      "WATERFALL",
+      "DIVE",
+      "ROCKSMASH",
+      "AQUATAIL",
+      "FOCUSPUNCH",
+      "HEADBUTT",
+      "ICEPUNCH",
+      "ICYWIND",
+      "IRONDEFENSE",
+      "IRONTAIL",
+      "MUDSLAP",
+      "ROLLOUT",
+      "SNORE",
+      "WATERPLEDGE",
+      "WATERPULSE",
+      "ZENHEADBUTT",
+    ],
+    locations: [
+      {
+        location: "Byxbysion Wasteland",
+        point: "Aya",
+        method: "Rainstorm Event (100%)",
+      },
+    ],
+  },
+  {
+    no: 8,
+    name: "Wartortle",
+    types: ["Water"],
+    stats: [59, 63, 80, 58, 65, 80],
+    level_up_moves: {
+      "1": ["TACKLE", "TAILWHIP", "WATERGUN"],
+      "4": ["TAILWHIP"],
+      "7": ["WATERGUN"],
+      "10": ["WITHDRAW"],
+      "13": ["BUBBLE"],
+      "17": ["BITE"],
+      "21": ["RAPIDSPIN"],
+      "25": ["PROTECT"],
+      "29": ["WATERPULSE"],
+      "33": ["AQUATAIL"],
+      "37": ["SKULLBASH"],
+      "41": ["IRONDEFENSE"],
+      "45": ["RAINDANCE"],
+      "49": ["HYDROPUMP"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "HAIL",
+      "HIDDENPOWER",
+      "ICEBEAM",
+      "BLIZZARD",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "RETURN",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "ROCKTOMB",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "SCALD",
+      "FLING",
+      "GYROBALL",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "POWERUPPUNCH",
+      "CONFIDE",
+      "SURF",
+      "STRENGTH",
+      "WATERFALL",
+      "DIVE",
+      "ROCKSMASH",
+      "AQUATAIL",
+      "FOCUSPUNCH",
+      "HEADBUTT",
+      "ICEPUNCH",
+      "ICYWIND",
+      "IRONDEFENSE",
+      "IRONTAIL",
+      "MUDSLAP",
+      "ROLLOUT",
+      "SNORE",
+      "WATERPLEDGE",
+      "WATERPULSE",
+      "ZENHEADBUTT",
+    ],
+    locations: [],
+  },
+  {
+    no: 9,
+    name: "Blastoise",
+    types: ["Water"],
+    stats: [79, 83, 100, 78, 85, 105],
+    level_up_moves: {
+      "1": ["FLASHCANNON", "TACKLE", "TAILWHIP", "WATERGUN", "WITHDRAW"],
+      "4": ["TAILWHIP"],
+      "7": ["WATERGUN"],
+      "10": ["WITHDRAW"],
+      "13": ["BUBBLE"],
+      "17": ["BITE"],
+      "21": ["RAPIDSPIN"],
+      "25": ["PROTECT"],
+      "29": ["WATERPULSE"],
+      "33": ["AQUATAIL"],
+      "40": ["SKULLBASH"],
+      "47": ["IRONDEFENSE"],
+      "54": ["RAINDANCE"],
+      "60": ["HYDROPUMP"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "ROAR",
+      "TOXIC",
+      "HAIL",
+      "HIDDENPOWER",
+      "ICEBEAM",
+      "BLIZZARD",
+      "HYPERBEAM",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "SMACKDOWN",
+      "EARTHQUAKE",
+      "RETURN",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "ROCKTOMB",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "FOCUSBLAST",
+      "SCALD",
+      "FLING",
+      "GIGAIMPACT",
+      "GYROBALL",
+      "BULLDOZE",
+      "ROCKSLIDE",
+      "DRAGONTAIL",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "FLASHCANNON",
+      "SECRETPOWER",
+      "DARKPULSE",
+      "POWERUPPUNCH",
+      "CONFIDE",
+      "SURF",
+      "STRENGTH",
+      "WATERFALL",
+      "DIVE",
+      "ROCKSMASH",
+      "ROCKCLIMB",
+      "AQUATAIL",
+      "FOCUSPUNCH",
+      "HEADBUTT",
+      "HYDROCANNON",
+      "ICEPUNCH",
+      "ICYWIND",
+      "IRONDEFENSE",
+      "IRONTAIL",
+      "LIQUIDATION",
+      "MUDSLAP",
+      "OUTRAGE",
+      "ROLLOUT",
+      "SIGNALBEAM",
+      "SNORE",
+      "WATERPLEDGE",
+      "WATERPULSE",
+      "ZENHEADBUTT",
+    ],
+    locations: [],
+  },
+  {
+    no: 10036,
+    name: "Mega Blastoise",
+    types: ["Water"],
+    stats: [79, 103, 120, 78, 135, 115],
+    level_up_moves: {
+      "1": ["FLASHCANNON", "TACKLE", "TAILWHIP", "WATERGUN", "WITHDRAW"],
+      "4": ["TAILWHIP"],
+      "7": ["WATERGUN"],
+      "10": ["WITHDRAW"],
+      "13": ["BUBBLE"],
+      "17": ["BITE"],
+      "21": ["RAPIDSPIN"],
+      "25": ["PROTECT"],
+      "29": ["WATERPULSE"],
+      "33": ["AQUATAIL"],
+      "40": ["SKULLBASH"],
+      "47": ["IRONDEFENSE"],
+      "54": ["RAINDANCE"],
+      "60": ["HYDROPUMP"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "ROAR",
+      "TOXIC",
+      "HAIL",
+      "HIDDENPOWER",
+      "ICEBEAM",
+      "BLIZZARD",
+      "HYPERBEAM",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "SMACKDOWN",
+      "EARTHQUAKE",
+      "RETURN",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "ROCKTOMB",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "FOCUSBLAST",
+      "SCALD",
+      "FLING",
+      "GIGAIMPACT",
+      "GYROBALL",
+      "BULLDOZE",
+      "ROCKSLIDE",
+      "DRAGONTAIL",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "FLASHCANNON",
+      "SECRETPOWER",
+      "DARKPULSE",
+      "POWERUPPUNCH",
+      "CONFIDE",
+      "SURF",
+      "STRENGTH",
+      "WATERFALL",
+      "DIVE",
+      "ROCKSMASH",
+      "ROCKCLIMB",
+      "AQUATAIL",
+      "FOCUSPUNCH",
+      "HEADBUTT",
+      "HYDROCANNON",
+      "ICEPUNCH",
+      "ICYWIND",
+      "IRONDEFENSE",
+      "IRONTAIL",
+      "LIQUIDATION",
+      "MUDSLAP",
+      "OUTRAGE",
+      "ROLLOUT",
+      "SIGNALBEAM",
+      "SNORE",
+      "WATERPLEDGE",
+      "WATERPULSE",
+      "ZENHEADBUTT",
+    ],
+    locations: [
+      {
+        location: "Charous Mountain",
+        point: "Hardy",
+        method: "Charous Mountain Puzzle (100%)",
+      },
+    ],
+  },
+  {
+    no: 10,
+    name: "Caterpie",
+    types: ["Bug"],
+    stats: [45, 30, 35, 45, 20, 20],
+    level_up_moves: { "1": ["TACKLE", "STRINGSHOT"], "9": ["BUGBITE"] },
+    egg_moves: [],
+    tm_tutor_moves: ["BUGBITE", "ELECTROWEB", "SNORE", "STRINGSHOT"],
+    locations: [
+      { location: "Lower Peridot Ward", point: "Julia", method: "LandMorning" },
+      { location: "Peridot Ward", point: "Julia", method: "LandMorning" },
+    ],
+  },
+  {
+    no: 11,
+    name: "Metapod",
+    types: ["Bug"],
+    stats: [50, 20, 55, 30, 25, 25],
+    level_up_moves: { "0": ["HARDEN"], "1": ["HARDEN"] },
+    egg_moves: [],
+    tm_tutor_moves: ["BUGBITE", "ELECTROWEB", "IRONDEFENSE", "STRINGSHOT"],
+    locations: [],
+  },
+  {
+    no: 12,
+    name: "Butterfree",
+    types: ["Bug", "Flying"],
+    stats: [60, 45, 50, 70, 90, 80],
+    level_up_moves: {
+      "0": ["GUST"],
+      "1": ["CONFUSION"],
+      "11": ["CONFUSION"],
+      "13": ["POISONPOWDER", "STUNSPORE", "SLEEPPOWDER"],
+      "17": ["PSYBEAM"],
+      "19": ["SILVERWIND"],
+      "23": ["SUPERSONIC"],
+      "25": ["SAFEGUARD"],
+      "29": ["WHIRLWIND"],
+      "31": ["BUGBUZZ"],
+      "35": ["RAGEPOWDER"],
+      "37": ["CAPTIVATE"],
+      "41": ["TAILWIND"],
+      "43": ["AIRSLASH"],
+      "47": ["QUIVERDANCE"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "HYPERBEAM",
+      "PROTECT",
+      "RAINDANCE",
+      "ROOST",
+      "SAFEGUARD",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "RETURN",
+      "PSYCHIC",
+      "SHADOWBALL",
+      "DOUBLETEAM",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ENERGYBALL",
+      "ACROBATICS",
+      "GIGAIMPACT",
+      "STRUGGLEBUG",
+      "PSYCHUP",
+      "INFESTATION",
+      "DREAMEATER",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "FLASH",
+      "AIRCUTTER",
+      "BUGBITE",
+      "DEFOG",
+      "ELECTROWEB",
+      "GIGADRAIN",
+      "OMINOUSWIND",
+      "SIGNALBEAM",
+      "SKILLSWAP",
+      "SNORE",
+      "STRINGSHOT",
+      "SWIFT",
+      "TAILWIND",
+      "TWISTER",
+    ],
+    locations: [
+      { location: "Peridot Ward", point: "Adrienn", method: "LandMorning" },
+      {
+        location: "Lower Peridot Ward",
+        point: "Adrienn",
+        method: "LandMorning",
+      },
+    ],
+  },
+  {
+    no: 13,
+    name: "Weedle",
+    types: ["Bug", "Poison"],
+    stats: [40, 35, 30, 50, 20, 20],
+    level_up_moves: { "1": ["POISONSTING", "STRINGSHOT"], "9": ["BUGBITE"] },
+    egg_moves: [],
+    tm_tutor_moves: ["BUGBITE", "ELECTROWEB", "STRINGSHOT"],
+    locations: [],
+  },
+  {
+    no: 14,
+    name: "Kakuna",
+    types: ["Bug", "Poison"],
+    stats: [45, 25, 50, 35, 25, 25],
+    level_up_moves: { "0": ["HARDEN"], "1": ["HARDEN"] },
+    egg_moves: [],
+    tm_tutor_moves: ["BUGBITE", "ELECTROWEB", "IRONDEFENSE", "STRINGSHOT"],
+    locations: [],
+  },
+  {
+    no: 15,
+    name: "Beedrill",
+    types: ["Bug", "Poison"],
+    stats: [65, 90, 40, 75, 45, 80],
+    level_up_moves: {
+      "0": ["TWINEEDLE"],
+      "1": ["FURYATTACK"],
+      "11": ["FURYATTACK"],
+      "14": ["RAGE"],
+      "17": ["PURSUIT"],
+      "20": ["FOCUSENERGY"],
+      "23": ["VENOSHOCK"],
+      "26": ["ASSURANCE"],
+      "29": ["TOXICSPIKES"],
+      "32": ["PINMISSILE"],
+      "35": ["POISONJAB"],
+      "38": ["AGILITY"],
+      "41": ["ENDEAVOR"],
+      "44": ["FELLSTINGER"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "HYPERBEAM",
+      "PROTECT",
+      "ROOST",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "RETURN",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "FALSESWIPE",
+      "BRUTALSWING",
+      "ACROBATICS",
+      "PAYBACK",
+      "GIGAIMPACT",
+      "SWORDSDANCE",
+      "STRUGGLEBUG",
+      "XSCISSOR",
+      "INFESTATION",
+      "POISONJAB",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "CUT",
+      "ROCKSMASH",
+      "FLASH",
+      "AIRCUTTER",
+      "BUGBITE",
+      "DEFOG",
+      "DRILLRUN",
+      "ELECTROWEB",
+      "ENDEAVOR",
+      "FURYCUTTER",
+      "GIGADRAIN",
+      "KNOCKOFF",
+      "LASERFOCUS",
+      "OMINOUSWIND",
+      "SNORE",
+      "STRINGSHOT",
+      "SWIFT",
+      "TAILWIND",
+      "THROATCHOP",
+    ],
+    locations: [
+      {
+        location: "Jasper Ward",
+        point: "Taka/Pulse Tangrowth 2",
+        method: "Cave",
+      },
+      {
+        location: "Malchous Forest",
+        point: "Taka/Pulse Tangrowth 2",
+        method: "LandMorning",
+      },
+    ],
+  },
+  {
+    no: 10090,
+    name: "Mega Beedrill",
+    types: ["Bug", "Poison"],
+    stats: [65, 150, 40, 145, 15, 80],
+    level_up_moves: {
+      "0": ["TWINEEDLE"],
+      "1": ["FURYATTACK"],
+      "11": ["FURYATTACK"],
+      "14": ["RAGE"],
+      "17": ["PURSUIT"],
+      "20": ["FOCUSENERGY"],
+      "23": ["VENOSHOCK"],
+      "26": ["ASSURANCE"],
+      "29": ["TOXICSPIKES"],
+      "32": ["PINMISSILE"],
+      "35": ["POISONJAB"],
+      "38": ["AGILITY"],
+      "41": ["ENDEAVOR"],
+      "44": ["FELLSTINGER"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "HYPERBEAM",
+      "PROTECT",
+      "ROOST",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "RETURN",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "FALSESWIPE",
+      "BRUTALSWING",
+      "ACROBATICS",
+      "PAYBACK",
+      "GIGAIMPACT",
+      "SWORDSDANCE",
+      "STRUGGLEBUG",
+      "XSCISSOR",
+      "INFESTATION",
+      "POISONJAB",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "CUT",
+      "ROCKSMASH",
+      "FLASH",
+      "AIRCUTTER",
+      "BUGBITE",
+      "DEFOG",
+      "DRILLRUN",
+      "ELECTROWEB",
+      "ENDEAVOR",
+      "FURYCUTTER",
+      "GIGADRAIN",
+      "KNOCKOFF",
+      "LASERFOCUS",
+      "OMINOUSWIND",
+      "SNORE",
+      "STRINGSHOT",
+      "SWIFT",
+      "TAILWIND",
+      "THROATCHOP",
+    ],
+    locations: [
+      {
+        location: "Route 4",
+        point: "Hardy",
+        method: "Glassworks Factory Puzzle (100%)",
+      },
+    ],
+  },
+  {
+    no: 16,
+    name: "Pidgey",
+    types: ["Normal", "Flying"],
+    stats: [40, 45, 40, 56, 35, 35],
+    level_up_moves: {
+      "1": ["TACKLE"],
+      "5": ["SANDATTACK"],
+      "9": ["GUST"],
+      "13": ["QUICKATTACK"],
+      "17": ["WHIRLWIND"],
+      "21": ["TWISTER"],
+      "25": ["FEATHERDANCE"],
+      "29": ["AGILITY"],
+      "33": ["WINGATTACK"],
+      "37": ["ROOST"],
+      "41": ["TAILWIND"],
+      "45": ["MIRRORMOVE"],
+      "49": ["AIRSLASH"],
+      "53": ["HURRICANE"],
+    },
+    egg_moves: [
+      "AIRCUTTER",
+      "AIRSLASH",
+      "BRAVEBIRD",
+      "DEFOG",
+      "FEINTATTACK",
+      "FORESIGHT",
+      "PURSUIT",
+      "STEELWING",
+      "UPROAR",
+    ],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "PROTECT",
+      "RAINDANCE",
+      "ROOST",
+      "FRUSTRATION",
+      "RETURN",
+      "DOUBLETEAM",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "STEELWING",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "FLY",
+      "AIRCUTTER",
+      "DEFOG",
+      "HEATWAVE",
+      "MUDSLAP",
+      "OMINOUSWIND",
+      "SKYATTACK",
+      "SNORE",
+      "SWIFT",
+      "TAILWIND",
+      "TWISTER",
+      "UPROAR",
+    ],
+    locations: [
+      { location: "Opal Ward", point: "Julia", method: "LandMorning" },
+      {
+        location: "Jasper Ward",
+        point: "Taka/Pulse Tangrowth 2",
+        method: "Cave",
+      },
+      {
+        location: "Malchous Forest",
+        point: "Taka/Pulse Tangrowth 2",
+        method: "LandMorning",
+      },
+      { location: "Glitch World", point: "T3RR4", method: "Land" },
+    ],
+  },
+  {
+    no: 17,
+    name: "Pidgeotto",
+    types: ["Normal", "Flying"],
+    stats: [63, 60, 55, 71, 50, 50],
+    level_up_moves: {
+      "1": ["TACKLE", "SANDATTACK", "GUST"],
+      "5": ["SANDATTACK"],
+      "9": ["GUST"],
+      "13": ["QUICKATTACK"],
+      "17": ["WHIRLWIND"],
+      "22": ["TWISTER"],
+      "27": ["FEATHERDANCE"],
+      "32": ["AGILITY"],
+      "37": ["WINGATTACK"],
+      "42": ["ROOST"],
+      "47": ["TAILWIND"],
+      "52": ["MIRRORMOVE"],
+      "57": ["AIRSLASH"],
+      "62": ["HURRICANE"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "PROTECT",
+      "RAINDANCE",
+      "ROOST",
+      "FRUSTRATION",
+      "RETURN",
+      "DOUBLETEAM",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "STEELWING",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "FLY",
+      "AIRCUTTER",
+      "DEFOG",
+      "HEATWAVE",
+      "MUDSLAP",
+      "OMINOUSWIND",
+      "SKYATTACK",
+      "SNORE",
+      "SWIFT",
+      "TAILWIND",
+      "TWISTER",
+      "UPROAR",
+    ],
+    locations: [
+      {
+        location: "Jasper Ward",
+        point: "Taka/Pulse Tangrowth 2",
+        method: "Cave",
+      },
+      {
+        location: "Beryl Ward",
+        point: "Taka/ZEL/Pulse Tangrowth 3",
+        method: "Cave",
+      },
+      { location: "Opal Ward", point: "Adrienn", method: "LandMorning" },
+      { location: "Malchous Forest", point: "Adrienn", method: "LandMorning" },
+    ],
+  },
+  {
+    no: 18,
+    name: "Pidgeot",
+    types: ["Normal", "Flying"],
+    stats: [83, 80, 75, 101, 70, 70],
+    level_up_moves: {
+      "1": ["HURRICANE", "TACKLE", "SANDATTACK", "GUST", "QUICKATTACK"],
+      "5": ["SANDATTACK"],
+      "9": ["GUST"],
+      "13": ["QUICKATTACK"],
+      "17": ["WHIRLWIND"],
+      "22": ["TWISTER"],
+      "27": ["FEATHERDANCE"],
+      "32": ["AGILITY"],
+      "38": ["WINGATTACK"],
+      "44": ["ROOST"],
+      "50": ["TAILWIND"],
+      "56": ["MIRRORMOVE"],
+      "62": ["AIRSLASH"],
+      "68": ["HURRICANE"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "HYPERBEAM",
+      "PROTECT",
+      "RAINDANCE",
+      "ROOST",
+      "FRUSTRATION",
+      "RETURN",
+      "DOUBLETEAM",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "STEELWING",
+      "GIGAIMPACT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "FLY",
+      "AIRCUTTER",
+      "DEFOG",
+      "HEATWAVE",
+      "LASERFOCUS",
+      "MUDSLAP",
+      "OMINOUSWIND",
+      "SKYATTACK",
+      "SNORE",
+      "SWIFT",
+      "TAILWIND",
+      "TWISTER",
+      "UPROAR",
+    ],
+    locations: [
+      { location: "Jasper Ward", point: "Adrienn", method: "LandMorning" },
+      { location: "Malchous Forest", point: "Adrienn", method: "LandMorning" },
+      { location: "Teknite Ridge", point: "Hardy", method: "LandMorning" },
+    ],
+  },
+  {
+    no: 10073,
+    name: "Mega Pidgeot",
+    types: ["Normal", "Flying"],
+    stats: [83, 80, 80, 121, 135, 80],
+    level_up_moves: {
+      "1": ["HURRICANE", "TACKLE", "SANDATTACK", "GUST", "QUICKATTACK"],
+      "5": ["SANDATTACK"],
+      "9": ["GUST"],
+      "13": ["QUICKATTACK"],
+      "17": ["WHIRLWIND"],
+      "22": ["TWISTER"],
+      "27": ["FEATHERDANCE"],
+      "32": ["AGILITY"],
+      "38": ["WINGATTACK"],
+      "44": ["ROOST"],
+      "50": ["TAILWIND"],
+      "56": ["MIRRORMOVE"],
+      "62": ["AIRSLASH"],
+      "68": ["HURRICANE"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "HYPERBEAM",
+      "PROTECT",
+      "RAINDANCE",
+      "ROOST",
+      "FRUSTRATION",
+      "RETURN",
+      "DOUBLETEAM",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "STEELWING",
+      "GIGAIMPACT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "FLY",
+      "AIRCUTTER",
+      "DEFOG",
+      "HEATWAVE",
+      "LASERFOCUS",
+      "MUDSLAP",
+      "OMINOUSWIND",
+      "SKYATTACK",
+      "SNORE",
+      "SWIFT",
+      "TAILWIND",
+      "TWISTER",
+      "UPROAR",
+    ],
+    locations: [
+      {
+        location: "Teknite Ridge",
+        point: "Amaria",
+        method: "Strong Winds Event (100%)",
+      },
+    ],
+  },
+  {
+    no: 19,
+    name: "Rattata",
+    types: ["Normal"],
+    stats: [30, 56, 35, 72, 25, 35],
+    level_up_moves: {
+      "1": ["TACKLE", "TAILWHIP"],
+      "4": ["QUICKATTACK"],
+      "7": ["FOCUSENERGY"],
+      "10": ["BITE"],
+      "13": ["PURSUIT"],
+      "16": ["HYPERFANG"],
+      "19": ["ASSURANCE"],
+      "22": ["CRUNCH"],
+      "25": ["SUCKERPUNCH"],
+      "28": ["SUPERFANG"],
+      "31": ["DOUBLEEDGE"],
+      "34": ["ENDEAVOR"],
+    },
+    egg_moves: [
+      "BITE",
+      "COUNTER",
+      "FINALGAMBIT",
+      "FLAMEWHEEL",
+      "FURYSWIPES",
+      "LASTRESORT",
+      "MEFIRST",
+      "REVENGE",
+      "REVERSAL",
+      "SCREECH",
+      "UPROAR",
+    ],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "TAUNT",
+      "ICEBEAM",
+      "BLIZZARD",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "THUNDERBOLT",
+      "THUNDER",
+      "RETURN",
+      "SHADOWBALL",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "CHARGEBEAM",
+      "THUNDERWAVE",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "WILDCHARGE",
+      "SECRETPOWER",
+      "CUT",
+      "ROCKSMASH",
+      "COVET",
+      "ENDEAVOR",
+      "HEADBUTT",
+      "ICYWIND",
+      "IRONTAIL",
+      "LASTRESORT",
+      "MUDSLAP",
+      "SHOCKWAVE",
+      "SNORE",
+      "SUCKERPUNCH",
+      "SUPERFANG",
+      "SWIFT",
+      "UPROAR",
+      "ZENHEADBUTT",
+    ],
+    locations: [
+      { location: "Opal Ward", point: "Julia", method: "LandMorning" },
+      { location: "Glitch World", point: "T3RR4", method: "Land" },
+    ],
+  },
+  {
+    no: 10091,
+    name: "Rattata (Alolan)",
+    types: ["Dark", "Normal"],
+    stats: [30, 56, 35, 72, 25, 35],
+    level_up_moves: {
+      "1": ["TACKLE", "TAILWHIP"],
+      "4": ["QUICKATTACK"],
+      "7": ["FOCUSENERGY"],
+      "10": ["BITE"],
+      "13": ["PURSUIT"],
+      "16": ["HYPERFANG"],
+      "19": ["ASSURANCE"],
+      "22": ["CRUNCH"],
+      "25": ["SUCKERPUNCH"],
+      "28": ["SUPERFANG"],
+      "31": ["DOUBLEEDGE"],
+      "34": ["ENDEAVOR"],
+    },
+    egg_moves: [
+      "COUNTER",
+      "FINALGAMBIT",
+      "FURYSWIPES",
+      "MEFIRST",
+      "REVENGE",
+      "REVERSAL",
+      "SNATCH",
+      "STOCKPILE",
+      "SWALLOW",
+      "SWITCHEROO",
+      "UPROAR",
+    ],
+    tm_tutor_moves: [
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "TAUNT",
+      "ICEBEAM",
+      "BLIZZARD",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "RETURN",
+      "SHADOWBALL",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "TORMENT",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "QUASH",
+      "EMBARGO",
+      "SHADOWCLAW",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "SNARL",
+      "DARKPULSE",
+      "CUT",
+      "ROCKSMASH",
+      "COVET",
+      "ENDEAVOR",
+      "HEADBUTT",
+      "ICYWIND",
+      "IRONTAIL",
+      "LASTRESORT",
+      "MUDSLAP",
+      "SHOCKWAVE",
+      "SNATCH",
+      "SNORE",
+      "SUCKERPUNCH",
+      "SUPERFANG",
+      "SWIFT",
+      "UPROAR",
+      "ZENHEADBUTT",
+    ],
+    locations: [
+      { location: "Lapis Alleyway", point: "Shelly", method: "Cave" },
+      { location: "Lapis Ward", point: "Adrienn", method: "LandMorning" },
+    ],
+  },
+  {
+    no: 20,
+    name: "Raticate",
+    types: ["Normal"],
+    stats: [55, 81, 60, 97, 50, 70],
+    level_up_moves: {
+      "0": ["SCARYFACE"],
+      "1": ["SWORDSDANCE", "TACKLE", "TAILWHIP", "QUICKATTACK", "FOCUSENERGY"],
+      "4": ["QUICKATTACK"],
+      "7": ["FOCUSENERGY"],
+      "10": ["BITE"],
+      "13": ["PURSUIT"],
+      "16": ["HYPERFANG"],
+      "19": ["ASSURANCE"],
+      "24": ["CRUNCH"],
+      "29": ["SUCKERPUNCH"],
+      "34": ["SUPERFANG"],
+      "39": ["DOUBLEEDGE"],
+      "44": ["ENDEAVOR"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "ROAR",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "TAUNT",
+      "ICEBEAM",
+      "BLIZZARD",
+      "HYPERBEAM",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "THUNDERBOLT",
+      "THUNDER",
+      "RETURN",
+      "SHADOWBALL",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "CHARGEBEAM",
+      "GIGAIMPACT",
+      "THUNDERWAVE",
+      "SWORDSDANCE",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "WILDCHARGE",
+      "SECRETPOWER",
+      "CUT",
+      "STRENGTH",
+      "ROCKSMASH",
+      "COVET",
+      "ENDEAVOR",
+      "HEADBUTT",
+      "ICYWIND",
+      "IRONTAIL",
+      "LASTRESORT",
+      "MUDSLAP",
+      "SHOCKWAVE",
+      "SNORE",
+      "STOMPINGTANTRUM",
+      "SUCKERPUNCH",
+      "SUPERFANG",
+      "SWIFT",
+      "THROATCHOP",
+      "UPROAR",
+      "ZENHEADBUTT",
+    ],
+    locations: [
+      { location: "Opal Ward", point: "Adrienn", method: "LandMorning" },
+    ],
+  },
+  {
+    no: 10092,
+    name: "Raticate (Alolan)",
+    types: ["Dark", "Normal"],
+    stats: [75, 71, 70, 77, 40, 80],
+    level_up_moves: {
+      "0": ["SCARYFACE"],
+      "1": ["SWORDSDANCE", "TACKLE", "TAILWHIP", "QUICKATTACK", "FOCUSENERGY"],
+      "4": ["QUICKATTACK"],
+      "7": ["FOCUSENERGY"],
+      "10": ["BITE"],
+      "13": ["PURSUIT"],
+      "16": ["HYPERFANG"],
+      "19": ["ASSURANCE"],
+      "24": ["CRUNCH"],
+      "29": ["SUCKERPUNCH"],
+      "34": ["SUPERFANG"],
+      "39": ["DOUBLEEDGE"],
+      "44": ["ENDEAVOR"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "ROAR",
+      "TOXIC",
+      "BULKUP",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "TAUNT",
+      "ICEBEAM",
+      "BLIZZARD",
+      "HYPERBEAM",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "RETURN",
+      "SHADOWBALL",
+      "DOUBLETEAM",
+      "SLUDGEWAVE",
+      "SLUDGEBOMB",
+      "TORMENT",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "QUASH",
+      "EMBARGO",
+      "SHADOWCLAW",
+      "GIGAIMPACT",
+      "SWORDSDANCE",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "SNARL",
+      "DARKPULSE",
+      "CUT",
+      "STRENGTH",
+      "ROCKSMASH",
+      "COVET",
+      "ENDEAVOR",
+      "HEADBUTT",
+      "ICYWIND",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "LASTRESORT",
+      "MUDSLAP",
+      "SHOCKWAVE",
+      "SNATCH",
+      "SNORE",
+      "STOMPINGTANTRUM",
+      "SUCKERPUNCH",
+      "SUPERFANG",
+      "SWIFT",
+      "THROATCHOP",
+      "UPROAR",
+      "ZENHEADBUTT",
+    ],
+    locations: [
+      { location: "Lapis Alleyway", point: "Shelly", method: "Cave" },
+      { location: "Lapis Ward", point: "Adrienn", method: "LandMorning" },
+    ],
+  },
+  {
+    no: 21,
+    name: "Spearow",
+    types: ["Normal", "Flying"],
+    stats: [40, 60, 30, 70, 31, 31],
+    level_up_moves: {
+      "1": ["PECK", "GROWL"],
+      "4": ["LEER"],
+      "8": ["PURSUIT"],
+      "11": ["FURYATTACK"],
+      "15": ["AERIALACE"],
+      "18": ["MIRRORMOVE"],
+      "22": ["ASSURANCE"],
+      "25": ["AGILITY"],
+      "29": ["FOCUSENERGY"],
+      "32": ["ROOST"],
+      "36": ["DRILLPECK"],
+    },
+    egg_moves: [
+      "ASTONISH",
+      "FEINTATTACK",
+      "FEATHERDANCE",
+      "QUICKATTACK",
+      "RAZORWIND",
+      "SCARYFACE",
+      "SKYATTACK",
+      "STEELWING",
+      "TRIATTACK",
+      "UPROAR",
+      "WHIRLWIND",
+    ],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "PROTECT",
+      "RAINDANCE",
+      "ROOST",
+      "FRUSTRATION",
+      "RETURN",
+      "DOUBLETEAM",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ECHOEDVOICE",
+      "STEELWING",
+      "FALSESWIPE",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "FLY",
+      "AIRCUTTER",
+      "DEFOG",
+      "DRILLRUN",
+      "HEATWAVE",
+      "MUDSLAP",
+      "OMINOUSWIND",
+      "SKYATTACK",
+      "SNORE",
+      "SWIFT",
+      "TAILWIND",
+      "TWISTER",
+      "UPROAR",
+    ],
+    locations: [
+      { location: "Opal Ward", point: "Julia", method: "HeadbuttLow" },
+      { location: "Onyx Ward", point: "Florina", method: "Land" },
+      {
+        location: "Beryl Ward",
+        point: "Taka/ZEL/Pulse Tangrowth 3",
+        method: "Cave",
+      },
+      {
+        location: "Rhodochrine Jungle",
+        point: "Taka/ZEL/Pulse Tangrowth 3",
+        method: "LandMorning",
+      },
+      { location: "Beryl Cemetery", point: "Corey", method: "LandMorning" },
+    ],
+  },
+  {
+    no: 22,
+    name: "Fearow",
+    types: ["Normal", "Flying"],
+    stats: [65, 90, 65, 100, 61, 61],
+    level_up_moves: {
+      "1": ["DRILLRUN", "PLUCK", "PECK", "GROWL", "LEER", "PURSUIT"],
+      "4": ["LEER"],
+      "8": ["PURSUIT"],
+      "11": ["FURYATTACK"],
+      "15": ["AERIALACE"],
+      "18": ["MIRRORMOVE"],
+      "23": ["ASSURANCE"],
+      "27": ["AGILITY"],
+      "32": ["FOCUSENERGY"],
+      "36": ["ROOST"],
+      "41": ["DRILLPECK"],
+      "45": ["DRILLRUN"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "HYPERBEAM",
+      "PROTECT",
+      "RAINDANCE",
+      "ROOST",
+      "FRUSTRATION",
+      "RETURN",
+      "DOUBLETEAM",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ECHOEDVOICE",
+      "STEELWING",
+      "FALSESWIPE",
+      "GIGAIMPACT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "FLY",
+      "AIRCUTTER",
+      "DEFOG",
+      "DRILLRUN",
+      "HEATWAVE",
+      "LASERFOCUS",
+      "MUDSLAP",
+      "OMINOUSWIND",
+      "SKYATTACK",
+      "SNORE",
+      "SWIFT",
+      "TAILWIND",
+      "THROATCHOP",
+      "TWISTER",
+      "UPROAR",
+    ],
+    locations: [
+      { location: "Beryl Ward", point: "Corey", method: "LandMorning" },
+      { location: "Beryl Cemetery", point: "Corey", method: "LandMorning" },
+      { location: "Opal Ward", point: "Adrienn", method: "HeadbuttLow" },
+      {
+        location: "Rhodochrine Jungle",
+        point: "Adrienn",
+        method: "LandMorning",
+      },
+      { location: "Onyx Ward", point: "Adrienn", method: "LandMorning" },
+    ],
+  },
+  {
+    no: 23,
+    name: "Ekans",
+    types: ["Poison"],
+    stats: [35, 60, 44, 55, 40, 54],
+    level_up_moves: {
+      "1": ["WRAP", "LEER"],
+      "4": ["POISONSTING"],
+      "9": ["BITE"],
+      "12": ["GLARE"],
+      "17": ["SCREECH"],
+      "20": ["ACID"],
+      "25": ["STOCKPILE", "SPITUP", "SWALLOW"],
+      "28": ["ACIDSPRAY"],
+      "33": ["MUDBOMB"],
+      "36": ["GASTROACID"],
+      "38": ["BELCH"],
+      "41": ["HAZE"],
+      "44": ["COIL"],
+      "49": ["GUNKSHOT"],
+    },
+    egg_moves: [
+      "BEATUP",
+      "DISABLE",
+      "IRONTAIL",
+      "POISONFANG",
+      "POISONTAIL",
+      "PURSUIT",
+      "SCARYFACE",
+      "SLAM",
+      "SNATCH",
+      "SPITE",
+      "SUCKERPUNCH",
+      "SWITCHEROO",
+    ],
+    tm_tutor_moves: [
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "EARTHQUAKE",
+      "RETURN",
+      "DOUBLETEAM",
+      "SLUDGEWAVE",
+      "SLUDGEBOMB",
+      "ROCKTOMB",
+      "TORMENT",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "BRUTALSWING",
+      "PAYBACK",
+      "BULLDOZE",
+      "ROCKSLIDE",
+      "INFESTATION",
+      "POISONJAB",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "DARKPULSE",
+      "CONFIDE",
+      "STRENGTH",
+      "AQUATAIL",
+      "BIND",
+      "GASTROACID",
+      "GIGADRAIN",
+      "GUNKSHOT",
+      "HEADBUTT",
+      "IRONTAIL",
+      "SEEDBOMB",
+      "SNATCH",
+      "SNORE",
+      "SPITE",
+    ],
+    locations: [
+      { location: "Opal Ward", point: "Julia", method: "LandMorning" },
+      { location: "Beryl Ward", point: "Corey", method: "LandMorning" },
+      { location: "Beryl Cemetery", point: "Corey", method: "LandMorning" },
+      { location: "Byxbysion Wasteland", point: "Aya", method: "LandMorning" },
+      { location: "Glitch World", point: "T3RR4", method: "Land" },
+    ],
+  },
+  {
+    no: 24,
+    name: "Arbok",
+    types: ["Poison"],
+    stats: [60, 95, 69, 80, 65, 79],
+    level_up_moves: {
+      "0": ["CRUNCH"],
+      "1": [
+        "ICEFANG",
+        "THUNDERFANG",
+        "FIREFANG",
+        "WRAP",
+        "LEER",
+        "BITE",
+        "POISONSTING",
+      ],
+      "4": ["POISONSTING"],
+      "9": ["BITE"],
+      "12": ["GLARE"],
+      "17": ["SCREECH"],
+      "20": ["ACID"],
+      "27": ["STOCKPILE", "SPITUP", "SWALLOW"],
+      "32": ["ACIDSPRAY"],
+      "39": ["MUDBOMB"],
+      "44": ["GASTROACID"],
+      "48": ["BELCH"],
+      "51": ["HAZE"],
+      "56": ["COIL"],
+      "63": ["GUNKSHOT"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "HYPERBEAM",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "EARTHQUAKE",
+      "RETURN",
+      "DOUBLETEAM",
+      "SLUDGEWAVE",
+      "SLUDGEBOMB",
+      "ROCKTOMB",
+      "TORMENT",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "BRUTALSWING",
+      "PAYBACK",
+      "GIGAIMPACT",
+      "BULLDOZE",
+      "ROCKSLIDE",
+      "DRAGONTAIL",
+      "INFESTATION",
+      "POISONJAB",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "DARKPULSE",
+      "CONFIDE",
+      "STRENGTH",
+      "AQUATAIL",
+      "BIND",
+      "GASTROACID",
+      "GIGADRAIN",
+      "GUNKSHOT",
+      "HEADBUTT",
+      "IRONTAIL",
+      "SEEDBOMB",
+      "SNATCH",
+      "SNORE",
+      "SPITE",
+      "STOMPINGTANTRUM",
+      "THROATCHOP",
+    ],
+    locations: [
+      { location: "Beryl Ward", point: "Corey", method: "LandMorning" },
+      { location: "Beryl Cemetery", point: "Corey", method: "LandMorning" },
+      { location: "Byxbysion Wasteland", point: "Aya", method: "LandMorning" },
+      { location: "Tanzan Depths", point: "Noel", method: "Cave" },
+      { location: "Route 1", point: "Radomus", method: "LandNight" },
+      { location: "Tanzan Mountain", point: "Adrienn", method: "Cave" },
+      { location: "Glitch World", point: "T3RR4", method: "Land" },
+    ],
+  },
+  {
+    no: 25,
+    name: "Pikachu",
+    types: ["Electric"],
+    stats: [35, 55, 40, 90, 50, 50],
+    level_up_moves: {
+      "1": ["TAILWHIP", "THUNDERSHOCK"],
+      "5": ["GROWL"],
+      "7": ["PLAYNICE"],
+      "10": ["QUICKATTACK"],
+      "13": ["ELECTROBALL"],
+      "18": ["THUNDERWAVE"],
+      "21": ["FEINT"],
+      "23": ["DOUBLETEAM"],
+      "26": ["SPARK"],
+      "29": ["NUZZLE"],
+      "34": ["DISCHARGE"],
+      "37": ["SLAM"],
+      "42": ["THUNDERBOLT"],
+      "45": ["AGILITY"],
+      "50": ["WILDCHARGE"],
+      "53": ["LIGHTSCREEN"],
+      "58": ["THUNDER"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "TOXIC",
+      "HIDDENPOWER",
+      "LIGHTSCREEN",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "THUNDERBOLT",
+      "THUNDER",
+      "RETURN",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "ECHOEDVOICE",
+      "FLING",
+      "CHARGEBEAM",
+      "VOLTSWITCH",
+      "THUNDERWAVE",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "WILDCHARGE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "STRENGTH",
+      "ROCKSMASH",
+      "FLASH",
+      "COVET",
+      "ELECTROWEB",
+      "FOCUSPUNCH",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "LASERFOCUS",
+      "MAGNETRISE",
+      "MUDSLAP",
+      "ROLLOUT",
+      "SHOCKWAVE",
+      "SIGNALBEAM",
+      "SNORE",
+      "SWIFT",
+      "THUNDERPUNCH",
+      "VOLTTACKLE",
+    ],
+    locations: [
+      { location: "Onyx Ward", point: "Adrienn", method: "LandMorning" },
+    ],
+  },
+  {
+    no: 26,
+    name: "Raichu",
+    types: ["Electric"],
+    stats: [60, 90, 55, 110, 90, 80],
+    level_up_moves: {
+      "1": ["THUNDERSHOCK", "TAILWHIP", "QUICKATTACK", "THUNDERBOLT"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "TOXIC",
+      "HIDDENPOWER",
+      "HYPERBEAM",
+      "LIGHTSCREEN",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "THUNDERBOLT",
+      "THUNDER",
+      "RETURN",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ECHOEDVOICE",
+      "FOCUSBLAST",
+      "FLING",
+      "CHARGEBEAM",
+      "GIGAIMPACT",
+      "VOLTSWITCH",
+      "THUNDERWAVE",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "WILDCHARGE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "STRENGTH",
+      "ROCKSMASH",
+      "FLASH",
+      "COVET",
+      "ELECTROWEB",
+      "FOCUSPUNCH",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "LASERFOCUS",
+      "MAGNETRISE",
+      "MUDSLAP",
+      "ROLLOUT",
+      "SHOCKWAVE",
+      "SIGNALBEAM",
+      "SNORE",
+      "SWIFT",
+      "THUNDERPUNCH",
+    ],
+    locations: [{ location: "Glitch World", point: "T3RR4", method: "Cave" }],
+  },
+  {
+    no: 10100,
+    name: "Raichu (Alolan)",
+    types: ["Electric", "Psychic"],
+    stats: [60, 85, 50, 110, 95, 85],
+    level_up_moves: {
+      "0": ["PSYCHIC"],
+      "1": [
+        "PSYCHIC",
+        "SPEEDSWAP",
+        "THUNDERSHOCK",
+        "TAILWHIP",
+        "QUICKATTACK",
+        "THUNDERBOLT",
+      ],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "PSYSHOCK",
+      "CALMMIND",
+      "TOXIC",
+      "HIDDENPOWER",
+      "HYPERBEAM",
+      "LIGHTSCREEN",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "THUNDERBOLT",
+      "THUNDER",
+      "RETURN",
+      "PSYCHIC",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "REFLECT",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ECHOEDVOICE",
+      "FOCUSBLAST",
+      "FLING",
+      "CHARGEBEAM",
+      "GIGAIMPACT",
+      "VOLTSWITCH",
+      "THUNDERWAVE",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "WILDCHARGE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "STRENGTH",
+      "ROCKSMASH",
+      "FLASH",
+      "ALLYSWITCH",
+      "COVET",
+      "ELECTROWEB",
+      "FOCUSPUNCH",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "LASERFOCUS",
+      "MAGICCOAT",
+      "MAGICROOM",
+      "MAGNETRISE",
+      "MUDSLAP",
+      "RECYCLE",
+      "ROLLOUT",
+      "SHOCKWAVE",
+      "SIGNALBEAM",
+      "SNORE",
+      "SWIFT",
+      "TELEKINESIS",
+      "THUNDERPUNCH",
+    ],
+    locations: [
+      { location: "Apophyll Beach", point: "Kiki", method: "Evolve on Beach" },
+    ],
+  },
+  {
+    no: 27,
+    name: "Sandshrew",
+    types: ["Ground"],
+    stats: [50, 75, 85, 40, 20, 30],
+    level_up_moves: {
+      "1": ["SCRATCH", "DEFENSECURL"],
+      "3": ["SANDATTACK"],
+      "5": ["POISONSTING"],
+      "7": ["ROLLOUT"],
+      "9": ["RAPIDSPIN"],
+      "11": ["FURYCUTTER"],
+      "14": ["MAGNITUDE"],
+      "17": ["SWIFT"],
+      "20": ["FURYSWIPES"],
+      "23": ["SANDTOMB"],
+      "26": ["SLASH"],
+      "30": ["DIG"],
+      "34": ["GYROBALL"],
+      "38": ["SWORDSDANCE"],
+      "42": ["SANDSTORM"],
+      "46": ["EARTHQUAKE"],
+    },
+    egg_moves: [
+      "CHIPAWAY",
+      "COUNTER",
+      "CRUSHCLAW",
+      "ENDURE",
+      "FLAIL",
+      "HONECLAWS",
+      "METALCLAW",
+      "MUDSHOT",
+      "NIGHTSLASH",
+      "RAPIDSPIN",
+      "ROCKCLIMB",
+      "ROTOTILLER",
+    ],
+    tm_tutor_moves: [
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "PROTECT",
+      "SAFEGUARD",
+      "FRUSTRATION",
+      "EARTHQUAKE",
+      "RETURN",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "SANDSTORM",
+      "ROCKTOMB",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "FLING",
+      "SHADOWCLAW",
+      "AURORAVEIL",
+      "GYROBALL",
+      "SWORDSDANCE",
+      "BULLDOZE",
+      "ROCKSLIDE",
+      "XSCISSOR",
+      "POISONJAB",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "CUT",
+      "STRENGTH",
+      "ROCKSMASH",
+      "ROCKCLIMB",
+      "COVET",
+      "EARTHPOWER",
+      "FOCUSPUNCH",
+      "FURYCUTTER",
+      "HEADBUTT",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "MUDSLAP",
+      "ROLLOUT",
+      "SNORE",
+      "STEALTHROCK",
+      "STOMPINGTANTRUM",
+      "SUPERFANG",
+      "SWIFT",
+    ],
+    locations: [
+      { location: "Grand Stairway", point: "Shelly", method: "Cave" },
+      { location: "Tanzan Mountain", point: "Serra", method: "Cave" },
+      { location: "Lost Railcave", point: "Serra", method: "Cave" },
+    ],
+  },
+  {
+    no: 10101,
+    name: "Sandshrew (Alolan)",
+    types: ["Ice", "Steel"],
+    stats: [50, 75, 90, 40, 10, 35],
+    level_up_moves: {
+      "1": ["SCRATCH", "DEFENSECURL"],
+      "3": ["BIDE"],
+      "5": ["POWDERSNOW"],
+      "7": ["ICEBALL"],
+      "9": ["RAPIDSPIN"],
+      "11": ["FURYCUTTER"],
+      "14": ["METALCLAW"],
+      "17": ["SWIFT"],
+      "20": ["FURYSWIPES"],
+      "23": ["IRONDEFENSE"],
+      "26": ["SLASH"],
+      "30": ["IRONHEAD"],
+      "34": ["GYROBALL"],
+      "38": ["SWORDSDANCE"],
+      "42": ["HAIL"],
+      "46": ["BLIZZARD"],
+    },
+    egg_moves: [
+      "AMNESIA",
+      "CHIPAWAY",
+      "COUNTER",
+      "CRUSHCLAW",
+      "CURSE",
+      "ENDURE",
+      "FLAIL",
+      "HONECLAWS",
+      "ICICLECRASH",
+      "ICICLESPEAR",
+      "METALCLAW",
+      "NIGHTSLASH",
+    ],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "HAIL",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "BLIZZARD",
+      "PROTECT",
+      "SAFEGUARD",
+      "FRUSTRATION",
+      "EARTHQUAKE",
+      "RETURN",
+      "LEECHLIFE",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "FLING",
+      "SHADOWCLAW",
+      "AURORAVEIL",
+      "GYROBALL",
+      "SWORDSDANCE",
+      "BULLDOZE",
+      "FROSTBREATH",
+      "ROCKSLIDE",
+      "XSCISSOR",
+      "POISONJAB",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "CUT",
+      "STRENGTH",
+      "ROCKSMASH",
+      "ROCKCLIMB",
+      "AQUATAIL",
+      "COVET",
+      "FOCUSPUNCH",
+      "FURYCUTTER",
+      "HEADBUTT",
+      "ICEPUNCH",
+      "ICYWIND",
+      "IRONDEFENSE",
+      "IRONHEAD",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "MUDSLAP",
+      "ROLLOUT",
+      "SNORE",
+      "STEALTHROCK",
+      "SUPERFANG",
+      "SWIFT",
+      "THROATCHOP",
+    ],
+    locations: [
+      { location: "Ametrine Mountain", point: "Samson", method: "Cave" },
+      { location: "Celestinine Mountain", point: "Radomus", method: "Cave" },
+      { location: "Citrine Mountain", point: "Shade", method: "Cave" },
+    ],
+  },
+  {
+    no: 28,
+    name: "Sandslash",
+    types: ["Ground"],
+    stats: [75, 100, 110, 65, 45, 55],
+    level_up_moves: {
+      "0": ["CRUSHCLAW"],
+      "1": ["SCRATCH", "DEFENSECURL", "SANDATTACK", "POISONSTING"],
+      "3": ["SANDATTACK"],
+      "5": ["POISONSTING"],
+      "7": ["ROLLOUT"],
+      "9": ["RAPIDSPIN"],
+      "11": ["FURYCUTTER"],
+      "14": ["MAGNITUDE"],
+      "17": ["SWIFT"],
+      "20": ["FURYSWIPES"],
+      "24": ["SANDTOMB"],
+      "28": ["SLASH"],
+      "33": ["DIG"],
+      "38": ["GYROBALL"],
+      "43": ["SWORDSDANCE"],
+      "48": ["SANDSTORM"],
+      "53": ["EARTHQUAKE"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "HYPERBEAM",
+      "PROTECT",
+      "SAFEGUARD",
+      "FRUSTRATION",
+      "EARTHQUAKE",
+      "RETURN",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "SANDSTORM",
+      "ROCKTOMB",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "FOCUSBLAST",
+      "FLING",
+      "SHADOWCLAW",
+      "GIGAIMPACT",
+      "STONEEDGE",
+      "GYROBALL",
+      "SWORDSDANCE",
+      "BULLDOZE",
+      "ROCKSLIDE",
+      "XSCISSOR",
+      "POISONJAB",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "CUT",
+      "STRENGTH",
+      "ROCKSMASH",
+      "ROCKCLIMB",
+      "COVET",
+      "DRILLRUN",
+      "EARTHPOWER",
+      "FOCUSPUNCH",
+      "FURYCUTTER",
+      "HEADBUTT",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "MUDSLAP",
+      "ROLLOUT",
+      "SNORE",
+      "STEALTHROCK",
+      "STOMPINGTANTRUM",
+      "SUPERFANG",
+      "SWIFT",
+    ],
+    locations: [
+      { location: "Tanzan Depths", point: "Noel", method: "Cave" },
+      { location: "Tanzan Mountain", point: "Adrienn", method: "Cave" },
+      { location: "Teknite Cave", point: "Titania", method: "Cave" },
+      { location: "Teknite Ridge", point: "Hardy", method: "LandDay" },
+      { location: "Sugiline Cave", point: "Titania", method: "Cave" },
+      { location: "Sugiline Ruin", point: "Titania", method: "Cave" },
+      { location: "1R253 Scrapyard", point: "Titania", method: "Cave" },
+      { location: "Mirage Tower", point: "Titania", method: "Cave" },
+      { location: "Tourmaline Desert", point: "Titania", method: "Cave" },
+    ],
+  },
+  {
+    no: 10102,
+    name: "Sandslash (Alolan)",
+    types: ["Ice", "Steel"],
+    stats: [75, 100, 120, 65, 25, 65],
+    level_up_moves: {
+      "0": ["ICICLESPEAR"],
+      "1": [
+        "ICICLESPEAR",
+        "METALBURST",
+        "ICICLECRASH",
+        "SLASH",
+        "DEFENSECURL",
+        "ICEBALL",
+        "METALCLAW",
+      ],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "HAIL",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "BLIZZARD",
+      "HYPERBEAM",
+      "PROTECT",
+      "SAFEGUARD",
+      "FRUSTRATION",
+      "EARTHQUAKE",
+      "RETURN",
+      "LEECHLIFE",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "FOCUSBLAST",
+      "FLING",
+      "SHADOWCLAW",
+      "GIGAIMPACT",
+      "AURORAVEIL",
+      "STONEEDGE",
+      "GYROBALL",
+      "SWORDSDANCE",
+      "BULLDOZE",
+      "FROSTBREATH",
+      "ROCKSLIDE",
+      "XSCISSOR",
+      "POISONJAB",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "CUT",
+      "STRENGTH",
+      "ROCKSMASH",
+      "ROCKCLIMB",
+      "AQUATAIL",
+      "COVET",
+      "DRILLRUN",
+      "FOCUSPUNCH",
+      "FURYCUTTER",
+      "HEADBUTT",
+      "ICEPUNCH",
+      "ICYWIND",
+      "IRONDEFENSE",
+      "IRONHEAD",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "MUDSLAP",
+      "ROLLOUT",
+      "SNORE",
+      "STEALTHROCK",
+      "SUPERFANG",
+      "SWIFT",
+      "THROATCHOP",
+    ],
+    locations: [
+      { location: "Ametrine Mountain", point: "Samson", method: "Cave" },
+      { location: "Celestinine Mountain", point: "Radomus", method: "Cave" },
+      { location: "Citrine Mountain", point: "Shade", method: "Cave" },
+      { location: "Charous Mountain", point: "Hardy", method: "Cave" },
+    ],
+  },
+  {
+    no: 29,
+    name: "Nidoran\u2640",
+    types: ["Poison"],
+    stats: [55, 47, 52, 41, 40, 40],
+    level_up_moves: {
+      "1": ["GROWL", "SCRATCH"],
+      "7": ["TAILWHIP"],
+      "9": ["DOUBLEKICK"],
+      "13": ["POISONSTING"],
+      "19": ["FURYSWIPES"],
+      "21": ["BITE"],
+      "25": ["HELPINGHAND"],
+      "31": ["TOXICSPIKES"],
+      "33": ["FLATTER"],
+      "37": ["CRUNCH"],
+      "43": ["CAPTIVATE"],
+      "45": ["POISONFANG"],
+    },
+    egg_moves: [
+      "BEATUP",
+      "CHARM",
+      "CHIPAWAY",
+      "COUNTER",
+      "DISABLE",
+      "ENDURE",
+      "FOCUSENERGY",
+      "IRONTAIL",
+      "POISONTAIL",
+      "PURSUIT",
+      "SKULLBASH",
+      "SUPERSONIC",
+      "TAKEDOWN",
+      "VENOMDRENCH",
+    ],
+    tm_tutor_moves: [
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "ICEBEAM",
+      "BLIZZARD",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "THUNDERBOLT",
+      "THUNDER",
+      "RETURN",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ECHOEDVOICE",
+      "SHADOWCLAW",
+      "POISONJAB",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "CUT",
+      "STRENGTH",
+      "ROCKSMASH",
+      "HEADBUTT",
+      "IRONTAIL",
+      "MUDSLAP",
+      "SHOCKWAVE",
+      "SNORE",
+      "SUPERFANG",
+      "WATERPULSE",
+    ],
+    locations: [
+      { location: "Byxbysion Tunnels", point: "Aya", method: "Cave" },
+    ],
+  },
+  {
+    no: 30,
+    name: "Nidorina",
+    types: ["Poison"],
+    stats: [70, 62, 67, 56, 55, 55],
+    level_up_moves: {
+      "1": ["GROWL", "SCRATCH"],
+      "7": ["TAILWHIP"],
+      "9": ["DOUBLEKICK"],
+      "13": ["POISONSTING"],
+      "20": ["FURYSWIPES"],
+      "23": ["BITE"],
+      "28": ["HELPINGHAND"],
+      "35": ["TOXICSPIKES"],
+      "38": ["FLATTER"],
+      "43": ["CRUNCH"],
+      "50": ["CAPTIVATE"],
+      "58": ["POISONFANG"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "ICEBEAM",
+      "BLIZZARD",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "THUNDERBOLT",
+      "THUNDER",
+      "RETURN",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ECHOEDVOICE",
+      "SHADOWCLAW",
+      "POISONJAB",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "CUT",
+      "STRENGTH",
+      "ROCKSMASH",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "IRONTAIL",
+      "MUDSLAP",
+      "SHOCKWAVE",
+      "SNORE",
+      "STOMPINGTANTRUM",
+      "SUPERFANG",
+      "WATERPULSE",
+    ],
+    locations: [
+      { location: "Byxbysion Tunnels", point: "Aya", method: "Cave" },
+      {
+        location: "Beryl Cave",
+        point: "Shade",
+        method: "Silver Ring Event (100%)",
+      },
+    ],
+  },
+  {
+    no: 31,
+    name: "Nidoqueen",
+    types: ["Poison", "Ground"],
+    stats: [90, 92, 87, 76, 75, 85],
+    level_up_moves: {
+      "1": ["SUPERPOWER", "SCRATCH", "TAILWHIP", "DOUBLEKICK", "POISONSTING"],
+      "23": ["CHIPAWAY"],
+      "35": ["BODYSLAM"],
+      "43": ["EARTHPOWER"],
+      "58": ["SUPERPOWER"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "ROAR",
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "TAUNT",
+      "ICEBEAM",
+      "BLIZZARD",
+      "HYPERBEAM",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "SMACKDOWN",
+      "THUNDERBOLT",
+      "THUNDER",
+      "EARTHQUAKE",
+      "RETURN",
+      "SHADOWBALL",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "SLUDGEWAVE",
+      "FLAMETHROWER",
+      "SLUDGEBOMB",
+      "SANDSTORM",
+      "FIREBLAST",
+      "ROCKTOMB",
+      "AERIALACE",
+      "TORMENT",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ECHOEDVOICE",
+      "FOCUSBLAST",
+      "FLING",
+      "QUASH",
+      "SHADOWCLAW",
+      "GIGAIMPACT",
+      "STONEEDGE",
+      "BULLDOZE",
+      "ROCKSLIDE",
+      "DRAGONTAIL",
+      "POISONJAB",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "POWERUPPUNCH",
+      "CONFIDE",
+      "CUT",
+      "SURF",
+      "STRENGTH",
+      "ROCKSMASH",
+      "ROCKCLIMB",
+      "AQUATAIL",
+      "DRAGONPULSE",
+      "DRILLRUN",
+      "EARTHPOWER",
+      "FIREPUNCH",
+      "FOCUSPUNCH",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "ICEPUNCH",
+      "ICYWIND",
+      "IRONTAIL",
+      "MUDSLAP",
+      "OUTRAGE",
+      "SHOCKWAVE",
+      "SNORE",
+      "STEALTHROCK",
+      "STOMPINGTANTRUM",
+      "SUPERFANG",
+      "SUPERPOWER",
+      "THROATCHOP",
+      "THUNDERPUNCH",
+      "UPROAR",
+      "WATERPULSE",
+    ],
+    locations: [],
+  },
+  {
+    no: 32,
+    name: "Nidoran\u2642",
+    types: ["Poison"],
+    stats: [46, 57, 40, 50, 40, 40],
+    level_up_moves: {
+      "1": ["LEER", "PECK"],
+      "7": ["FOCUSENERGY"],
+      "9": ["DOUBLEKICK"],
+      "13": ["POISONSTING"],
+      "19": ["FURYATTACK"],
+      "21": ["HORNATTACK"],
+      "25": ["HELPINGHAND"],
+      "31": ["TOXICSPIKES"],
+      "33": ["FLATTER"],
+      "37": ["POISONJAB"],
+      "43": ["CAPTIVATE"],
+      "45": ["HORNDRILL"],
+    },
+    egg_moves: [
+      "AMNESIA",
+      "BEATUP",
+      "CHIPAWAY",
+      "CONFUSION",
+      "COUNTER",
+      "DISABLE",
+      "ENDURE",
+      "HEADSMASH",
+      "IRONTAIL",
+      "POISONTAIL",
+      "SUCKERPUNCH",
+      "SUPERSONIC",
+      "TAKEDOWN",
+      "VENOMDRENCH",
+    ],
+    tm_tutor_moves: [
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "ICEBEAM",
+      "BLIZZARD",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "THUNDERBOLT",
+      "THUNDER",
+      "RETURN",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ECHOEDVOICE",
+      "SHADOWCLAW",
+      "SMARTSTRIKE",
+      "POISONJAB",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "CUT",
+      "STRENGTH",
+      "ROCKSMASH",
+      "DRILLRUN",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "IRONTAIL",
+      "MUDSLAP",
+      "SHOCKWAVE",
+      "SNORE",
+      "SUCKERPUNCH",
+      "SUPERFANG",
+      "WATERPULSE",
+    ],
+    locations: [
+      { location: "Byxbysion Tunnels", point: "Aya", method: "Cave" },
+      { location: "Onyx Ward", point: "Florina", method: "Game Corner Prize" },
+    ],
+  },
+  {
+    no: 33,
+    name: "Nidorino",
+    types: ["Poison"],
+    stats: [61, 72, 57, 65, 55, 55],
+    level_up_moves: {
+      "1": ["LEER", "PECK"],
+      "7": ["FOCUSENERGY"],
+      "9": ["DOUBLEKICK"],
+      "13": ["POISONSTING"],
+      "20": ["FURYATTACK"],
+      "23": ["HORNATTACK"],
+      "28": ["HELPINGHAND"],
+      "35": ["TOXICSPIKES"],
+      "38": ["FLATTER"],
+      "43": ["POISONJAB"],
+      "50": ["CAPTIVATE"],
+      "58": ["HORNDRILL"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "ICEBEAM",
+      "BLIZZARD",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "THUNDERBOLT",
+      "THUNDER",
+      "RETURN",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ECHOEDVOICE",
+      "SHADOWCLAW",
+      "SMARTSTRIKE",
+      "POISONJAB",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "CUT",
+      "STRENGTH",
+      "ROCKSMASH",
+      "DRILLRUN",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "IRONTAIL",
+      "MUDSLAP",
+      "SHOCKWAVE",
+      "SNORE",
+      "STOMPINGTANTRUM",
+      "SUCKERPUNCH",
+      "SUPERFANG",
+      "WATERPULSE",
+    ],
+    locations: [
+      { location: "Byxbysion Tunnels", point: "Aya", method: "Cave" },
+    ],
+  },
+  {
+    no: 34,
+    name: "Nidoking",
+    types: ["Poison", "Ground"],
+    stats: [81, 102, 77, 85, 85, 75],
+    level_up_moves: {
+      "1": ["MEGAHORN", "PECK", "FOCUSENERGY", "DOUBLEKICK", "POISONSTING"],
+      "23": ["CHIPAWAY"],
+      "35": ["THRASH"],
+      "43": ["EARTHPOWER"],
+      "58": ["MEGAHORN"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "ROAR",
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "TAUNT",
+      "ICEBEAM",
+      "BLIZZARD",
+      "HYPERBEAM",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "SMACKDOWN",
+      "THUNDERBOLT",
+      "THUNDER",
+      "EARTHQUAKE",
+      "RETURN",
+      "SHADOWBALL",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "SLUDGEWAVE",
+      "FLAMETHROWER",
+      "SLUDGEBOMB",
+      "SANDSTORM",
+      "FIREBLAST",
+      "ROCKTOMB",
+      "TORMENT",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ECHOEDVOICE",
+      "FOCUSBLAST",
+      "FLING",
+      "QUASH",
+      "SHADOWCLAW",
+      "SMARTSTRIKE",
+      "GIGAIMPACT",
+      "STONEEDGE",
+      "BULLDOZE",
+      "ROCKSLIDE",
+      "DRAGONTAIL",
+      "POISONJAB",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "POWERUPPUNCH",
+      "CONFIDE",
+      "CUT",
+      "SURF",
+      "STRENGTH",
+      "ROCKSMASH",
+      "ROCKCLIMB",
+      "AQUATAIL",
+      "DRAGONPULSE",
+      "DRILLRUN",
+      "EARTHPOWER",
+      "FIREPUNCH",
+      "FOCUSPUNCH",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "ICEPUNCH",
+      "ICYWIND",
+      "IRONTAIL",
+      "MUDSLAP",
+      "OUTRAGE",
+      "SHOCKWAVE",
+      "SNORE",
+      "STEALTHROCK",
+      "STOMPINGTANTRUM",
+      "SUCKERPUNCH",
+      "SUPERFANG",
+      "SUPERPOWER",
+      "THROATCHOP",
+      "THUNDERPUNCH",
+      "UPROAR",
+      "WATERPULSE",
+    ],
+    locations: [],
+  },
+  {
+    no: 35,
+    name: "Clefairy",
+    types: ["Fairy"],
+    stats: [70, 45, 48, 35, 60, 65],
+    level_up_moves: {
+      "1": ["SPOTLIGHT", "DISARMINGVOICE", "POUND", "GROWL", "ENCORE"],
+      "7": ["SING"],
+      "10": ["DOUBLESLAP"],
+      "13": ["DEFENSECURL"],
+      "16": ["FOLLOWME"],
+      "19": ["BESTOW"],
+      "22": ["WAKEUPSLAP"],
+      "25": ["MINIMIZE"],
+      "28": ["STOREDPOWER"],
+      "31": ["METRONOME"],
+      "34": ["COSMICPOWER"],
+      "37": ["LUCKYCHANT"],
+      "40": ["BODYSLAM"],
+      "43": ["MOONLIGHT"],
+      "46": ["MOONBLAST"],
+      "49": ["GRAVITY"],
+      "50": ["METEORMASH"],
+      "55": ["HEALINGWISH"],
+      "58": ["AFTERYOU"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "PSYSHOCK",
+      "CALMMIND",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "ICEBEAM",
+      "BLIZZARD",
+      "LIGHTSCREEN",
+      "PROTECT",
+      "RAINDANCE",
+      "SAFEGUARD",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "THUNDERBOLT",
+      "THUNDER",
+      "RETURN",
+      "PSYCHIC",
+      "SHADOWBALL",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "REFLECT",
+      "FLAMETHROWER",
+      "FIREBLAST",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "ECHOEDVOICE",
+      "FLING",
+      "CHARGEBEAM",
+      "THUNDERWAVE",
+      "PSYCHUP",
+      "DREAMEATER",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "POWERUPPUNCH",
+      "DAZZLINGGLEAM",
+      "CONFIDE",
+      "STRENGTH",
+      "ROCKSMASH",
+      "FLASH",
+      "AFTERYOU",
+      "BOUNCE",
+      "COVET",
+      "DRAINPUNCH",
+      "ENDEAVOR",
+      "FIREPUNCH",
+      "FOCUSPUNCH",
+      "GRAVITY",
+      "HEADBUTT",
+      "HEALBELL",
+      "HELPINGHAND",
+      "HYPERVOICE",
+      "ICEPUNCH",
+      "ICYWIND",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "LASTRESORT",
+      "MAGICCOAT",
+      "MUDSLAP",
+      "RECYCLE",
+      "ROLEPLAY",
+      "ROLLOUT",
+      "SHOCKWAVE",
+      "SIGNALBEAM",
+      "SNATCH",
+      "SNORE",
+      "STEALTHROCK",
+      "TELEKINESIS",
+      "THUNDERPUNCH",
+      "TRICK",
+      "WATERPULSE",
+      "WONDERROOM",
+      "ZENHEADBUTT",
+    ],
+    locations: [
+      { location: "Glitch World", point: "T3RR4", method: "Cave" },
+      {
+        location: "Agate Circus",
+        point: "Samson",
+        method: "Win High Striker Event Twice (100%)",
+      },
+    ],
+  },
+  {
+    no: 36,
+    name: "Clefable",
+    types: ["Fairy"],
+    stats: [95, 70, 73, 60, 95, 90],
+    level_up_moves: {
+      "1": [
+        "SPOTLIGHT",
+        "DISARMINGVOICE",
+        "SING",
+        "DOUBLESLAP",
+        "MINIMIZE",
+        "METRONOME",
+      ],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "PSYSHOCK",
+      "CALMMIND",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "ICEBEAM",
+      "BLIZZARD",
+      "HYPERBEAM",
+      "LIGHTSCREEN",
+      "PROTECT",
+      "RAINDANCE",
+      "SAFEGUARD",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "THUNDERBOLT",
+      "THUNDER",
+      "RETURN",
+      "PSYCHIC",
+      "SHADOWBALL",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "REFLECT",
+      "FLAMETHROWER",
+      "FIREBLAST",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "ECHOEDVOICE",
+      "FOCUSBLAST",
+      "FLING",
+      "CHARGEBEAM",
+      "GIGAIMPACT",
+      "THUNDERWAVE",
+      "PSYCHUP",
+      "DREAMEATER",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "POWERUPPUNCH",
+      "DAZZLINGGLEAM",
+      "CONFIDE",
+      "STRENGTH",
+      "ROCKSMASH",
+      "FLASH",
+      "AFTERYOU",
+      "BOUNCE",
+      "COVET",
+      "DRAINPUNCH",
+      "ENDEAVOR",
+      "FIREPUNCH",
+      "FOCUSPUNCH",
+      "GRAVITY",
+      "HEADBUTT",
+      "HEALBELL",
+      "HELPINGHAND",
+      "HYPERVOICE",
+      "ICEPUNCH",
+      "ICYWIND",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "LASERFOCUS",
+      "LASTRESORT",
+      "MAGICCOAT",
+      "MUDSLAP",
+      "RECYCLE",
+      "ROLEPLAY",
+      "ROLLOUT",
+      "SHOCKWAVE",
+      "SIGNALBEAM",
+      "SNATCH",
+      "SNORE",
+      "STEALTHROCK",
+      "TELEKINESIS",
+      "THUNDERPUNCH",
+      "TRICK",
+      "WATERPULSE",
+      "WONDERROOM",
+      "ZENHEADBUTT",
+    ],
+    locations: [],
+  },
+  {
+    no: 37,
+    name: "Vulpix",
+    types: ["Fire"],
+    stats: [38, 41, 40, 65, 50, 65],
+    level_up_moves: {
+      "1": ["EMBER"],
+      "4": ["TAILWHIP"],
+      "7": ["ROAR"],
+      "9": ["BABYDOLLEYES"],
+      "10": ["QUICKATTACK"],
+      "12": ["CONFUSERAY"],
+      "15": ["FIRESPIN"],
+      "18": ["PAYBACK"],
+      "20": ["WILLOWISP"],
+      "23": ["FEINTATTACK"],
+      "26": ["HEX"],
+      "28": ["FLAMEBURST"],
+      "31": ["EXTRASENSORY"],
+      "34": ["SAFEGUARD"],
+      "36": ["FLAMETHROWER"],
+      "39": ["IMPRISON"],
+      "42": ["FIREBLAST"],
+      "44": ["GRUDGE"],
+      "47": ["CAPTIVATE"],
+      "50": ["INFERNO"],
+    },
+    egg_moves: [
+      "CAPTIVATE",
+      "DISABLE",
+      "EXTRASENSORY",
+      "FEINTATTACK",
+      "FLAIL",
+      "FLAREBLITZ",
+      "HEATWAVE",
+      "HEX",
+      "HOWL",
+      "HYPNOSIS",
+      "POWERSWAP",
+      "SECRETPOWER",
+      "SPITE",
+      "TAILSLAP",
+    ],
+    tm_tutor_moves: [
+      "ROAR",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "PROTECT",
+      "SAFEGUARD",
+      "FRUSTRATION",
+      "RETURN",
+      "DOUBLETEAM",
+      "FLAMETHROWER",
+      "FIREBLAST",
+      "FACADE",
+      "FLAMECHARGE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "OVERHEAT",
+      "ENERGYBALL",
+      "WILLOWISP",
+      "PAYBACK",
+      "PSYCHUP",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "DARKPULSE",
+      "CONFIDE",
+      "COVET",
+      "FOULPLAY",
+      "HEADBUTT",
+      "HEATWAVE",
+      "IRONTAIL",
+      "MAGICCOAT",
+      "OMINOUSWIND",
+      "PAINSPLIT",
+      "SNORE",
+      "SPITE",
+      "SWIFT",
+      "ZENHEADBUTT",
+    ],
+    locations: [
+      { location: "Agate Circus", point: "Samson", method: "Trade Stunfisk" },
+    ],
+  },
+  {
+    no: 10103,
+    name: "Vulpix (Alolan)",
+    types: ["Ice"],
+    stats: [38, 41, 40, 65, 50, 65],
+    level_up_moves: {
+      "1": ["POWDERSNOW"],
+      "4": ["TAILWHIP"],
+      "7": ["ROAR"],
+      "9": ["BABYDOLLEYES"],
+      "10": ["ICESHARD"],
+      "12": ["CONFUSERAY"],
+      "15": ["ICYWIND"],
+      "18": ["PAYBACK"],
+      "20": ["MIST"],
+      "23": ["FEINTATTACK"],
+      "26": ["HEX"],
+      "28": ["AURORABEAM"],
+      "31": ["EXTRASENSORY"],
+      "34": ["SAFEGUARD"],
+      "36": ["ICEBEAM"],
+      "39": ["IMPRISON"],
+      "42": ["BLIZZARD"],
+      "44": ["GRUDGE"],
+      "47": ["CAPTIVATE"],
+      "50": ["SHEERCOLD"],
+    },
+    egg_moves: [
+      "AGILITY",
+      "CHARM",
+      "DISABLE",
+      "ENCORE",
+      "EXTRASENSORY",
+      "FLAIL",
+      "FREEZEDRY",
+      "HOWL",
+      "HYPNOSIS",
+      "MOONBLAST",
+      "POWERSWAP",
+      "SECRETPOWER",
+      "SPITE",
+      "TAILSLAP",
+    ],
+    tm_tutor_moves: [
+      "ROAR",
+      "TOXIC",
+      "HAIL",
+      "HIDDENPOWER",
+      "ICEBEAM",
+      "BLIZZARD",
+      "PROTECT",
+      "RAINDANCE",
+      "SAFEGUARD",
+      "FRUSTRATION",
+      "RETURN",
+      "DOUBLETEAM",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "PAYBACK",
+      "AURORAVEIL",
+      "PSYCHUP",
+      "FROSTBREATH",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "DARKPULSE",
+      "CONFIDE",
+      "AQUATAIL",
+      "COVET",
+      "FOULPLAY",
+      "HEADBUTT",
+      "HEALBELL",
+      "ICYWIND",
+      "IRONTAIL",
+      "MAGICCOAT",
+      "OMINOUSWIND",
+      "PAINSPLIT",
+      "SNORE",
+      "SPITE",
+      "SWIFT",
+      "ZENHEADBUTT",
+    ],
+    locations: [
+      { location: "Ametrine City", point: "T3RR4", method: "LandMorning" },
+    ],
+  },
+  {
+    no: 38,
+    name: "Ninetales",
+    types: ["Fire"],
+    stats: [73, 76, 75, 100, 81, 100],
+    level_up_moves: {
+      "1": [
+        "IMPRISON",
+        "NASTYPLOT",
+        "FLAMETHROWER",
+        "QUICKATTACK",
+        "CONFUSERAY",
+        "SAFEGUARD",
+      ],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "PSYSHOCK",
+      "CALMMIND",
+      "ROAR",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "HYPERBEAM",
+      "PROTECT",
+      "SAFEGUARD",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "RETURN",
+      "DOUBLETEAM",
+      "FLAMETHROWER",
+      "FIREBLAST",
+      "FACADE",
+      "FLAMECHARGE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "OVERHEAT",
+      "ENERGYBALL",
+      "WILLOWISP",
+      "PAYBACK",
+      "GIGAIMPACT",
+      "PSYCHUP",
+      "DREAMEATER",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "DARKPULSE",
+      "CONFIDE",
+      "COVET",
+      "FOULPLAY",
+      "HEADBUTT",
+      "HEATWAVE",
+      "IRONTAIL",
+      "LASERFOCUS",
+      "MAGICCOAT",
+      "OMINOUSWIND",
+      "PAINSPLIT",
+      "SNORE",
+      "SPITE",
+      "SWIFT",
+      "ZENHEADBUTT",
+    ],
+    locations: [],
+  },
+  {
+    no: 10104,
+    name: "Ninetales (Alolan)",
+    types: ["Ice", "Fairy"],
+    stats: [73, 67, 75, 109, 81, 100],
+    level_up_moves: {
+      "0": ["DAZZLINGGLEAM"],
+      "1": [
+        "DAZZLINGGLEAM",
+        "IMPRISON",
+        "NASTYPLOT",
+        "ICEBEAM",
+        "ICESHARD",
+        "CONFUSERAY",
+        "SAFEGUARD",
+      ],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "PSYSHOCK",
+      "CALMMIND",
+      "ROAR",
+      "TOXIC",
+      "HAIL",
+      "HIDDENPOWER",
+      "ICEBEAM",
+      "BLIZZARD",
+      "HYPERBEAM",
+      "PROTECT",
+      "RAINDANCE",
+      "SAFEGUARD",
+      "FRUSTRATION",
+      "RETURN",
+      "DOUBLETEAM",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "PAYBACK",
+      "GIGAIMPACT",
+      "AURORAVEIL",
+      "PSYCHUP",
+      "FROSTBREATH",
+      "DREAMEATER",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "DARKPULSE",
+      "DAZZLINGGLEAM",
+      "CONFIDE",
+      "AQUATAIL",
+      "COVET",
+      "FOULPLAY",
+      "HEADBUTT",
+      "HEALBELL",
+      "ICYWIND",
+      "IRONTAIL",
+      "LASERFOCUS",
+      "MAGICCOAT",
+      "OMINOUSWIND",
+      "PAINSPLIT",
+      "SNORE",
+      "SPITE",
+      "SWIFT",
+      "WONDERROOM",
+      "ZENHEADBUTT",
+    ],
+    locations: [{ location: "Route 4", point: "Hardy", method: "LandMorning" }],
+  },
+  {
+    no: 39,
+    name: "Jigglypuff",
+    types: ["Normal", "Fairy"],
+    stats: [115, 45, 20, 20, 45, 25],
+    level_up_moves: {
+      "1": ["SING"],
+      "3": ["DEFENSECURL"],
+      "5": ["POUND"],
+      "9": ["PLAYNICE"],
+      "11": ["DISARMINGVOICE"],
+      "14": ["DISABLE"],
+      "17": ["DOUBLESLAP"],
+      "20": ["ROLLOUT"],
+      "22": ["ROUND"],
+      "25": ["STOCKPILE", "SWALLOW", "SPITUP"],
+      "27": ["WAKEUPSLAP"],
+      "30": ["REST"],
+      "32": ["BODYSLAM"],
+      "35": ["GYROBALL"],
+      "38": ["MIMIC"],
+      "41": ["HYPERVOICE"],
+      "45": ["DOUBLEEDGE"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "ICEBEAM",
+      "BLIZZARD",
+      "LIGHTSCREEN",
+      "PROTECT",
+      "RAINDANCE",
+      "SAFEGUARD",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "THUNDERBOLT",
+      "THUNDER",
+      "RETURN",
+      "PSYCHIC",
+      "SHADOWBALL",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "REFLECT",
+      "FLAMETHROWER",
+      "FIREBLAST",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "ECHOEDVOICE",
+      "FLING",
+      "CHARGEBEAM",
+      "THUNDERWAVE",
+      "GYROBALL",
+      "PSYCHUP",
+      "DREAMEATER",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "WILDCHARGE",
+      "SECRETPOWER",
+      "POWERUPPUNCH",
+      "DAZZLINGGLEAM",
+      "CONFIDE",
+      "STRENGTH",
+      "FLASH",
+      "ALLYSWITCH",
+      "BOUNCE",
+      "COVET",
+      "DRAINPUNCH",
+      "ENDEAVOR",
+      "FIREPUNCH",
+      "FOCUSPUNCH",
+      "GRAVITY",
+      "HEADBUTT",
+      "HEALBELL",
+      "HELPINGHAND",
+      "HYPERVOICE",
+      "ICEPUNCH",
+      "ICYWIND",
+      "KNOCKOFF",
+      "LASTRESORT",
+      "MAGICCOAT",
+      "MUDSLAP",
+      "PAINSPLIT",
+      "RECYCLE",
+      "ROLEPLAY",
+      "ROLLOUT",
+      "SHOCKWAVE",
+      "SNATCH",
+      "SNORE",
+      "STEALTHROCK",
+      "TELEKINESIS",
+      "THUNDERPUNCH",
+      "WATERPULSE",
+    ],
+    locations: [
+      {
+        location: "7th Street",
+        point: "Subseven Sanctum",
+        method: "Purchase (100%)",
+      },
+    ],
+  },
+  {
+    no: 40,
+    name: "Wigglytuff",
+    types: ["Normal", "Fairy"],
+    stats: [140, 70, 45, 45, 85, 50],
+    level_up_moves: {
+      "1": [
+        "DOUBLEEDGE",
+        "SING",
+        "DISABLE",
+        "DEFENSECURL",
+        "DOUBLESLAP",
+        "PLAYROUGH",
+      ],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "ICEBEAM",
+      "BLIZZARD",
+      "HYPERBEAM",
+      "LIGHTSCREEN",
+      "PROTECT",
+      "RAINDANCE",
+      "SAFEGUARD",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "THUNDERBOLT",
+      "THUNDER",
+      "RETURN",
+      "PSYCHIC",
+      "SHADOWBALL",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "REFLECT",
+      "FLAMETHROWER",
+      "FIREBLAST",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "ECHOEDVOICE",
+      "FOCUSBLAST",
+      "FLING",
+      "CHARGEBEAM",
+      "GIGAIMPACT",
+      "THUNDERWAVE",
+      "GYROBALL",
+      "PSYCHUP",
+      "DREAMEATER",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "WILDCHARGE",
+      "SECRETPOWER",
+      "POWERUPPUNCH",
+      "DAZZLINGGLEAM",
+      "CONFIDE",
+      "STRENGTH",
+      "FLASH",
+      "ALLYSWITCH",
+      "BOUNCE",
+      "COVET",
+      "DRAINPUNCH",
+      "ENDEAVOR",
+      "FIREPUNCH",
+      "FOCUSPUNCH",
+      "GRAVITY",
+      "HEADBUTT",
+      "HEALBELL",
+      "HELPINGHAND",
+      "HYPERVOICE",
+      "ICEPUNCH",
+      "ICYWIND",
+      "KNOCKOFF",
+      "LASERFOCUS",
+      "LASTRESORT",
+      "MAGICCOAT",
+      "MAGICROOM",
+      "MUDSLAP",
+      "PAINSPLIT",
+      "RECYCLE",
+      "ROLEPLAY",
+      "ROLLOUT",
+      "SHOCKWAVE",
+      "SNATCH",
+      "SNORE",
+      "STEALTHROCK",
+      "TELEKINESIS",
+      "THUNDERPUNCH",
+      "WATERPULSE",
+    ],
+    locations: [{ location: "Route 4", point: "Hardy", method: "LandMorning" }],
+  },
+  {
+    no: 41,
+    name: "Zubat",
+    types: ["Poison", "Flying"],
+    stats: [40, 45, 35, 55, 30, 40],
+    level_up_moves: {
+      "1": ["ABSORB"],
+      "5": ["SUPERSONIC"],
+      "7": ["ASTONISH"],
+      "11": ["BITE"],
+      "13": ["WINGATTACK"],
+      "17": ["CONFUSERAY"],
+      "19": ["AIRCUTTER"],
+      "23": ["SWIFT"],
+      "25": ["POISONFANG"],
+      "29": ["MEANLOOK"],
+      "31": ["LEECHLIFE"],
+      "35": ["HAZE"],
+      "37": ["VENOSHOCK"],
+      "41": ["AIRSLASH"],
+      "43": ["QUICKGUARD"],
+    },
+    egg_moves: [
+      "BRAVEBIRD",
+      "CURSE",
+      "DEFOG",
+      "FEINTATTACK",
+      "GIGADRAIN",
+      "GUST",
+      "HYPNOSIS",
+      "NASTYPLOT",
+      "PURSUIT",
+      "QUICKATTACK",
+      "STEELWING",
+      "VENOMDRENCH",
+      "WHIRLWIND",
+      "ZENHEADBUTT",
+    ],
+    tm_tutor_moves: [
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "TAUNT",
+      "PROTECT",
+      "RAINDANCE",
+      "ROOST",
+      "FRUSTRATION",
+      "RETURN",
+      "LEECHLIFE",
+      "SHADOWBALL",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "AERIALACE",
+      "TORMENT",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "STEELWING",
+      "ACROBATICS",
+      "PAYBACK",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "FLY",
+      "AIRCUTTER",
+      "DEFOG",
+      "GIGADRAIN",
+      "HEATWAVE",
+      "OMINOUSWIND",
+      "SNATCH",
+      "SNORE",
+      "SUPERFANG",
+      "SWIFT",
+      "TAILWIND",
+      "TWISTER",
+      "UPROAR",
+      "ZENHEADBUTT",
+    ],
+    locations: [
+      { location: "Azurine Island", point: "Aya", method: "LandNight" },
+      { location: "Byxbysion Tunnels", point: "Aya", method: "Cave" },
+      { location: "Glitch World", point: "T3RR4", method: "Cave" },
+    ],
+  },
+  {
+    no: 42,
+    name: "Golbat",
+    types: ["Poison", "Flying"],
+    stats: [75, 80, 70, 90, 65, 75],
+    level_up_moves: {
+      "1": ["SCREECH", "ABSORB", "SUPERSONIC", "ASTONISH", "BITE"],
+      "5": ["SUPERSONIC"],
+      "7": ["ASTONISH"],
+      "11": ["BITE"],
+      "13": ["WINGATTACK"],
+      "17": ["CONFUSERAY"],
+      "19": ["AIRCUTTER"],
+      "24": ["SWIFT"],
+      "27": ["POISONFANG"],
+      "32": ["MEANLOOK"],
+      "35": ["LEECHLIFE"],
+      "40": ["HAZE"],
+      "43": ["VENOSHOCK"],
+      "48": ["AIRSLASH"],
+      "51": ["QUICKGUARD"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "TAUNT",
+      "HYPERBEAM",
+      "PROTECT",
+      "RAINDANCE",
+      "ROOST",
+      "FRUSTRATION",
+      "RETURN",
+      "LEECHLIFE",
+      "SHADOWBALL",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "AERIALACE",
+      "TORMENT",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "STEELWING",
+      "ACROBATICS",
+      "PAYBACK",
+      "GIGAIMPACT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "FLY",
+      "AIRCUTTER",
+      "DEFOG",
+      "GIGADRAIN",
+      "HEATWAVE",
+      "OMINOUSWIND",
+      "SNATCH",
+      "SNORE",
+      "SUPERFANG",
+      "SWIFT",
+      "TAILWIND",
+      "TWISTER",
+      "UPROAR",
+      "ZENHEADBUTT",
+    ],
+    locations: [
+      { location: "Azurine Island", point: "Aya", method: "LandNight" },
+      { location: "Byxbysion Tunnels", point: "Aya", method: "Cave" },
+      { location: "Glitch World", point: "T3RR4", method: "Cave" },
+    ],
+  },
+  {
+    no: 43,
+    name: "Oddish",
+    types: ["Grass", "Poison"],
+    stats: [45, 50, 55, 30, 75, 65],
+    level_up_moves: {
+      "1": ["ABSORB", "GROWTH"],
+      "5": ["SWEETSCENT"],
+      "9": ["ACID"],
+      "13": ["POISONPOWDER"],
+      "14": ["STUNSPORE"],
+      "15": ["SLEEPPOWDER"],
+      "19": ["MEGADRAIN"],
+      "23": ["LUCKYCHANT"],
+      "27": ["MOONLIGHT"],
+      "31": ["GIGADRAIN"],
+      "35": ["TOXIC"],
+      "39": ["NATURALGIFT"],
+      "43": ["MOONBLAST"],
+      "47": ["GRASSYTERRAIN"],
+      "51": ["PETALDANCE"],
+    },
+    egg_moves: [
+      "AFTERYOU",
+      "CHARM",
+      "FLAIL",
+      "INGRAIN",
+      "NATUREPOWER",
+      "RAZORLEAF",
+      "SECRETPOWER",
+      "STRENGTHSAP",
+      "SYNTHESIS",
+      "TEETERDANCE",
+      "TICKLE",
+    ],
+    tm_tutor_moves: [
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "PROTECT",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "RETURN",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "ENERGYBALL",
+      "SWORDSDANCE",
+      "INFESTATION",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "NATUREPOWER",
+      "DAZZLINGGLEAM",
+      "CONFIDE",
+      "CUT",
+      "FLASH",
+      "AFTERYOU",
+      "GASTROACID",
+      "GIGADRAIN",
+      "SEEDBOMB",
+      "SNORE",
+      "SYNTHESIS",
+      "WORRYSEED",
+    ],
+    locations: [
+      {
+        location: "Obsidia Ward",
+        point: "ZEL/Pulse Tangrowth 1",
+        method: "LandMorning",
+      },
+      {
+        location: "Malchous Forest",
+        point: "Taka/Pulse Tangrowth 2",
+        method: "LandDay",
+      },
+      {
+        location: "Beryl Ward",
+        point: "Taka/ZEL/Pulse Tangrowth 3",
+        method: "Cave",
+      },
+      {
+        location: "North Obsidia Ward",
+        point: "Adrienn",
+        method: "LandMorning",
+      },
+      {
+        location: "South Obsidia Ward",
+        point: "Adrienn",
+        method: "LandMorning",
+      },
+    ],
+  },
+  {
+    no: 44,
+    name: "Gloom",
+    types: ["Grass", "Poison"],
+    stats: [60, 65, 70, 40, 85, 75],
+    level_up_moves: {
+      "1": ["ABSORB", "GROWTH", "SWEETSCENT", "ACID"],
+      "5": ["SWEETSCENT"],
+      "9": ["ACID"],
+      "13": ["POISONPOWDER"],
+      "14": ["STUNSPORE"],
+      "15": ["SLEEPPOWDER"],
+      "19": ["MEGADRAIN"],
+      "24": ["LUCKYCHANT"],
+      "29": ["MOONLIGHT"],
+      "34": ["GIGADRAIN"],
+      "39": ["TOXIC"],
+      "44": ["NATURALGIFT"],
+      "49": ["PETALBLIZZARD"],
+      "54": ["GRASSYTERRAIN"],
+      "59": ["PETALDANCE"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "PROTECT",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "RETURN",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "ENERGYBALL",
+      "FLING",
+      "SWORDSDANCE",
+      "INFESTATION",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "NATUREPOWER",
+      "DAZZLINGGLEAM",
+      "CONFIDE",
+      "CUT",
+      "FLASH",
+      "AFTERYOU",
+      "DRAINPUNCH",
+      "GASTROACID",
+      "GIGADRAIN",
+      "SEEDBOMB",
+      "SNORE",
+      "SYNTHESIS",
+      "WORRYSEED",
+    ],
+    locations: [
+      {
+        location: "Rhodochrine Jungle",
+        point: "Taka/ZEL/Pulse Tangrowth 3",
+        method: "LandDay",
+      },
+      { location: "Azurine Island", point: "Aya", method: "LandMorning" },
+      { location: "Chrysolia Forest", point: "Serra", method: "LandDay" },
+      { location: "Obsidia Ward", point: "Adrienn", method: "LandMorning" },
+      { location: "Jasper Ward", point: "Adrienn", method: "LandMorning" },
+      {
+        location: "North Obsidia Ward",
+        point: "Adrienn",
+        method: "LandMorning",
+      },
+      {
+        location: "South Obsidia Ward",
+        point: "Adrienn",
+        method: "LandMorning",
+      },
+      { location: "Malchous Forest", point: "Adrienn", method: "LandMorning" },
+    ],
+  },
+  {
+    no: 45,
+    name: "Vileplume",
+    types: ["Grass", "Poison"],
+    stats: [75, 80, 85, 50, 110, 90],
+    level_up_moves: {
+      "1": ["MEGADRAIN", "AROMATHERAPY", "STUNSPORE", "POISONPOWDER"],
+      "49": ["PETALBLIZZARD"],
+      "59": ["PETALDANCE"],
+      "69": ["SOLARBEAM"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "HYPERBEAM",
+      "PROTECT",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "RETURN",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "ENERGYBALL",
+      "FLING",
+      "GIGAIMPACT",
+      "SWORDSDANCE",
+      "INFESTATION",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "NATUREPOWER",
+      "DAZZLINGGLEAM",
+      "CONFIDE",
+      "CUT",
+      "FLASH",
+      "AFTERYOU",
+      "DRAINPUNCH",
+      "GASTROACID",
+      "GIGADRAIN",
+      "SEEDBOMB",
+      "SNORE",
+      "SYNTHESIS",
+      "WORRYSEED",
+    ],
+    locations: [
+      { location: "Azurine Island", point: "Adrienn", method: "LandMorning" },
+    ],
+  },
+  {
+    no: 46,
+    name: "Paras",
+    types: ["Bug", "Grass"],
+    stats: [35, 70, 55, 25, 45, 55],
+    level_up_moves: {
+      "1": ["SCRATCH"],
+      "6": ["STUNSPORE", "POISONPOWDER"],
+      "11": ["ABSORB"],
+      "17": ["FURYCUTTER"],
+      "22": ["SPORE"],
+      "27": ["SLASH"],
+      "33": ["GROWTH"],
+      "38": ["GIGADRAIN"],
+      "43": ["AROMATHERAPY"],
+      "49": ["RAGEPOWDER"],
+      "54": ["XSCISSOR"],
+    },
+    egg_moves: [
+      "AGILITY",
+      "BUGBITE",
+      "COUNTER",
+      "CROSSPOISON",
+      "ENDURE",
+      "FELLSTINGER",
+      "FLAIL",
+      "GRASSYTERRAIN",
+      "LEECHSEED",
+      "METALCLAW",
+      "NATURALGIFT",
+      "PSYBEAM",
+      "PURSUIT",
+      "ROTOTILLER",
+      "SCREECH",
+      "SWEETSCENT",
+      "WIDEGUARD",
+    ],
+    tm_tutor_moves: [
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "LIGHTSCREEN",
+      "PROTECT",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "RETURN",
+      "LEECHLIFE",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ENERGYBALL",
+      "FALSESWIPE",
+      "SWORDSDANCE",
+      "STRUGGLEBUG",
+      "XSCISSOR",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "NATUREPOWER",
+      "CONFIDE",
+      "CUT",
+      "ROCKSMASH",
+      "FLASH",
+      "AFTERYOU",
+      "BUGBITE",
+      "FURYCUTTER",
+      "GIGADRAIN",
+      "KNOCKOFF",
+      "SEEDBOMB",
+      "SNORE",
+      "STRINGSHOT",
+      "SYNTHESIS",
+      "WORRYSEED",
+    ],
+    locations: [
+      {
+        location: "Malchous Forest",
+        point: "Taka/Pulse Tangrowth 2",
+        method: "LandNight",
+      },
+      {
+        location: "Rhodochrine Jungle",
+        point: "Taka/ZEL/Pulse Tangrowth 3",
+        method: "LandNight",
+      },
+      { location: "Azurine Island", point: "Aya", method: "LandNight" },
+      { location: "Tanzan Cove", point: "Serra", method: "LandNight" },
+      { location: "Chrysolia Forest", point: "Serra", method: "LandNight" },
+      {
+        location: "South Aventurine Woods",
+        point: "Radomus",
+        method: "LandNight",
+      },
+      {
+        location: "North Aventurine Woods",
+        point: "Radomus",
+        method: "LandNight",
+      },
+      { location: "Glitch World", point: "T3RR4", method: "Cave" },
+    ],
+  },
+  {
+    no: 47,
+    name: "Parasect",
+    types: ["Bug", "Grass"],
+    stats: [60, 95, 80, 30, 60, 80],
+    level_up_moves: {
+      "1": ["CROSSPOISON", "SCRATCH", "STUNSPORE", "POISONPOWDER", "ABSORB"],
+      "6": ["STUNSPORE", "POISONPOWDER"],
+      "11": ["ABSORB"],
+      "17": ["FURYCUTTER"],
+      "22": ["SPORE"],
+      "29": ["SLASH"],
+      "37": ["GROWTH"],
+      "44": ["GIGADRAIN"],
+      "51": ["AROMATHERAPY"],
+      "59": ["RAGEPOWDER"],
+      "66": ["XSCISSOR"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "HYPERBEAM",
+      "LIGHTSCREEN",
+      "PROTECT",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "RETURN",
+      "LEECHLIFE",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ENERGYBALL",
+      "FALSESWIPE",
+      "GIGAIMPACT",
+      "SWORDSDANCE",
+      "STRUGGLEBUG",
+      "XSCISSOR",
+      "GRASSKNOT",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "NATUREPOWER",
+      "CONFIDE",
+      "CUT",
+      "ROCKSMASH",
+      "FLASH",
+      "AFTERYOU",
+      "BUGBITE",
+      "FURYCUTTER",
+      "GIGADRAIN",
+      "KNOCKOFF",
+      "SEEDBOMB",
+      "SNORE",
+      "STRINGSHOT",
+      "SYNTHESIS",
+      "THROATCHOP",
+      "WORRYSEED",
+    ],
+    locations: [
+      { location: "Azurine Island", point: "Aya", method: "LandNight" },
+      { location: "Tanzan Cove", point: "Serra", method: "LandNight" },
+      { location: "Glitch World", point: "T3RR4", method: "Cave" },
+      { location: "Jasper Ward", point: "Adrienn", method: "LandNight" },
+      { location: "Malchous Forest", point: "Adrienn", method: "LandNight" },
+      { location: "Rhodochrine Jungle", point: "Adrienn", method: "LandNight" },
+    ],
+  },
+  {
+    no: 48,
+    name: "Venonat",
+    types: ["Bug", "Poison"],
+    stats: [60, 55, 50, 45, 40, 55],
+    level_up_moves: {
+      "1": ["TACKLE", "DISABLE", "FORESIGHT"],
+      "5": ["SUPERSONIC"],
+      "11": ["CONFUSION"],
+      "13": ["POISONPOWDER"],
+      "17": ["PSYBEAM"],
+      "23": ["STUNSPORE"],
+      "25": ["SIGNALBEAM"],
+      "29": ["SLEEPPOWDER"],
+      "35": ["LEECHLIFE"],
+      "37": ["ZENHEADBUTT"],
+      "41": ["POISONFANG"],
+      "47": ["PSYCHIC"],
+    },
+    egg_moves: [
+      "AGILITY",
+      "BATONPASS",
+      "BUGBITE",
+      "GIGADRAIN",
+      "MORNINGSUN",
+      "RAGEPOWDER",
+      "SCREECH",
+      "SECRETPOWER",
+      "SIGNALBEAM",
+      "SKILLSWAP",
+      "TOXICSPIKES",
+    ],
+    tm_tutor_moves: [
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "PROTECT",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "RETURN",
+      "LEECHLIFE",
+      "PSYCHIC",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "STRUGGLEBUG",
+      "INFESTATION",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "FLASH",
+      "BUGBITE",
+      "GIGADRAIN",
+      "SIGNALBEAM",
+      "SKILLSWAP",
+      "SNORE",
+      "STRINGSHOT",
+      "SWIFT",
+      "ZENHEADBUTT",
+    ],
+    locations: [
+      {
+        location: "Obsidia Ward",
+        point: "ZEL/Pulse Tangrowth 1",
+        method: "LandDay",
+      },
+      { location: "Onyx Ward", point: "Florina", method: "Land" },
+      { location: "North Obsidia Ward", point: "Adrienn", method: "LandDay" },
+      { location: "South Obsidia Ward", point: "Adrienn", method: "LandDay" },
+    ],
+  },
+  {
+    no: 49,
+    name: "Venomoth",
+    types: ["Bug", "Poison"],
+    stats: [70, 65, 60, 90, 90, 75],
+    level_up_moves: {
+      "0": ["GUST"],
+      "1": [
+        "QUIVERDANCE",
+        "BUGBUZZ",
+        "SILVERWIND",
+        "TACKLE",
+        "DISABLE",
+        "FORESIGHT",
+        "SUPERSONIC",
+      ],
+      "5": ["SUPERSONIC"],
+      "11": ["CONFUSION"],
+      "13": ["POISONPOWDER"],
+      "17": ["PSYBEAM"],
+      "23": ["STUNSPORE"],
+      "25": ["SIGNALBEAM"],
+      "29": ["SLEEPPOWDER"],
+      "37": ["LEECHLIFE"],
+      "41": ["ZENHEADBUTT"],
+      "47": ["POISONFANG"],
+      "55": ["PSYCHIC"],
+      "59": ["BUGBUZZ"],
+      "63": ["QUIVERDANCE"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "TOXIC",
+      "VENOSHOCK",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "HYPERBEAM",
+      "PROTECT",
+      "ROOST",
+      "FRUSTRATION",
+      "SOLARBEAM",
+      "RETURN",
+      "LEECHLIFE",
+      "PSYCHIC",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ENERGYBALL",
+      "ACROBATICS",
+      "GIGAIMPACT",
+      "STRUGGLEBUG",
+      "INFESTATION",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "FLASH",
+      "AIRCUTTER",
+      "BUGBITE",
+      "DEFOG",
+      "GIGADRAIN",
+      "OMINOUSWIND",
+      "SIGNALBEAM",
+      "SKILLSWAP",
+      "SNORE",
+      "STRINGSHOT",
+      "SWIFT",
+      "TAILWIND",
+      "TWISTER",
+      "ZENHEADBUTT",
+    ],
+    locations: [
+      { location: "Glitch World", point: "T3RR4", method: "Cave" },
+      { location: "Obsidia Ward", point: "Adrienn", method: "LandNight" },
+      { location: "North Obsidia Ward", point: "Adrienn", method: "LandNight" },
+      { location: "South Obsidia Ward", point: "Adrienn", method: "LandNight" },
+      { location: "Onyx Ward", point: "Adrienn", method: "LandMorning" },
+    ],
+  },
+  {
+    no: 50,
+    name: "Diglett",
+    types: ["Ground"],
+    stats: [10, 55, 25, 95, 35, 45],
+    level_up_moves: {
+      "1": ["SCRATCH", "SANDATTACK"],
+      "4": ["GROWL"],
+      "7": ["ASTONISH"],
+      "10": ["MUDSLAP"],
+      "14": ["MAGNITUDE"],
+      "18": ["BULLDOZE"],
+      "22": ["SUCKERPUNCH"],
+      "25": ["MUDBOMB"],
+      "28": ["EARTHPOWER"],
+      "31": ["DIG"],
+      "35": ["SLASH"],
+      "39": ["EARTHQUAKE"],
+      "43": ["FISSURE"],
+    },
+    egg_moves: [
+      "ANCIENTPOWER",
+      "ASTONISH",
+      "BEATUP",
+      "ENDURE",
+      "FEINTATTACK",
+      "FINALGAMBIT",
+      "HEADBUTT",
+      "MEMENTO",
+      "MUDBOMB",
+      "PURSUIT",
+      "REVERSAL",
+      "SCREECH",
+      "UPROAR",
+    ],
+    tm_tutor_moves: [
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "PROTECT",
+      "FRUSTRATION",
+      "EARTHQUAKE",
+      "RETURN",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "SANDSTORM",
+      "ROCKTOMB",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ECHOEDVOICE",
+      "SHADOWCLAW",
+      "BULLDOZE",
+      "ROCKSLIDE",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "CUT",
+      "ROCKSMASH",
+      "EARTHPOWER",
+      "MUDSLAP",
+      "SNORE",
+      "STEALTHROCK",
+      "STOMPINGTANTRUM",
+      "SUCKERPUNCH",
+      "UPROAR",
+    ],
+    locations: [
+      { location: "Grand Stairway", point: "Shelly", method: "Cave" },
+      { location: "Tanzan Depths", point: "Noel", method: "Cave" },
+    ],
+  },
+  {
+    no: 10105,
+    name: "Diglett (Alolan)",
+    types: ["Ground", "Steel"],
+    stats: [10, 55, 30, 90, 35, 45],
+    level_up_moves: {
+      "1": ["SANDATTACK", "METALCLAW"],
+      "4": ["GROWL"],
+      "7": ["ASTONISH"],
+      "10": ["MUDSLAP"],
+      "14": ["MAGNITUDE"],
+      "18": ["BULLDOZE"],
+      "22": ["SUCKERPUNCH"],
+      "25": ["MUDBOMB"],
+      "28": ["EARTHPOWER"],
+      "31": ["DIG"],
+      "35": ["IRONHEAD"],
+      "39": ["EARTHQUAKE"],
+      "43": ["FISSURE"],
+    },
+    egg_moves: [
+      "ANCIENTPOWER",
+      "BEATUP",
+      "ENDURE",
+      "FEINTATTACK",
+      "FINALGAMBIT",
+      "HEADBUTT",
+      "MEMENTO",
+      "METALSOUND",
+      "PURSUIT",
+      "REVERSAL",
+      "THRASH",
+    ],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "PROTECT",
+      "FRUSTRATION",
+      "EARTHQUAKE",
+      "RETURN",
+      "DOUBLETEAM",
+      "SLUDGEBOMB",
+      "SANDSTORM",
+      "ROCKTOMB",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ECHOEDVOICE",
+      "SHADOWCLAW",
+      "BULLDOZE",
+      "ROCKSLIDE",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "FLASHCANNON",
+      "SECRETPOWER",
+      "CONFIDE",
+      "CUT",
+      "ROCKSMASH",
+      "EARTHPOWER",
+      "IRONDEFENSE",
+      "IRONHEAD",
+      "MUDSLAP",
+      "SNORE",
+      "STEALTHROCK",
+      "STOMPINGTANTRUM",
+      "SUCKERPUNCH",
+      "UPROAR",
+    ],
+    locations: [{ location: "Pyrous Mountain", point: "Kiki", method: "Cave" }],
+  },
+  {
+    no: 51,
+    name: "Dugtrio",
+    types: ["Ground"],
+    stats: [35, 100, 50, 120, 50, 70],
+    level_up_moves: {
+      "0": ["SANDTOMB"],
+      "1": [
+        "ROTOTILLER",
+        "NIGHTSLASH",
+        "TRIATTACK",
+        "SCRATCH",
+        "SANDATTACK",
+        "GROWL",
+      ],
+      "4": ["GROWL"],
+      "7": ["ASTONISH"],
+      "10": ["MUDSLAP"],
+      "14": ["MAGNITUDE"],
+      "18": ["BULLDOZE"],
+      "22": ["SUCKERPUNCH"],
+      "25": ["MUDBOMB"],
+      "30": ["EARTHPOWER"],
+      "35": ["DIG"],
+      "41": ["SLASH"],
+      "47": ["EARTHQUAKE"],
+      "53": ["FISSURE"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "HYPERBEAM",
+      "PROTECT",
+      "FRUSTRATION",
+      "EARTHQUAKE",
+      "RETURN",
+      "DOUBLETEAM",
+      "SLUDGEWAVE",
+      "SLUDGEBOMB",
+      "SANDSTORM",
+      "ROCKTOMB",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ECHOEDVOICE",
+      "SHADOWCLAW",
+      "GIGAIMPACT",
+      "STONEEDGE",
+      "BULLDOZE",
+      "ROCKSLIDE",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "CONFIDE",
+      "CUT",
+      "ROCKSMASH",
+      "EARTHPOWER",
+      "MUDSLAP",
+      "SNORE",
+      "STEALTHROCK",
+      "STOMPINGTANTRUM",
+      "SUCKERPUNCH",
+      "UPROAR",
+    ],
+    locations: [
+      { location: "Tanzan Depths", point: "Noel", method: "Cave" },
+      { location: "Tanzan Mountain", point: "Adrienn", method: "Cave" },
+      { location: "Teknite Cave", point: "Titania", method: "Cave" },
+      { location: "Sugiline Cave", point: "Titania", method: "Cave" },
+      { location: "Sugiline Ruin", point: "Titania", method: "Cave" },
+      { location: "1R253 Scrapyard", point: "Titania", method: "Cave" },
+      { location: "Mirage Tower", point: "Titania", method: "Cave" },
+      { location: "Tourmaline Desert", point: "Titania", method: "Cave" },
+    ],
+  },
+  {
+    no: 10106,
+    name: "Dugtrio (Alolan)",
+    types: ["Ground", "Steel"],
+    stats: [35, 100, 60, 110, 50, 70],
+    level_up_moves: {
+      "0": ["SANDTOMB"],
+      "1": [
+        "SANDTOMB",
+        "ROTOTILLER",
+        "NIGHTSLASH",
+        "TRIATTACK",
+        "SANDATTACK",
+        "METALCLAW",
+        "GROWL",
+      ],
+      "4": ["GROWL"],
+      "7": ["ASTONISH"],
+      "10": ["MUDSLAP"],
+      "14": ["MAGNITUDE"],
+      "18": ["BULLDOZE"],
+      "22": ["SUCKERPUNCH"],
+      "25": ["MUDBOMB"],
+      "30": ["EARTHPOWER"],
+      "35": ["DIG"],
+      "41": ["IRONHEAD"],
+      "47": ["EARTHQUAKE"],
+      "53": ["FISSURE"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "HYPERBEAM",
+      "PROTECT",
+      "FRUSTRATION",
+      "EARTHQUAKE",
+      "RETURN",
+      "DOUBLETEAM",
+      "SLUDGEWAVE",
+      "SLUDGEBOMB",
+      "SANDSTORM",
+      "ROCKTOMB",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ECHOEDVOICE",
+      "SHADOWCLAW",
+      "GIGAIMPACT",
+      "STONEEDGE",
+      "BULLDOZE",
+      "ROCKSLIDE",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "FLASHCANNON",
+      "SECRETPOWER",
+      "CONFIDE",
+      "CUT",
+      "ROCKSMASH",
+      "EARTHPOWER",
+      "IRONDEFENSE",
+      "IRONHEAD",
+      "MUDSLAP",
+      "SNORE",
+      "STEALTHROCK",
+      "STOMPINGTANTRUM",
+      "SUCKERPUNCH",
+      "UPROAR",
+    ],
+    locations: [{ location: "Pyrous Mountain", point: "Kiki", method: "Cave" }],
+  },
+  {
+    no: 52,
+    name: "Meowth",
+    types: ["Normal"],
+    stats: [40, 45, 35, 90, 40, 40],
+    level_up_moves: {
+      "1": ["SCRATCH", "GROWL"],
+      "6": ["BITE"],
+      "9": ["FAKEOUT"],
+      "14": ["FURYSWIPES"],
+      "17": ["SCREECH"],
+      "22": ["FEINTATTACK"],
+      "25": ["TAUNT"],
+      "30": ["PAYDAY"],
+      "33": ["SLASH"],
+      "38": ["NASTYPLOT"],
+      "41": ["ASSURANCE"],
+      "46": ["CAPTIVATE"],
+      "49": ["NIGHTSLASH"],
+      "50": ["FEINT"],
+    },
+    egg_moves: [
+      "AMNESIA",
+      "ASSIST",
+      "CHARM",
+      "FLAIL",
+      "FOULPLAY",
+      "HYPNOSIS",
+      "IRONTAIL",
+      "LASTRESORT",
+      "ODORSLEUTH",
+      "PUNISHMENT",
+      "SNATCH",
+      "SPITE",
+      "TAILWHIP",
+    ],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "TAUNT",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "THUNDERBOLT",
+      "THUNDER",
+      "RETURN",
+      "SHADOWBALL",
+      "DOUBLETEAM",
+      "AERIALACE",
+      "TORMENT",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ECHOEDVOICE",
+      "SHADOWCLAW",
+      "PAYBACK",
+      "PSYCHUP",
+      "DREAMEATER",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "DARKPULSE",
+      "CUT",
+      "FLASH",
+      "COVET",
+      "FOULPLAY",
+      "GUNKSHOT",
+      "HEADBUTT",
+      "HYPERVOICE",
+      "ICYWIND",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "LASTRESORT",
+      "MUDSLAP",
+      "SEEDBOMB",
+      "SHOCKWAVE",
+      "SNATCH",
+      "SNORE",
+      "SPITE",
+      "SWIFT",
+      "THROATCHOP",
+      "UPROAR",
+      "WATERPULSE",
+    ],
+    locations: [
+      { location: "Opal Ward", point: "Julia", method: "LandMorning" },
+      { location: "Beryl Ward", point: "Corey", method: "LandNight" },
+      { location: "Beryl Cemetery", point: "Corey", method: "LandNight" },
+      { location: "Glitch World", point: "T3RR4", method: "Land" },
+    ],
+  },
+  {
+    no: 10107,
+    name: "Meowth (Alolan)",
+    types: ["Dark"],
+    stats: [40, 35, 35, 90, 50, 40],
+    level_up_moves: {
+      "1": ["SCRATCH", "GROWL"],
+      "6": ["BITE"],
+      "9": ["FAKEOUT"],
+      "14": ["FURYSWIPES"],
+      "17": ["SCREECH"],
+      "22": ["FEINTATTACK"],
+      "25": ["TAUNT"],
+      "30": ["PAYDAY"],
+      "33": ["SLASH"],
+      "38": ["NASTYPLOT"],
+      "41": ["ASSURANCE"],
+      "46": ["CAPTIVATE"],
+      "49": ["NIGHTSLASH"],
+      "50": ["FEINT"],
+      "55": ["DARKPULSE"],
+    },
+    egg_moves: [
+      "AMNESIA",
+      "ASSIST",
+      "CHARM",
+      "COVET",
+      "FLAIL",
+      "FLATTER",
+      "FOULPLAY",
+      "HYPNOSIS",
+      "PARTINGSHOT",
+      "PUNISHMENT",
+      "SNATCH",
+      "SPITE",
+    ],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "TAUNT",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "THUNDERBOLT",
+      "THUNDER",
+      "RETURN",
+      "SHADOWBALL",
+      "DOUBLETEAM",
+      "AERIALACE",
+      "TORMENT",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ECHOEDVOICE",
+      "QUASH",
+      "EMBARGO",
+      "SHADOWCLAW",
+      "PAYBACK",
+      "PSYCHUP",
+      "DREAMEATER",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "DARKPULSE",
+      "CUT",
+      "FLASH",
+      "COVET",
+      "FOULPLAY",
+      "GUNKSHOT",
+      "HEADBUTT",
+      "HYPERVOICE",
+      "ICYWIND",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "LASTRESORT",
+      "MUDSLAP",
+      "SEEDBOMB",
+      "SHOCKWAVE",
+      "SNATCH",
+      "SNORE",
+      "SPITE",
+      "SWIFT",
+      "THROATCHOP",
+      "UPROAR",
+      "WATERPULSE",
+    ],
+    locations: [
+      { location: "Lapis Alleyway", point: "Shelly", method: "Cave" },
+      { location: "Lapis Ward", point: "Adrienn", method: "LandMorning" },
+    ],
+  },
+  {
+    no: 53,
+    name: "Persian",
+    types: ["Normal"],
+    stats: [65, 70, 60, 115, 65, 65],
+    level_up_moves: {
+      "0": ["SWIFT"],
+      "1": ["PLAYROUGH", "SWITCHEROO", "SCRATCH", "GROWL", "BITE", "FAKEOUT"],
+      "6": ["BITE"],
+      "9": ["FAKEOUT"],
+      "14": ["FURYSWIPES"],
+      "17": ["SCREECH"],
+      "22": ["FEINTATTACK"],
+      "25": ["TAUNT"],
+      "32": ["POWERGEM"],
+      "37": ["SLASH"],
+      "44": ["NASTYPLOT"],
+      "49": ["ASSURANCE"],
+      "56": ["CAPTIVATE"],
+      "61": ["NIGHTSLASH"],
+      "65": ["FEINT"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "ROAR",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "TAUNT",
+      "HYPERBEAM",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "THUNDERBOLT",
+      "THUNDER",
+      "RETURN",
+      "SHADOWBALL",
+      "DOUBLETEAM",
+      "AERIALACE",
+      "TORMENT",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ECHOEDVOICE",
+      "EMBARGO",
+      "SHADOWCLAW",
+      "PAYBACK",
+      "GIGAIMPACT",
+      "PSYCHUP",
+      "DREAMEATER",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "DARKPULSE",
+      "CUT",
+      "FLASH",
+      "COVET",
+      "FOULPLAY",
+      "GUNKSHOT",
+      "HEADBUTT",
+      "HYPERVOICE",
+      "ICYWIND",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "LASTRESORT",
+      "MUDSLAP",
+      "SEEDBOMB",
+      "SHOCKWAVE",
+      "SNATCH",
+      "SNORE",
+      "SPITE",
+      "SWIFT",
+      "THROATCHOP",
+      "UPROAR",
+      "WATERPULSE",
+    ],
+    locations: [
+      { location: "Opal Ward", point: "Adrienn", method: "LandMorning" },
+      { location: "Beryl Ward", point: "Adrienn", method: "LandNight" },
+      { location: "Beryl Cemetery", point: "Adrienn", method: "LandNight" },
+    ],
+  },
+  {
+    no: 10108,
+    name: "Persian (Alolan)",
+    types: ["Dark"],
+    stats: [65, 60, 60, 115, 75, 65],
+    level_up_moves: {
+      "0": ["SWIFT"],
+      "1": [
+        "SWIFT",
+        "QUASH",
+        "PLAYROUGH",
+        "SWITCHEROO",
+        "SCRATCH",
+        "GROWL",
+        "BITE",
+        "FAKEOUT",
+      ],
+      "6": ["BITE"],
+      "9": ["FAKEOUT"],
+      "14": ["FURYSWIPES"],
+      "17": ["SCREECH"],
+      "22": ["FEINTATTACK"],
+      "25": ["TAUNT"],
+      "32": ["POWERGEM"],
+      "37": ["SLASH"],
+      "44": ["NASTYPLOT"],
+      "49": ["ASSURANCE"],
+      "56": ["CAPTIVATE"],
+      "61": ["NIGHTSLASH"],
+      "65": ["FEINT"],
+      "69": ["DARKPULSE"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "ROAR",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "TAUNT",
+      "HYPERBEAM",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "THUNDERBOLT",
+      "THUNDER",
+      "RETURN",
+      "SHADOWBALL",
+      "DOUBLETEAM",
+      "AERIALACE",
+      "TORMENT",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "ECHOEDVOICE",
+      "QUASH",
+      "EMBARGO",
+      "SHADOWCLAW",
+      "PAYBACK",
+      "GIGAIMPACT",
+      "PSYCHUP",
+      "DREAMEATER",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "SNARL",
+      "DARKPULSE",
+      "CUT",
+      "FLASH",
+      "COVET",
+      "FOULPLAY",
+      "GUNKSHOT",
+      "HEADBUTT",
+      "HYPERVOICE",
+      "ICYWIND",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "LASTRESORT",
+      "MUDSLAP",
+      "SEEDBOMB",
+      "SHOCKWAVE",
+      "SNATCH",
+      "SNORE",
+      "SPITE",
+      "SWIFT",
+      "THROATCHOP",
+      "UPROAR",
+      "WATERPULSE",
+    ],
+    locations: [
+      { location: "Lapis Alleyway", point: "Shelly", method: "Cave" },
+      { location: "Lapis Ward", point: "Adrienn", method: "LandMorning" },
+    ],
+  },
+  {
+    no: 54,
+    name: "Psyduck",
+    types: ["Water"],
+    stats: [50, 52, 48, 55, 65, 50],
+    level_up_moves: {
+      "1": ["WATERSPORT", "SCRATCH"],
+      "4": ["TAILWHIP"],
+      "7": ["WATERGUN"],
+      "10": ["CONFUSION"],
+      "13": ["FURYSWIPES"],
+      "16": ["WATERPULSE"],
+      "19": ["DISABLE"],
+      "22": ["SCREECH"],
+      "25": ["ZENHEADBUTT"],
+      "28": ["AQUATAIL"],
+      "31": ["SOAK"],
+      "34": ["PSYCHUP"],
+      "37": ["AMNESIA"],
+      "40": ["HYDROPUMP"],
+      "43": ["WONDERROOM"],
+    },
+    egg_moves: [
+      "CLEARSMOG",
+      "CONFUSERAY",
+      "CROSSCHOP",
+      "ENCORE",
+      "FORESIGHT",
+      "FUTURESIGHT",
+      "HYPNOSIS",
+      "MUDBOMB",
+      "PSYBEAM",
+      "REFRESH",
+      "SECRETPOWER",
+      "SIMPLEBEAM",
+      "SLEEPTALK",
+      "SYNCHRONOISE",
+      "YAWN",
+    ],
+    tm_tutor_moves: [
+      "PSYSHOCK",
+      "CALMMIND",
+      "TOXIC",
+      "HAIL",
+      "HIDDENPOWER",
+      "ICEBEAM",
+      "BLIZZARD",
+      "LIGHTSCREEN",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "RETURN",
+      "PSYCHIC",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "ROUND",
+      "SCALD",
+      "FLING",
+      "SHADOWCLAW",
+      "PSYCHUP",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "POWERUPPUNCH",
+      "CONFIDE",
+      "SURF",
+      "STRENGTH",
+      "WATERFALL",
+      "DIVE",
+      "ROCKSMASH",
+      "FLASH",
+      "AQUATAIL",
+      "FOCUSPUNCH",
+      "HEADBUTT",
+      "ICEPUNCH",
+      "ICYWIND",
+      "IRONTAIL",
+      "MAGICCOAT",
+      "MUDSLAP",
+      "SIGNALBEAM",
+      "SNORE",
+      "SWIFT",
+      "TELEKINESIS",
+      "WATERPULSE",
+      "WONDERROOM",
+      "WORRYSEED",
+      "ZENHEADBUTT",
+    ],
+    locations: [],
+  },
+  {
+    no: 55,
+    name: "Golduck",
+    types: ["Water"],
+    stats: [80, 82, 78, 85, 95, 80],
+    level_up_moves: {
+      "1": [
+        "MEFIRST",
+        "AQUAJET",
+        "WATERSPORT",
+        "SCRATCH",
+        "TAILWHIP",
+        "WATERGUN",
+      ],
+      "4": ["TAILWHIP"],
+      "7": ["WATERGUN"],
+      "10": ["CONFUSION"],
+      "13": ["FURYSWIPES"],
+      "16": ["WATERPULSE"],
+      "19": ["DISABLE"],
+      "22": ["SCREECH"],
+      "25": ["ZENHEADBUTT"],
+      "28": ["AQUATAIL"],
+      "31": ["SOAK"],
+      "36": ["PSYCHUP"],
+      "41": ["AMNESIA"],
+      "46": ["HYDROPUMP"],
+      "51": ["WONDERROOM"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "PSYSHOCK",
+      "CALMMIND",
+      "TOXIC",
+      "HAIL",
+      "HIDDENPOWER",
+      "ICEBEAM",
+      "BLIZZARD",
+      "HYPERBEAM",
+      "LIGHTSCREEN",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "RETURN",
+      "PSYCHIC",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "LOWSWEEP",
+      "ROUND",
+      "FOCUSBLAST",
+      "SCALD",
+      "FLING",
+      "SHADOWCLAW",
+      "GIGAIMPACT",
+      "PSYCHUP",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "POWERUPPUNCH",
+      "CONFIDE",
+      "SURF",
+      "STRENGTH",
+      "WATERFALL",
+      "DIVE",
+      "ROCKSMASH",
+      "FLASH",
+      "ROCKCLIMB",
+      "AQUATAIL",
+      "FOCUSPUNCH",
+      "FURYCUTTER",
+      "HEADBUTT",
+      "ICEPUNCH",
+      "ICYWIND",
+      "IRONTAIL",
+      "LASERFOCUS",
+      "LIQUIDATION",
+      "LOWKICK",
+      "MAGICCOAT",
+      "MUDSLAP",
+      "SIGNALBEAM",
+      "SNORE",
+      "SWIFT",
+      "TELEKINESIS",
+      "WATERPULSE",
+      "WONDERROOM",
+      "WORRYSEED",
+      "ZENHEADBUTT",
+    ],
+    locations: [
+      { location: "Celestinine Mountain", point: "Adrienn", method: "Water" },
+      { location: "Citrine Mountain", point: "Charlotte", method: "Water" },
+    ],
+  },
+  {
+    no: 56,
+    name: "Mankey",
+    types: ["Fighting"],
+    stats: [40, 80, 35, 70, 35, 45],
+    level_up_moves: {
+      "1": ["COVET", "SCRATCH", "LOWKICK", "LEER", "FOCUSENERGY"],
+      "5": ["FURYSWIPES"],
+      "8": ["KARATECHOP"],
+      "12": ["PURSUIT"],
+      "15": ["SEISMICTOSS"],
+      "19": ["SWAGGER"],
+      "22": ["CROSSCHOP"],
+      "26": ["ASSURANCE"],
+      "29": ["PUNISHMENT"],
+      "33": ["THRASH"],
+      "36": ["CLOSECOMBAT"],
+      "40": ["SCREECH"],
+      "43": ["STOMPINGTANTRUM"],
+      "47": ["OUTRAGE"],
+      "50": ["FINALGAMBIT"],
+    },
+    egg_moves: [
+      "BEATUP",
+      "CLOSECOMBAT",
+      "COUNTER",
+      "ENCORE",
+      "FOCUSPUNCH",
+      "FORESIGHT",
+      "MEDITATE",
+      "NIGHTSLASH",
+      "POWERTRIP",
+      "REVENGE",
+      "REVERSAL",
+      "SLEEPTALK",
+      "SMELLINGSALTS",
+    ],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "BULKUP",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "TAUNT",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "SMACKDOWN",
+      "THUNDERBOLT",
+      "THUNDER",
+      "EARTHQUAKE",
+      "RETURN",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "ROCKTOMB",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "LOWSWEEP",
+      "ROUND",
+      "OVERHEAT",
+      "FOCUSBLAST",
+      "FLING",
+      "ACROBATICS",
+      "PAYBACK",
+      "BULLDOZE",
+      "ROCKSLIDE",
+      "POISONJAB",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "POWERUPPUNCH",
+      "CONFIDE",
+      "STRENGTH",
+      "ROCKSMASH",
+      "ROCKCLIMB",
+      "COVET",
+      "DUALCHOP",
+      "ENDEAVOR",
+      "FIREPUNCH",
+      "FOCUSPUNCH",
+      "GUNKSHOT",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "ICEPUNCH",
+      "IRONTAIL",
+      "LOWKICK",
+      "MAGICCOAT",
+      "MUDSLAP",
+      "OUTRAGE",
+      "SEEDBOMB",
+      "SPITE",
+      "STOMPINGTANTRUM",
+      "SWIFT",
+      "THUNDERPUNCH",
+      "UPROAR",
+      "VACUUMWAVE",
+    ],
+    locations: [
+      {
+        location: "Obsidia Slums",
+        point: "ZEL/Pulse Tangrowth 1",
+        method: "Cave",
+      },
+      { location: "Slums Playground", point: "Shade", method: "Cave" },
+    ],
+  },
+  {
+    no: 57,
+    name: "Primeape",
+    types: ["Fighting"],
+    stats: [65, 105, 60, 95, 60, 70],
+    level_up_moves: {
+      "0": ["RAGE"],
+      "1": [
+        "FINALGAMBIT",
+        "FLING",
+        "SCRATCH",
+        "LOWKICK",
+        "LEER",
+        "FOCUSENERGY",
+      ],
+      "5": ["FURYSWIPES"],
+      "8": ["KARATECHOP"],
+      "12": ["PURSUIT"],
+      "15": ["SEISMICTOSS"],
+      "19": ["SWAGGER"],
+      "22": ["CROSSCHOP"],
+      "26": ["ASSURANCE"],
+      "30": ["PUNISHMENT"],
+      "35": ["THRASH"],
+      "39": ["CLOSECOMBAT"],
+      "44": ["SCREECH"],
+      "48": ["STOMPINGTANTRUM"],
+      "53": ["OUTRAGE"],
+      "57": ["FINALGAMBIT"],
+    },
+    egg_moves: [],
+    tm_tutor_moves: [
+      "WORKUP",
+      "TOXIC",
+      "BULKUP",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "TAUNT",
+      "HYPERBEAM",
+      "PROTECT",
+      "RAINDANCE",
+      "FRUSTRATION",
+      "SMACKDOWN",
+      "THUNDERBOLT",
+      "THUNDER",
+      "EARTHQUAKE",
+      "RETURN",
+      "BRICKBREAK",
+      "DOUBLETEAM",
+      "ROCKTOMB",
+      "AERIALACE",
+      "FACADE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "LOWSWEEP",
+      "ROUND",
+      "OVERHEAT",
+      "FOCUSBLAST",
+      "FLING",
+      "ACROBATICS",
+      "PAYBACK",
+      "GIGAIMPACT",
+      "STONEEDGE",
+      "BULLDOZE",
+      "ROCKSLIDE",
+      "POISONJAB",
+      "SWAGGER",
+      "SLEEPTALK",
+      "UTURN",
+      "SUBSTITUTE",
+      "SECRETPOWER",
+      "POWERUPPUNCH",
+      "CONFIDE",
+      "STRENGTH",
+      "ROCKSMASH",
+      "ROCKCLIMB",
+      "COVET",
+      "DUALCHOP",
+      "ENDEAVOR",
+      "FIREPUNCH",
+      "FOCUSPUNCH",
+      "GUNKSHOT",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "ICEPUNCH",
+      "IRONTAIL",
+      "LOWKICK",
+      "MAGICCOAT",
+      "MUDSLAP",
+      "OUTRAGE",
+      "SEEDBOMB",
+      "SPITE",
+      "STOMPINGTANTRUM",
+      "SWIFT",
+      "THROATCHOP",
+      "THUNDERPUNCH",
+      "UPROAR",
+      "VACUUMWAVE",
+    ],
+    locations: [
+      {
+        location: "South Aventurine Woods",
+        point: "Radomus",
+        method: "LandMorning",
+      },
+      {
+        location: "North Aventurine Woods",
+        point: "Radomus",
+        method: "LandMorning",
+      },
+    ],
+  },
+  {
+    no: 58,
+    name: "Growlithe",
+    types: ["Fire"],
+    stats: [55, 70, 45, 60, 70, 50],
+    level_up_moves: {
+      "1": ["BITE", "ROAR"],
+      "6": ["EMBER"],
+      "8": ["LEER"],
+      "10": ["ODORSLEUTH"],
+      "12": ["HELPINGHAND"],
+      "17": ["FLAMEWHEEL"],
+      "19": ["REVERSAL"],
+      "21": ["FIREFANG"],
+      "23": ["TAKEDOWN"],
+      "28": ["FLAMEBURST"],
+      "30": ["AGILITY"],
+      "32": ["RETALIATE"],
+      "34": ["FLAMETHROWER"],
+      "39": ["CRUNCH"],
+      "41": ["HEATWAVE"],
+      "43": ["OUTRAGE"],
+      "45": ["FLAREBLITZ"],
+    },
+    egg_moves: [
+      "BODYSLAM",
+      "BURNUP",
+      "CLOSECOMBAT",
+      "COVET",
+      "CRUNCH",
+      "DOUBLEKICK",
+      "DOUBLEEDGE",
+      "FIRESPIN",
+      "FLAREBLITZ",
+      "HEATWAVE",
+      "HOWL",
+      "IRONTAIL",
+      "MORNINGSUN",
+      "THRASH",
+    ],
+    tm_tutor_moves: [
+      "ROAR",
+      "TOXIC",
+      "HIDDENPOWER",
+      "SUNNYDAY",
+      "PROTECT",
+      "SAFEGUARD",
+      "FRUSTRATION",
+      "RETURN",
+      "DOUBLETEAM",
+      "FLAMETHROWER",
+      "FIREBLAST",
+      "AERIALACE",
+      "FACADE",
+      "FLAMECHARGE",
+      "REST",
+      "ATTRACT",
+      "THIEF",
+      "ROUND",
+      "OVERHEAT",
+      "WILLOWISP",
+      "SWAGGER",
+      "SLEEPTALK",
+      "SUBSTITUTE",
+      "WILDCHARGE",
+      "SECRETPOWER",
+      "SNARL",
+      "CONFIDE",
+      "STRENGTH",
+      "ROCKSMASH",
+      "COVET",
+      "HEADBUTT",
+      "HEATWAVE",
+      "HELPINGHAND",
+      "IRONHEAD",
+      "IRONTAIL",
+      "MUDSLAP",
+      "OUTRAGE",
+      "SNORE",
+      "SWIFT",
+    ],
+    locations: [
+      { location: "Jasper Ward", point: "Adrienn", method: "LandDay" },
+      {
+        location: "Jasper Ward",
+        point: "Taka/ZEL/Pulse Tangrowth 3",
+        method: "Police Officer Rescue Event (100%)",
+      },
+    ],
+  },
+];
