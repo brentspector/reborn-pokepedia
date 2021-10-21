@@ -34,7 +34,7 @@
 
 ## Introduction
 
-[![Build Status](https://img.shields.io/travis/gitpoint/git-point.svg?style=flat-square)](https://travis-ci.org/gitpoint/git-point)
+[![Build Status](https://github.com/brentspector/reborn-pokepedia/actions/workflows/webApp.yml/badge.svg)](https://github.com/brentspector/reborn-pokepedia/actions/workflows/webApp.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
 

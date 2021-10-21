@@ -1883,6 +1883,16 @@ export const pokemonData51 = [
     ],
     locations: [
       {
+        location: "Spinal Town",
+        point: "Radomus",
+        method: "Trade Karrablast",
+      },
+      {
+        location: "North Obsidia Ward",
+        point: "Radomus",
+        method: "Link Stone on Karrablast",
+      },
+      {
         location: "Once Upon a Somewhere/Waste of Time",
         point: "Titania",
         method: "Land",

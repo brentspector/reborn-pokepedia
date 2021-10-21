@@ -685,7 +685,7 @@ eventLocations = {
         "point": "Serra",
         "method": "Fossil Reviver (100%)"
     },
-    "Escavelier": [
+    "Escavalier": [
         {
             "location": "Spinal Town",
             "point": "Radomus",

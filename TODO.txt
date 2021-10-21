@@ -1,5 +1,5 @@
 * Dropdown by point in game
-Pokemon location data
+* Pokemon location data
 TM location data
 Tutor location data
 Pokemon moveset data
