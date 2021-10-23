@@ -550,7 +550,7 @@ export const tutorLocations = {
     point: "Adrienn",
     method: "Mosswater Market",
   },
-  Drillrun: { location: "Agate Cirucs", point: "Samson", method: "Red Tutor" },
+  Drillrun: { location: "Agate Circus", point: "Samson", method: "Red Tutor" },
   Dualchop: {
     location: "Agate Circus",
     point: "Samson",

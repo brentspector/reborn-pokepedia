@@ -104,3 +104,24 @@ describe("tmData", () => {
     }
   });
 });
+
+describe("tutorData", () => {
+  it("references valid values from gameLocations", () => {
+    for (const [tutorName, tutorDetails] of Object.entries(tutorLocations)) {
+      if (tutorDetails["location"]) {
+        expect(gameLocations).toContain(tutorDetails["location"]);
+      }
+    }
+  });
+});
+
+describe("tutorData", () => {
+  it("references valid values from gamePoints", () => {
+    const gmPoints = gamePoints.map((key) => key["name"]);
+    for (const [tutorName, tutorDetails] of Object.entries(tutorLocations)) {
+      if (tutorDetails["point"]) {
+        expect(gmPoints).toContain(tutorDetails["point"]);
+      }
+    }
+  });
+});
