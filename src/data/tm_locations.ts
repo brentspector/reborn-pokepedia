@@ -199,7 +199,7 @@ export const tmLocations = {
   },
   Lowsweep: {
     location: "South Obsidia Ward",
-    point: "Adirenn",
+    point: "Adrienn",
     method: "Search Under Opal Bridge",
   },
   Round: {

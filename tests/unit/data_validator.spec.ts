@@ -15,6 +15,7 @@ import { pokemonData60 } from "@/data/gen6_0";
 import { pokemonData61 } from "@/data/gen6_1";
 import { pokemonData70 } from "@/data/gen7_0";
 import { pokemonData71 } from "@/data/gen7_1";
+import { tmLocations, tutorLocations } from "@/data/tm_locations";
 import { gamePoints, gameLocations } from "@/data/reborn";
 
 describe("pokemonData", () => {
@@ -78,6 +79,27 @@ describe("pokemonData", () => {
         j++
       ) {
         expect(gmPoints).toContain(pokemonData[i].locations![j].point);
+      }
+    }
+  });
+});
+
+describe("tmData", () => {
+  it("references valid values from gameLocations", () => {
+    for (const [tmName, tmDetails] of Object.entries(tmLocations)) {
+      if (tmDetails["location"]) {
+        expect(gameLocations).toContain(tmDetails["location"]);
+      }
+    }
+  });
+});
+
+describe("tmData", () => {
+  it("references valid values from gamePoints", () => {
+    const gmPoints = gamePoints.map((key) => key["name"]);
+    for (const [tmName, tmDetails] of Object.entries(tmLocations)) {
+      if (tmDetails["point"]) {
+        expect(gmPoints).toContain(tmDetails["point"]);
       }
     }
   });

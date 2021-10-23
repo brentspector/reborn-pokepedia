@@ -1340,7 +1340,7 @@ tmLocations = {
     "Rest": {"location": "Azurine Lake", "point": "Adrienn", "method": "Search Sunrise 4 House Underwater"},
     "Attract": {"location": "Onyx Ward", "point": "Florina", "method": "Game Corner Prize"},
     "Thief": {"location": "Ametrine City", "point": "T3RR4", "method": "Ice Skating Rink Puzzle"},
-    "Lowsweep": {"location": "South Obsidia Ward", "point": "Adirenn", "method": "Search Under Opal Bridge"},
+    "Lowsweep": {"location": "South Obsidia Ward", "point": "Adrienn", "method": "Search Under Opal Bridge"},
     "Round": {"location": "Obsidia Ward", "point": "Shelly", "method": "Obsidia Department Store 4F"},
     "Echoedvoice": {"location": "Ametrine City", "point": "Charlotte", "method": "6th Stairs Toward Mountain Peak"},
     "Overheat": {"location": "Route 4", "point": "Hardy", "method": "Search Glass Workstation B2F"},
