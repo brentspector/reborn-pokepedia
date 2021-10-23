@@ -119,8 +119,9 @@ Support her work on Patreon
 <img src="https://www.licographics.com/wp-content/uploads/2020/07/become_a_patron_button@2x-300x71.png" width=200>
 </a>
 <br>
-Thanks to [PokeAPI](https://pokeapi.co) for the sprites on [GitHub](https://github.com/PokeAPI/sprites/tree/master/sprites/Pokemon/other/official-artwork)
-Thanks to [AlphaXXI](https://www.deviantart.com/alphaxxi) for the Floette Eternal Flower form [art](https://www.deviantart.com/alphaxxi/art/Eternal-Flower-Floette-561498099)
-Thanks to [Starry Knight](https://www.rebornevo.com/forums/profile/73296-starry-knight/) for [E18 Pokemon Locations](https://www.rebornevo.com/forums/topic/42836-void-kissed-Pokemon-location-guide/)
-Thanks to [Aegisth](https://www.rebornevo.com/forums/profile/77714-aegisth/) for [E18 Pokemon Spreadsheet](https://www.rebornevo.com/forums/topic/43367-e18-Pokemon-locations-spreadsheet-all-wild-and-event-Pokemon-plus-more/)
-Thanks to [Bradley Mc-Avoy-James](https://videogamesuncovered.com/author/bsjkupo/) for the [Pokemon type sprites](https://videogamesuncovered.com/features/Pokemon-sun-and-moon-tips-and-tricks-guide/Pokemon-types/)
+
+- Thanks to [PokeAPI](https://pokeapi.co) for the sprites on [GitHub](https://github.com/PokeAPI/sprites/tree/master/sprites/Pokemon/other/official-artwork)
+- Thanks to [AlphaXXI](https://www.deviantart.com/alphaxxi) for the Floette Eternal Flower form [art](https://www.deviantart.com/alphaxxi/art/Eternal-Flower-Floette-561498099)
+- Thanks to [Starry Knight](https://www.rebornevo.com/forums/profile/73296-starry-knight/) for [E18 Pokemon Locations](https://www.rebornevo.com/forums/topic/42836-void-kissed-Pokemon-location-guide/)
+- Thanks to [Aegisth](https://www.rebornevo.com/forums/profile/77714-aegisth/) for [E18 Pokemon Spreadsheet](https://www.rebornevo.com/forums/topic/43367-e18-Pokemon-locations-spreadsheet-all-wild-and-event-Pokemon-plus-more/)
+- Thanks to [Bradley Mc-Avoy-James](https://videogamesuncovered.com/author/bsjkupo/) for the [Pokemon type sprites](https://videogamesuncovered.com/features/Pokemon-sun-and-moon-tips-and-tricks-guide/Pokemon-types/)
