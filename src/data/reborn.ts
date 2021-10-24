@@ -103,3 +103,5 @@ export const gameLocations = [
   "Charous Mountain",
   "Agate City",
 ];
+
+export const statOrder = ["HP", "Atk", "Def", "Spe", "Sp.A", "Sp.D"];

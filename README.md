@@ -124,4 +124,5 @@ Support her work on Patreon
 - Thanks to [AlphaXXI](https://www.deviantart.com/alphaxxi) for the Floette Eternal Flower form [art](https://www.deviantart.com/alphaxxi/art/Eternal-Flower-Floette-561498099)
 - Thanks to [Starry Knight](https://www.rebornevo.com/forums/profile/73296-starry-knight/) for [E18 Pokemon Locations](https://www.rebornevo.com/forums/topic/42836-void-kissed-Pokemon-location-guide/)
 - Thanks to [Aegisth](https://www.rebornevo.com/forums/profile/77714-aegisth/) for [E18 Pokemon Spreadsheet](https://www.rebornevo.com/forums/topic/43367-e18-Pokemon-locations-spreadsheet-all-wild-and-event-Pokemon-plus-more/)
+- Thanks to [Aboodie](https://www.rebornevo.com/forums/profile/65028-aboodie/) for [E18 Item Guide](https://www.rebornevo.com/forums/topic/41661-item-guide-v18-void-kissed/)
 - Thanks to [Bradley Mc-Avoy-James](https://videogamesuncovered.com/author/bsjkupo/) for the [Pokemon type sprites](https://videogamesuncovered.com/features/Pokemon-sun-and-moon-tips-and-tricks-guide/Pokemon-types/)
