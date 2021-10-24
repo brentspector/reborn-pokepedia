@@ -12,6 +12,17 @@
           >
         </ion-select>
       </ion-item>
+      <ion-item>
+        <ion-label>Select a Point in Game</ion-label>
+        <ion-select @ionChange="movesAvailable($event)">
+          <ion-select-option
+            v-for="(pnt, idx) in gamePoints"
+            :key="idx"
+            :value="pnt"
+            >{{ pnt.name }}</ion-select-option
+          >
+        </ion-select>
+      </ion-item>
       <ion-thumbnail class="ion-margin-start" style="--size: 132px">
         <img :src="pokemonPath()" />
       </ion-thumbnail>
@@ -23,6 +34,24 @@
           <ion-col>
             <ion-text>{{ val }}</ion-text>
           </ion-col>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        {{ ptLevel }}
+        <ion-item
+          v-for="(moves, level) in pokemonSel.level_up_moves"
+          :key="level"
+          :class="{ selected: parseInt(level) &lt;= parseInt(ptLevel) }"
+        >
+          <ion-text style="padding: 0 16px">{{ level }}</ion-text>
+          <ion-text>{{ moves.join() }}</ion-text>
+        </ion-item>
+        <ion-item
+          v-for="(move, idx) in pokemonSel.tm_tutor_moves"
+          :key="idx"
+          :class="{ selected: moveList.includes(move) }"
+        >
+          <ion-text>{{ move }}</ion-text>
         </ion-item>
       </ion-list>
     </ion-content>
@@ -61,6 +90,7 @@ import { pokemonData61 } from "@/data/gen6_1";
 import { pokemonData70 } from "@/data/gen7_0";
 import { pokemonData71 } from "@/data/gen7_1";
 import { gamePoints, gameLocations, statOrder } from "@/data/reborn";
+import { tmLocations, tutorLocations } from "@/data/tm_locations";
 
 export default defineComponent({
   components: {
@@ -94,20 +124,53 @@ export default defineComponent({
       pokemonData70,
       pokemonData71
     );
+    let moveList = [];
+    let ptLevel = ref(0);
     const pokemonSel = ref(pokemonData[0]);
     const pokemonPath = () => {
       return (
         process.env.BASE_URL + "assets/pokemon/" + pokemonSel.value.no + ".png"
       );
+    }; 
+    const movesAvailable = (event) => {
+      ptLevel.value = event.target.value.level;
+
+      // Clear the reactive array
+      moveList.splice(0, moveList.length);
+
+      // Get all points up to this point
+      let pointNames = gamePoints.map(e => e.name);
+      let cumulativePoints = pointNames.slice(0, pointNames.indexOf(event.target.value.name)+1)
+
+      // Filter for moves and then add them to the reactive array
+      tmLocations.filter(mv => cumulativePoints.includes(mv.point)).forEach(mv => moveList.push(mv.name))
+      tutorLocations.filter(mv => cumulativePoints.includes(mv.point)).forEach(mv => moveList.push(mv.name))
     };
     return {
+      moveList,
+      ptLevel,
       pokemonSel,
       pokemonData,
       gamePoints,
       gameLocations,
       statOrder,
       pokemonPath,
+      movesAvailable,
     };
   },
 });
 </script>
+<style scoped>
+ion-menu.md ion-item.selected {
+  --background: rgba(var(--ion-color-success-rgb), 0.14);
+}
+ion-menu.md ion-item.selected ion-icon {
+  background: var(--ion-color-success);
+}
+ion-menu.ios ion-item.selected ion-icon {
+  background: var(--ion-color-success);
+}
+ion-item.selected {
+  --background: var(--ion-color-success);
+}
+</style>

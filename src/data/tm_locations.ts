@@ -1,859 +1,1063 @@
-export const tmLocations = {
-  Workup: {
+export const tmLocations = [
+  {
+    name: "WORKUP",
     location: "Rhodochrine Jungle",
     point: "Adrienn",
     method: "Up the Right Bridge",
   },
-  Dragonclaw: { location: "", point: "", method: "" },
-  Psyshock: {
+  { name: "DRAGONCLAW", location: "", point: "", method: "" },
+  {
+    name: "PSYSHOCK",
     location: "Agate City",
     point: "Hardy",
     method: "Bee 500 Pokedex Event",
   },
-  Calmmind: { location: "", point: "", method: "" },
-  Roar: {
+  { name: "CALMMIND", location: "", point: "", method: "" },
+  {
+    name: "ROAR",
     location: "Ametrine Mountain",
     point: "Ciel",
     method: "Ametrine Mountain Puzzle",
   },
-  Toxic: {
+  {
+    name: "TOXIC",
     location: "Peridot Ward",
     point: "Adrienn",
     method: "Simon ID Tag Event",
   },
-  Hail: {
+  {
+    name: "HAIL",
     location: "North Aventurine Woods",
     point: "Radomus",
     method: "Aventurine Woods Puzzle",
   },
-  Bulkup: {
+  {
+    name: "BULKUP",
     location: "Tourmaline Desert",
     point: "Titania",
     method: "Search Desert",
   },
-  Venoshock: {
+  {
+    name: "VENOSHOCK",
     location: "Byxbysion Wasteland",
     point: "Aya",
     method: "Mr. Bigglesworth Event",
   },
-  Hiddenpower: {
+  {
+    name: "HIDDENPOWER",
     location: "Tanzan Cove",
     point: "Radomus",
     method: "Noel Prize",
   },
-  Sunnyday: {
+  {
+    name: "SUNNYDAY",
     location: "7th Street",
     point: "Luna",
     method: "Side with Magma Gang or Beat Maxwell",
   },
-  Taunt: {
+  {
+    name: "TAUNT",
     location: "Water Treatment Center",
     point: "Adrienn",
     method: "GUM Room Puzzle",
   },
-  Icebeam: { location: "", point: "", method: "" },
-  Blizzard: { location: "", point: "", method: "" },
-  Hyperbeam: {
+  { name: "ICEBEAM", location: "", point: "", method: "" },
+  { name: "BLIZZARD", location: "", point: "", method: "" },
+  {
+    name: "HYPERBEAM",
     location: "Spinal Town",
     point: "Amaria",
     method: "Defeat McKrezzy During Mega Ring Event",
   },
-  Lightscreen: {
+  {
+    name: "LIGHTSCREEN",
     location: "Azurine Lake",
     point: "Adrienn",
     method: "Search Sunrise Area Underwater",
   },
-  Protect: {
+  {
+    name: "PROTECT",
     location: "Peridot Ward",
     point: "Adrienn",
     method: "Beat Bet Guy in Blackstream Shelter",
   },
-  Raindance: {
+  {
+    name: "RAINDANCE",
     location: "7th Street",
     point: "Luna",
     method: "Side with Aqua Gang or Beat Archer",
   },
-  Roost: {
+  {
+    name: "ROOST",
     location: "1R253 Scrapyard",
     point: "Titania",
     method: "1R253 Scrapyard Puzzle",
   },
-  Safeguard: {
+  {
+    name: "SAFEGUARD",
     location: "Rhodochrine Jungle",
     point: "Taka/ZEL/Pulse Tangrowth 3",
     method: "Search Totem Area",
   },
-  Frustration: {
+  {
+    name: "FRUSTRATION",
     location: "Celestinine Cascade",
     point: "T3RR4",
     method: "Search 1F Upper Left",
   },
-  Solarbeam: {
+  {
+    name: "SOLARBEAM",
     location: "Beryl Ward",
     point: "Taka/ZEL/Pulse Tangrowth 3",
     method: "Beryl Library Bookshelf Puzzle",
   },
-  Smackdown: {
+  {
+    name: "SMACKDOWN",
     location: "Citrine Mountain",
     point: "Ciel",
     method: "Search 3F Lower Right",
   },
-  Thunderbolt: {
+  {
+    name: "THUNDERBOLT",
     location: "Obsidia Ward",
     point: "Adrienn",
     method: "Magic Square Puzzle",
   },
-  Thunder: { location: "", point: "", method: "" },
-  Earthquake: { location: "", point: "", method: "" },
-  Return: {
+  { name: "THUNDER", location: "", point: "", method: "" },
+  { name: "EARTHQUAKE", location: "", point: "", method: "" },
+  {
+    name: "RETURN",
     location: "Tourmaline Desert",
     point: "Titania",
     method: "Search Drained Oasis Upper Right",
   },
-  Leechlife: {
+  {
+    name: "LEECHLIFE",
     location: "Azurine Lake",
     point: "Adrienn",
     method: "Search Fairview 1 House Underwater",
   },
-  Psychic: {
+  {
+    name: "PSYCHIC",
     location: "Route 4",
     point: "Hardy",
     method: "Search Glass Workstation B2F",
   },
-  Shadowball: {
+  {
+    name: "SHADOWBALL",
     location: "Opal Ward",
     point: "Hardy",
     method: "Starter Pokemon Egg Event",
   },
-  Brickbreak: {
+  {
+    name: "BRICKBREAK",
     location: "Agate Circus",
     point: "Charlotte",
     method: "Samson Prize",
   },
-  Doubleteam: {
+  {
+    name: "DOUBLETEAM",
     location: "Citrine Mountain",
     point: "Shade",
     method: "Search Citrine Mountain",
   },
-  Reflect: {
+  {
+    name: "REFLECT",
     location: "Rhodochrine Jungle",
     point: "Adrienn",
     method: "Search Cage with Silvon Scope",
   },
-  Sludgewave: {
+  {
+    name: "SLUDGEWAVE",
     location: "Byxbysion Wasteland",
     point: "Serra",
     method: "Aya Prize",
   },
-  Flamethrower: {
+  {
+    name: "FLAMETHROWER",
     location: "Calcenon City",
     point: "T3RR4",
     method: "Charlotte Prize",
   },
-  Sludgebomb: { location: "", point: "", method: "" },
-  Sandstorm: {
+  { name: "SLUDGEBOMB", location: "", point: "", method: "" },
+  {
+    name: "SANDSTORM",
     location: "Water Treatment Center",
     point: "Ciel",
     method: "Search Onyx Water Grid",
   },
-  Fireblast: { location: "", point: "", method: "" },
-  Rocktomb: {
+  { name: "FIREBLAST", location: "", point: "", method: "" },
+  {
+    name: "ROCKTOMB",
     location: "Water Treatment Center",
     point: "Ciel",
     method: "Search Central Obsidia Water Grid",
   },
-  Aerialace: {
+  {
+    name: "AERIALACE",
     location: "Azurine Lake",
     point: "Adrienn",
     method: "Pyukumuku King Event",
   },
-  Torment: {
+  {
+    name: "TORMENT",
     location: "Apophyll Cave",
     point: "Serra",
     method: "Search 3F Upper Right",
   },
-  Facade: {
+  {
+    name: "FACADE",
     location: "Onyx Ward",
     point: "Florina",
     method: "Game Corner Prize",
   },
-  Flamecharge: {
+  {
+    name: "FLAMECHARGE",
     location: "Chrysolia Spring",
     point: "Adrienn",
     method: "Search B1F Lower Left Sauna",
   },
-  Rest: {
+  {
+    name: "REST",
     location: "Azurine Lake",
     point: "Adrienn",
     method: "Search Sunrise 4 House Underwater",
   },
-  Attract: {
+  {
+    name: "ATTRACT",
     location: "Onyx Ward",
     point: "Florina",
     method: "Game Corner Prize",
   },
-  Thief: {
+  {
+    name: "THIEF",
     location: "Ametrine City",
     point: "T3RR4",
     method: "Ice Skating Rink Puzzle",
   },
-  Lowsweep: {
+  {
+    name: "LOWSWEEP",
     location: "South Obsidia Ward",
     point: "Adrienn",
     method: "Search Under Opal Bridge",
   },
-  Round: {
+  {
+    name: "ROUND",
     location: "Obsidia Ward",
     point: "Shelly",
     method: "Obsidia Department Store 4F",
   },
-  Echoedvoice: {
+  {
+    name: "ECHOEDVOICE",
     location: "Ametrine City",
     point: "Charlotte",
     method: "6th Stairs Toward Mountain Peak",
   },
-  Overheat: {
+  {
+    name: "OVERHEAT",
     location: "Route 4",
     point: "Hardy",
     method: "Search Glass Workstation B2F",
   },
-  Steelwing: {
+  {
+    name: "STEELWING",
     location: "Jasper Ward",
     point: "Adrienn",
     method: "Crystal Ball Event",
   },
-  Focusblast: {
+  {
+    name: "FOCUSBLAST",
     location: "Apophyll Beach",
     point: "Hardy",
     method: "Rock Climb Near Pyrous Mountain",
   },
-  Energyball: { location: "", point: "", method: "" },
-  Falseswipe: {
+  { name: "ENERGYBALL", location: "", point: "", method: "" },
+  {
+    name: "FALSESWIPE",
     location: "Spinal Town",
     point: "Serra",
     method: "Search Voclain Estate Left Room Upstairs",
   },
-  Scald: {
+  {
+    name: "SCALD",
     location: "Celestinine Cascade",
     point: "Hardy",
     method: "Amaria Prize",
   },
-  Fling: {
+  {
+    name: "FLING",
     location: "Celestinine Mountain",
     point: "Ciel",
     method: "Search B2F Upper Hill",
   },
-  Chargebeam: {
+  {
+    name: "CHARGEBEAM",
     location: "Peridot Ward",
     point: "ZEL/Pulse Tangrowth 1",
     method: "Julia Prize",
   },
-  Skydrop: {
+  {
+    name: "SKYDROP",
     location: "Water Treatment Center",
     point: "Adrienn",
     method: "Search Control Office Room",
   },
-  Brutalswing: {
+  {
+    name: "BRUTALSWING",
     location: "Pyrous Mountain",
     point: "Serra",
     method: "Search B1F Right Side",
   },
-  Quash: {
+  {
+    name: "QUASH",
     location: "Obsidia Slums",
     point: "ZEL/Pulse Tangrowth 1",
     method: "Search 2F Top Right",
   },
-  Willowisp: {
+  {
+    name: "WILLOWISP",
     location: "Mirage Tower",
     point: "Titania",
     method: "Search Chosen Room Upper Right",
   },
-  Acrobatics: {
+  {
+    name: "ACROBATICS",
     location: "Agate Circus",
     point: "Adrienn",
     method: "Talk to Ringmaster After Defeating Ciel",
   },
-  Embargo: {
+  {
+    name: "EMBARGO",
     location: "Grand Stairway",
     point: "Shelly",
     method: "Search B2F Ascending Left Path",
   },
-  Explosion: {
+  {
+    name: "EXPLOSION",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Purchase from Street Rat Merchant",
   },
-  Shadowclaw: {
+  {
+    name: "SHADOWCLAW",
     location: "Yureyu Power Plant",
     point: "Kiki",
     method: "Shade Prize",
   },
-  Payback: {
+  {
+    name: "PAYBACK",
     location: "Byxbysion Wasteland",
     point: "Aya",
     method: "Search Byxbysion Grotto Middle Fork",
   },
-  Smartstrike: {
+  {
+    name: "SMARTSTRIKE",
     location: "Celestinine Mountain",
     point: "Ciel",
     method: "Search 4F Up the Area",
   },
-  Gigaimpact: {
+  {
+    name: "GIGAIMPACT",
     location: "Coral Lighthouse",
     point: "Adrienn",
     method: "Search Lighthouse Upper Area",
   },
-  Rockpolish: {
+  {
+    name: "ROCKPOLISH",
     location: "Celestinine Mountain",
     point: "Ciel",
     method: "Celestinine Mountain Ice Puzzle",
   },
-  Auroraveil: { location: "Spinal Town", point: "Noel", method: "Serra Prize" },
-  Stoneedge: {
+  {
+    name: "AURORAVEIL",
+    location: "Spinal Town",
+    point: "Noel",
+    method: "Serra Prize",
+  },
+  {
+    name: "STONEEDGE",
     location: "Sugiline Ruin",
     point: "Titania",
     method: "Search 1F Left of Arceus Statue Upper Middle",
   },
-  Voltswitch: { location: "", point: "", method: "" },
-  Thunderwave: {
+  { name: "VOLTSWITCH", location: "", point: "", method: "" },
+  {
+    name: "THUNDERWAVE",
     location: "Route 4",
     point: "Hardy",
     method: "Search Mechanic Shed",
   },
-  Gyroball: {
+  {
+    name: "GYROBALL",
     location: "Iolia Valley",
     point: "Adrienn",
     method: "Search Dark Crystal Cave 4 Entrance",
   },
-  Swordsdance: { location: "", point: "", method: "" },
-  Strugglebug: {
+  { name: "SWORDSDANCE", location: "", point: "", method: "" },
+  {
+    name: "STRUGGLEBUG",
     location: "Lapis Ward",
     point: "Shade",
     method: "Shelly Prize",
   },
-  Psychup: {
+  {
+    name: "PSYCHUP",
     location: "Peridot Ward",
     point: "Kiki",
     method: "Search B2F Blackstream Factory",
   },
-  Bulldoze: { location: "Glitch World", point: "Ciel", method: "T3RR4 Prize" },
-  Frostbreath: {
+  {
+    name: "BULLDOZE",
+    location: "Glitch World",
+    point: "Ciel",
+    method: "T3RR4 Prize",
+  },
+  {
+    name: "FROSTBREATH",
     location: "Route 4",
     point: "Hardy",
     method: "Search Route 4 Lower Right Area with Mountain Field",
   },
-  Rockslide: {
+  {
+    name: "ROCKSLIDE",
     location: "Agate City",
     point: "Saphira",
     method: "Hardy Prize",
   },
-  Xscissor: {
+  {
+    name: "XSCISSOR",
     location: "Celestinine Cascade",
     point: "Amaria",
     method: "Fiore Mansion Gym Puzzle",
   },
-  Dragontail: {
+  {
+    name: "DRAGONTAIL",
     location: "Obsidia Ward",
     point: "Adrienn",
     method: "Search Devon Corp 6F Bottom Right",
   },
-  Infestation: {
+  {
+    name: "INFESTATION",
     location: "Underground Railnet",
     point: "Serra",
     method: "Search 1F 4th Breakable Wall 5th Row",
   },
-  Poisonjab: {
+  {
+    name: "POISONJAB",
     location: "Teknite Cave",
     point: "Titania",
     method: "Search 3-4F Area Entrance",
   },
-  Dreameater: {
+  {
+    name: "DREAMEATER",
     location: "Obsidia Ward",
     point: "Adrienn",
     method: "Obsidia Department Store 9F",
   },
-  Grassknot: {
+  {
+    name: "GRASSKNOT",
     location: "Route 3",
     point: "Charlotte",
     method: "LCCC Upper Side",
   },
-  Swagger: {
+  {
+    name: "SWAGGER",
     location: "Agate Circus",
     point: "Samson",
     method: "High Striker Prize",
   },
-  Sleeptalk: {
+  {
+    name: "SLEEPTALK",
     location: "Azurine Island",
     point: "Aya",
     method: "Search Azurine Island Left Small Path Left of Boat",
   },
-  Uturn: { location: "", point: "", method: "" },
-  Substitute: {
+  { name: "UTURN", location: "", point: "", method: "" },
+  {
+    name: "SUBSTITUTE",
     location: "Onyx Ward",
     point: "Florina",
     method: "Game Corner Prize",
   },
-  Flashcannon: {
+  {
+    name: "FLASHCANNON",
     location: "Once Upon a Somewhere/Waste of Time",
     point: "Amaria",
     method: "Titania Prize",
   },
-  Trickroom: {
+  {
+    name: "TRICKROOM",
     location: "Vanhanen Labyrinth",
     point: "Subseven Sanctum",
     method: "Radomus Prize",
   },
-  Wildcharge: {
+  {
+    name: "WILDCHARGE",
     location: "Tourmaline Desert",
     point: "Titania",
     method: "Search Tourmaline Desert Platform Jumping Area",
   },
-  Secretpower: {
+  {
+    name: "SECRETPOWER",
     location: "Byxbysion Wasteland",
     point: "Serra",
     method: "Search Hidden Tunnel Right Water Pool",
   },
-  Snarl: {
+  {
+    name: "SNARL",
     location: "Yureyu Power Plant",
     point: "Luna",
     method: "Yureyu Key Event",
   },
-  Naturepower: {
+  {
+    name: "NATUREPOWER",
     location: "Onyx Ward",
     point: "Taka/Pulse Tangrowth 2",
     method: "Florina Prize",
   },
-  Darkpulse: {
+  {
+    name: "DARKPULSE",
     location: "Iolia Valley",
     point: "Point of No Return",
     method: "Luna Prize",
   },
-  Poweruppunch: {
+  {
+    name: "POWERUPPUNCH",
     location: "Teknite Ridge",
     point: "Titania",
     method: "Search Teknite Ridge Left Area Elevated Area",
   },
-  Dazzlinggleam: {
+  {
+    name: "DAZZLINGGLEAM",
     location: "Coral Ward",
     point: "Titania",
     method: "Adrienn Prize",
   },
-  Confide: {
+  {
+    name: "CONFIDE",
     location: "Lost Railcave",
     point: "Serra",
     method: "Lost Railcave Puzzle",
   },
-  Cut: {
+  {
+    name: "CUT",
     location: "Obsidia Ward",
     point: "ZEL/Pulse Tangrowth 1",
     method: "Given by Amaria During Stroy",
   },
-  Fly: {
+  {
+    name: "FLY",
     location: "Celestinine Cascade",
     point: "Ciel",
     method: "Given by Florina After Water Treatment Center",
   },
-  Surf: {
+  {
+    name: "SURF",
     location: "Celestinine Cascade",
     point: "Charlotte",
     method: "Given by Titania After Samson",
   },
-  Strength: {
+  {
+    name: "STRENGTH",
     location: "Apophyll Academy",
     point: "Aya",
     method: "Given by Victoria After Pulse Camerupt",
   },
-  Waterfall: {
+  {
+    name: "WATERFALL",
     location: "Ametrine City",
     point: "T3RR4",
     method: "Given by Blake or Aster",
   },
-  Dive: {
+  {
+    name: "DIVE",
     location: "Agate Circus",
     point: "Samson",
     method: "Agate Circus Puzzle",
   },
-  Rocksmash: {
+  {
+    name: "ROCKSMASH",
     location: "Grand Stairway",
     point: "Shelly",
     method: "Given by Black Belt on Middle-Left Ledges",
   },
-  Flash: {
+  {
+    name: "FLASH",
     location: "Underground Railnet",
     point: "Serra",
     method: "Search 1F 2nd Breakable Wall",
   },
-  Rockclimb: { location: "Route 4", point: "Hardy", method: "Given by Hardy" },
-};
-export const tutorLocations = {
-  Afteryou: {
+  {
+    name: "ROCKCLIMB",
+    location: "Route 4",
+    point: "Hardy",
+    method: "Given by Hardy",
+  },
+];
+export const tutorLocations = [
+  {
+    name: "AFTERYOU",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Doxy Tutor",
   },
-  Aircutter: { location: "", point: "", method: "" },
-  Allyswitch: {
+  { name: "AIRCUTTER", location: "", point: "", method: "" },
+  {
+    name: "ALLYSWITCH",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Magician Tutor",
   },
-  Ancientpower: { location: "", point: "", method: "" },
-  Aquatail: {
+  { name: "ANCIENTPOWER", location: "", point: "", method: "" },
+  {
+    name: "AQUATAIL",
     location: "7th Street",
     point: "Adrienn",
     method: "Lower Yellow Tutor",
   },
-  Bind: {
+  {
+    name: "BIND",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Yellow Tutor",
   },
-  Blastburn: {
+  {
+    name: "BLASTBURN",
     location: "Peridot Ward",
     point: "Elite 4/Champion",
     method: "Mosswater Market",
   },
-  Block: {
+  {
+    name: "BLOCK",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Red Tutor",
   },
-  Bounce: { location: "Agate Circus", point: "Samson", method: "Red Tutor" },
-  Bugbite: {
+  {
+    name: "BOUNCE",
+    location: "Agate Circus",
+    point: "Samson",
+    method: "Red Tutor",
+  },
+  {
+    name: "BUGBITE",
     location: "Agate Circus",
     point: "Samson",
     method: "Orange Tutor",
   },
-  Covet: {
+  {
+    name: "COVET",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Doxy Tutor",
   },
-  Defog: {
+  {
+    name: "DEFOG",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Magician Tutor",
   },
-  Dracometeor: {
+  {
+    name: "DRACOMETEOR",
     location: "Peridot Ward",
     point: "Elite 4/Champion",
     method: "Mosswater Market",
   },
-  Dragonascent: { location: "", point: "", method: "" },
-  Dragonpulse: {
+  { name: "DRAGONASCENT", location: "", point: "", method: "" },
+  {
+    name: "DRAGONPULSE",
     location: "Peridot Ward",
     point: "Amaria",
     method: "Mosswater Market",
   },
-  Drainpunch: {
+  {
+    name: "DRAINPUNCH",
     location: "Peridot Ward",
     point: "Adrienn",
     method: "Mosswater Market",
   },
-  Drillrun: { location: "Agate Circus", point: "Samson", method: "Red Tutor" },
-  Dualchop: {
+  {
+    name: "DRILLRUN",
+    location: "Agate Circus",
+    point: "Samson",
+    method: "Red Tutor",
+  },
+  {
+    name: "DUALCHOP",
     location: "Agate Circus",
     point: "Samson",
     method: "Orange Tutor",
   },
-  Earthpower: {
+  {
+    name: "EARTHPOWER",
     location: "Peridot Ward",
     point: "Hardy",
     method: "Mosswater Market",
   },
-  Electroweb: {
+  {
+    name: "ELECTROWEB",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Doxy Tutor",
   },
-  Endeavor: {
+  {
+    name: "ENDEAVOR",
     location: "Agate Circus",
     point: "Samson",
     method: "Orange Tutor",
   },
-  Firepledge: {
+  {
+    name: "FIREPLEDGE",
     location: "Lapis Ward",
     point: "Shelly",
     method: "Left of Shelly's Gym",
   },
-  Firepunch: {
+  {
+    name: "FIREPUNCH",
     location: "Peridot Ward",
     point: "Adrienn",
     method: "Mosswater Market",
   },
-  Focuspunch: {
+  {
+    name: "FOCUSPUNCH",
     location: "Agate Circus",
     point: "Samson",
     method: "Orange Tutor",
   },
-  Foulplay: {
+  {
+    name: "FOULPLAY",
     location: "Peridot Ward",
     point: "Amaria",
     method: "Mosswater Market",
   },
-  Frenzyplant: {
+  {
+    name: "FRENZYPLANT",
     location: "Peridot Ward",
     point: "Elite 4/Champion",
     method: "Mosswater Market",
   },
-  Furycutter: { location: "", point: "", method: "" },
-  Gastroacid: {
+  { name: "FURYCUTTER", location: "", point: "", method: "" },
+  {
+    name: "GASTROACID",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Yelllow Tutor",
   },
-  Gigadrain: {
+  {
+    name: "GIGADRAIN",
     location: "7th Street",
     point: "Adrienn",
     method: "Lower Yellow Tutor",
   },
-  Grasspledge: {
+  {
+    name: "GRASSPLEDGE",
     location: "Lapis Ward",
     point: "Shelly",
     method: "Left of Shelly's Gym",
   },
-  Gravity: {
+  {
+    name: "GRAVITY",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Doxy Tutor",
   },
-  Gunkshot: {
+  {
+    name: "GUNKSHOT",
     location: "Peridot Ward",
     point: "Amaria",
     method: "Mosswater Market",
   },
-  Headbutt: { location: "", point: "", method: "" },
-  Healbell: {
+  { name: "HEADBUTT", location: "", point: "", method: "" },
+  {
+    name: "HEALBELL",
     location: "Peridot Ward",
     point: "Adrienn",
     method: "Mosswater Market",
   },
-  Heatwave: {
+  {
+    name: "HEATWAVE",
     location: "Peridot Ward",
     point: "Hardy",
     method: "Mosswater Market",
   },
-  Helpinghand: {
+  {
+    name: "HELPINGHAND",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Yellow Tutor",
   },
-  Hydrocannon: {
+  {
+    name: "HYDROCANNON",
     location: "Peridot Ward",
     point: "Elite 4/Champion",
     method: "Mosswater Market",
   },
-  Hypervoice: {
+  {
+    name: "HYPERVOICE",
     location: "Peridot Ward",
     point: "Adrienn",
     method: "Mosswater Market",
   },
-  Icepunch: {
+  {
+    name: "ICEPUNCH",
     location: "Peridot Ward",
     point: "Adrienn",
     method: "Mosswater Market",
   },
-  Icywind: {
+  {
+    name: "ICYWIND",
     location: "Agate Circus",
     point: "Samson",
     method: "Orange Tutor",
   },
-  Irondefense: {
+  {
+    name: "IRONDEFENSE",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Yellow Tutor",
   },
-  Ironhead: {
+  {
+    name: "IRONHEAD",
     location: "7th Street",
     point: "Adrienn",
     method: "Lower Yellow Tutor",
   },
-  Irontail: {
+  {
+    name: "IRONTAIL",
     location: "Agate Circus",
     point: "Samson",
     method: "Orange Tutor",
   },
-  Knockoff: {
+  {
+    name: "KNOCKOFF",
     location: "7th Street",
     point: "Adrienn",
     method: "Lower Yellow Tutor",
   },
-  Laserfocus: {
+  {
+    name: "LASERFOCUS",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Magician Tutor",
   },
-  Lastresort: {
+  {
+    name: "LASTRESORT",
     location: "Agate Circus",
     point: "Samson",
     method: "Red Tutor",
   },
-  Liquidation: {
+  {
+    name: "LIQUIDATION",
     location: "7th Street",
     point: "Adrienn",
     method: "Lower Yellow Tutor",
   },
-  Lowkick: {
+  {
+    name: "LOWKICK",
     location: "Peridot Ward",
     point: "Adrienn",
     method: "Mosswater Market",
   },
-  Magiccoat: {
+  {
+    name: "MAGICCOAT",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Red Tutor",
   },
-  Magicroom: {
+  {
+    name: "MAGICROOM",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Doxy Tutor",
   },
-  Magnetrise: {
+  {
+    name: "MAGNETRISE",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Red Tutor",
   },
-  Mudslap: { location: "", point: "", method: "" },
-  Ominouswind: { location: "", point: "", method: "" },
-  Outrage: {
+  { name: "MUDSLAP", location: "", point: "", method: "" },
+  { name: "OMINOUSWIND", location: "", point: "", method: "" },
+  {
+    name: "OUTRAGE",
     location: "Peridot Ward",
     point: "Hardy",
     method: "Mosswater Market",
   },
-  Painsplit: {
+  {
+    name: "PAINSPLIT",
     location: "Agate Circus",
     point: "Samson",
     method: "Orange Tutor",
   },
-  Recycle: {
+  {
+    name: "RECYCLE",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Red Tutor",
   },
-  Relicsong: { location: "", point: "", method: "" },
-  Roleplay: {
+  { name: "RELICSONG", location: "", point: "", method: "" },
+  {
+    name: "ROLEPLAY",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Yellow Tutor",
   },
-  Rollout: { location: "", point: "", method: "" },
-  Secretsword: { location: "", point: "", method: "" },
-  Seedbomb: {
+  { name: "ROLLOUT", location: "", point: "", method: "" },
+  { name: "SECRETSWORD", location: "", point: "", method: "" },
+  {
+    name: "SEEDBOMB",
     location: "Peridot Ward",
     point: "Amaria",
     method: "Mosswater Market",
   },
-  Shockwave: { location: "Agate Circus", point: "Samson", method: "Red Tutor" },
-  Signalbeam: {
-    location: "7th Street",
-    point: "Adrienn",
-    method: "Lower Yellow Tutor",
-  },
-  Skillswap: {
-    location: "7th Street",
-    point: "Subseven Sanctum",
-    method: "Yellow Tutor",
-  },
-  Skyattack: { location: "Agate Circus", point: "Samson", method: "Red Tutor" },
-  Snatch: {
-    location: "7th Street",
-    point: "Subseven Sanctum",
-    method: "Doxy Tutor",
-  },
-  Snore: {
-    location: "7th Street",
-    point: "Subseven Sanctum",
-    method: "Yellow Tutor",
-  },
-  Spite: {
-    location: "7th Street",
-    point: "Subseven Sanctum",
-    method: "Red Tutor",
-  },
-  Stealthrock: {
-    location: "Peridot Ward",
-    point: "Adrienn",
-    method: "Mosswater Market",
-  },
-  Stompingtantrum: {
-    location: "Peridot Ward",
-    point: "Adrienn",
-    method: "Mosswater Market",
-  },
-  Stringshot: { location: "", point: "", method: "" },
-  Suckerpunch: { location: "", point: "", method: "" },
-  Superfang: {
-    location: "Peridot Ward",
-    point: "Adrienn",
-    method: "Mosswater Market",
-  },
-  Superpower: {
-    location: "Peridot Ward",
-    point: "Hardy",
-    method: "Mosswater Market",
-  },
-  Swift: { location: "", point: "", method: "" },
-  Synthesis: {
-    location: "Peridot Ward",
-    point: "Adrienn",
-    method: "Mosswater Market",
-  },
-  Tailwind: {
-    location: "Peridot Ward",
-    point: "Adrienn",
-    method: "Mosswater Market",
-  },
-  Telekinesis: {
-    location: "7th Street",
-    point: "Subseven Sanctum",
-    method: "Magician Tutor",
-  },
-  Throatchop: {
-    location: "Peridot Ward",
-    point: "Adrienn",
-    method: "Mosswater Market",
-  },
-  Thunderpunch: {
-    location: "Peridot Ward",
-    point: "Adrienn",
-    method: "Mosswater Market",
-  },
-  Trick: {
-    location: "7th Street",
-    point: "Subseven Sanctum",
-    method: "Red Tutor",
-  },
-  Twister: { location: "", point: "", method: "" },
-  Uproar: { location: "Agate Circus", point: "Samson", method: "Red Tutor" },
-  Vacuumwave: { location: "", point: "", method: "" },
-  Volttackle: {
-    location: "North Aventurine Woods",
-    point: "Radomus",
-    method: "NyuF",
-  },
-  Waterpledge: {
-    location: "Lapis Ward",
-    point: "Shelly",
-    method: "Left of Shelly's Gym",
-  },
-  Waterpulse: {
+  {
+    name: "SHOCKWAVE",
     location: "Agate Circus",
     point: "Samson",
     method: "Red Tutor",
   },
-  Wonderroom: {
+  {
+    name: "SIGNALBEAM",
+    location: "7th Street",
+    point: "Adrienn",
+    method: "Lower Yellow Tutor",
+  },
+  {
+    name: "SKILLSWAP",
+    location: "7th Street",
+    point: "Subseven Sanctum",
+    method: "Yellow Tutor",
+  },
+  {
+    name: "SKYATTACK",
+    location: "Agate Circus",
+    point: "Samson",
+    method: "Red Tutor",
+  },
+  {
+    name: "SNATCH",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Doxy Tutor",
   },
-  Worryseed: {
+  {
+    name: "SNORE",
+    location: "7th Street",
+    point: "Subseven Sanctum",
+    method: "Yellow Tutor",
+  },
+  {
+    name: "SPITE",
     location: "7th Street",
     point: "Subseven Sanctum",
     method: "Red Tutor",
   },
-  Zenheadbutt: {
+  {
+    name: "STEALTHROCK",
     location: "Peridot Ward",
     point: "Adrienn",
     method: "Mosswater Market",
   },
-};
+  {
+    name: "STOMPINGTANTRUM",
+    location: "Peridot Ward",
+    point: "Adrienn",
+    method: "Mosswater Market",
+  },
+  { name: "STRINGSHOT", location: "", point: "", method: "" },
+  { name: "SUCKERPUNCH", location: "", point: "", method: "" },
+  {
+    name: "SUPERFANG",
+    location: "Peridot Ward",
+    point: "Adrienn",
+    method: "Mosswater Market",
+  },
+  {
+    name: "SUPERPOWER",
+    location: "Peridot Ward",
+    point: "Hardy",
+    method: "Mosswater Market",
+  },
+  { name: "SWIFT", location: "", point: "", method: "" },
+  {
+    name: "SYNTHESIS",
+    location: "Peridot Ward",
+    point: "Adrienn",
+    method: "Mosswater Market",
+  },
+  {
+    name: "TAILWIND",
+    location: "Peridot Ward",
+    point: "Adrienn",
+    method: "Mosswater Market",
+  },
+  {
+    name: "TELEKINESIS",
+    location: "7th Street",
+    point: "Subseven Sanctum",
+    method: "Magician Tutor",
+  },
+  {
+    name: "THROATCHOP",
+    location: "Peridot Ward",
+    point: "Adrienn",
+    method: "Mosswater Market",
+  },
+  {
+    name: "THUNDERPUNCH",
+    location: "Peridot Ward",
+    point: "Adrienn",
+    method: "Mosswater Market",
+  },
+  {
+    name: "TRICK",
+    location: "7th Street",
+    point: "Subseven Sanctum",
+    method: "Red Tutor",
+  },
+  { name: "TWISTER", location: "", point: "", method: "" },
+  {
+    name: "UPROAR",
+    location: "Agate Circus",
+    point: "Samson",
+    method: "Red Tutor",
+  },
+  { name: "VACUUMWAVE", location: "", point: "", method: "" },
+  {
+    name: "VOLTTACKLE",
+    location: "North Aventurine Woods",
+    point: "Radomus",
+    method: "NyuF",
+  },
+  {
+    name: "WATERPLEDGE",
+    location: "Lapis Ward",
+    point: "Shelly",
+    method: "Left of Shelly's Gym",
+  },
+  {
+    name: "WATERPULSE",
+    location: "Agate Circus",
+    point: "Samson",
+    method: "Red Tutor",
+  },
+  {
+    name: "WONDERROOM",
+    location: "7th Street",
+    point: "Subseven Sanctum",
+    method: "Doxy Tutor",
+  },
+  {
+    name: "WORRYSEED",
+    location: "7th Street",
+    point: "Subseven Sanctum",
+    method: "Red Tutor",
+  },
+  {
+    name: "ZENHEADBUTT",
+    location: "Peridot Ward",
+    point: "Adrienn",
+    method: "Mosswater Market",
+  },
+];
