@@ -3,7 +3,10 @@
 * TM location data
 * Tutor location data
 * Pokemon moveset data
-View pokemon data
-View location data
+* View pokemon data
+* View location data
 View list of pokemon by point in game
 View moves available at point in game
+Pretty up details display
+Pretty up locations/points in game display
+Dark Mode

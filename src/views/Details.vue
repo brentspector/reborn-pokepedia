@@ -3,11 +3,11 @@
     <ion-content fullscreen>
       <ion-item>
         <ion-label>Select a Pokemon</ion-label>
-        <ion-select v-model="pokemonId">
+        <ion-select v-model="pokemonSel">
           <ion-select-option
             v-for="(pk, idx) in pokemonData"
             :key="idx"
-            :value="pk.no"
+            :value="pk"
             >{{ pk.name }}</ion-select-option
           >
         </ion-select>
@@ -15,21 +15,34 @@
       <ion-thumbnail class="ion-margin-start" style="--size: 132px">
         <img :src="pokemonPath()" />
       </ion-thumbnail>
+      <ion-list>
+        <ion-item v-for="(val, key) in pokemonSel" :key="key">
+          <ion-col>
+            <ion-text>{{ key }}</ion-text>
+          </ion-col>
+          <ion-col>
+            <ion-text>{{ val }}</ion-text>
+          </ion-col>
+        </ion-item>
+      </ion-list>
     </ion-content>
   </ion-page>
 </template>
 
 <script>
 import {
+  IonCol,
   IonContent,
   IonItem,
   IonLabel,
+  IonList,
   IonPage,
   IonSelect,
   IonSelectOption,
+  IonText,
   IonThumbnail,
 } from "@ionic/vue";
-import { defineComponent, ref, reactive } from "vue";
+import { defineComponent, ref } from "vue";
 import { pokemonData10 } from "@/data/gen1_0";
 import { pokemonData11 } from "@/data/gen1_1";
 import { pokemonData12 } from "@/data/gen1_2";
@@ -51,17 +64,18 @@ import { gamePoints, gameLocations, statOrder } from "@/data/reborn";
 
 export default defineComponent({
   components: {
+    IonCol,
     IonContent,
     IonItem,
     IonLabel,
+    IonList,
     IonPage,
     IonSelect,
     IonSelectOption,
+    IonText,
     IonThumbnail,
   },
   setup() {
-    let pointInGame = reactive([]);
-    const pokemonId = ref(1);
     const pokemonData = pokemonData10.concat(
       pokemonData11,
       pokemonData12,
@@ -80,14 +94,14 @@ export default defineComponent({
       pokemonData70,
       pokemonData71
     );
+    const pokemonSel = ref(pokemonData[0]);
     const pokemonPath = () => {
       return (
-        process.env.BASE_URL + "assets/pokemon/" + pokemonId.value + ".png"
+        process.env.BASE_URL + "assets/pokemon/" + pokemonSel.value.no + ".png"
       );
     };
     return {
-      pointInGame,
-      pokemonId,
+      pokemonSel,
       pokemonData,
       gamePoints,
       gameLocations,
