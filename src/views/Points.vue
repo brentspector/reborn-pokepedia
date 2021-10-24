@@ -5,17 +5,17 @@
         <ion-label>Select a Point in Game</ion-label>
         <ion-select @ionChange="pokemonAvailable($event)">
           <ion-select-option
-            v-for="(pnt, idx) in gameLocations"
+            v-for="(pnt, idx) in gamePoints"
             :key="idx"
             :value="pnt"
-            >{{ pnt }}</ion-select-option
+            >{{ pnt.name }}</ion-select-option
           >
         </ion-select>
       </ion-item>
       <ion-list>
         <ion-item v-for="pk in pointInGame" :key="pk.no">
           <ion-thumbnail slot="start">
-            <img :src="pokemonPath2(pk.no)" />
+            <img :src="pokemonPath(pk.no)" />
           </ion-thumbnail>
           <ion-label>
             <h3>{{ pk.name }}</h3>
@@ -44,7 +44,7 @@
             </ion-row></ion-col
           >
           <ion-col>
-            <ion-text>{{ pk.locations[0].point }}</ion-text>
+            <ion-text>{{ pk.locations[0].method }}</ion-text>
           </ion-col>
         </ion-item>
       </ion-list>
@@ -123,12 +123,7 @@ export default defineComponent({
       pokemonData70,
       pokemonData71
     );
-    const pokemonPath = () => {
-      return (
-        process.env.BASE_URL + "assets/pokemon/" + pokemonId.value + ".png"
-      );
-    };
-    const pokemonPath2 = (pkId) => {
+    const pokemonPath = (pkId) => {
       return process.env.BASE_URL + "assets/pokemon/" + pkId + ".png";
     };
     const pokemonTypePath = (typeStr) => {
@@ -145,7 +140,7 @@ export default defineComponent({
             return false;
           }
           return pk.locations.find(
-            (loc) => loc.location === event.target.value
+            (loc) => loc.point === event.target.value.name
           );
         })
         .forEach((e) => pointInGame.push(e));
@@ -158,7 +153,6 @@ export default defineComponent({
       gameLocations,
       statOrder,
       pokemonPath,
-      pokemonPath2,
       pokemonTypePath,
       pokemonAvailable,
     };
