@@ -18,6 +18,10 @@ const routes: Array<RouteRecordRaw> = [
     path: "/details",
     component: () => import("../views/Details.vue"),
   },
+  {
+    path: "/details2",
+    component: () => import("../views/Details2.vue")
+  }
 ];
 
 const router = createRouter({

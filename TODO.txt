@@ -8,6 +8,9 @@
 * View list of pokemon by point in game
 * View moves available at point in game
 Pretty up details display
+- background uses overlapped image of types (like )
 Route based on pokemonId (/details/:id)
 Pretty up locations/points in game display
+- Use Card UI Transition https://codepen.io/ivillamil/pen/obWaOX
+- Replace list with grid of cards
 Dark Mode

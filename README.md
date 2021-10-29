@@ -126,3 +126,6 @@ Support her work on Patreon
 - Thanks to [Aegisth](https://www.rebornevo.com/forums/profile/77714-aegisth/) for [E18 Pokemon Spreadsheet](https://www.rebornevo.com/forums/topic/43367-e18-Pokemon-locations-spreadsheet-all-wild-and-event-Pokemon-plus-more/)
 - Thanks to [Aboodie](https://www.rebornevo.com/forums/profile/65028-aboodie/) for [E18 Item Guide](https://www.rebornevo.com/forums/topic/41661-item-guide-v18-void-kissed/)
 - Thanks to [Bradley Mc-Avoy-James](https://videogamesuncovered.com/author/bsjkupo/) for the [Pokemon type sprites](https://videogamesuncovered.com/features/Pokemon-sun-and-moon-tips-and-tricks-guide/Pokemon-types/)
+
+### Wallpapers
+Electric - https://flickr.com/photos/chrisser/6997500037/in/photostream/
