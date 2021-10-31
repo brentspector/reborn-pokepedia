@@ -131,7 +131,7 @@ export default defineComponent({
       return (
         process.env.BASE_URL + "assets/pokemon/" + pokemonSel.value.no + ".png"
       );
-    }; 
+    };
     const movesAvailable = (event) => {
       ptLevel.value = event.target.value.level;
 
@@ -139,12 +139,19 @@ export default defineComponent({
       moveList.splice(0, moveList.length);
 
       // Get all points up to this point
-      let pointNames = gamePoints.map(e => e.name);
-      let cumulativePoints = pointNames.slice(0, pointNames.indexOf(event.target.value.name)+1)
+      let pointNames = gamePoints.map((e) => e.name);
+      let cumulativePoints = pointNames.slice(
+        0,
+        pointNames.indexOf(event.target.value.name) + 1
+      );
 
       // Filter for moves and then add them to the reactive array
-      tmLocations.filter(mv => cumulativePoints.includes(mv.point)).forEach(mv => moveList.push(mv.name))
-      tutorLocations.filter(mv => cumulativePoints.includes(mv.point)).forEach(mv => moveList.push(mv.name))
+      tmLocations
+        .filter((mv) => cumulativePoints.includes(mv.point))
+        .forEach((mv) => moveList.push(mv.name));
+      tutorLocations
+        .filter((mv) => cumulativePoints.includes(mv.point))
+        .forEach((mv) => moveList.push(mv.name));
     };
     return {
       moveList,

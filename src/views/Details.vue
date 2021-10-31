@@ -26,66 +26,90 @@
       </ion-item>
       <ion-grid class="ion-margin-top ion-margin-bottom">
         <ion-row class="ion-align-items-start">
-            <ion-col size="12" size-sm="4" class ="ion-text-center">
-              <ion-img :src="pokemonPath()"></ion-img>
-              <ion-text color="light" class="bg-dark title-box">{{ pokemonSel.name }}</ion-text>
-            </ion-col>
-            <ion-col size="12" size-sm>
-              <ion-row>
-                <ion-col size="6" size-sm
+          <ion-col size="12" size-sm="4" class="ion-text-center">
+            <ion-img :src="pokemonPath()"></ion-img>
+            <ion-text color="light" class="bg-dark title-box">{{
+              pokemonSel.name
+            }}</ion-text>
+          </ion-col>
+          <ion-col size="12" size-sm>
+            <ion-row>
+              <ion-col
+                size="6"
+                size-sm
                 v-for="(stat, i) in pokemonSel.stats"
                 :key="i"
+              >
+                <ion-row
+                  class="stat-box-header"
+                  :class="headerColorClass(statOrder[i])"
                 >
-                  <ion-row class="stat-box-header" :class="headerColorClass(statOrder[i])">
-                    <ion-text>{{ statOrder[i] }}</ion-text>
-                  </ion-row>
-                  <ion-row class="ion-text-center stat-box bg-medium">
-                    <ion-text>{{ stat }}</ion-text>
-                  </ion-row>
-                </ion-col>
-              </ion-row>
-              <ion-row>
-                <ion-col size-sm="3" class="ion-justify-content-center" style="display:flex;"
+                  <ion-text>{{ statOrder[i] }}</ion-text>
+                </ion-row>
+                <ion-row class="ion-text-center stat-box bg-medium">
+                  <ion-text>{{ stat }}</ion-text>
+                </ion-row>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col
+                size-sm="3"
+                class="ion-justify-content-center"
+                style="display: flex"
                 v-for="type in pokemonSel.types"
                 :key="type"
-                >
-                  <ion-img
-                   class="type-icon"
-                   :src="pokemonTypePath(type)"
-                   :title="type"></ion-img>
-                </ion-col>
-              </ion-row>
-              <ion-row>
-                <ion-col size="1" class="ion-text-center ion-align-items-center" style="display:flex;">
-                  <ion-text>Egg Moves</ion-text>
-                </ion-col>
-                <ion-col>
-                  <ion-row>
-                    <ion-col
+              >
+                <ion-img
+                  class="type-icon"
+                  :src="pokemonTypePath(type)"
+                  :title="type"
+                ></ion-img>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col
+                size="1"
+                class="ion-text-center ion-align-items-center"
+                style="display: flex"
+              >
+                <ion-text>Egg Moves</ion-text>
+              </ion-col>
+              <ion-col>
+                <ion-row>
+                  <ion-col
                     class="ion-margin ion-text-center egg-move"
-                    style="flex-grow: 0;"
+                    style="flex-grow: 0"
                     v-for="move in pokemonSel.egg_moves"
-                    :key="move">
-                      <ion-label>{{ move }}</ion-label>
-                    </ion-col>
-                  </ion-row>
-                </ion-col>
-              </ion-row>
-              <ion-row>
-                <ion-col size="2" size-xl="1" class="ion-text-center ion-align-items-center" style="display:flex;">
-                  <ion-text>Locations</ion-text>
-                </ion-col>
-                <ion-col>
-                  <ion-row
+                    :key="move"
+                  >
+                    <ion-label>{{ move }}</ion-label>
+                  </ion-col>
+                </ion-row>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col
+                size="2"
+                size-xl="1"
+                class="ion-text-center ion-align-items-center"
+                style="display: flex"
+              >
+                <ion-text>Locations</ion-text>
+              </ion-col>
+              <ion-col>
+                <ion-row
                   class="ion-margin ion-padding location-row"
                   v-for="(loc, idx) in pokemonSel.locations"
                   :key="idx"
+                >
+                  <ion-text
+                    >{{ loc["location"] }} ({{ loc["point"] }} -
+                    {{ loc["method"] }})</ion-text
                   >
-                    <ion-text>{{ loc["location"] }} ({{ loc["point"] }} - {{ loc["method"] }})</ion-text>
-                  </ion-row>
-                </ion-col>
-              </ion-row>
-            </ion-col>
+                </ion-row>
+              </ion-col>
+            </ion-row>
+          </ion-col>
         </ion-row>
         <ion-row>
           <ion-grid>
@@ -94,26 +118,26 @@
               <ion-col>Move</ion-col>
             </ion-row>
             <ion-row
-            v-for="(moves, level) in pokemonSel.level_up_moves"
-            :key="level"
-            :class="{ selected: parseInt(level) &lt;= parseInt(ptLevel) }"
+              v-for="(moves, level) in pokemonSel.level_up_moves"
+              :key="level"
+              :class="{ selected: parseInt(level) &lt;= parseInt(ptLevel) }"
             >
               <ion-col size="2">
                 <ion-text>{{ level }}</ion-text>
               </ion-col>
               <ion-col>
                 <ion-row
-                v-for="(move, idx) in String(moves).split(',')"
-                :key="idx"
+                  v-for="(move, idx) in String(moves).split(',')"
+                  :key="idx"
                 >
                   <ion-text>{{ move }}</ion-text>
                 </ion-row>
               </ion-col>
             </ion-row>
             <ion-row
-            v-for="(move, idx) in pokemonSel.tm_tutor_moves"
-            :key="idx"
-            :class="{ selected: moveList.includes(move) }"
+              v-for="(move, idx) in pokemonSel.tm_tutor_moves"
+              :key="idx"
+              :class="{ selected: moveList.includes(move) }"
             >
               <ion-col size="2"><!-- Intentionally empty --></ion-col>
               <ion-col>
@@ -206,7 +230,7 @@ export default defineComponent({
       return process.env.BASE_URL + "assets/types/" + typeStr + ".png";
     };
     const headerColorClass = (statName) => {
-      switch(statName) {
+      switch (statName) {
         case "HP":
           return "bg-red";
         case "Atk":
@@ -362,4 +386,3 @@ body {
   background-color: #eeeeee;
 }
 </style>
-<!-- https://css-tricks.com/rem-global-em-local/ -->
