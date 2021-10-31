@@ -1,6 +1,6 @@
 <template>
-  <ion-page style="background-image: url('assets/wallpaper/electric.jpg'), url('assets/pokemon/151.png');">
-    <ion-content>
+  <ion-page>
+    <ion-content fullscreen>
       <ion-item>
         <ion-label>Select a Pokemon</ion-label>
         <ion-select v-model="pokemonSel">
@@ -8,81 +8,68 @@
             v-for="(pk, idx) in pokemonData"
             :key="idx"
             :value="pk"
+            >{{ pk.name }}</ion-select-option
           >
-            {{ pk.name }}
-          </ion-select-option>
         </ion-select>
       </ion-item>
-      <ion-grid class="ion-margin-top ion-margin-bottom">
-        <ion-row class="ion-align-items-start">
-            <ion-col size="4" class ="ion-text-center">
-              <ion-img :src="pokemonPath()"></ion-img>
-              <ion-text color="light" class="bg-dark title-box font-15">{{ pokemonSel.name }}</ion-text>
-            </ion-col>
-            <ion-col size="8">
-              <ion-row>
-                <ion-col
-                v-for="(stat, i) in pokemonSel.stats"
-                :key="i"
-                >
-                  <ion-row class="stat-box-header" :class="headerColorClass(statOrder[i])">
-                    <ion-text color="light">{{ statOrder[i] }}</ion-text>
-                  </ion-row>
-                  <ion-row class="ion-text-center stat-box bg-medium">
-                    <ion-text>{{ stat }}</ion-text>
-                  </ion-row>
-                </ion-col>
-              </ion-row>
-              <ion-row>
-                <ion-col
-                 v-for="type in pokemonSel.types"
-                 :key="type"
-                >
-                  <ion-img
-                   class="type-icon"
-                   :src="pokemonTypePath(type)"
-                   :title="type"></ion-img>
-                  <ion-text class="type-word">{{ type }}</ion-text>
-                </ion-col>
-              </ion-row>
-              <ion-row>
-                <ion-col
-                 v-for="move in pokemonSel.egg_moves"
-                 :key="move">
-                  <ion-text>{{ move }}</ion-text>
-                </ion-col>
-              </ion-row>
-            </ion-col>
-        </ion-row>
-        <ion-row>
-          <ion-grid>
-            <ion-row>
-              <ion-col>Hello</ion-col>
-              <ion-col>World</ion-col>
-            </ion-row>
-            <ion-row>
-              <ion-col>Yup</ion-col>
-              <ion-col>Ok</ion-col>
-            </ion-row>
-          </ion-grid>
-        </ion-row>
-      </ion-grid>
+      <ion-item>
+        <ion-label>Select a Point in Game</ion-label>
+        <ion-select @ionChange="movesAvailable($event)">
+          <ion-select-option
+            v-for="(pnt, idx) in gamePoints"
+            :key="idx"
+            :value="pnt"
+            >{{ pnt.name }}</ion-select-option
+          >
+        </ion-select>
+      </ion-item>
+      <ion-thumbnail class="ion-margin-start" style="--size: 132px">
+        <img :src="pokemonPath()" />
+      </ion-thumbnail>
+      <ion-list>
+        <ion-item v-for="(val, key) in pokemonSel" :key="key">
+          <ion-col>
+            <ion-text>{{ key }}</ion-text>
+          </ion-col>
+          <ion-col>
+            <ion-text>{{ val }}</ion-text>
+          </ion-col>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        {{ ptLevel }}
+        <ion-item
+          v-for="(moves, level) in pokemonSel.level_up_moves"
+          :key="level"
+          :class="{ selected: parseInt(level) &lt;= parseInt(ptLevel) }"
+        >
+          <ion-text style="padding: 0 16px">{{ level }}</ion-text>
+          <ion-text>{{ moves.join() }}</ion-text>
+        </ion-item>
+        <ion-item
+          v-for="(move, idx) in pokemonSel.tm_tutor_moves"
+          :key="idx"
+          :class="{ selected: moveList.includes(move) }"
+        >
+          <ion-text>{{ move }}</ion-text>
+        </ion-item>
+      </ion-list>
     </ion-content>
   </ion-page>
 </template>
+
 <script>
 import {
   IonCol,
   IonContent,
-  IonGrid,
-  IonImg,
   IonItem,
   IonLabel,
+  IonList,
   IonPage,
-  IonRow,
   IonSelect,
   IonSelectOption,
   IonText,
+  IonThumbnail,
 } from "@ionic/vue";
 import { defineComponent, ref } from "vue";
 import { pokemonData10 } from "@/data/gen1_0";
@@ -109,15 +96,14 @@ export default defineComponent({
   components: {
     IonCol,
     IonContent,
-    IonGrid,
-    IonImg,
     IonItem,
     IonLabel,
+    IonList,
     IonPage,
-    IonRow,
     IonSelect,
     IonSelectOption,
     IonText,
+    IonThumbnail,
   },
   setup() {
     const pokemonData = pokemonData10.concat(
@@ -145,26 +131,7 @@ export default defineComponent({
       return (
         process.env.BASE_URL + "assets/pokemon/" + pokemonSel.value.no + ".png"
       );
-    };
-    const pokemonTypePath = (typeStr) => {
-      return process.env.BASE_URL + "assets/types/" + typeStr + ".png";
-    };
-    const headerColorClass = (statName) => {
-      switch(statName) {
-        case "HP":
-          return "bg-red";
-        case "Atk":
-          return "bg-orange";
-        case "Def":
-          return "bg-green";
-        case "Spe":
-          return "bg-yellow";
-        case "Sp.A":
-          return "bg-blue";
-        case "Sp.D":
-          return "bg-purple";
-      }
-    };
+    }; 
     const movesAvailable = (event) => {
       ptLevel.value = event.target.value.level;
 
@@ -172,19 +139,12 @@ export default defineComponent({
       moveList.splice(0, moveList.length);
 
       // Get all points up to this point
-      let pointNames = gamePoints.map((e) => e.name);
-      let cumulativePoints = pointNames.slice(
-        0,
-        pointNames.indexOf(event.target.value.name) + 1
-      );
+      let pointNames = gamePoints.map(e => e.name);
+      let cumulativePoints = pointNames.slice(0, pointNames.indexOf(event.target.value.name)+1)
 
       // Filter for moves and then add them to the reactive array
-      tmLocations
-        .filter((mv) => cumulativePoints.includes(mv.point))
-        .forEach((mv) => moveList.push(mv.name));
-      tutorLocations
-        .filter((mv) => cumulativePoints.includes(mv.point))
-        .forEach((mv) => moveList.push(mv.name));
+      tmLocations.filter(mv => cumulativePoints.includes(mv.point)).forEach(mv => moveList.push(mv.name))
+      tutorLocations.filter(mv => cumulativePoints.includes(mv.point)).forEach(mv => moveList.push(mv.name))
     };
     return {
       moveList,
@@ -195,8 +155,6 @@ export default defineComponent({
       gameLocations,
       statOrder,
       pokemonPath,
-      pokemonTypePath,
-      headerColorClass,
       movesAvailable,
     };
   },
@@ -215,110 +173,4 @@ ion-menu.ios ion-item.selected ion-icon {
 ion-item.selected {
   --background: var(--ion-color-success);
 }
-
-.bg-blue {
-  background: blue;
-}
-
-.bg-red {
-  background: red;
-}
-
-.bg-green {
-  background: green;
-}
-
-.bg-yellow {
-  background: yellow;
-}
-
-.bg-orange {
-  background: orange;
-}
-
-.bg-purple {
-  background: purple;
-}
-
-.bg-medium {
-  background: var(--ion-color-medium, silver);
-}
-
-.bg-dark {
-  background: var(--ion-color-dark, black);
-}
-
-@media (max-width: 576px) {
-  .title-box {
-    display: block;
-    width: 100%;
-    padding: 0.4em 0;
-    font-size: 14px;
-  }
-
-  .stat-box-header {
-    border: 1px;
-    border-style: solid none none none;
-    font-style: italic;
-    font-size: 0.8em;
-  }
-
-  .stat-box-header > ion-text {
-    mix-blend-mode: difference;
-  }
-
-  .stat-box {
-    display: block;
-    width: 100%;
-    padding: 0.5em 1em;
-    font-size: 14px;
-    border: 1px;
-    border-style: inset;
-  }
-
-  .type-icon {
-    display: none;
-  }
-}
-
-@media (min-width: 576px) {
-  .title-box {
-    display: block;
-    width: 100%;
-    padding: 0.7em 0;
-    font-size: 24px;
-  }
-
-  .stat-box-header {
-    border: 1px;
-    border-style: solid none none none;
-    font-style: italic;
-    font-size: 1rem;
-  }
-
-  .stat-box-header > ion-text {
-    mix-blend-mode: difference;
-  }
-
-  .stat-box {
-    display: block;
-    width: 100%;
-    padding: 1em 0;
-    font-size: 24px;
-    border: 1px;
-    border-style: inset;
-  }
-
-  .type-word {
-    display: none;
-  }
-
-  .type-icon {
-    width: 50%;
-  }
-}
-body {
-  background-color: #eeeeee;
-}
 </style>
-<!-- https://css-tricks.com/rem-global-em-local/ -->
