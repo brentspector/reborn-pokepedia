@@ -1,4 +1,5 @@
-export const pokemonData12 = [
+import { Pokemon } from "@/interfaces/pokemon_interfaces";
+export const pokemonData12: Pokemon[] = [
   {
     no: 123,
     name: "Scyther",

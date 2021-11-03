@@ -120,7 +120,7 @@
             <ion-row
               v-for="(moves, level) in pokemonSel.level_up_moves"
               :key="level"
-              :class="{ selected: parseInt(level) &lt;= parseInt(ptLevel) }"
+              :class="isMoveSelected(level)"
             >
               <ion-col size="2">
                 <ion-text>{{ level }}</ion-text>
@@ -150,7 +150,7 @@
     </ion-content>
   </ion-page>
 </template>
-<script>
+<script lang="ts">
 import {
   IonCol,
   IonContent,
@@ -165,6 +165,7 @@ import {
   IonText,
 } from "@ionic/vue";
 import { defineComponent, ref } from "vue";
+import { useRoute } from "vue-router";
 import { pokemonData10 } from "@/data/gen1_0";
 import { pokemonData11 } from "@/data/gen1_1";
 import { pokemonData12 } from "@/data/gen1_2";
@@ -182,7 +183,7 @@ import { pokemonData60 } from "@/data/gen6_0";
 import { pokemonData61 } from "@/data/gen6_1";
 import { pokemonData70 } from "@/data/gen7_0";
 import { pokemonData71 } from "@/data/gen7_1";
-import { gamePoints, gameLocations, statOrder } from "@/data/reborn";
+import { gamePoints, statOrder } from "@/data/reborn";
 import { tmLocations, tutorLocations } from "@/data/tm_locations";
 
 export default defineComponent({
@@ -218,18 +219,35 @@ export default defineComponent({
       pokemonData70,
       pokemonData71
     );
-    let moveList = [];
+    const getIdNumberFromRoute = (id: string | string[]): number => {
+      let numId = 0;
+      if (!id) {
+        return numId;
+      }
+      if (typeof id === "string") {
+        numId = parseInt(id);
+      } else if (id.length > 0) {
+        numId = parseInt(id[0]);
+      }
+      if (numId > -1 && numId < pokemonData.length) {
+        return numId;
+      } else {
+        return 0;
+      }
+    };
+    const route = useRoute();
+    let moveList: string[] = [];
     let ptLevel = ref(0);
-    const pokemonSel = ref(pokemonData[0]);
+    const pokemonSel = ref(pokemonData[getIdNumberFromRoute(route.params.id)]);
     const pokemonPath = () => {
       return (
         process.env.BASE_URL + "assets/pokemon/" + pokemonSel.value.no + ".png"
       );
     };
-    const pokemonTypePath = (typeStr) => {
+    const pokemonTypePath = (typeStr: string) => {
       return process.env.BASE_URL + "assets/types/" + typeStr + ".png";
     };
-    const headerColorClass = (statName) => {
+    const headerColorClass = (statName: string) => {
       switch (statName) {
         case "HP":
           return "bg-red";
@@ -245,7 +263,12 @@ export default defineComponent({
           return "bg-purple";
       }
     };
-    const movesAvailable = (event) => {
+    const isMoveSelected = (level: number) => {
+      // Using the unary operator (+) to guarantee string is a number
+      // Otherwise ends up using string comparision such that 11 < 4
+      return +level < +ptLevel.value ? "selected" : "";
+    };
+    const movesAvailable = (event: any) => {
       ptLevel.value = event.target.value.level;
 
       // Clear the reactive array
@@ -268,15 +291,14 @@ export default defineComponent({
     };
     return {
       moveList,
-      ptLevel,
       pokemonSel,
       pokemonData,
       gamePoints,
-      gameLocations,
       statOrder,
       pokemonPath,
       pokemonTypePath,
       headerColorClass,
+      isMoveSelected,
       movesAvailable,
     };
   },

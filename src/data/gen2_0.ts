@@ -1,4 +1,5 @@
-export const pokemonData20 = [
+import { Pokemon } from "@/interfaces/pokemon_interfaces";
+export const pokemonData20: Pokemon[] = [
   {
     no: 152,
     name: "Chikorita",
@@ -6053,6 +6054,11 @@ export const pokemonData20 = [
         location: "Jasper Ward",
         point: "Taka/ZEL/Pulse Tangrowth 3",
         method: "Mystery Egg Event (~5%)",
+      },
+      {
+        location: "Celestinine Cascade",
+        point: "Ciel",
+        method: "Celestinine Puzzle (100%)",
       },
     ],
   },

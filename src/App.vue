@@ -46,9 +46,7 @@ import {
   IonRouterOutlet,
   IonSplitPane,
 } from "@ionic/vue";
-import { bookmarkOutline, bookmarkSharp } from "ionicons/icons";
 import { defineComponent, ref } from "vue";
-import { useRoute } from "vue-router";
 import { appPages } from "@/data/menu";
 
 export default defineComponent({
@@ -67,21 +65,16 @@ export default defineComponent({
     IonSplitPane,
   },
   setup() {
-    const selectedIndex = ref(0);
+    const selectedIndex = ref(1);
 
     const path = window.location.pathname;
     if (path !== undefined) {
       selectedIndex.value = appPages.findIndex((page) => page.url === path);
     }
 
-    const route = useRoute();
-
     return {
       selectedIndex,
       appPages,
-      bookmarkOutline,
-      bookmarkSharp,
-      isSelected: (url: string) => (url === route.path ? "selected" : ""),
     };
   },
 });
