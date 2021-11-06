@@ -8,10 +8,11 @@
 * View list of pokemon by point in game
 * View moves available at point in game
 * Pretty up details display
-Route based on pokemonId (/details/:id)
+* Route based on pokemonId (/details/:id)
 Pretty up locations/points in game display
 - Use Card UI Transition https://codepen.io/ivillamil/pen/obWaOX
 - Replace list with grid of cards
 Dark Mode
 Add homepage explaining how to use the app (do not route to /locations)
-Add proper typescript types
+Dropdown search
+Dropdown start at last selected
