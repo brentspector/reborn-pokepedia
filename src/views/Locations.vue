@@ -17,9 +17,9 @@
           <ion-thumbnail slot="start">
             <img :src="pokemonPath(pk.no)" />
           </ion-thumbnail>
-          <ion-label>
-            <h3>{{ pk.name }}</h3>
-            <ion-thumbnail class="ion-margin-start">
+          <ion-label class="title">
+            <ion-text>{{ pk.name }}</ion-text>
+            <ion-thumbnail class="ion-margin-start ion-margin-top">
               <img
                 v-for="type in pk.types"
                 :key="type"
@@ -28,7 +28,18 @@
               />
             </ion-thumbnail>
           </ion-label>
-          <ion-text>{{ pokemonLocation(pk).point }}</ion-text>
+          <ion-col size-lg="9">
+            <ion-row class="method">
+              <ion-text>
+                {{ pokemonLocation(pk).method }}
+              </ion-text>
+            </ion-row>
+            <ion-row class="point">
+              <ion-text>
+                {{ pokemonLocation(pk).point }}
+              </ion-text>
+            </ion-row>
+          </ion-col>
         </ion-item>
       </ion-list>
     </ion-content>
@@ -37,11 +48,13 @@
 
 <script lang="ts">
 import {
+  IonCol,
   IonContent,
   IonItem,
   IonLabel,
   IonList,
   IonPage,
+  IonRow,
   IonSelect,
   IonSelectOption,
   IonText,
@@ -70,11 +83,13 @@ import { Pokemon } from "@/interfaces/pokemon_interfaces";
 
 export default defineComponent({
   components: {
+    IonCol,
     IonContent,
     IonItem,
     IonLabel,
     IonList,
     IonPage,
+    IonRow,
     IonSelect,
     IonSelectOption,
     IonText,
@@ -133,3 +148,60 @@ export default defineComponent({
   },
 });
 </script>
+<style scoped>
+ion-list > ion-item {
+  --background: rgba(var(--ion-color-primary-rgb), 0.05);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-weight: bolder;
+    font-style: italic;
+    padding: 2px;
+    font-size: 1.1em;
+  }
+  .method {
+    font-size: 1.05em;
+    font-weight: bold;
+    margin: 0px;
+    color: var(--ion-color-medium, --ion-color-dark);
+  }
+
+  .point {
+    font-size: 0.95em;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0px;
+    color: var(--ion-color-medium, --ion-color-dark);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-weight: bolder;
+    font-style: italic;
+    padding: 2px;
+    font-size: 1.25em;
+  }
+
+  .method {
+    font-size: 1.15em;
+    font-weight: bold;
+    margin: 0px;
+    color: var(--ion-color-medium, --ion-color-dark);
+  }
+
+  .point {
+    font-size: 1em;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0px;
+    color: var(--ion-color-medium, --ion-color-dark);
+  }
+}
+
+body {
+  background-color: #eeeeee;
+}
+</style>

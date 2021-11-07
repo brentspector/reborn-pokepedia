@@ -176,10 +176,6 @@ ion-menu.ios ion-item ion-icon {
   color: #73849a;
 }
 
-ion-menu.ios ion-list#labels-list ion-list-header {
-  margin-bottom: 8px;
-}
-
 ion-menu.ios ion-list-header,
 ion-menu.ios ion-note {
   padding-left: 16px;
