@@ -164,7 +164,7 @@ import {
   IonSelectOption,
   IonText,
 } from "@ionic/vue";
-import { defineComponent, ref } from "vue";
+import { defineComponent, onMounted, ref } from "vue";
 import { useRoute } from "vue-router";
 import { pokemonData10 } from "@/data/gen1_0";
 import { pokemonData11 } from "@/data/gen1_1";
@@ -185,6 +185,7 @@ import { pokemonData70 } from "@/data/gen7_0";
 import { pokemonData71 } from "@/data/gen7_1";
 import { gamePoints, statOrder } from "@/data/reborn";
 import { tmLocations, tutorLocations } from "@/data/tm_locations";
+import { Pokemon } from "@/interfaces/pokemon_interfaces";
 
 export default defineComponent({
   components: {
@@ -200,7 +201,13 @@ export default defineComponent({
     IonSelectOption,
     IonText,
   },
-  setup() {
+  props: {
+    pk: {
+      type: Object as () => Pokemon,
+      required: false,
+    },
+  },
+  setup(props) {
     const pokemonData = pokemonData10.concat(
       pokemonData11,
       pokemonData12,
@@ -238,7 +245,7 @@ export default defineComponent({
     const route = useRoute();
     let moveList: string[] = [];
     let ptLevel = ref(0);
-    const pokemonSel = ref(pokemonData[getIdNumberFromRoute(route.params.id)]);
+    const pokemonSel = ref(pokemonData[0]);
     const pokemonPath = () => {
       return (
         process.env.BASE_URL + "assets/pokemon/" + pokemonSel.value.no + ".png"
@@ -289,6 +296,20 @@ export default defineComponent({
         .filter((mv) => cumulativePoints.includes(mv.point))
         .forEach((mv) => moveList.push(mv.name));
     };
+
+    const determinePokemonSel = (
+      id: string | string[],
+      pk: Pokemon | undefined
+    ): void => {
+      if (pk) {
+        pokemonSel.value = pk;
+      } else {
+        pokemonSel.value = pokemonData[getIdNumberFromRoute(id)];
+      }
+    };
+
+    onMounted(() => determinePokemonSel(route.params.id, props.pk));
+
     return {
       moveList,
       pokemonSel,

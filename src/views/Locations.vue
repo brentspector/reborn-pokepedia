@@ -13,7 +13,11 @@
         </ion-select>
       </ion-item>
       <ion-list>
-        <ion-item v-for="pk in pokemonAtLocation" :key="pk.no">
+        <ion-item
+          v-for="pk in pokemonAtLocation"
+          :key="pk.no"
+          @click="setOpen(true, pk)"
+        >
           <ion-thumbnail slot="start">
             <img :src="pokemonPath(pk.no)" />
           </ion-thumbnail>
@@ -42,6 +46,20 @@
           </ion-col>
         </ion-item>
       </ion-list>
+      <!--
+        TODO:
+        - Clicking modal does NOT clear current location selected
+        -- ion-modal is clearing the ion-select value
+        - Add close FAB
+        - Toggle select pokemon dropdown in modal to be hidden when imported as modal
+       -->
+      <ion-modal
+        :is-open="isOpenRef"
+        :swipe-to-close="true"
+        @didDismiss="setOpen(false)"
+      >
+        <Detailes :pk="modalPokemon"></Detailes>
+      </ion-modal>
     </ion-content>
   </ion-page>
 </template>
@@ -53,6 +71,7 @@ import {
   IonItem,
   IonLabel,
   IonList,
+  IonModal,
   IonPage,
   IonRow,
   IonSelect,
@@ -60,7 +79,7 @@ import {
   IonText,
   IonThumbnail,
 } from "@ionic/vue";
-import { defineComponent, reactive } from "vue";
+import { defineComponent, ref, reactive } from "vue";
 import { pokemonData10 } from "@/data/gen1_0";
 import { pokemonData11 } from "@/data/gen1_1";
 import { pokemonData12 } from "@/data/gen1_2";
@@ -80,14 +99,17 @@ import { pokemonData70 } from "@/data/gen7_0";
 import { pokemonData71 } from "@/data/gen7_1";
 import { gameLocations } from "@/data/reborn";
 import { Pokemon } from "@/interfaces/pokemon_interfaces";
+import Detailes from "@/views/Details.vue";
 
 export default defineComponent({
   components: {
+    Detailes,
     IonCol,
     IonContent,
     IonItem,
     IonLabel,
     IonList,
+    IonModal,
     IonPage,
     IonRow,
     IonSelect,
@@ -96,6 +118,7 @@ export default defineComponent({
     IonThumbnail,
   },
   setup() {
+    const isOpenRef = ref(false);
     let pokemonAtLocation: Pokemon[] = reactive([]);
     let locationInGame = "";
     const pokemonData = pokemonData10.concat(
@@ -116,6 +139,11 @@ export default defineComponent({
       pokemonData70,
       pokemonData71
     );
+    const modalPokemon = ref(pokemonData[0]);
+    const setOpen = (state: boolean, pk: Pokemon = pokemonData[0]) => {
+      isOpenRef.value = state;
+      modalPokemon.value = pk;
+    };
     const pokemonPath = (pkId: number) => {
       return process.env.BASE_URL + "assets/pokemon/" + pkId + ".png";
     };
@@ -125,25 +153,31 @@ export default defineComponent({
     const pokemonLocation = (pk: Pokemon) => {
       return pk.locations.filter((loc) => loc.location === locationInGame)[0];
     };
+
     const pokemonAvailable = (event: any) => {
-      // Clear the reactive array
-      pokemonAtLocation.splice(0, pokemonAtLocation.length);
+      if (!isOpenRef.value) {
+        // Clear the reactive array
+        pokemonAtLocation.splice(0, pokemonAtLocation.length);
 
-      // Set current point in game to whatever was in the event
-      locationInGame = event.target.value;
+        // Set current point in game to whatever was in the event
+        locationInGame = event.target.value;
 
-      // Filter for pokemon and then add them to the reactive array
-      pokemonData
-        .filter((pk, idx, arr) => pokemonLocation(pk))
-        .forEach((e) => pokemonAtLocation.push(e));
+        // Filter for pokemon and then add them to the reactive array
+        pokemonData
+          .filter((pk, idx, arr) => pokemonLocation(pk))
+          .forEach((e) => pokemonAtLocation.push(e));
+      }
     };
     return {
-      pokemonAtLocation,
       gameLocations,
+      isOpenRef,
+      modalPokemon,
+      pokemonAtLocation,
       pokemonPath,
       pokemonTypePath,
       pokemonLocation,
       pokemonAvailable,
+      setOpen,
     };
   },
 });
