@@ -245,22 +245,6 @@ export default defineComponent({
       pokemonData70,
       pokemonData71
     );
-    const getIdNumberFromRoute = (id: string | string[]): number => {
-      let numId = 0;
-      if (!id) {
-        return numId;
-      }
-      if (typeof id === "string") {
-        numId = parseInt(id);
-      } else if (id.length > 0) {
-        numId = parseInt(id[0]);
-      }
-      if (numId > -1 && numId < pokemonData.length) {
-        return numId;
-      } else {
-        return 0;
-      }
-    };
     const route = useRoute();
     let moveList: string[] = [];
     let ptLevel = ref(0);
@@ -317,6 +301,23 @@ export default defineComponent({
         .forEach((mv) => moveList.push(mv.name));
     };
 
+    const getIdNumberFromRoute = (id: string | string[]): number => {
+      let numId = 0;
+      if (!id) {
+        return numId;
+      }
+      if (typeof id === "string") {
+        numId = parseInt(id);
+      } else if (id.length > 0) {
+        numId = parseInt(id[0]);
+      }
+      if (numId > 1) {
+        return numId;
+      } else {
+        return 1;
+      }
+    };
+
     const determinePokemonSel = (
       id: string | string[],
       pk: Pokemon | undefined
@@ -326,7 +327,12 @@ export default defineComponent({
         pokemonSel.value = pk;
       } else {
         isModal.value = false;
-        pokemonSel.value = pokemonData[getIdNumberFromRoute(id)];
+        pokemonSel.value = pokemonData.filter(
+          (pk) => pk.no == getIdNumberFromRoute(id)
+        )[0];
+        if (!pokemonSel.value) {
+          pokemonSel.value = pokemonData[0];
+        }
       }
     };
 
