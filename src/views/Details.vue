@@ -1,7 +1,7 @@
 <template>
   <ion-page>
     <ion-content>
-      <ion-item>
+      <ion-item v-if="!isModal">
         <ion-label>Select a Pokemon</ion-label>
         <ion-select v-model="pokemonSel">
           <ion-select-option
@@ -26,7 +26,11 @@
       </ion-item>
       <ion-grid class="ion-margin-top ion-margin-bottom">
         <ion-row class="ion-align-items-start">
-          <ion-col size="12" size-sm="4" class="ion-text-center">
+          <ion-col
+            size="12"
+            :size-sm="isModal ? 12 : 4"
+            class="ion-text-center"
+          >
             <ion-img :src="pokemonPath()"></ion-img>
             <ion-text color="light" class="bg-dark title-box">{{
               pokemonSel.name
@@ -69,6 +73,7 @@
             <ion-row>
               <ion-col
                 size="1"
+                :size-xl="isModal ? 2 : 1"
                 class="ion-text-center ion-align-items-center"
                 style="display: flex"
               >
@@ -90,7 +95,7 @@
             <ion-row>
               <ion-col
                 size="2"
-                size-xl="1"
+                :size-xl="isModal ? 2 : 1"
                 class="ion-text-center ion-align-items-center"
                 style="display: flex"
               >
@@ -147,6 +152,12 @@
           </ion-grid>
         </ion-row>
       </ion-grid>
+      <ion-fab v-if="isModal" vertical="bottom" horizontal="end" slot="fixed">
+        <ion-fab-button
+          activated="true"
+          @click="modalCallback"
+        ></ion-fab-button>
+      </ion-fab>
     </ion-content>
   </ion-page>
 </template>
@@ -154,6 +165,8 @@
 import {
   IonCol,
   IonContent,
+  IonFab,
+  IonFabButton,
   IonGrid,
   IonImg,
   IonItem,
@@ -191,6 +204,8 @@ export default defineComponent({
   components: {
     IonCol,
     IonContent,
+    IonFab,
+    IonFabButton,
     IonGrid,
     IonImg,
     IonItem,
@@ -204,6 +219,10 @@ export default defineComponent({
   props: {
     pk: {
       type: Object as () => Pokemon,
+      required: false,
+    },
+    modalCallback: {
+      type: Function as () => void,
       required: false,
     },
   },
@@ -245,6 +264,7 @@ export default defineComponent({
     const route = useRoute();
     let moveList: string[] = [];
     let ptLevel = ref(0);
+    const isModal = ref(false);
     const pokemonSel = ref(pokemonData[0]);
     const pokemonPath = () => {
       return (
@@ -302,8 +322,10 @@ export default defineComponent({
       pk: Pokemon | undefined
     ): void => {
       if (pk) {
+        isModal.value = true;
         pokemonSel.value = pk;
       } else {
+        isModal.value = false;
         pokemonSel.value = pokemonData[getIdNumberFromRoute(id)];
       }
     };
@@ -311,6 +333,7 @@ export default defineComponent({
     onMounted(() => determinePokemonSel(route.params.id, props.pk));
 
     return {
+      isModal,
       moveList,
       pokemonSel,
       pokemonData,
