@@ -65,7 +65,7 @@ import {
   IonThumbnail,
   modalController,
 } from "@ionic/vue";
-import { defineComponent, ref, reactive } from "vue";
+import { defineComponent, reactive } from "vue";
 import { pokemonData10 } from "@/data/gen1_0";
 import { pokemonData11 } from "@/data/gen1_1";
 import { pokemonData12 } from "@/data/gen1_2";
@@ -148,7 +148,7 @@ export default defineComponent({
         pokemonAtLocation.splice(0, pokemonAtLocation.length);
 
         // Set current point in game to whatever was in the event
-        locationInGame = (event.target as HTMLInputElement).value;
+        locationInGame = (event.target as HTMLSelectElement).value;
 
         // Filter for pokemon and then add them to the reactive array
         pokemonData
