@@ -30,7 +30,7 @@
               <ion-icon :ios="b.iosIcon" :md="b.mdIcon"></ion-icon>
               <ion-toggle
                 @ionChange="b.method()"
-                :checked="b.startValue"
+                :checked="b.startValue()"
               ></ion-toggle>
             </ion-item>
           </ion-list>
@@ -56,7 +56,8 @@ import {
   IonSplitPane,
   IonToggle,
 } from "@ionic/vue";
-import { defineComponent, ref } from "vue";
+import { defineComponent, ref, watch } from "vue";
+import { globalStore } from "./store/global";
 import { appPages, customizationButtons } from "@/data/menu";
 
 export default defineComponent({
@@ -84,6 +85,10 @@ export default defineComponent({
         path.startsWith(page.url)
       );
     }
+
+    watch(globalStore.state, (newValue) => {
+      document.body.classList.toggle("dark", newValue.darkMode);
+    });
 
     return {
       selectedIndex,

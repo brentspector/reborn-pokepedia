@@ -40,7 +40,7 @@ export const customizationButtons = [
     mdIcon: gridSharp,
     method: (): void =>
       globalStore.setCardFormatAction(!globalStore.state.cardFormat),
-    startValue: globalStore.state.cardFormat,
+    startValue: (): boolean => globalStore.state.cardFormat,
   },
   {
     title: "Dark Mode",
@@ -48,6 +48,6 @@ export const customizationButtons = [
     mdIcon: moonSharp,
     method: (): void =>
       globalStore.setDarkModeAction(!globalStore.state.darkMode),
-    startValue: globalStore.state.darkMode,
+    startValue: (): boolean => globalStore.state.darkMode,
   },
 ];

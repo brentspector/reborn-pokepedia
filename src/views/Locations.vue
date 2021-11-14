@@ -92,8 +92,14 @@
 
 <script lang="ts">
 import {
+  IonCard,
+  IonCardContent,
+  IonCardHeader,
+  IonCardSubtitle,
+  IonCardTitle,
   IonCol,
   IonContent,
+  IonGrid,
   IonItem,
   IonLabel,
   IonList,
@@ -130,8 +136,14 @@ import Details from "@/views/Details.vue";
 
 export default defineComponent({
   components: {
+    IonCard,
+    IonCardContent,
+    IonCardHeader,
+    IonCardSubtitle,
+    IonCardTitle,
     IonCol,
     IonContent,
+    IonGrid,
     IonItem,
     IonLabel,
     IonList,

@@ -3,6 +3,7 @@ import App from "./App.vue";
 import router from "./router";
 
 import { IonicVue } from "@ionic/vue";
+import { globalStore } from "./store/global";
 
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/vue/css/core.css";
@@ -29,6 +30,14 @@ const app = createApp(App)
 
 router.isReady().then(() => {
   app.mount("#app");
+
+  // Toggle dark mode
+  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)");
+  globalStore.setDarkModeAction(prefersDark.matches);
+  prefersDark.addEventListener("change", (mediaQuery) =>
+    globalStore.setDarkModeAction(mediaQuery.matches)
+  );
+
   // Need to get path after app is mounted
   // Then redirect based on whatever path is
   // https://github.com/geeksilva97/geeksilva97.github.io
