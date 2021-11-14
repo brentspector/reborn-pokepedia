@@ -13,7 +13,7 @@
           </ion-select-option>
         </ion-select>
       </ion-item>
-      <ion-item>
+      <ion-item v-if="!isModal">
         <ion-label>Select a Point in Game</ion-label>
         <ion-select @ionChange="movesAvailable($event.target.value)">
           <ion-select-option
@@ -115,6 +115,19 @@
               </ion-col>
             </ion-row>
           </ion-col>
+        </ion-row>
+        <ion-row v-if="isModal">
+          <ion-item>
+            <ion-label>Select a Point in Game</ion-label>
+            <ion-select @ionChange="movesAvailable($event.target.value)">
+              <ion-select-option
+                v-for="(pnt, idx) in gamePoints"
+                :key="idx"
+                :value="pnt"
+                >{{ pnt.name }}</ion-select-option
+              >
+            </ion-select>
+          </ion-item>
         </ion-row>
         <ion-row>
           <ion-grid>

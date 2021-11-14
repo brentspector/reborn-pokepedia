@@ -1,4 +1,8 @@
 import {
+  gridOutline,
+  gridSharp,
+  moonOutline,
+  moonSharp,
   navigateOutline,
   navigateSharp,
   pieChartOutline,
@@ -6,6 +10,7 @@ import {
   ribbonOutline,
   ribbonSharp,
 } from "ionicons/icons";
+import { globalStore } from "@/store/global";
 
 export const appPages = [
   {
@@ -25,5 +30,24 @@ export const appPages = [
     url: "/details",
     iosIcon: pieChartOutline,
     mdIcon: pieChartSharp,
+  },
+];
+
+export const customizationButtons = [
+  {
+    title: "Card View",
+    iosIcon: gridOutline,
+    mdIcon: gridSharp,
+    method: (): void =>
+      globalStore.setCardFormatAction(!globalStore.state.cardFormat),
+    startValue: globalStore.state.cardFormat,
+  },
+  {
+    title: "Dark Mode",
+    iosIcon: moonOutline,
+    mdIcon: moonSharp,
+    method: (): void =>
+      globalStore.setDarkModeAction(!globalStore.state.darkMode),
+    startValue: globalStore.state.darkMode,
   },
 ];

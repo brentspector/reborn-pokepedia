@@ -3,7 +3,7 @@
     <ion-content fullscreen>
       <ion-item>
         <ion-label>Select a Point in Game</ion-label>
-        <ion-select @ionChange="pokemonAvailable($event)">
+        <ion-select v-model="pointInGame" @ionChange="pokemonAvailable($event)">
           <ion-select-option
             v-for="(pnt, idx) in gamePoints"
             :key="idx"
@@ -12,7 +12,7 @@
           >
         </ion-select>
       </ion-item>
-      <ion-list>
+      <ion-list v-if="!globalStore.state.cardFormat">
         <ion-item
           v-for="pk in pokemonAtPoint"
           :key="pk.no"
@@ -46,14 +46,56 @@
           </ion-col>
         </ion-item>
       </ion-list>
+      <ion-grid v-if="globalStore.state.cardFormat">
+        <ion-row>
+          <ion-col
+            size="6"
+            size-md="4"
+            size-lg="3"
+            size-xl="2.4"
+            v-for="pk in pokemonAtPoint"
+            :key="pk.no"
+            @click="setOpen(pk)"
+          >
+            <ion-card>
+              <img :src="pokemonPath(pk.no)" />
+              <ion-card-header>
+                <ion-card-subtitle>
+                  <ion-row class="ion-justify-content-around">
+                    <ion-thumbnail
+                      class="ion-margin-start ion-margin-top"
+                      v-for="type in pk.types"
+                      :key="type"
+                    >
+                      <img :src="pokemonTypePath(type)" :title="type" />
+                    </ion-thumbnail>
+                  </ion-row>
+                </ion-card-subtitle>
+                <ion-card-title class="ion-text-center">{{
+                  pk.name
+                }}</ion-card-title>
+              </ion-card-header>
+              <ion-card-content class="ion-text-center">
+                {{ pokemonPoint(pk).location }} - {{ pokemonPoint(pk).method }}
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
     </ion-content>
   </ion-page>
 </template>
 
 <script lang="ts">
 import {
+  IonCard,
+  IonCardContent,
+  IonCardHeader,
+  IonCardSubtitle,
+  IonCardTitle,
   IonCol,
   IonContent,
+  IonGrid,
   IonItem,
   IonLabel,
   IonList,
@@ -65,7 +107,8 @@ import {
   IonThumbnail,
   modalController,
 } from "@ionic/vue";
-import { defineComponent, reactive } from "vue";
+import { defineComponent, ref, reactive } from "vue";
+import { globalStore } from "@/store/global";
 import { pokemonData10 } from "@/data/gen1_0";
 import { pokemonData11 } from "@/data/gen1_1";
 import { pokemonData12 } from "@/data/gen1_2";
@@ -89,8 +132,14 @@ import Details from "@/views/Details.vue";
 
 export default defineComponent({
   components: {
+    IonCard,
+    IonCardContent,
+    IonCardHeader,
+    IonCardSubtitle,
+    IonCardTitle,
     IonCol,
     IonContent,
+    IonGrid,
     IonItem,
     IonLabel,
     IonList,
@@ -103,7 +152,7 @@ export default defineComponent({
   },
   setup() {
     let pokemonAtPoint: Pokemon[] = reactive([]);
-    let pointInGame: typeof gamePoints[0];
+    const pointInGame = ref(gamePoints[0]);
     const pokemonData = pokemonData10.concat(
       pokemonData11,
       pokemonData12,
@@ -127,7 +176,7 @@ export default defineComponent({
         component: Details,
         componentProps: {
           pk: pk,
-          point: pointInGame,
+          point: pointInGame.value,
           modalCallback: modalController.dismiss,
         },
       });
@@ -140,18 +189,15 @@ export default defineComponent({
       return process.env.BASE_URL + "assets/types/" + typeStr + ".png";
     };
     const pokemonPoint = (pk: Pokemon) => {
-      return pk.locations.filter((loc) => loc.point === pointInGame.name)[0];
+      return pk.locations.filter(
+        (loc) => loc.point === pointInGame.value.name
+      )[0];
     };
 
     const pokemonAvailable = (event: Event) => {
       if (event.target) {
         // Clear the reactive array
         pokemonAtPoint.splice(0, pokemonAtPoint.length);
-
-        // Set current point in game to whatever was in the event
-        pointInGame = JSON.parse(
-          JSON.stringify((event.target as HTMLSelectElement).value)
-        );
 
         // Filter for pokemon and then add them to the reactive array
         pokemonData
@@ -160,8 +206,10 @@ export default defineComponent({
       }
     };
     return {
+      globalStore,
       gamePoints,
       pokemonAtPoint,
+      pointInGame,
       pokemonPath,
       pokemonTypePath,
       pokemonPoint,

@@ -3,7 +3,10 @@
     <ion-content fullscreen>
       <ion-item>
         <ion-label>Select a Location</ion-label>
-        <ion-select @ionChange="pokemonAvailable($event)">
+        <ion-select
+          v-model="locationInGame"
+          @ionChange="pokemonAvailable($event)"
+        >
           <ion-select-option
             v-for="(loc, idx) in gameLocations"
             :key="idx"
@@ -12,7 +15,7 @@
           >
         </ion-select>
       </ion-item>
-      <ion-list>
+      <ion-list v-if="!globalStore.state.cardFormat">
         <ion-item
           v-for="pk in pokemonAtLocation"
           :key="pk.no"
@@ -46,6 +49,43 @@
           </ion-col>
         </ion-item>
       </ion-list>
+      <ion-grid v-if="globalStore.state.cardFormat">
+        <ion-row>
+          <ion-col
+            size="6"
+            size-md="4"
+            size-lg="3"
+            size-xl="2.4"
+            v-for="pk in pokemonAtLocation"
+            :key="pk.no"
+            @click="setOpen(pk)"
+          >
+            <ion-card>
+              <img :src="pokemonPath(pk.no)" />
+              <ion-card-header>
+                <ion-card-subtitle>
+                  <ion-row class="ion-justify-content-around">
+                    <ion-thumbnail
+                      class="ion-margin-start ion-margin-top"
+                      v-for="type in pk.types"
+                      :key="type"
+                    >
+                      <img :src="pokemonTypePath(type)" :title="type" />
+                    </ion-thumbnail>
+                  </ion-row>
+                </ion-card-subtitle>
+                <ion-card-title class="ion-text-center">{{
+                  pk.name
+                }}</ion-card-title>
+              </ion-card-header>
+              <ion-card-content class="ion-text-center">
+                {{ pokemonLocation(pk).method }} -
+                {{ pokemonLocation(pk).point }}
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
     </ion-content>
   </ion-page>
 </template>
@@ -65,7 +105,8 @@ import {
   IonThumbnail,
   modalController,
 } from "@ionic/vue";
-import { defineComponent, reactive } from "vue";
+import { defineComponent, ref, reactive } from "vue";
+import { globalStore } from "@/store/global";
 import { pokemonData10 } from "@/data/gen1_0";
 import { pokemonData11 } from "@/data/gen1_1";
 import { pokemonData12 } from "@/data/gen1_2";
@@ -103,7 +144,7 @@ export default defineComponent({
   },
   setup() {
     let pokemonAtLocation: Pokemon[] = reactive([]);
-    let locationInGame = "";
+    const locationInGame = ref("");
     const pokemonData = pokemonData10.concat(
       pokemonData11,
       pokemonData12,
@@ -139,16 +180,15 @@ export default defineComponent({
       return process.env.BASE_URL + "assets/types/" + typeStr + ".png";
     };
     const pokemonLocation = (pk: Pokemon) => {
-      return pk.locations.filter((loc) => loc.location === locationInGame)[0];
+      return pk.locations.filter(
+        (loc) => loc.location === locationInGame.value
+      )[0];
     };
 
     const pokemonAvailable = (event: Event) => {
       if (event.target) {
         // Clear the reactive array
         pokemonAtLocation.splice(0, pokemonAtLocation.length);
-
-        // Set current point in game to whatever was in the event
-        locationInGame = (event.target as HTMLSelectElement).value;
 
         // Filter for pokemon and then add them to the reactive array
         pokemonData
@@ -157,7 +197,9 @@ export default defineComponent({
       }
     };
     return {
+      globalStore,
       gameLocations,
+      locationInGame,
       pokemonAtLocation,
       pokemonPath,
       pokemonTypePath,
