@@ -38,16 +38,20 @@ export const customizationButtons = [
     title: "Card View",
     iosIcon: gridOutline,
     mdIcon: gridSharp,
-    method: (): void =>
-      globalStore.setCardFormatAction(!globalStore.state.cardFormat),
-    startValue: (): boolean => globalStore.state.cardFormat,
+    method: (event: Event): void =>
+      globalStore.setCardFormatAction(
+        (event.target as HTMLIonToggleElement).checked
+      ),
+    stateValue: (): boolean => globalStore.state.cardFormat,
   },
   {
     title: "Dark Mode",
     iosIcon: moonOutline,
     mdIcon: moonSharp,
-    method: (): void =>
-      globalStore.setDarkModeAction(!globalStore.state.darkMode),
-    startValue: (): boolean => globalStore.state.darkMode,
+    method: (event: Event): void =>
+      globalStore.setDarkModeAction(
+        (event.target as HTMLIonToggleElement).checked
+      ),
+    stateValue: (): boolean => globalStore.state.darkMode,
   },
 ];

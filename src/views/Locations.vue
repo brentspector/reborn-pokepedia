@@ -182,6 +182,7 @@ export default defineComponent({
           pk: pk,
           modalCallback: modalController.dismiss,
         },
+        cssClass: "details-modal",
       });
       return modal.present();
     };

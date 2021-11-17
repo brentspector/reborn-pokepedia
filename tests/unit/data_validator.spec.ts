@@ -41,11 +41,11 @@ describe("pokemonData", () => {
     for (let i = 0; i < pokemonData.length; i++) {
       for (
         let j = 0;
-        j < (pokemonData[i].locations ? pokemonData[i].locations!.length : 0);
+        j < (pokemonData[i].locations ? pokemonData[i].locations.length : 0);
         j++
       ) {
         //console.log(pokemonData[i].name + " - " + j);
-        expect(gameLocations).toContain(pokemonData[i].locations![j].location);
+        expect(gameLocations).toContain(pokemonData[i].locations[j].location);
       }
     }
   });
@@ -75,10 +75,10 @@ describe("pokemonData", () => {
     for (let i = 0; i < pokemonData.length; i++) {
       for (
         let j = 0;
-        j < (pokemonData[i].locations ? pokemonData[i].locations!.length : 0);
+        j < (pokemonData[i].locations ? pokemonData[i].locations.length : 0);
         j++
       ) {
-        expect(gmPoints).toContain(pokemonData[i].locations![j].point);
+        expect(gmPoints).toContain(pokemonData[i].locations[j].point);
       }
     }
   });

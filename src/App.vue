@@ -33,8 +33,8 @@
             <ion-item v-for="(b, i) in customizationButtons" :key="i">
               <ion-icon :ios="b.iosIcon" :md="b.mdIcon"></ion-icon>
               <ion-toggle
-                @ionChange="b.method()"
-                :checked="b.startValue()"
+                @ionChange="b.method($event)"
+                :checked="b.stateValue()"
               ></ion-toggle>
             </ion-item>
           </ion-list>
@@ -62,7 +62,7 @@ import {
   IonSplitPane,
   IonToggle,
 } from "@ionic/vue";
-import { defineComponent, ref, watch } from "vue";
+import { defineComponent, ref, watchEffect } from "vue";
 import { useRouter } from "vue-router";
 import { globalStore } from "./store/global";
 import { appPages, customizationButtons } from "@/data/menu";
@@ -100,8 +100,8 @@ export default defineComponent({
       return process.env.BASE_URL + "assets/icon/logo.png";
     };
 
-    watch(globalStore.state, (newValue) => {
-      document.body.classList.toggle("dark", newValue.darkMode);
+    watchEffect(() => {
+      document.body.classList.toggle("dark", globalStore.state.darkMode);
     });
 
     return {
@@ -234,7 +234,7 @@ ion-item.selected {
 
 .logo {
   height: 100%;
-  color: var(--ion-color-primary-contrast);
+  color: var(--ion-item-background, var(--ion-background-color, #fff));
   --background-activated-opacity: 0;
   --background-hover-opacity: 0;
 }

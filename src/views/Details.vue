@@ -27,8 +27,9 @@
       <ion-grid class="ion-margin-top ion-margin-bottom">
         <ion-row class="ion-align-items-start">
           <ion-col
-            size="12"
+            size-xs="12"
             :size-sm="isModal ? 12 : 4"
+            size-lg="4"
             class="ion-text-center"
           >
             <ion-img :src="pokemonPath()"></ion-img>
@@ -36,10 +37,10 @@
               pokemonSel.name
             }}</ion-text>
           </ion-col>
-          <ion-col size="12" size-sm>
+          <ion-col size-xs="12" size-sm>
             <ion-row>
               <ion-col
-                size="6"
+                size-xs="6"
                 size-sm
                 v-for="(stat, i) in pokemonSel.stats"
                 :key="i"
@@ -476,5 +477,16 @@ ion-row.selected:nth-of-type(odd) {
 
 body {
   background-color: #eeeeee;
+}
+</style>
+
+<!-- GLOBAL STYLES
+    AVOID USING THIS -->
+<style>
+@media screen and (min-width: 768px) {
+  .details-modal {
+    --width: 80%;
+    --height: 80%;
+  }
 }
 </style>

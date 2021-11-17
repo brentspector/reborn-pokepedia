@@ -32,11 +32,11 @@ router.isReady().then(() => {
   app.mount("#app");
 
   // Toggle dark mode
-  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)");
-  globalStore.setDarkModeAction(prefersDark.matches);
-  prefersDark.addEventListener("change", (mediaQuery) =>
-    globalStore.setDarkModeAction(mediaQuery.matches)
-  );
+  const prefersLight = window.matchMedia("(prefers-color-scheme: light)");
+  globalStore.setDarkModeAction(!prefersLight.matches);
+  prefersLight.addEventListener("change", (mediaQuery) => {
+    globalStore.setDarkModeAction(!mediaQuery.matches);
+  });
 
   // Need to get path after app is mounted
   // Then redirect based on whatever path is

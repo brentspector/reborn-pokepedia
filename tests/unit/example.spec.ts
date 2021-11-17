@@ -1,20 +1,20 @@
-import { mount } from '@vue/test-utils'
-import Folder from '@/views/Folder.vue'
+import { mount } from "@vue/test-utils";
+import Details from "@/views/Details.vue";
 
-describe('Folder.vue', () => {
-  it('renders folder view', () => {
+describe("Details.vue", () => {
+  it("renders details view", () => {
     const mockRoute = {
       params: {
-        id: 'Outbox'
-      }
-    }
-    const wrapper = mount(Folder, {
+        id: "Outbox",
+      },
+    };
+    const wrapper = mount(Details, {
       global: {
         mocks: {
-          $route: mockRoute
-        }
-      }
-    })
-    expect(wrapper.text()).toMatch('Select a Pokemon')
-  })
-})
+          $route: mockRoute,
+        },
+      },
+    });
+    expect(wrapper.text()).toMatch("Select a Pokemon");
+  });
+});
