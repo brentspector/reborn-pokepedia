@@ -4,7 +4,11 @@
       <ion-menu content-id="main-content" type="overlay">
         <ion-content>
           <ion-list id="inbox-list">
-            <ion-list-header>Reborn Pokepedia</ion-list-header>
+            <ion-list-header>
+              <ion-button router-link="/" class="logo">
+                <ion-img :src="logoPath()"></ion-img>
+              </ion-button>
+            </ion-list-header>
 
             <ion-menu-toggle
               auto-hide="false"
@@ -44,8 +48,10 @@
 <script lang="ts">
 import {
   IonApp,
+  IonButton,
   IonContent,
   IonIcon,
+  IonImg,
   IonItem,
   IonLabel,
   IonList,
@@ -57,6 +63,7 @@ import {
   IonToggle,
 } from "@ionic/vue";
 import { defineComponent, ref, watch } from "vue";
+import { useRouter } from "vue-router";
 import { globalStore } from "./store/global";
 import { appPages, customizationButtons } from "@/data/menu";
 
@@ -64,8 +71,10 @@ export default defineComponent({
   name: "App",
   components: {
     IonApp,
+    IonButton,
     IonContent,
     IonIcon,
+    IonImg,
     IonItem,
     IonLabel,
     IonList,
@@ -78,6 +87,7 @@ export default defineComponent({
   },
   setup() {
     const selectedIndex = ref(1);
+    const router = useRouter();
 
     const path = window.location.pathname;
     if (path !== undefined) {
@@ -86,14 +96,20 @@ export default defineComponent({
       );
     }
 
+    const logoPath = () => {
+      return process.env.BASE_URL + "assets/icon/logo.png";
+    };
+
     watch(globalStore.state, (newValue) => {
       document.body.classList.toggle("dark", newValue.darkMode);
     });
 
     return {
       selectedIndex,
+      router,
       appPages,
       customizationButtons,
+      logoPath,
     };
   },
 });
@@ -214,5 +230,12 @@ ion-note {
 
 ion-item.selected {
   --color: var(--ion-color-primary);
+}
+
+.logo {
+  height: 100%;
+  color: var(--ion-color-primary-contrast);
+  --background-activated-opacity: 0;
+  --background-hover-opacity: 0;
 }
 </style>
