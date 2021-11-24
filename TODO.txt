@@ -12,5 +12,6 @@
 * Pretty up locations/points in game display
 * Dark Mode
 Add homepage explaining how to use the app (do not route to /locations)
+Update README
 Dropdown search
 Dropdown start at last selected

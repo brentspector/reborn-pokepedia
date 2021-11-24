@@ -5,7 +5,11 @@
         <ion-content>
           <ion-list id="inbox-list">
             <ion-list-header>
-              <ion-button router-link="/" class="logo">
+              <ion-button
+                @click="selectedIndex = -1"
+                router-link="/"
+                class="logo"
+              >
                 <ion-img :src="logoPath()"></ion-img>
               </ion-button>
             </ion-list-header>
@@ -63,7 +67,6 @@ import {
   IonToggle,
 } from "@ionic/vue";
 import { defineComponent, ref, watchEffect } from "vue";
-import { useRouter } from "vue-router";
 import { globalStore } from "./store/global";
 import { appPages, customizationButtons } from "@/data/menu";
 
@@ -87,7 +90,6 @@ export default defineComponent({
   },
   setup() {
     const selectedIndex = ref(1);
-    const router = useRouter();
 
     const path = window.location.pathname;
     if (path !== undefined) {
@@ -106,7 +108,6 @@ export default defineComponent({
 
     return {
       selectedIndex,
-      router,
       appPages,
       customizationButtons,
       logoPath,

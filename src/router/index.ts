@@ -4,7 +4,7 @@ import { RouteRecordRaw } from "vue-router";
 const routes: Array<RouteRecordRaw> = [
   {
     path: "",
-    redirect: "/locations",
+    component: () => import("../views/Welcome.vue"),
   },
   {
     path: "/points",
@@ -21,10 +21,6 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: "/details/:id",
     component: () => import("../views/Details.vue"),
-  },
-  {
-    path: "/details2",
-    component: () => import("../views/Details2.vue"),
   },
 ];
 

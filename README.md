@@ -97,7 +97,7 @@ Points in game require the following criteria:
 - Points of importance where player might get stuck and need to rework team
 - 2 or more evolutionary lines are made available between any two consecutive points (i.e. if Zubat and Golbat are unlocked at the same time, it gets lumped with the next batch instead of getting a separate `Point in Game`)
 
-'Location in Game` require the following criteria:
+`Location in Game` require the following criteria:
 
 - Unique in-game location (i.e location printed in `Trainer Memo` on Pokemon details screen)
 - Sufficiently relevant encounters
@@ -128,4 +128,5 @@ Support her work on Patreon
 - Thanks to [Bradley Mc-Avoy-James](https://videogamesuncovered.com/author/bsjkupo/) for the [Pokemon type sprites](https://videogamesuncovered.com/features/Pokemon-sun-and-moon-tips-and-tricks-guide/Pokemon-types/)
 
 ### Wallpapers
+
 Electric - https://flickr.com/photos/chrisser/6997500037/in/photostream/
