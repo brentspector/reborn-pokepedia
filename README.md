@@ -2,7 +2,7 @@
 <h2 align="center">Built for</h@> <br>
 <p align="center">
   <a href="https://www.rebornevo.com/">
-    <img alt="RebornPokepedia" title="RebornPokepedia" src="https://www.rebornevo.com/images/pr/rebornsmall.png" width="450">
+    <img alt="PokemonReborn" title="PokemonReborn" src="https://www.rebornevo.com/images/pr/rebornsmall.png" width="450">
   </a>
 </p>
 
@@ -18,9 +18,6 @@
   </a>
 </p>
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -29,8 +26,6 @@
 - [Build Process](#build-process)
 - [Committing](#committing)
 - [Acknowledgments](#acknowledgments)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Introduction
 
@@ -53,6 +48,8 @@ This application is available on web, iOS, and Android.
 A few of the things you can do with Reborn Pokepedia:
 
 - Look up Pokemon by major battle (Gym, Rival, PULSE, or Major NPC)
+- Look up Pokemon by location
+- Look up details for individual Pokemon
 
 ## Feedback
 
@@ -90,7 +87,7 @@ Vue.js recommends combining HTML, CSS, and Javascript into one file, represented
 
 Data has been broken down into each generation, and some generations have been broken down into multiple portions. This is due to Babel (a compatibility library) deoptimizing files that exceed 500 kB. In order to keep build times short, files should be less than 500 kB if possible.
 
-`Point in Game` is defined as the point you have not crossed yet. For instance, If you beat Julia but have not gotten through Obsidia Slums, then your `Point in Game` would be `Obsidia Slums`.
+`Point in Game` is defined as the point you have not crossed yet. For instance, If you beat Julia but have not gotten through Pulse Tangrowth 1, then your `Point in Game` would be `ZEL/Pulse Tangrowth 1`.
 
 Points in game require the following criteria:
 
@@ -126,7 +123,3 @@ Support her work on Patreon
 - Thanks to [Aegisth](https://www.rebornevo.com/forums/profile/77714-aegisth/) for [E18 Pokemon Spreadsheet](https://www.rebornevo.com/forums/topic/43367-e18-Pokemon-locations-spreadsheet-all-wild-and-event-Pokemon-plus-more/)
 - Thanks to [Aboodie](https://www.rebornevo.com/forums/profile/65028-aboodie/) for [E18 Item Guide](https://www.rebornevo.com/forums/topic/41661-item-guide-v18-void-kissed/)
 - Thanks to [Bradley Mc-Avoy-James](https://videogamesuncovered.com/author/bsjkupo/) for the [Pokemon type sprites](https://videogamesuncovered.com/features/Pokemon-sun-and-moon-tips-and-tricks-guide/Pokemon-types/)
-
-### Wallpapers
-
-Electric - https://flickr.com/photos/chrisser/6997500037/in/photostream/

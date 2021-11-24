@@ -36,7 +36,7 @@
             </ion-item>
 
             <p>
-              "Game Points" will allow you to view pokemon available based on
+              "Game Points" will allow you to view Pokemon available based on
               your progress in game. <code>Point in Game</code> is defined as
               the point you have not crossed yet. For instance, If you beat
               Julia but have not defeated Pulse Tangrowth 1, then your
@@ -51,12 +51,12 @@
               Julia, and then find it in new locations after Julia.
             </p>
             <p>
-              Each pokemon displayed can be clicked to open a popup with more
-              details about that pokemon. This popup uses the same structure and
+              Each Pokemon displayed can be clicked to open a popup with more
+              details about that Pokemon. This popup uses the same structure and
               data as Pokemon Details.
             </p>
             <p>
-              This can be reached directly by adding "/points" to the base URL.
+              This can be reached directly by adding "/points/" to the base URL.
             </p>
             <!-- Section Break -->
             <ion-item>
@@ -70,21 +70,21 @@
             </ion-item>
 
             <p>
-              "Game Locations" will allow you to view pokemon available based on
+              "Game Locations" will allow you to view Pokemon available based on
               the location selected. <code>Location</code> is defined as a
               unique in-game location (i.e. location printed in
-              <code>Trainer Memo</code> on the pokemon details screen) and
+              <code>Trainer Memo</code> on the Pokemon details screen) and
               having sufficiently relevant encounters. Some areas (like
               <code>Glitch World</code>) combine several maps with different
               locations in order to keep things easier to manage.
             </p>
             <p>
-              Each pokemon displayed can be clicked to open a popup with more
-              details about that pokemon. This popup uses the same structure and
+              Each Pokemon displayed can be clicked to open a popup with more
+              details about that Pokemon. This popup uses the same structure and
               data as Pokemon Details.
             </p>
             <p>
-              This can be reached directly by adding "/locations" to the base
+              This can be reached directly by adding "/locations/" to the base
               URL.
             </p>
             <!-- Section Break -->
@@ -99,12 +99,13 @@
             </ion-item>
             <p>
               "Pokemon Details" will allow you to view game information related
-              to a specific pokemon. This is useful for viewing what moves a
-              pokemon can learn at a certain point in the game, as well as what
-              locations a pokemon can be found.
+              to a specific Pokemon. This is useful for viewing what moves a
+              Pokemon can learn at a certain point in the game, as well as what
+              locations a Pokemon can be found.
             </p>
             <p>
-              This can be reached directly by adding "/details" to the base URL.
+              This can be reached directly by adding "/details/" to the base
+              URL.
             </p>
             <!-- Section Break -->
             <ion-item>
@@ -118,13 +119,13 @@
             </ion-item>
             <p>
               "Pokemon Details" has a shortcut feature when directly navigating
-              via URL. By adding a pokemon ID to the details URL, you can
-              directly reach the desired pokemon.
+              via URL. By adding a Pokemon ID to the details URL, you can
+              directly reach the desired Pokemon.
             </p>
             <p>Example:</p>
             <p>
               <code>Mew</code> is ID <code>151</code>, so to reach it, you can
-              add "/details/151/" to the base URL and see all the details about
+              add "/details/151" to the base URL and see all the details about
               <code>Mew</code> without needing to use the dropdown menu.
             </p>
             <!-- Section Break -->
