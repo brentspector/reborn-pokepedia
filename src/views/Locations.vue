@@ -155,7 +155,7 @@ export default defineComponent({
     IonThumbnail,
   },
   setup() {
-    let pokemonAtLocation: Pokemon[] = reactive([]);
+    const pokemonAtLocation: Pokemon[] = reactive([]);
     const locationInGame = ref("");
     const pokemonData = pokemonData10.concat(
       pokemonData11,

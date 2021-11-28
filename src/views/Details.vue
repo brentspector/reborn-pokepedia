@@ -264,8 +264,8 @@ export default defineComponent({
       pokemonData71
     );
     const route = useRoute();
-    let moveList: string[] = [];
-    let ptLevel = ref(0);
+    const moveList: string[] = [];
+    const ptLevel = ref(0);
     const isModal = ref(false);
     const pokemonSel = ref(pokemonData[0]);
     const pokemonPath = () => {
@@ -305,8 +305,8 @@ export default defineComponent({
         moveList.splice(0, moveList.length);
 
         // Get all points up to this point
-        let pointNames = gamePoints.map((e) => e.name);
-        let cumulativePoints = pointNames.slice(
+        const pointNames = gamePoints.map((e) => e.name);
+        const cumulativePoints = pointNames.slice(
           0,
           pointNames.indexOf(point.name) + 1
         );
