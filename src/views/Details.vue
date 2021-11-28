@@ -169,7 +169,7 @@
       <ion-fab v-if="isModal" vertical="bottom" horizontal="end" slot="fixed">
         <ion-fab-button
           activated="true"
-          @click="modalCallback"
+          @click="modalCallbackWrapper"
         ></ion-fab-button>
       </ion-fab>
     </ion-content>
@@ -268,6 +268,16 @@ export default defineComponent({
     const ptLevel = ref(0);
     const isModal = ref(false);
     const pokemonSel = ref(pokemonData[0]);
+    // Typescript doesn't like that modalCallback is possibly undefined
+    // thus we can't directly call it via @click nor invoke it as a lambda
+    // so we do this little song and dance to let typescript know that
+    // yes, it is in fact callable, please stop failing
+    const modalCallbackWrapper = () => {
+      if (typeof props.modalCallback == "function") {
+        const mcb = props.modalCallback as Function;
+        mcb();
+      }
+    };
     const pokemonPath = () => {
       return (
         process.env.BASE_URL + "assets/pokemon/" + pokemonSel.value.no + ".png"
@@ -366,6 +376,7 @@ export default defineComponent({
       pokemonData,
       gamePoints,
       statOrder,
+      modalCallbackWrapper,
       pokemonPath,
       pokemonTypePath,
       headerColorClass,
