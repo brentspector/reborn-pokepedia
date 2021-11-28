@@ -201,6 +201,7 @@ export default defineComponent({
 
         // Filter for pokemon and then add them to the reactive array
         pokemonData
+          // eslint-disable-next-line
           .filter((pk, idx, arr) => pokemonPoint(pk))
           .forEach((e) => pokemonAtPoint.push(e));
       }

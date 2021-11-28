@@ -5,7 +5,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Rowlet",
     types: ["Grass", "Flying"],
     stats: [68, 55, 55, 42, 50, 50],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["TACKLE", "LEAFAGE"],
       "4": ["GROWL"],
       "8": ["PECK"],
@@ -22,7 +22,7 @@ export const pokemonData70: Pokemon[] = [
       "43": ["BRAVEBIRD"],
       "46": ["NASTYPLOT"],
     },
-    egg_moves: [
+    eggMoves: [
       "BATONPASS",
       "CONFUSERAY",
       "CURSE",
@@ -30,7 +30,7 @@ export const pokemonData70: Pokemon[] = [
       "HAZE",
       "OMINOUSWIND",
     ],
-    tm_tutor_moves: [
+    tmTutorMoves: [
       "WORKUP",
       "TOXIC",
       "HIDDENPOWER",
@@ -82,7 +82,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Dartrix",
     types: ["Grass", "Flying"],
     stats: [78, 75, 75, 52, 70, 70],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["TACKLE", "LEAFAGE", "GROWL", "PECK"],
       "4": ["GROWL"],
       "8": ["PECK"],
@@ -99,8 +99,8 @@ export const pokemonData70: Pokemon[] = [
       "51": ["BRAVEBIRD"],
       "55": ["NASTYPLOT"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "TOXIC",
       "HIDDENPOWER",
@@ -146,7 +146,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Decidueye",
     types: ["Grass", "Ghost"],
     stats: [78, 107, 75, 70, 100, 100],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["SPIRITSHACKLE"],
       "1": [
         "PHANTOMFORCE",
@@ -173,8 +173,8 @@ export const pokemonData70: Pokemon[] = [
       "55": ["BRAVEBIRD"],
       "60": ["NASTYPLOT"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "TOXIC",
       "HIDDENPOWER",
@@ -230,7 +230,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Litten",
     types: ["Fire"],
     stats: [45, 65, 40, 70, 60, 40],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["SCRATCH", "EMBER"],
       "4": ["GROWL"],
       "8": ["LICK"],
@@ -247,7 +247,7 @@ export const pokemonData70: Pokemon[] = [
       "43": ["FLAREBLITZ"],
       "46": ["OUTRAGE"],
     },
-    egg_moves: [
+    eggMoves: [
       "BODYSLAM",
       "CRUNCH",
       "FAKEOUT",
@@ -256,7 +256,7 @@ export const pokemonData70: Pokemon[] = [
       "POWERTRIP",
       "REVENGE",
     ],
-    tm_tutor_moves: [
+    tmTutorMoves: [
       "WORKUP",
       "ROAR",
       "TOXIC",
@@ -312,7 +312,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Torracat",
     types: ["Fire"],
     stats: [65, 85, 50, 90, 80, 50],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["SCRATCH", "EMBER", "GROWL", "LICK"],
       "4": ["GROWL"],
       "8": ["LICK"],
@@ -329,8 +329,8 @@ export const pokemonData70: Pokemon[] = [
       "51": ["FLAREBLITZ"],
       "55": ["OUTRAGE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "ROAR",
       "TOXIC",
@@ -376,7 +376,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Incineroar",
     types: ["Fire", "Dark"],
     stats: [95, 115, 90, 60, 80, 90],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["DARKESTLARIAT"],
       "1": ["BULKUP", "THROATCHOP", "SCRATCH", "EMBER", "GROWL", "LICK"],
       "4": ["GROWL"],
@@ -395,8 +395,8 @@ export const pokemonData70: Pokemon[] = [
       "60": ["OUTRAGE"],
       "66": ["CROSSCHOP"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "ROAR",
       "TOXIC",
@@ -468,7 +468,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Popplio",
     types: ["Water"],
     stats: [50, 54, 54, 40, 66, 56],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["POUND", "WATERGUN"],
       "4": ["GROWL"],
       "8": ["DISARMINGVOICE"],
@@ -485,7 +485,7 @@ export const pokemonData70: Pokemon[] = [
       "43": ["HYDROPUMP"],
       "46": ["MISTYTERRAIN"],
     },
-    egg_moves: [
+    eggMoves: [
       "AMNESIA",
       "AQUARING",
       "AROMATICMIST",
@@ -493,7 +493,7 @@ export const pokemonData70: Pokemon[] = [
       "PERISHSONG",
       "WONDERROOM",
     ],
-    tm_tutor_moves: [
+    tmTutorMoves: [
       "WORKUP",
       "TOXIC",
       "HAIL",
@@ -543,7 +543,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Brionne",
     types: ["Water"],
     stats: [60, 69, 69, 50, 91, 81],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["POUND", "WATERGUN", "GROWL", "DISARMINGVOICE"],
       "4": ["GROWL"],
       "8": ["DISARMINGVOICE"],
@@ -560,8 +560,8 @@ export const pokemonData70: Pokemon[] = [
       "51": ["HYDROPUMP"],
       "55": ["MISTYTERRAIN"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "TOXIC",
       "HAIL",
@@ -605,7 +605,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Primarina",
     types: ["Water", "Fairy"],
     stats: [80, 74, 74, 60, 126, 116],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["SPARKLINGARIA"],
       "1": ["POUND", "WATERGUN", "GROWL", "DISARMINGVOICE"],
       "4": ["GROWL"],
@@ -623,8 +623,8 @@ export const pokemonData70: Pokemon[] = [
       "55": ["HYDROPUMP"],
       "60": ["MISTYTERRAIN"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "TOXIC",
       "HAIL",
@@ -679,7 +679,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Pikipek",
     types: ["Normal", "Flying"],
     stats: [35, 75, 30, 65, 30, 30],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["PECK"],
       "3": ["GROWL"],
       "7": ["ECHOEDVOICE"],
@@ -694,8 +694,8 @@ export const pokemonData70: Pokemon[] = [
       "33": ["FEATHERDANCE"],
       "37": ["HYPERVOICE"],
     },
-    egg_moves: ["BOOMBURST", "BRAVEBIRD", "MIRRORMOVE", "TAILWIND", "UPROAR"],
-    tm_tutor_moves: [
+    eggMoves: ["BOOMBURST", "BRAVEBIRD", "MIRRORMOVE", "TAILWIND", "UPROAR"],
+    tmTutorMoves: [
       "WORKUP",
       "TOXIC",
       "HIDDENPOWER",
@@ -742,7 +742,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Trumbeak",
     types: ["Normal", "Flying"],
     stats: [55, 85, 50, 75, 40, 50],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["ROCKBLAST", "PECK", "GROWL", "ECHOEDVOICE", "ROCKSMASH"],
       "3": ["GROWL"],
       "7": ["ECHOEDVOICE"],
@@ -757,8 +757,8 @@ export const pokemonData70: Pokemon[] = [
       "40": ["FEATHERDANCE"],
       "45": ["HYPERVOICE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "TOXIC",
       "HIDDENPOWER",
@@ -805,7 +805,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Toucannon",
     types: ["Normal", "Flying"],
     stats: [80, 120, 75, 60, 75, 75],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["BEAKBLAST"],
       "1": ["ROCKBLAST", "PECK", "GROWL", "ECHOEDVOICE", "ROCKSMASH"],
       "3": ["GROWL"],
@@ -821,8 +821,8 @@ export const pokemonData70: Pokemon[] = [
       "44": ["FEATHERDANCE"],
       "50": ["HYPERVOICE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "TOXIC",
       "HIDDENPOWER",
@@ -872,7 +872,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Yungoos",
     types: ["Normal"],
     stats: [48, 70, 30, 45, 30, 30],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["TACKLE"],
       "3": ["LEER"],
       "7": ["PURSUIT"],
@@ -890,8 +890,8 @@ export const pokemonData70: Pokemon[] = [
       "43": ["THRASH"],
       "46": ["REST"],
     },
-    egg_moves: ["FIREFANG", "ICEFANG", "LASTRESORT", "REVENGE", "THUNDERFANG"],
-    tm_tutor_moves: [
+    eggMoves: ["FIREFANG", "ICEFANG", "LASTRESORT", "REVENGE", "THUNDERFANG"],
+    tmTutorMoves: [
       "WORKUP",
       "TOXIC",
       "HIDDENPOWER",
@@ -944,7 +944,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Gumshoos",
     types: ["Normal"],
     stats: [88, 110, 60, 45, 55, 60],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["TACKLE", "LEER", "PURSUIT", "SANDATTACK"],
       "3": ["LEER"],
       "7": ["PURSUIT"],
@@ -962,8 +962,8 @@ export const pokemonData70: Pokemon[] = [
       "51": ["THRASH"],
       "55": ["REST"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "ROAR",
       "TOXIC",
@@ -1017,7 +1017,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Grubbin",
     types: ["Bug"],
     stats: [47, 62, 45, 46, 55, 45],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["VICEGRIP"],
       "4": ["STRINGSHOT"],
       "7": ["MUDSLAP"],
@@ -1029,8 +1029,8 @@ export const pokemonData70: Pokemon[] = [
       "25": ["XSCISSOR"],
       "28": ["DIG"],
     },
-    egg_moves: ["ELECTROWEB", "ENDURE", "HARDEN", "MUDSHOT"],
-    tm_tutor_moves: [
+    eggMoves: ["ELECTROWEB", "ENDURE", "HARDEN", "MUDSHOT"],
+    tmTutorMoves: [
       "TOXIC",
       "HIDDENPOWER",
       "LIGHTSCREEN",
@@ -1080,7 +1080,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Charjabug",
     types: ["Bug", "Electric"],
     stats: [57, 82, 95, 36, 55, 75],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["CHARGE"],
       "1": ["VICEGRIP", "STRINGSHOT", "MUDSLAP", "BITE"],
       "4": ["STRINGSHOT"],
@@ -1095,8 +1095,8 @@ export const pokemonData70: Pokemon[] = [
       "43": ["DISCHARGE"],
       "49": ["IRONDEFENSE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "TOXIC",
       "HIDDENPOWER",
       "LIGHTSCREEN",
@@ -1142,7 +1142,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Vikavolt",
     types: ["Bug", "Electric"],
     stats: [77, 70, 90, 43, 145, 75],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["THUNDERBOLT"],
       "1": ["AIRSLASH", "CHARGE", "VICEGRIP", "STRINGSHOT", "MUDSLAP", "BITE"],
       "4": ["STRINGSHOT"],
@@ -1157,8 +1157,8 @@ export const pokemonData70: Pokemon[] = [
       "41": ["ZAPCANNON"],
       "49": ["AGILITY"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "TOXIC",
       "HIDDENPOWER",
       "HYPERBEAM",
@@ -1214,7 +1214,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Crabrawler",
     types: ["Fighting"],
     stats: [47, 82, 57, 63, 42, 47],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["BUBBLE"],
       "5": ["ROCKSMASH"],
       "9": ["LEER"],
@@ -1229,8 +1229,8 @@ export const pokemonData70: Pokemon[] = [
       "45": ["DYNAMICPUNCH"],
       "49": ["CLOSECOMBAT"],
     },
-    egg_moves: ["AMNESIA", "ENDEAVOR", "SUPERPOWER", "WIDEGUARD"],
-    tm_tutor_moves: [
+    eggMoves: ["AMNESIA", "ENDEAVOR", "SUPERPOWER", "WIDEGUARD"],
+    tmTutorMoves: [
       "WORKUP",
       "TOXIC",
       "BULKUP",
@@ -1282,7 +1282,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Crabominable",
     types: ["Fighting", "Ice"],
     stats: [97, 132, 77, 43, 62, 67],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["ICEPUNCH"],
       "1": ["BUBBLE", "ROCKSMASH", "LEER", "PURSUIT"],
       "5": ["ROCKSMASH"],
@@ -1298,8 +1298,8 @@ export const pokemonData70: Pokemon[] = [
       "45": ["DYNAMICPUNCH"],
       "49": ["CLOSECOMBAT"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "TOXIC",
       "HAIL",
@@ -1359,7 +1359,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Oricorio",
     types: ["Fire", "Flying"],
     stats: [75, 70, 70, 93, 98, 70],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["POUND"],
       "4": ["GROWL"],
       "6": ["PECK"],
@@ -1377,8 +1377,8 @@ export const pokemonData70: Pokemon[] = [
       "46": ["AGILITY"],
       "50": ["HURRICANE"],
     },
-    egg_moves: ["CAPTIVATE", "PLUCK", "SAFEGUARD", "TAILWIND"],
-    tm_tutor_moves: [
+    eggMoves: ["CAPTIVATE", "PLUCK", "SAFEGUARD", "TAILWIND"],
+    tmTutorMoves: [
       "WORKUP",
       "CALMMIND",
       "TOXIC",
@@ -1425,7 +1425,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Oricorio (Pom-Pom Style)",
     types: ["Electric", "Flying"],
     stats: [75, 70, 70, 93, 98, 70],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["POUND"],
       "4": ["GROWL"],
       "6": ["PECK"],
@@ -1443,8 +1443,8 @@ export const pokemonData70: Pokemon[] = [
       "46": ["AGILITY"],
       "50": ["HURRICANE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "CALMMIND",
       "TOXIC",
@@ -1489,7 +1489,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Oricorio (Pa'u Style)",
     types: ["Psychic", "Flying"],
     stats: [75, 70, 70, 93, 98, 70],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["POUND"],
       "4": ["GROWL"],
       "6": ["PECK"],
@@ -1507,8 +1507,8 @@ export const pokemonData70: Pokemon[] = [
       "46": ["AGILITY"],
       "50": ["HURRICANE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "CALMMIND",
       "TOXIC",
@@ -1553,7 +1553,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Oricorio (Sensu Style)",
     types: ["Ghost", "Flying"],
     stats: [75, 70, 70, 93, 98, 70],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["POUND"],
       "4": ["GROWL"],
       "6": ["PECK"],
@@ -1571,8 +1571,8 @@ export const pokemonData70: Pokemon[] = [
       "46": ["AGILITY"],
       "50": ["HURRICANE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "CALMMIND",
       "TOXIC",
@@ -1617,7 +1617,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Cutiefly",
     types: ["Bug", "Fairy"],
     stats: [40, 45, 40, 84, 55, 40],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["ABSORB"],
       "4": ["FAIRYWIND"],
       "7": ["STUNSPORE"],
@@ -1630,7 +1630,7 @@ export const pokemonData70: Pokemon[] = [
       "36": ["AROMATHERAPY"],
       "41": ["QUIVERDANCE"],
     },
-    egg_moves: [
+    eggMoves: [
       "BATONPASS",
       "BESTOW",
       "MOONBLAST",
@@ -1639,7 +1639,7 @@ export const pokemonData70: Pokemon[] = [
       "SPEEDSWAP",
       "STICKYWEB",
     ],
-    tm_tutor_moves: [
+    tmTutorMoves: [
       "CALMMIND",
       "TOXIC",
       "HIDDENPOWER",
@@ -1696,7 +1696,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Ribombee",
     types: ["Bug", "Fairy"],
     stats: [60, 55, 60, 124, 95, 70],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["POLLENPUFF"],
       "1": ["ABSORB", "FAIRYWIND", "STUNSPORE", "STRUGGLEBUG"],
       "4": ["FAIRYWIND"],
@@ -1710,8 +1710,8 @@ export const pokemonData70: Pokemon[] = [
       "42": ["AROMATHERAPY"],
       "49": ["QUIVERDANCE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "CALMMIND",
       "TOXIC",
       "HIDDENPOWER",
@@ -1775,7 +1775,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Rockruff",
     types: ["Rock"],
     stats: [45, 65, 40, 60, 30, 40],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["TACKLE", "LEER"],
       "4": ["SANDATTACK"],
       "7": ["BITE"],
@@ -1791,14 +1791,8 @@ export const pokemonData70: Pokemon[] = [
       "45": ["ROCKCLIMB"],
       "48": ["STONEEDGE"],
     },
-    egg_moves: [
-      "CRUSHCLAW",
-      "FIREFANG",
-      "SUCKERPUNCH",
-      "THRASH",
-      "THUNDERFANG",
-    ],
-    tm_tutor_moves: [
+    eggMoves: ["CRUSHCLAW", "FIREFANG", "SUCKERPUNCH", "THRASH", "THUNDERFANG"],
+    tmTutorMoves: [
       "ROAR",
       "TOXIC",
       "HIDDENPOWER",
@@ -1854,7 +1848,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Lycanroc",
     types: ["Rock"],
     stats: [75, 115, 65, 112, 55, 65],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["ACCELEROCK"],
       "1": [
         "QUICKGUARD",
@@ -1878,8 +1872,8 @@ export const pokemonData70: Pokemon[] = [
       "45": ["ROCKCLIMB"],
       "48": ["STONEEDGE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "ROAR",
       "TOXIC",
       "BULKUP",
@@ -1930,7 +1924,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Lycanroc (Midnight Form)",
     types: ["Rock"],
     stats: [85, 115, 75, 82, 55, 75],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["COUNTER"],
       "1": [
         "COUNTER",
@@ -1955,8 +1949,8 @@ export const pokemonData70: Pokemon[] = [
       "45": ["ROCKCLIMB"],
       "48": ["STONEEDGE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "ROAR",
       "TOXIC",
       "BULKUP",
@@ -2015,7 +2009,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Lycanroc (Dusk Form)",
     types: ["Rock"],
     stats: [75, 117, 65, 110, 55, 65],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["THRASH"],
       "1": [
         "THRASH",
@@ -2040,8 +2034,8 @@ export const pokemonData70: Pokemon[] = [
       "45": ["ROCKCLIMB"],
       "48": ["STONEEDGE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "ROAR",
       "TOXIC",
       "BULKUP",
@@ -2093,7 +2087,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Wishiwashi",
     types: ["Water"],
     stats: [45, 20, 20, 40, 25, 25],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["WATERGUN", "GROWL"],
       "6": ["HELPINGHAND"],
       "9": ["FEINTATTACK"],
@@ -2109,8 +2103,8 @@ export const pokemonData70: Pokemon[] = [
       "49": ["ENDEAVOR"],
       "54": ["HYDROPUMP"],
     },
-    egg_moves: ["MIST", "MUDDYWATER", "WATERPULSE", "WATERSPORT", "WHIRLPOOL"],
-    tm_tutor_moves: [
+    eggMoves: ["MIST", "MUDDYWATER", "WATERPULSE", "WATERSPORT", "WHIRLPOOL"],
+    tmTutorMoves: [
       "TOXIC",
       "HAIL",
       "HIDDENPOWER",
@@ -2158,7 +2152,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Wishiwashi (School Form)",
     types: ["Water"],
     stats: [45, 140, 130, 30, 140, 135],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["WATERGUN", "GROWL"],
       "6": ["HELPINGHAND"],
       "9": ["FEINTATTACK"],
@@ -2174,8 +2168,8 @@ export const pokemonData70: Pokemon[] = [
       "49": ["ENDEAVOR"],
       "54": ["HYDROPUMP"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "TOXIC",
       "HAIL",
       "HIDDENPOWER",
@@ -2215,7 +2209,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Mareanie",
     types: ["Poison", "Water"],
     stats: [50, 53, 62, 45, 43, 52],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["POISONSTING"],
       "5": ["PECK"],
       "9": ["BITE"],
@@ -2230,8 +2224,8 @@ export const pokemonData70: Pokemon[] = [
       "45": ["PINMISSILE"],
       "49": ["LIQUIDATION"],
     },
-    egg_moves: ["HAZE", "SPITUP", "STOCKPILE", "SWALLOW"],
-    tm_tutor_moves: [
+    eggMoves: ["HAZE", "SPITUP", "STOCKPILE", "SWALLOW"],
+    tmTutorMoves: [
       "TOXIC",
       "HAIL",
       "VENOSHOCK",
@@ -2291,7 +2285,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Toxapex",
     types: ["Poison", "Water"],
     stats: [50, 63, 152, 35, 53, 142],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["BANEFULBUNKER"],
       "1": ["POISONSTING", "PECK", "BITE", "TOXICSPIKES"],
       "5": ["PECK"],
@@ -2307,8 +2301,8 @@ export const pokemonData70: Pokemon[] = [
       "51": ["PINMISSILE"],
       "58": ["LIQUIDATION"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "TOXIC",
       "HAIL",
       "VENOSHOCK",
@@ -2362,7 +2356,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Mudbray",
     types: ["Ground"],
     stats: [70, 100, 70, 45, 45, 55],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["MUDSLAP"],
       "3": ["MUDSPORT"],
       "8": ["ROTOTILLER"],
@@ -2378,14 +2372,8 @@ export const pokemonData70: Pokemon[] = [
       "43": ["MEGAKICK"],
       "45": ["SUPERPOWER"],
     },
-    egg_moves: [
-      "BODYSLAM",
-      "CLOSECOMBAT",
-      "DOUBLEEDGE",
-      "MAGNITUDE",
-      "MUDBOMB",
-    ],
-    tm_tutor_moves: [
+    eggMoves: ["BODYSLAM", "CLOSECOMBAT", "DOUBLEEDGE", "MAGNITUDE", "MUDBOMB"],
+    tmTutorMoves: [
       "ROAR",
       "TOXIC",
       "HIDDENPOWER",
@@ -2427,7 +2415,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Mudsdale",
     types: ["Ground"],
     stats: [100, 125, 100, 35, 55, 85],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["MUDSLAP", "MUDSPORT", "ROTOTILLER", "BULLDOZE"],
       "3": ["MUDSPORT"],
       "8": ["ROTOTILLER"],
@@ -2443,8 +2431,8 @@ export const pokemonData70: Pokemon[] = [
       "55": ["MEGAKICK"],
       "60": ["SUPERPOWER"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "ROAR",
       "TOXIC",
       "HIDDENPOWER",
@@ -2488,7 +2476,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Dewpider",
     types: ["Water", "Bug"],
     stats: [38, 40, 52, 27, 40, 72],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["WATERSPORT", "BUBBLE"],
       "5": ["INFESTATION"],
       "8": ["SPIDERWEB"],
@@ -2503,8 +2491,8 @@ export const pokemonData70: Pokemon[] = [
       "45": ["LIQUIDATION"],
       "48": ["ENTRAINMENT"],
     },
-    egg_moves: ["AURORABEAM", "POWERSPLIT", "SPITUP", "STICKYWEB", "STOCKPILE"],
-    tm_tutor_moves: [
+    eggMoves: ["AURORABEAM", "POWERSPLIT", "SPITUP", "STICKYWEB", "STOCKPILE"],
+    tmTutorMoves: [
       "TOXIC",
       "HIDDENPOWER",
       "ICEBEAM",
@@ -2551,7 +2539,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Araquanid",
     types: ["Water", "Bug"],
     stats: [68, 70, 92, 42, 50, 132],
-    level_up_moves: {
+    levelUpMoves: {
       "1": [
         "WIDEGUARD",
         "SOAK",
@@ -2573,8 +2561,8 @@ export const pokemonData70: Pokemon[] = [
       "57": ["LIQUIDATION"],
       "62": ["ENTRAINMENT"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "TOXIC",
       "HIDDENPOWER",
       "ICEBEAM",
@@ -2624,7 +2612,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Fomantis",
     types: ["Grass"],
     stats: [40, 55, 35, 35, 50, 35],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["FURYCUTTER"],
       "5": ["LEAFAGE"],
       "10": ["RAZORLEAF"],
@@ -2637,14 +2625,14 @@ export const pokemonData70: Pokemon[] = [
       "41": ["SOLARBEAM"],
       "46": ["SUNNYDAY"],
     },
-    egg_moves: [
+    eggMoves: [
       "AROMATHERAPY",
       "DEFOG",
       "GIGADRAIN",
       "LEAFSTORM",
       "WEATHERBALL",
     ],
-    tm_tutor_moves: [
+    tmTutorMoves: [
       "TOXIC",
       "HIDDENPOWER",
       "SUNNYDAY",
@@ -2695,7 +2683,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Lurantis",
     types: ["Grass"],
     stats: [70, 105, 90, 45, 80, 90],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["PETALBLIZZARD"],
       "1": [
         "XSCISSOR",
@@ -2716,8 +2704,8 @@ export const pokemonData70: Pokemon[] = [
       "47": ["SOLARBLADE"],
       "55": ["SUNNYDAY"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "TOXIC",
       "HIDDENPOWER",
       "SUNNYDAY",
@@ -2772,7 +2760,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Morelull",
     types: ["Grass", "Fairy"],
     stats: [40, 35, 55, 15, 65, 75],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["ABSORB"],
       "4": ["ASTONISH"],
       "8": ["FLASH"],
@@ -2788,8 +2776,8 @@ export const pokemonData70: Pokemon[] = [
       "43": ["DREAMEATER"],
       "46": ["SPOTLIGHT"],
     },
-    egg_moves: ["AMNESIA", "GROWTH", "LEECHSEED", "POISONPOWDER", "STUNSPORE"],
-    tm_tutor_moves: [
+    eggMoves: ["AMNESIA", "GROWTH", "LEECHSEED", "POISONPOWDER", "STUNSPORE"],
+    tmTutorMoves: [
       "TOXIC",
       "HIDDENPOWER",
       "SUNNYDAY",
@@ -2841,7 +2829,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Shiinotic",
     types: ["Grass", "Fairy"],
     stats: [60, 45, 80, 30, 90, 100],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["ABSORB", "ASTONISH", "INGRAIN", "FLASH"],
       "4": ["ASTONISH"],
       "8": ["FLASH"],
@@ -2857,8 +2845,8 @@ export const pokemonData70: Pokemon[] = [
       "49": ["DREAMEATER"],
       "53": ["SPOTLIGHT"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "TOXIC",
       "HIDDENPOWER",
       "SUNNYDAY",
@@ -2907,7 +2895,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Salandit",
     types: ["Poison", "Fire"],
     stats: [48, 44, 40, 77, 71, 40],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["SCRATCH", "POISONGAS"],
       "5": ["EMBER"],
       "8": ["SWEETSCENT"],
@@ -2922,8 +2910,8 @@ export const pokemonData70: Pokemon[] = [
       "45": ["VENOMDRENCH"],
       "48": ["DRAGONPULSE"],
     },
-    egg_moves: ["BELCH", "FAKEOUT", "KNOCKOFF", "SANDATTACK", "SNATCH"],
-    tm_tutor_moves: [
+    eggMoves: ["BELCH", "FAKEOUT", "KNOCKOFF", "SANDATTACK", "SNATCH"],
+    tmTutorMoves: [
       "DRAGONCLAW",
       "TOXIC",
       "VENOSHOCK",
@@ -2979,7 +2967,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Salazzle",
     types: ["Poison", "Fire"],
     stats: [68, 64, 60, 117, 111, 60],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["CAPTIVATE"],
       "1": [
         "DISABLE",
@@ -3004,8 +2992,8 @@ export const pokemonData70: Pokemon[] = [
       "51": ["VENOMDRENCH"],
       "56": ["DRAGONPULSE"],
     },
-    egg_moves: ["BELCH", "FAKEOUT", "KNOCKOFF", "SANDATTACK", "SNATCH"],
-    tm_tutor_moves: [
+    eggMoves: ["BELCH", "FAKEOUT", "KNOCKOFF", "SANDATTACK", "SNATCH"],
+    tmTutorMoves: [
       "DRAGONCLAW",
       "TOXIC",
       "VENOSHOCK",
@@ -3058,7 +3046,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Stufful",
     types: ["Normal", "Fighting"],
     stats: [70, 75, 50, 50, 45, 50],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["TACKLE", "LEER"],
       "5": ["BIDE"],
       "10": ["BABYDOLLEYES"],
@@ -3072,7 +3060,7 @@ export const pokemonData70: Pokemon[] = [
       "46": ["DOUBLEEDGE"],
       "50": ["SUPERPOWER"],
     },
-    egg_moves: [
+    eggMoves: [
       "ENDURE",
       "FORCEPALM",
       "ICEPUNCH",
@@ -3081,7 +3069,7 @@ export const pokemonData70: Pokemon[] = [
       "THUNDERPUNCH",
       "WIDEGUARD",
     ],
-    tm_tutor_moves: [
+    tmTutorMoves: [
       "WORKUP",
       "ROAR",
       "TOXIC",
@@ -3138,7 +3126,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Bewear",
     types: ["Normal", "Fighting"],
     stats: [120, 125, 80, 60, 55, 60],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["BIND"],
       "1": ["TACKLE", "LEER"],
       "5": ["BIDE"],
@@ -3153,8 +3141,8 @@ export const pokemonData70: Pokemon[] = [
       "56": ["DOUBLEEDGE"],
       "62": ["SUPERPOWER"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "DRAGONCLAW",
       "ROAR",
@@ -3222,7 +3210,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Bounsweet",
     types: ["Grass"],
     stats: [42, 30, 38, 32, 30, 38],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["SPLASH"],
       "5": ["PLAYNICE"],
       "9": ["RAPIDSPIN"],
@@ -3233,7 +3221,7 @@ export const pokemonData70: Pokemon[] = [
       "29": ["FLAIL"],
       "33": ["AROMATICMIST"],
     },
-    egg_moves: [
+    eggMoves: [
       "ACUPRESSURE",
       "CHARM",
       "FEINT",
@@ -3241,7 +3229,7 @@ export const pokemonData70: Pokemon[] = [
       "PLAYROUGH",
       "SYNTHESIS",
     ],
-    tm_tutor_moves: [
+    tmTutorMoves: [
       "TOXIC",
       "HIDDENPOWER",
       "SUNNYDAY",
@@ -3289,7 +3277,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Steenee",
     types: ["Grass"],
     stats: [52, 40, 48, 62, 40, 48],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["DOUBLESLAP"],
       "1": ["SPLASH", "PLAYNICE", "RAPIDSPIN", "RAZORLEAF"],
       "5": ["PLAYNICE"],
@@ -3304,8 +3292,8 @@ export const pokemonData70: Pokemon[] = [
       "41": ["AROMATHERAPY"],
       "45": ["LEAFSTORM"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "TOXIC",
       "HIDDENPOWER",
       "SUNNYDAY",
@@ -3351,7 +3339,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Tsareena",
     types: ["Grass"],
     stats: [72, 120, 98, 72, 50, 98],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["TROPKICK"],
       "1": [
         "PUNISHMENT",
@@ -3375,8 +3363,8 @@ export const pokemonData70: Pokemon[] = [
       "49": ["HIJUMPKICK"],
       "53": ["POWERWHIP"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "TOXIC",
       "HIDDENPOWER",
       "SUNNYDAY",
@@ -3427,7 +3415,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Comfey",
     types: ["Fairy"],
     stats: [51, 52, 90, 100, 82, 110],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["HELPINGHAND", "VINEWHIP", "FLOWERSHIELD"],
       "4": ["LEECHSEED"],
       "7": ["DRAININGKISS"],
@@ -3446,8 +3434,8 @@ export const pokemonData70: Pokemon[] = [
       "46": ["GRASSYTERRAIN"],
       "49": ["PLAYROUGH"],
     },
-    egg_moves: ["AFTERYOU", "AMNESIA", "ENDURE", "LUCKYCHANT"],
-    tm_tutor_moves: [
+    eggMoves: ["AFTERYOU", "AMNESIA", "ENDURE", "LUCKYCHANT"],
+    tmTutorMoves: [
       "CALMMIND",
       "TOXIC",
       "HIDDENPOWER",
@@ -3506,7 +3494,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Oranguru",
     types: ["Normal", "Psychic"],
     stats: [90, 60, 80, 60, 90, 110],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["CONFUSION"],
       "4": ["AFTERYOU"],
       "8": ["TAUNT"],
@@ -3523,8 +3511,8 @@ export const pokemonData70: Pokemon[] = [
       "46": ["FUTURESIGHT"],
       "50": ["TRICKROOM"],
     },
-    egg_moves: ["EXTRASENSORY", "PSYCHICTERRAIN", "WONDERROOM"],
-    tm_tutor_moves: [
+    eggMoves: ["EXTRASENSORY", "PSYCHICTERRAIN", "WONDERROOM"],
+    tmTutorMoves: [
       "WORKUP",
       "PSYSHOCK",
       "CALMMIND",
@@ -3599,7 +3587,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Passimian",
     types: ["Fighting"],
     stats: [100, 120, 90, 80, 40, 60],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["TACKLE"],
       "4": ["LEER"],
       "8": ["ROCKSMASH"],
@@ -3616,7 +3604,7 @@ export const pokemonData70: Pokemon[] = [
       "46": ["REVERSAL"],
       "50": ["GIGAIMPACT"],
     },
-    egg_moves: [
+    eggMoves: [
       "FEINT",
       "IRONHEAD",
       "QUICKATTACK",
@@ -3624,7 +3612,7 @@ export const pokemonData70: Pokemon[] = [
       "SEISMICTOSS",
       "VITALTHROW",
     ],
-    tm_tutor_moves: [
+    tmTutorMoves: [
       "WORKUP",
       "TOXIC",
       "BULKUP",
@@ -3696,9 +3684,9 @@ export const pokemonData70: Pokemon[] = [
     name: "Wimpod",
     types: ["Bug", "Water"],
     stats: [25, 35, 40, 80, 20, 30],
-    level_up_moves: { "1": ["STRUGGLEBUG", "SANDATTACK"] },
-    egg_moves: ["AQUAJET", "HARDEN", "METALCLAW", "SPIKES", "WIDEGUARD"],
-    tm_tutor_moves: [
+    levelUpMoves: { "1": ["STRUGGLEBUG", "SANDATTACK"] },
+    eggMoves: ["AQUAJET", "HARDEN", "METALCLAW", "SPIKES", "WIDEGUARD"],
+    tmTutorMoves: [
       "TOXIC",
       "HAIL",
       "HIDDENPOWER",
@@ -3732,7 +3720,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Golisopod",
     types: ["Bug", "Water"],
     stats: [75, 125, 140, 40, 60, 90],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["FIRSTIMPRESSION"],
       "1": ["STRUGGLEBUG", "SANDATTACK", "FURYCUTTER", "ROCKSMASH"],
       "4": ["FURYCUTTER"],
@@ -3747,8 +3735,8 @@ export const pokemonData70: Pokemon[] = [
       "41": ["PINMISSILE"],
       "48": ["LIQUIDATION"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "TOXIC",
       "HAIL",
       "BULKUP",
@@ -3821,7 +3809,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Sandygast",
     types: ["Ghost", "Ground"],
     stats: [55, 55, 80, 15, 70, 45],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["HARDEN", "ABSORB"],
       "5": ["ASTONISH"],
       "9": ["SANDATTACK"],
@@ -3836,7 +3824,7 @@ export const pokemonData70: Pokemon[] = [
       "50": ["SHOREUP"],
       "54": ["SANDSTORM"],
     },
-    egg_moves: [
+    eggMoves: [
       "AMNESIA",
       "ANCIENTPOWER",
       "CURSE",
@@ -3845,7 +3833,7 @@ export const pokemonData70: Pokemon[] = [
       "STOCKPILE",
       "SWALLOW",
     ],
-    tm_tutor_moves: [
+    tmTutorMoves: [
       "TOXIC",
       "HIDDENPOWER",
       "PROTECT",
@@ -3893,7 +3881,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Palossand",
     types: ["Ghost", "Ground"],
     stats: [85, 75, 110, 35, 100, 75],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["HARDEN", "ABSORB", "ASTONISH", "SANDATTACK"],
       "5": ["ASTONISH"],
       "9": ["SANDATTACK"],
@@ -3908,8 +3896,8 @@ export const pokemonData70: Pokemon[] = [
       "54": ["SHOREUP"],
       "60": ["SANDSTORM"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "TOXIC",
       "HIDDENPOWER",
       "PROTECT",
@@ -3961,7 +3949,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Pyukumuku",
     types: ["Water"],
     stats: [55, 60, 130, 5, 30, 130],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["BATONPASS", "WATERSPORT", "MUDSPORT", "HARDEN", "BIDE"],
       "5": ["HELPINGHAND"],
       "9": ["TAUNT"],
@@ -3976,8 +3964,8 @@ export const pokemonData70: Pokemon[] = [
       "45": ["TOXIC"],
       "49": ["MEMENTO"],
     },
-    egg_moves: ["BESTOW", "ENDURE", "SPITE", "TICKLE", "VENOMDRENCH"],
-    tm_tutor_moves: [
+    eggMoves: ["BESTOW", "ENDURE", "SPITE", "TICKLE", "VENOMDRENCH"],
+    tmTutorMoves: [
       "TOXIC",
       "HAIL",
       "TAUNT",
@@ -4012,7 +4000,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Type:Null",
     types: ["Normal"],
     stats: [95, 95, 95, 59, 95, 95],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["TACKLE"],
       "5": ["RAGE"],
       "10": ["PURSUIT"],
@@ -4032,8 +4020,8 @@ export const pokemonData70: Pokemon[] = [
       "80": ["DOUBLEEDGE"],
       "85": ["HEALBLOCK"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "DRAGONCLAW",
       "ROAR",
@@ -4085,7 +4073,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Silvally",
     types: ["Normal"],
     stats: [95, 95, 95, 95, 95, 95],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["MULTIATTACK"],
       "1": [
         "HEALBLOCK",
@@ -4115,8 +4103,8 @@ export const pokemonData70: Pokemon[] = [
       "80": ["DOUBLEEDGE"],
       "85": ["PARTINGSHOT"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "DRAGONCLAW",
       "ROAR",
@@ -4183,7 +4171,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Minior",
     types: ["Rock", "Flying"],
     stats: [60, 100, 60, 120, 100, 60],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["TACKLE"],
       "3": ["DEFENSECURL"],
       "8": ["ROLLOUT"],
@@ -4200,8 +4188,8 @@ export const pokemonData70: Pokemon[] = [
       "45": ["SHELLSMASH"],
       "50": ["EXPLOSION"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "CALMMIND",
       "TOXIC",
       "HIDDENPOWER",
@@ -4256,7 +4244,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Komala",
     types: ["Normal"],
     stats: [65, 115, 65, 65, 75, 95],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["DEFENSECURL", "ROLLOUT"],
       "6": ["STOCKPILE", "SPITUP", "SWALLOW"],
       "11": ["RAPIDSPIN"],
@@ -4268,8 +4256,8 @@ export const pokemonData70: Pokemon[] = [
       "41": ["WOODHAMMER"],
       "46": ["THRASH"],
     },
-    egg_moves: ["CHARM", "PLAYROUGH", "SING", "WISH"],
-    tm_tutor_moves: [
+    eggMoves: ["CHARM", "PLAYROUGH", "SING", "WISH"],
+    tmTutorMoves: [
       "WORKUP",
       "CALMMIND",
       "TOXIC",
@@ -4326,7 +4314,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Turtonator",
     types: ["Fire", "Dragon"],
     stats: [60, 78, 135, 36, 91, 85],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["EMBER", "TACKLE"],
       "5": ["SMOG"],
       "9": ["PROTECT"],
@@ -4342,8 +4330,8 @@ export const pokemonData70: Pokemon[] = [
       "49": ["OVERHEAT"],
       "53": ["EXPLOSION"],
     },
-    egg_moves: ["FIRESPIN", "HEADSMASH", "REVENGE", "WIDEGUARD"],
-    tm_tutor_moves: [
+    eggMoves: ["FIRESPIN", "HEADSMASH", "REVENGE", "WIDEGUARD"],
+    tmTutorMoves: [
       "WORKUP",
       "DRAGONCLAW",
       "ROAR",
@@ -4416,7 +4404,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Togedemaru",
     types: ["Electric", "Steel"],
     stats: [65, 98, 63, 96, 40, 73],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["TACKLE", "THUNDERSHOCK"],
       "5": ["DEFENSECURL"],
       "9": ["ROLLOUT"],
@@ -4432,7 +4420,7 @@ export const pokemonData70: Pokemon[] = [
       "49": ["SPIKYSHIELD"],
       "53": ["FELLSTINGER"],
     },
-    egg_moves: [
+    eggMoves: [
       "DISARMINGVOICE",
       "ENCORE",
       "FAKEOUT",
@@ -4443,7 +4431,7 @@ export const pokemonData70: Pokemon[] = [
       "TWINEEDLE",
       "WISH",
     ],
-    tm_tutor_moves: [
+    tmTutorMoves: [
       "WORKUP",
       "TOXIC",
       "HIDDENPOWER",
@@ -4502,7 +4490,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Mimikyu",
     types: ["Ghost", "Fairy"],
     stats: [55, 90, 80, 96, 50, 105],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["WOODHAMMER", "SPLASH", "SCRATCH", "ASTONISH", "COPYCAT"],
       "5": ["DOUBLETEAM"],
       "10": ["BABYDOLLEYES"],
@@ -4516,8 +4504,8 @@ export const pokemonData70: Pokemon[] = [
       "46": ["PLAYROUGH"],
       "50": ["PAINSPLIT"],
     },
-    egg_moves: ["CURSE", "DESTINYBOND", "GRUDGE", "NIGHTMARE"],
-    tm_tutor_moves: [
+    eggMoves: ["CURSE", "DESTINYBOND", "GRUDGE", "NIGHTMARE"],
+    tmTutorMoves: [
       "WORKUP",
       "TOXIC",
       "BULKUP",
@@ -4585,7 +4573,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Bruxish",
     types: ["Water", "Psychic"],
     stats: [68, 105, 70, 92, 70, 70],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["WATERGUN"],
       "4": ["ASTONISH"],
       "9": ["CONFUSION"],
@@ -4599,8 +4587,8 @@ export const pokemonData70: Pokemon[] = [
       "41": ["PSYCHICFANGS"],
       "44": ["SYNCHRONOISE"],
     },
-    egg_moves: ["ICEFANG", "POISONFANG", "RAGE", "WATERPULSE"],
-    tm_tutor_moves: [
+    eggMoves: ["ICEFANG", "POISONFANG", "RAGE", "WATERPULSE"],
+    tmTutorMoves: [
       "CALMMIND",
       "TOXIC",
       "BULKUP",
@@ -4663,7 +4651,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Drampa",
     types: ["Normal", "Dragon"],
     stats: [78, 60, 85, 36, 135, 91],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["PLAYNICE", "ECHOEDVOICE"],
       "5": ["TWISTER"],
       "9": ["PROTECT"],
@@ -4679,8 +4667,8 @@ export const pokemonData70: Pokemon[] = [
       "49": ["HYPERVOICE"],
       "53": ["OUTRAGE"],
     },
-    egg_moves: ["DRAGONRUSH", "HURRICANE", "MIST", "PLAYROUGH", "RAZORWIND"],
-    tm_tutor_moves: [
+    eggMoves: ["DRAGONRUSH", "HURRICANE", "MIST", "PLAYROUGH", "RAZORWIND"],
+    tmTutorMoves: [
       "WORKUP",
       "DRAGONCLAW",
       "CALMMIND",
@@ -4758,7 +4746,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Dhelmise",
     types: ["Ghost", "Grass"],
     stats: [70, 131, 100, 40, 86, 90],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["SWITCHEROO", "ABSORB", "GROWTH", "RAPIDSPIN", "ASTONISH"],
       "5": ["MEGADRAIN"],
       "9": ["WRAP"],
@@ -4774,8 +4762,8 @@ export const pokemonData70: Pokemon[] = [
       "54": ["PHANTOMFORCE"],
       "59": ["POWERWHIP"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "TOXIC",
       "HIDDENPOWER",
       "SUNNYDAY",
@@ -4834,7 +4822,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Jangmo-o",
     types: ["Dragon"],
     stats: [45, 55, 65, 45, 45, 45],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["TACKLE"],
       "5": ["LEER"],
       "9": ["BIDE"],
@@ -4850,8 +4838,8 @@ export const pokemonData70: Pokemon[] = [
       "49": ["DRAGONDANCE"],
       "53": ["OUTRAGE"],
     },
-    egg_moves: ["COUNTER", "DRAGONBREATH", "REVERSAL"],
-    tm_tutor_moves: [],
+    eggMoves: ["COUNTER", "DRAGONBREATH", "REVERSAL"],
+    tmTutorMoves: [],
     locations: [
       {
         location: "Teknite Ridge",
@@ -4865,7 +4853,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Hakamo-o",
     types: ["Dragon", "Fighting"],
     stats: [55, 75, 90, 65, 65, 70],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["SKYUPPERCUT"],
       "1": ["AUTOTOMIZE", "TACKLE", "LEER", "BIDE", "PROTECT"],
       "5": ["LEER"],
@@ -4883,8 +4871,8 @@ export const pokemonData70: Pokemon[] = [
       "58": ["OUTRAGE"],
       "63": ["CLOSECOMBAT"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [],
+    eggMoves: [],
+    tmTutorMoves: [],
     locations: [],
   },
   {
@@ -4892,7 +4880,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Kommo-o",
     types: ["Dragon", "Fighting"],
     stats: [75, 110, 125, 85, 100, 105],
-    level_up_moves: {
+    levelUpMoves: {
       "0": ["CLANGINGSCALES"],
       "1": [
         "SKYUPPERCUT",
@@ -4918,8 +4906,8 @@ export const pokemonData70: Pokemon[] = [
       "67": ["OUTRAGE"],
       "75": ["CLOSECOMBAT"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [],
+    eggMoves: [],
+    tmTutorMoves: [],
     locations: [],
   },
   {
@@ -4927,7 +4915,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Tapu Koko",
     types: ["Electric", "Fairy"],
     stats: [70, 115, 85, 130, 95, 75],
-    level_up_moves: {
+    levelUpMoves: {
       "1": [
         "ELECTRICTERRAIN",
         "BRAVEBIRD",
@@ -4949,8 +4937,8 @@ export const pokemonData70: Pokemon[] = [
       "53": ["AGILITY"],
       "58": ["ELECTROBALL"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "CALMMIND",
       "ROAR",
@@ -5011,7 +4999,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Tapu Lele",
     types: ["Psychic", "Fairy"],
     stats: [70, 85, 75, 95, 130, 115],
-    level_up_moves: {
+    levelUpMoves: {
       "1": [
         "PSYCHICTERRAIN",
         "AROMATICMIST",
@@ -5033,8 +5021,8 @@ export const pokemonData70: Pokemon[] = [
       "53": ["FLATTER"],
       "58": ["MOONBLAST"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "PSYSHOCK",
       "CALMMIND",
       "HIDDENPOWER",
@@ -5087,7 +5075,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Tapu Bulu",
     types: ["Grass", "Fairy"],
     stats: [70, 130, 115, 75, 85, 95],
-    level_up_moves: {
+    levelUpMoves: {
       "1": [
         "GRASSYTERRAIN",
         "WOODHAMMER",
@@ -5109,8 +5097,8 @@ export const pokemonData70: Pokemon[] = [
       "53": ["MEGAHORN"],
       "58": ["SKULLBASH"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "CALMMIND",
       "ROAR",
@@ -5172,7 +5160,7 @@ export const pokemonData70: Pokemon[] = [
     name: "Tapu Fini",
     types: ["Water", "Fairy"],
     stats: [70, 75, 115, 85, 95, 130],
-    level_up_moves: {
+    levelUpMoves: {
       "1": [
         "MISTYTERRAIN",
         "MOONBLAST",
@@ -5194,8 +5182,8 @@ export const pokemonData70: Pokemon[] = [
       "53": ["AQUARING"],
       "58": ["HYDROPUMP"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "CALMMIND",
       "TOXIC",
       "HIDDENPOWER",
@@ -5251,9 +5239,9 @@ export const pokemonData70: Pokemon[] = [
     name: "Cosmog",
     types: ["Psychic"],
     stats: [43, 29, 31, 37, 29, 31],
-    level_up_moves: { "1": ["SPLASH"], "23": ["TELEPORT"] },
-    egg_moves: [],
-    tm_tutor_moves: [],
+    levelUpMoves: { "1": ["SPLASH"], "23": ["TELEPORT"] },
+    eggMoves: [],
+    tmTutorMoves: [],
     locations: [],
   },
   {
@@ -5261,9 +5249,9 @@ export const pokemonData70: Pokemon[] = [
     name: "Cosmoem",
     types: ["Psychic"],
     stats: [43, 29, 131, 37, 29, 131],
-    level_up_moves: { "0": ["COSMICPOWER"], "1": ["TELEPORT"] },
-    egg_moves: [],
-    tm_tutor_moves: [],
+    levelUpMoves: { "0": ["COSMICPOWER"], "1": ["TELEPORT"] },
+    eggMoves: [],
+    tmTutorMoves: [],
     locations: [],
   },
 ];

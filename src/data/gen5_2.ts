@@ -5,7 +5,7 @@ export const pokemonData52: Pokemon[] = [
     name: "Thundurus",
     types: ["Electric", "Flying"],
     stats: [79, 115, 70, 111, 125, 80],
-    level_up_moves: {
+    levelUpMoves: {
       "1": [
         "THRASH",
         "HAMMERARM",
@@ -29,8 +29,8 @@ export const pokemonData52: Pokemon[] = [
       "73": ["HAMMERARM"],
       "79": ["THRASH"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "TOXIC",
       "BULKUP",
       "HIDDENPOWER",
@@ -96,7 +96,7 @@ export const pokemonData52: Pokemon[] = [
     name: "Thundurus (Therian Forme)",
     types: ["Electric", "Flying"],
     stats: [79, 105, 70, 101, 145, 80],
-    level_up_moves: {
+    levelUpMoves: {
       "1": [
         "THRASH",
         "HAMMERARM",
@@ -120,8 +120,8 @@ export const pokemonData52: Pokemon[] = [
       "73": ["HAMMERARM"],
       "79": ["THRASH"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "TOXIC",
       "BULKUP",
       "HIDDENPOWER",
@@ -187,7 +187,7 @@ export const pokemonData52: Pokemon[] = [
     name: "Reshiram",
     types: ["Dragon", "Fire"],
     stats: [100, 120, 100, 90, 150, 120],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["FIREFANG", "DRAGONRAGE"],
       "8": ["IMPRISON"],
       "15": ["ANCIENTPOWER"],
@@ -204,8 +204,8 @@ export const pokemonData52: Pokemon[] = [
       "92": ["HYPERVOICE"],
       "100": ["BLUEFLARE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "DRAGONCLAW",
       "TOXIC",
       "HIDDENPOWER",
@@ -269,7 +269,7 @@ export const pokemonData52: Pokemon[] = [
     name: "Zekrom",
     types: ["Dragon", "Electric"],
     stats: [100, 150, 120, 90, 120, 100],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["THUNDERFANG", "DRAGONRAGE"],
       "8": ["IMPRISON"],
       "15": ["ANCIENTPOWER"],
@@ -286,8 +286,8 @@ export const pokemonData52: Pokemon[] = [
       "92": ["HYPERVOICE"],
       "100": ["BOLTSTRIKE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "DRAGONCLAW",
       "TOXIC",
       "HIDDENPOWER",
@@ -356,7 +356,7 @@ export const pokemonData52: Pokemon[] = [
     name: "Landorus",
     types: ["Ground", "Flying"],
     stats: [89, 125, 90, 101, 115, 80],
-    level_up_moves: {
+    levelUpMoves: {
       "1": [
         "OUTRAGE",
         "HAMMERARM",
@@ -380,8 +380,8 @@ export const pokemonData52: Pokemon[] = [
       "73": ["HAMMERARM"],
       "79": ["OUTRAGE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "CALMMIND",
       "TOXIC",
       "BULKUP",
@@ -442,7 +442,7 @@ export const pokemonData52: Pokemon[] = [
     name: "Landorus (Therian Forme)",
     types: ["Ground", "Flying"],
     stats: [89, 145, 90, 91, 105, 80],
-    level_up_moves: {
+    levelUpMoves: {
       "1": [
         "OUTRAGE",
         "HAMMERARM",
@@ -466,8 +466,8 @@ export const pokemonData52: Pokemon[] = [
       "73": ["HAMMERARM"],
       "79": ["OUTRAGE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "CALMMIND",
       "TOXIC",
       "BULKUP",
@@ -528,7 +528,7 @@ export const pokemonData52: Pokemon[] = [
     name: "Kyurem",
     types: ["Dragon", "Ice"],
     stats: [125, 130, 90, 95, 130, 90],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["ICYWIND", "DRAGONRAGE"],
       "8": ["IMPRISON"],
       "15": ["ANCIENTPOWER"],
@@ -544,8 +544,8 @@ export const pokemonData52: Pokemon[] = [
       "85": ["OUTRAGE"],
       "92": ["HYPERVOICE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "DRAGONCLAW",
       "TOXIC",
       "HAIL",
@@ -609,7 +609,7 @@ export const pokemonData52: Pokemon[] = [
     name: "White Kyurem",
     types: ["Dragon", "Ice"],
     stats: [125, 120, 90, 95, 170, 100],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["ICYWIND", "DRAGONRAGE"],
       "8": ["IMPRISON"],
       "15": ["ANCIENTPOWER"],
@@ -625,8 +625,8 @@ export const pokemonData52: Pokemon[] = [
       "85": ["OUTRAGE"],
       "92": ["HYPERVOICE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "DRAGONCLAW",
       "TOXIC",
       "HAIL",
@@ -690,7 +690,7 @@ export const pokemonData52: Pokemon[] = [
     name: "Black Kyurem",
     types: ["Dragon", "Ice"],
     stats: [125, 170, 100, 95, 120, 90],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["ICYWIND", "DRAGONRAGE"],
       "8": ["IMPRISON"],
       "15": ["ANCIENTPOWER"],
@@ -706,8 +706,8 @@ export const pokemonData52: Pokemon[] = [
       "85": ["OUTRAGE"],
       "92": ["HYPERVOICE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "DRAGONCLAW",
       "TOXIC",
       "HAIL",
@@ -771,7 +771,7 @@ export const pokemonData52: Pokemon[] = [
     name: "Keldeo",
     types: ["Water", "Fighting"],
     stats: [91, 72, 90, 108, 129, 90],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["AQUAJET", "LEER", "DOUBLEKICK", "BUBBLEBEAM"],
       "7": ["DOUBLEKICK"],
       "13": ["BUBBLEBEAM"],
@@ -786,8 +786,8 @@ export const pokemonData52: Pokemon[] = [
       "67": ["HYDROPUMP"],
       "73": ["CLOSECOMBAT"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "CALMMIND",
       "ROAR",
@@ -844,7 +844,7 @@ export const pokemonData52: Pokemon[] = [
     name: "Keldeo (Resolute Form)",
     types: ["Water", "Fighting"],
     stats: [91, 72, 90, 108, 129, 90],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["AQUAJET", "LEER", "DOUBLEKICK", "BUBBLEBEAM"],
       "7": ["DOUBLEKICK"],
       "13": ["BUBBLEBEAM"],
@@ -859,8 +859,8 @@ export const pokemonData52: Pokemon[] = [
       "67": ["HYDROPUMP"],
       "73": ["CLOSECOMBAT"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "CALMMIND",
       "ROAR",
@@ -917,7 +917,7 @@ export const pokemonData52: Pokemon[] = [
     name: "Meloetta",
     types: ["Normal", "Psychic"],
     stats: [100, 77, 77, 90, 128, 128],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["ROUND", "QUICKATTACK", "CONFUSION", "SING"],
       "6": ["QUICKATTACK"],
       "11": ["CONFUSION"],
@@ -934,8 +934,8 @@ export const pokemonData52: Pokemon[] = [
       "78": ["CLOSECOMBAT"],
       "85": ["PERISHSONG"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "PSYSHOCK",
       "CALMMIND",
@@ -1022,7 +1022,7 @@ export const pokemonData52: Pokemon[] = [
     name: "Meloetta (Pirouette Forme)",
     types: ["Normal", "Fighting"],
     stats: [100, 128, 90, 128, 77, 77],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["ROUND", "QUICKATTACK", "CONFUSION", "SING"],
       "6": ["QUICKATTACK"],
       "11": ["CONFUSION"],
@@ -1039,8 +1039,8 @@ export const pokemonData52: Pokemon[] = [
       "78": ["CLOSECOMBAT"],
       "85": ["PERISHSONG"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "WORKUP",
       "PSYSHOCK",
       "CALMMIND",
@@ -1127,7 +1127,7 @@ export const pokemonData52: Pokemon[] = [
     name: "Genesect",
     types: ["Bug", "Steel"],
     stats: [71, 120, 95, 99, 120, 95],
-    level_up_moves: {
+    levelUpMoves: {
       "1": [
         "FELLSTINGER",
         "TECHNOBLAST",
@@ -1151,8 +1151,8 @@ export const pokemonData52: Pokemon[] = [
       "73": ["HYPERBEAM"],
       "77": ["SELFDESTRUCT"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "TOXIC",
       "HIDDENPOWER",
       "ICEBEAM",

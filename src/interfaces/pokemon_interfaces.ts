@@ -13,8 +13,8 @@ export interface Pokemon {
   name: string;
   types: string[];
   stats: number[];
-  level_up_moves: Move<any>;
-  egg_moves: string[];
-  tm_tutor_moves: string[];
+  levelUpMoves: Move<any>;
+  eggMoves: string[];
+  tmTutorMoves: string[];
   locations: Location[];
 }

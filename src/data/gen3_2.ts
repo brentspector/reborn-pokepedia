@@ -5,7 +5,7 @@ export const pokemonData32: Pokemon[] = [
     name: "Latios",
     types: ["Dragon", "Psychic"],
     stats: [80, 90, 80, 110, 130, 110],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["MEMENTO", "HELPINGHAND", "HEALBLOCK", "PSYWAVE", "SAFEGUARD"],
       "4": ["PROTECT"],
       "7": ["DRAGONDANCE"],
@@ -23,8 +23,8 @@ export const pokemonData32: Pokemon[] = [
       "56": ["DRAGONPULSE"],
       "61": ["MEMENTO"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "DRAGONCLAW",
       "PSYSHOCK",
       "CALMMIND",
@@ -105,7 +105,7 @@ export const pokemonData32: Pokemon[] = [
     name: "Mega Latios",
     types: ["Dragon", "Psychic"],
     stats: [80, 130, 100, 110, 160, 120],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["MEMENTO", "HELPINGHAND", "HEALBLOCK", "PSYWAVE", "SAFEGUARD"],
       "4": ["PROTECT"],
       "7": ["DRAGONDANCE"],
@@ -123,8 +123,8 @@ export const pokemonData32: Pokemon[] = [
       "56": ["DRAGONPULSE"],
       "61": ["MEMENTO"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "DRAGONCLAW",
       "PSYSHOCK",
       "CALMMIND",
@@ -205,7 +205,7 @@ export const pokemonData32: Pokemon[] = [
     name: "Kyogre",
     types: ["Water"],
     stats: [100, 100, 90, 90, 150, 140],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["ANCIENTPOWER", "WATERPULSE"],
       "5": ["SCARYFACE"],
       "15": ["AQUATAIL"],
@@ -220,8 +220,8 @@ export const pokemonData32: Pokemon[] = [
       "80": ["DOUBLEEDGE"],
       "90": ["WATERSPOUT"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "CALMMIND",
       "ROAR",
       "TOXIC",
@@ -281,7 +281,7 @@ export const pokemonData32: Pokemon[] = [
     name: "Primal Kyogre",
     types: ["Water"],
     stats: [100, 150, 90, 90, 180, 160],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["ANCIENTPOWER", "WATERPULSE"],
       "5": ["SCARYFACE"],
       "15": ["AQUATAIL"],
@@ -296,8 +296,8 @@ export const pokemonData32: Pokemon[] = [
       "80": ["DOUBLEEDGE"],
       "90": ["WATERSPOUT"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "CALMMIND",
       "ROAR",
       "TOXIC",
@@ -357,7 +357,7 @@ export const pokemonData32: Pokemon[] = [
     name: "Groudon",
     types: ["Ground"],
     stats: [100, 150, 140, 90, 100, 90],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["ANCIENTPOWER", "MUDSHOT"],
       "5": ["SCARYFACE"],
       "15": ["EARTHPOWER"],
@@ -372,8 +372,8 @@ export const pokemonData32: Pokemon[] = [
       "80": ["HAMMERARM"],
       "90": ["ERUPTION"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "DRAGONCLAW",
       "ROAR",
       "TOXIC",
@@ -448,7 +448,7 @@ export const pokemonData32: Pokemon[] = [
     name: "Primal Groudon",
     types: ["Ground", "Fire"],
     stats: [100, 180, 160, 90, 150, 90],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["ANCIENTPOWER", "MUDSHOT"],
       "5": ["SCARYFACE"],
       "15": ["EARTHPOWER"],
@@ -463,8 +463,8 @@ export const pokemonData32: Pokemon[] = [
       "80": ["HAMMERARM"],
       "90": ["ERUPTION"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "DRAGONCLAW",
       "ROAR",
       "TOXIC",
@@ -539,7 +539,7 @@ export const pokemonData32: Pokemon[] = [
     name: "Rayquaza",
     types: ["Dragon", "Flying"],
     stats: [105, 150, 90, 95, 150, 90],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["TWISTER"],
       "5": ["SCARYFACE"],
       "15": ["ANCIENTPOWER"],
@@ -554,8 +554,8 @@ export const pokemonData32: Pokemon[] = [
       "80": ["OUTRAGE"],
       "90": ["HYPERBEAM"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "DRAGONCLAW",
       "ROAR",
       "TOXIC",
@@ -641,7 +641,7 @@ export const pokemonData32: Pokemon[] = [
     name: "Mega Rayquaza",
     types: ["Dragon", "Flying"],
     stats: [105, 180, 100, 115, 180, 100],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["TWISTER"],
       "5": ["SCARYFACE"],
       "15": ["ANCIENTPOWER"],
@@ -656,8 +656,8 @@ export const pokemonData32: Pokemon[] = [
       "80": ["OUTRAGE"],
       "90": ["HYPERBEAM"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "DRAGONCLAW",
       "ROAR",
       "TOXIC",
@@ -743,7 +743,7 @@ export const pokemonData32: Pokemon[] = [
     name: "Jirachi",
     types: ["Steel", "Psychic"],
     stats: [100, 100, 100, 100, 100, 100],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["WISH", "CONFUSION"],
       "5": ["REST"],
       "10": ["SWIFT"],
@@ -760,8 +760,8 @@ export const pokemonData32: Pokemon[] = [
       "65": ["LASTRESORT"],
       "70": ["DOOMDESIRE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "PSYSHOCK",
       "CALMMIND",
       "TOXIC",
@@ -836,7 +836,7 @@ export const pokemonData32: Pokemon[] = [
     name: "Deoxys",
     types: ["Psychic"],
     stats: [50, 150, 50, 150, 150, 50],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["LEER", "WRAP"],
       "7": ["NIGHTSHADE"],
       "13": ["TELEPORT"],
@@ -851,8 +851,8 @@ export const pokemonData32: Pokemon[] = [
       "67": ["PSYCHOBOOST"],
       "73": ["HYPERBEAM"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "PSYSHOCK",
       "CALMMIND",
       "TOXIC",
@@ -942,7 +942,7 @@ export const pokemonData32: Pokemon[] = [
     name: "Deoxys (Attack Forme)",
     types: ["Psychic"],
     stats: [50, 180, 20, 150, 180, 20],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["LEER", "WRAP"],
       "7": ["NIGHTSHADE"],
       "13": ["TELEPORT"],
@@ -957,8 +957,8 @@ export const pokemonData32: Pokemon[] = [
       "67": ["PSYCHOBOOST"],
       "73": ["HYPERBEAM"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "PSYSHOCK",
       "CALMMIND",
       "TOXIC",
@@ -1048,7 +1048,7 @@ export const pokemonData32: Pokemon[] = [
     name: "Deoxys (Defense Forme)",
     types: ["Psychic"],
     stats: [50, 70, 160, 90, 70, 160],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["LEER", "WRAP"],
       "7": ["NIGHTSHADE"],
       "13": ["TELEPORT"],
@@ -1063,8 +1063,8 @@ export const pokemonData32: Pokemon[] = [
       "67": ["PSYCHOBOOST"],
       "73": ["COUNTER", "MIRRORCOAT"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "PSYSHOCK",
       "CALMMIND",
       "TOXIC",
@@ -1154,7 +1154,7 @@ export const pokemonData32: Pokemon[] = [
     name: "Deoxys (Speed Forme)",
     types: ["Psychic"],
     stats: [50, 95, 90, 180, 95, 90],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["LEER", "WRAP"],
       "7": ["NIGHTSHADE"],
       "13": ["DOUBLETEAM"],
@@ -1169,8 +1169,8 @@ export const pokemonData32: Pokemon[] = [
       "67": ["PSYCHOBOOST"],
       "73": ["EXTREMESPEED"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "PSYSHOCK",
       "CALMMIND",
       "TOXIC",

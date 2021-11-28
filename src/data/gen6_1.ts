@@ -5,7 +5,7 @@ export const pokemonData61: Pokemon[] = [
     name: "Hoopa",
     types: ["Psychic", "Ghost"],
     stats: [80, 110, 60, 70, 150, 130],
-    level_up_moves: {
+    levelUpMoves: {
       "1": [
         "HYPERSPACEHOLE",
         "TRICK",
@@ -27,8 +27,8 @@ export const pokemonData61: Pokemon[] = [
       "75": ["PSYCHIC"],
       "85": ["HYPERSPACEHOLE"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "PSYSHOCK",
       "CALMMIND",
       "TOXIC",
@@ -109,7 +109,7 @@ export const pokemonData61: Pokemon[] = [
     name: "Hoopa Unbound",
     types: ["Psychic", "Dark"],
     stats: [80, 160, 60, 80, 170, 130],
-    level_up_moves: {
+    levelUpMoves: {
       "1": [
         "HYPERSPACEFURY",
         "TRICK",
@@ -129,8 +129,8 @@ export const pokemonData61: Pokemon[] = [
       "75": ["PSYCHIC"],
       "85": ["HYPERSPACEFURY"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "PSYSHOCK",
       "CALMMIND",
       "TOXIC",
@@ -211,7 +211,7 @@ export const pokemonData61: Pokemon[] = [
     name: "Volcanion",
     types: ["Fire", "Water"],
     stats: [80, 110, 120, 70, 130, 90],
-    level_up_moves: {
+    levelUpMoves: {
       "1": ["STEAMERUPTION", "FLAREBLITZ", "TAKEDOWN"],
       "8": ["MIST"],
       "11": ["HAZE"],
@@ -227,8 +227,8 @@ export const pokemonData61: Pokemon[] = [
       "76": ["EXPLOSION"],
       "85": ["STEAMERUPTION"],
     },
-    egg_moves: [],
-    tm_tutor_moves: [
+    eggMoves: [],
+    tmTutorMoves: [
       "ROAR",
       "TOXIC",
       "HIDDENPOWER",

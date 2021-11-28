@@ -2600,9 +2600,9 @@ for head, pk in pokemonData.items():
                         "name": pk['name'],
                          "types": types,
                          "stats": [int(stat) for stat in pk['basestats'].split(",")],
-                         "level_up_moves": lvMoves,
-                         "egg_moves": eggMoves,
-                         "tm_tutor_moves": [mv for mv in tmTutorData.get(pk['name'], []) if mv not in tmTutorExclusions.get(pk['name'], [])],
+                         "levelUpMoves": lvMoves,
+                         "eggMoves": eggMoves,
+                         "tmTutorMoves": [mv for mv in tmTutorData.get(pk['name'], []) if mv not in tmTutorExclusions.get(pk['name'], [])],
                          "locations": locs
                          })
 
@@ -2641,9 +2641,9 @@ for head, pk in pokemonData.items():
                          "name": formName,
                          "types": formTypes,
                          "stats": [int(stat) for stat in form.get('basestats', pk['basestats']).split(",")],
-                         "level_up_moves": formLvMoves,
-                         "egg_moves": formEggMoves,
-                         "tm_tutor_moves": [mv for mv in tmTutorData.get(pk['name'], []) if mv not in tmTutorExclusions.get(formName, [])],
+                         "levelUpMoves": formLvMoves,
+                         "eggMoves": formEggMoves,
+                         "tmTutorMoves": [mv for mv in tmTutorData.get(pk['name'], []) if mv not in tmTutorExclusions.get(formName, [])],
                          "locations": formLocs
                          })
 
