@@ -85,7 +85,7 @@
                   <ion-col
                     class="ion-margin ion-text-center egg-move"
                     style="flex-grow: 0"
-                    v-for="move in pokemonSel.egg_moves"
+                    v-for="move in pokemonSel.eggMoves"
                     :key="move"
                   >
                     <ion-label>{{ move }}</ion-label>
@@ -137,7 +137,7 @@
               <ion-col>Move</ion-col>
             </ion-row>
             <ion-row
-              v-for="(moves, level) in pokemonSel.level_up_moves"
+              v-for="(moves, level) in pokemonSel.levelUpMoves"
               :key="level"
               :class="isMoveSelected(level)"
             >
@@ -154,7 +154,7 @@
               </ion-col>
             </ion-row>
             <ion-row
-              v-for="(move, idx) in pokemonSel.tm_tutor_moves"
+              v-for="(move, idx) in pokemonSel.tmTutorMoves"
               :key="idx"
               :class="{ selected: moveList.includes(move) }"
             >
