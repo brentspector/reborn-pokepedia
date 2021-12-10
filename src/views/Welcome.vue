@@ -17,13 +17,37 @@
               options. If the menu is not visible, you can slide it out from the
               side using a left to right swipe. A mobile browser may interpret
               this as an attempt to go back to the previous page. There is no
-              fix for this, however a mobile version of this app is in the works
-              to alleviate the issue.
+              fix for this, however a mobile version of this app is available to
+              alleviate the issue.
             </p>
             <p>
               All selections can be found by using the dropdown menus at the top
               of each page.
             </p>
+            <p>
+              <a
+                href="https://img3.stockfresh.com/files/k/kikkerdirk/m/81/4759970_stock-photo-coming-soon.jpg"
+              >
+                <img
+                  alt="Download on the App Store"
+                  title="App Store"
+                  src="http://i.imgur.com/0n2zqHD.png"
+                  width="140"
+                />
+              </a>
+
+              <a
+                href="https://play.google.com/store/apps/details?id=com.brentspector.rebornpokepedia"
+              >
+                <img
+                  alt="Get it on Google Play"
+                  title="Google Play"
+                  src="http://i.imgur.com/mtGRPuM.png"
+                  width="140"
+                />
+              </a>
+            </p>
+
             <!-- Section Break -->
             <ion-item>
               <ion-icon
