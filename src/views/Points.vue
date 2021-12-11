@@ -3,20 +3,14 @@
     <ion-content fullscreen>
       <ion-item>
         <ion-label>Select a Point in Game</ion-label>
-        <ion-select v-model="pointInGame" @ionChange="pokemonAvailable($event)">
-          <ion-select-option
-            v-for="(pnt, idx) in gamePoints"
-            :key="idx"
-            :value="pnt"
-            >{{ pnt.name }}</ion-select-option
-          >
+        <ion-select v-model="pointInGame" @click="setSearchListOpen()">
         </ion-select>
       </ion-item>
       <ion-list v-if="!globalStore.state.cardFormat">
         <ion-item
           v-for="pk in pokemonAtPoint"
           :key="pk.no"
-          @click="setOpen(pk)"
+          @click="setDetailsOpen(pk)"
         >
           <ion-thumbnail slot="start">
             <img :src="pokemonPath(pk.no)" />
@@ -55,7 +49,7 @@
             size-xl="2.4"
             v-for="pk in pokemonAtPoint"
             :key="pk.no"
-            @click="setOpen(pk)"
+            @click="setDetailsOpen(pk)"
           >
             <ion-card>
               <img :src="pokemonPath(pk.no)" />
@@ -102,7 +96,6 @@ import {
   IonPage,
   IonRow,
   IonSelect,
-  IonSelectOption,
   IonText,
   IonThumbnail,
   modalController,
@@ -129,6 +122,7 @@ import { pokemonData71 } from "@/data/gen7_1";
 import { gamePoints } from "@/data/reborn";
 import { Pokemon } from "@/interfaces/pokemon_interfaces";
 import Details from "@/views/Details.vue";
+import SearchList from "@/views/SearchList.vue";
 
 export default defineComponent({
   components: {
@@ -146,7 +140,6 @@ export default defineComponent({
     IonPage,
     IonRow,
     IonSelect,
-    IonSelectOption,
     IonText,
     IonThumbnail,
   },
@@ -171,13 +164,42 @@ export default defineComponent({
       pokemonData70,
       pokemonData71
     );
-    const setOpen = async (pk: Pokemon) => {
+    const pokemonAvailable = (point: typeof pointInGame.value) => {
+      if (point) {
+        // Clear the reactive array
+        pokemonAtPoint.splice(0, pokemonAtPoint.length);
+
+        //Apply point in game
+        pointInGame.value = point;
+
+        // Filter for pokemon and then add them to the reactive array
+        pokemonData
+          // eslint-disable-next-line
+          .filter((pk, idx, arr) => pokemonPoint(pk))
+          .forEach((e) => pokemonAtPoint.push(e));
+      }
+      modalController.dismiss();
+    };
+
+    const setDetailsOpen = async (pk: Pokemon) => {
       const modal = await modalController.create({
         component: Details,
         componentProps: {
           pk: pk,
           point: pointInGame.value,
           modalCallback: modalController.dismiss,
+        },
+      });
+      return modal.present();
+    };
+    const setSearchListOpen = async () => {
+      const modal = await modalController.create({
+        component: SearchList,
+        componentProps: {
+          content: gamePoints,
+          key: "name",
+          label: "Search For Point...",
+          modalCallback: pokemonAvailable,
         },
       });
       return modal.present();
@@ -194,28 +216,16 @@ export default defineComponent({
       )[0];
     };
 
-    const pokemonAvailable = (event: Event) => {
-      if (event.target) {
-        // Clear the reactive array
-        pokemonAtPoint.splice(0, pokemonAtPoint.length);
-
-        // Filter for pokemon and then add them to the reactive array
-        pokemonData
-          // eslint-disable-next-line
-          .filter((pk, idx, arr) => pokemonPoint(pk))
-          .forEach((e) => pokemonAtPoint.push(e));
-      }
-    };
     return {
       globalStore,
-      gamePoints,
       pokemonAtPoint,
       pointInGame,
       pokemonPath,
       pokemonTypePath,
       pokemonPoint,
       pokemonAvailable,
-      setOpen,
+      setDetailsOpen,
+      setSearchListOpen,
     };
   },
 });
