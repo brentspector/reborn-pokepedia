@@ -1,10 +1,18 @@
 <template>
   <ion-page>
     <ion-content fullscreen>
-      <ion-item>
-        <ion-label>Select a Point in Game</ion-label>
-        <ion-select v-model="pointInGame" @click="setSearchListOpen()">
-        </ion-select>
+      <ion-item
+        @click="setSearchListOpen()"
+        lines="none"
+        detail="true"
+        class="hydrated"
+      >
+        <ion-icon
+          slot="start"
+          :ios="searchOutline"
+          :md="searchSharp"
+        ></ion-icon>
+        <ion-label>{{ dropdownLabel() }}</ion-label>
       </ion-item>
       <ion-list v-if="!globalStore.state.cardFormat">
         <ion-item
@@ -81,6 +89,7 @@
 </template>
 
 <script lang="ts">
+import { searchOutline, searchSharp } from "ionicons/icons";
 import {
   IonCard,
   IonCardContent,
@@ -90,12 +99,12 @@ import {
   IonCol,
   IonContent,
   IonGrid,
+  IonIcon,
   IonItem,
   IonLabel,
   IonList,
   IonPage,
   IonRow,
-  IonSelect,
   IonText,
   IonThumbnail,
   modalController,
@@ -134,12 +143,12 @@ export default defineComponent({
     IonCol,
     IonContent,
     IonGrid,
+    IonIcon,
     IonItem,
     IonLabel,
     IonList,
     IonPage,
     IonRow,
-    IonSelect,
     IonText,
     IonThumbnail,
   },
@@ -197,8 +206,8 @@ export default defineComponent({
         component: SearchList,
         componentProps: {
           content: gamePoints,
-          key: "name",
-          label: "Search For Point...",
+          contentKey: "name",
+          label: "Select A Point In Game",
           modalCallback: pokemonAvailable,
         },
       });
@@ -215,15 +224,23 @@ export default defineComponent({
         (loc) => loc.point === pointInGame.value.name
       )[0];
     };
+    const dropdownLabel = () => {
+      if (pokemonAtPoint.length > 0) {
+        return pointInGame.value.name;
+      } else {
+        return "Select A Point In Game";
+      }
+    };
 
     return {
+      searchOutline,
+      searchSharp,
       globalStore,
       pokemonAtPoint,
-      pointInGame,
       pokemonPath,
       pokemonTypePath,
       pokemonPoint,
-      pokemonAvailable,
+      dropdownLabel,
       setDetailsOpen,
       setSearchListOpen,
     };

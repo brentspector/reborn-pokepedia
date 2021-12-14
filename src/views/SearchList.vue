@@ -65,9 +65,9 @@ export default defineComponent({
       type: Object as () => Record<string, any>[],
       required: true,
     },
-    key: {
+    contentKey: {
       type: String,
-      required: false,
+      required: true,
     },
     label: {
       type: String,
@@ -82,11 +82,11 @@ export default defineComponent({
     const searchQuery = ref("");
     const searchResults = () => {
       if (searchQuery.value) {
-        console.log(props.key);
+        console.log(props.contentKey);
         return props.content.filter((item) => {
-          if (props.key) {
+          if (props.contentKey) {
             return (
-              item[props.key]
+              item[props.contentKey]
                 .toLowerCase()
                 .indexOf(searchQuery.value.toLowerCase()) != -1
             );
@@ -102,8 +102,8 @@ export default defineComponent({
       }
     };
     const getValue = (item: Record<string, any>) => {
-      if (props.key) {
-        return item[props.key];
+      if (props.contentKey) {
+        return item[props.contentKey];
       } else {
         return item;
       }
