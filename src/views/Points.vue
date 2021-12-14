@@ -5,7 +5,7 @@
         @click="setSearchListOpen()"
         lines="none"
         detail="true"
-        class="hydrated"
+        class="hydrated dropdown"
       >
         <ion-icon
           slot="start"
@@ -302,5 +302,9 @@ ion-list > ion-item {
 
 body {
   background-color: #eeeeee;
+}
+
+.dropdown:hover {
+  --background: rgba(var(--ion-color-primary-rgb), 0.14);
 }
 </style>

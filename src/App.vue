@@ -168,8 +168,16 @@ ion-menu.md ion-item {
   border-radius: 4px;
 }
 
+ion-menu.md ion-item:hover {
+  --background: rgba(var(--ion-color-primary-rgb), 0.08);
+}
+
 ion-menu.md ion-item.selected {
   --background: rgba(var(--ion-color-primary-rgb), 0.14);
+}
+
+ion-menu.md ion-item.selected:hover {
+  --background: rgba(var(--ion-color-primary-rgb), 0.2);
 }
 
 ion-menu.md ion-item.selected ion-icon {
