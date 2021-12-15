@@ -1,28 +1,33 @@
 <template>
   <ion-page>
     <ion-content>
-      <ion-item v-if="!isModal">
-        <ion-label>Select a Pokemon</ion-label>
-        <ion-select v-model="pokemonSel">
-          <ion-select-option
-            v-for="(pk, idx) in pokemonData"
-            :key="idx"
-            :value="pk"
-          >
-            {{ pk.name }}
-          </ion-select-option>
-        </ion-select>
+      <ion-item
+        v-if="!isModal"
+        @click="setSearchListOpen('pokemon')"
+        lines="none"
+        detail="true"
+        class="hydrated dropdown"
+      >
+        <ion-icon
+          slot="start"
+          :ios="searchOutline"
+          :md="searchSharp"
+        ></ion-icon>
+        <ion-label>{{ pokemonSel.name }}</ion-label>
       </ion-item>
-      <ion-item v-if="!isModal">
-        <ion-label>Select a Point in Game</ion-label>
-        <ion-select @ionChange="movesAvailable($event.target.value)">
-          <ion-select-option
-            v-for="(pnt, idx) in gamePoints"
-            :key="idx"
-            :value="pnt"
-            >{{ pnt.name }}</ion-select-option
-          >
-        </ion-select>
+      <ion-item
+        v-if="!isModal"
+        @click="setSearchListOpen('point')"
+        lines="none"
+        detail="true"
+        class="hydrated dropdown"
+      >
+        <ion-icon
+          slot="start"
+          :ios="searchOutline"
+          :md="searchSharp"
+        ></ion-icon>
+        <ion-label>{{ pointDropdownLabel() }}</ion-label>
       </ion-item>
       <ion-grid class="ion-margin-top ion-margin-bottom">
         <ion-row class="ion-align-items-start">
@@ -117,19 +122,20 @@
             </ion-row>
           </ion-col>
         </ion-row>
-        <ion-row v-if="isModal">
-          <ion-item>
-            <ion-label>Select a Point in Game</ion-label>
-            <ion-select @ionChange="movesAvailable($event.target.value)">
-              <ion-select-option
-                v-for="(pnt, idx) in gamePoints"
-                :key="idx"
-                :value="pnt"
-                >{{ pnt.name }}</ion-select-option
-              >
-            </ion-select>
-          </ion-item>
-        </ion-row>
+        <ion-item
+          v-if="isModal"
+          @click="setSearchListOpen('point')"
+          lines="none"
+          detail="true"
+          class="hydrated dropdown"
+        >
+          <ion-icon
+            slot="start"
+            :ios="searchOutline"
+            :md="searchSharp"
+          ></ion-icon>
+          <ion-label>{{ pointDropdownLabel() }}</ion-label>
+        </ion-item>
         <ion-row>
           <ion-grid>
             <ion-row class="bg-dark">
@@ -176,20 +182,22 @@
   </ion-page>
 </template>
 <script lang="ts">
+import { searchOutline, searchSharp } from "ionicons/icons";
 import {
   IonCol,
   IonContent,
   IonFab,
   IonFabButton,
   IonGrid,
+  IonIcon,
   IonImg,
   IonItem,
   IonLabel,
   IonPage,
   IonRow,
-  IonSelect,
-  IonSelectOption,
   IonText,
+  modalController,
+  ModalOptions,
 } from "@ionic/vue";
 import { defineComponent, onMounted, ref } from "vue";
 import { useRoute } from "vue-router";
@@ -213,6 +221,7 @@ import { pokemonData71 } from "@/data/gen7_1";
 import { gamePoints, statOrder } from "@/data/reborn";
 import { tmLocations, tutorLocations } from "@/data/tm_locations";
 import { Pokemon } from "@/interfaces/pokemon_interfaces";
+import SearchList from "@/views/SearchList.vue";
 
 export default defineComponent({
   components: {
@@ -221,13 +230,12 @@ export default defineComponent({
     IonFab,
     IonFabButton,
     IonGrid,
+    IonIcon,
     IonImg,
     IonItem,
     IonLabel,
     IonPage,
     IonRow,
-    IonSelect,
-    IonSelectOption,
     IonText,
   },
   props: {
@@ -265,9 +273,10 @@ export default defineComponent({
     );
     const route = useRoute();
     const moveList: string[] = [];
-    const ptLevel = ref(0);
+    const pointInGame = ref({ name: "Select A Point In Game", level: "0" });
     const isModal = ref(false);
     const pokemonSel = ref(pokemonData[0]);
+    let modal: HTMLIonModalElement;
     // Typescript doesn't like that modalCallback is possibly undefined
     // thus we can't directly call it via @click nor invoke it as a lambda
     // so we do this little song and dance to let typescript know that
@@ -305,11 +314,11 @@ export default defineComponent({
     const isMoveSelected = (level: number) => {
       // Using the unary operator (+) to guarantee string is a number
       // Otherwise ends up using string comparision such that 11 < 4
-      return +level < +ptLevel.value ? "selected" : "";
+      return +level < +pointInGame.value.level ? "selected" : "";
     };
     const movesAvailable = (point: typeof gamePoints[0] | undefined) => {
       if (point) {
-        ptLevel.value = parseInt(point.level);
+        pointInGame.value = point;
 
         // Clear the reactive array
         moveList.splice(0, moveList.length);
@@ -329,6 +338,43 @@ export default defineComponent({
           .filter((mv) => cumulativePoints.includes(mv.point))
           .forEach((mv) => moveList.push(mv.name));
       }
+      if (modal) {
+        modal.dismiss();
+      }
+    };
+    const pokemonSearchListHandler = (pk: Pokemon) => {
+      if (pk) {
+        pokemonSel.value = pk;
+      }
+      modal.dismiss();
+    };
+    const setSearchListOpen = async (mode: string) => {
+      let settings: ModalOptions;
+      if (mode === "pokemon") {
+        settings = {
+          component: SearchList,
+          componentProps: {
+            content: pokemonData,
+            contentKey: "name",
+            label: "Select A Pokemon",
+            modalCallback: pokemonSearchListHandler,
+          },
+        };
+      } else if (mode === "point") {
+        settings = {
+          component: SearchList,
+          componentProps: {
+            content: gamePoints,
+            contentKey: "name",
+            label: "Select A Point In Game",
+            modalCallback: movesAvailable,
+          },
+        };
+      } else {
+        throw mode + " is not a supported search list!";
+      }
+      modal = await modalController.create(settings);
+      return modal.present();
     };
 
     const getIdNumberFromRoute = (id: string | string[]): number => {
@@ -364,14 +410,23 @@ export default defineComponent({
           pokemonSel.value = pokemonData[0];
         }
       }
+
+      // Update moves available based on point provided
       movesAvailable(props.point);
+    };
+
+    const pointDropdownLabel = () => {
+      return pointInGame.value.name;
     };
 
     onMounted(() => determinePokemonSel(route.params.id, props.pk));
 
     return {
+      searchOutline,
+      searchSharp,
       isModal,
       moveList,
+      pointInGame,
       pokemonSel,
       pokemonData,
       gamePoints,
@@ -381,7 +436,9 @@ export default defineComponent({
       pokemonTypePath,
       headerColorClass,
       isMoveSelected,
+      pointDropdownLabel,
       movesAvailable,
+      setSearchListOpen,
     };
   },
 });
@@ -488,6 +545,9 @@ ion-row.selected:nth-of-type(odd) {
 
 body {
   background-color: #eeeeee;
+}
+.dropdown:hover {
+  --background: rgba(var(--ion-color-primary-rgb), 0.14);
 }
 </style>
 

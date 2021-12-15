@@ -198,6 +198,7 @@ export default defineComponent({
           point: pointInGame.value,
           modalCallback: modalController.dismiss,
         },
+        cssClass: "details-modal",
       });
       return modal.present();
     };
