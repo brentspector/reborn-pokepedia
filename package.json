@@ -1,6 +1,6 @@
 {
   "name": "reborn-pokepedia",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,7 +9,7 @@
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
     "commit": "cz",
-    "release": "scripts/version.sh && standard-version"
+    "release": "scripts/version.sh && standard-version -a"
   },
   "dependencies": {
     "@capacitor/android": "3.3.2",
