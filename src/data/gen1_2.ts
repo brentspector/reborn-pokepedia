@@ -2339,7 +2339,7 @@ export const pokemonData12: Pokemon[] = [
       "WATERPULSE",
     ],
     locations: [
-      { location: "Ametrine Mountain", point: "Adrienn", method: "SuperRod" },
+      { location: "Ametrine Mountain", point: "Hardy", method: "SuperRod" },
       { location: "New World", point: "Post-Champion", method: "SuperRod" },
     ],
   },

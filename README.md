@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.brentspector.rebornpokepedia">
-    <img alt="Get it on Google Play" title="Google Play" src="http://i.imgur.com/mtGRPuM.png" width="140">
+    <img alt="Get it on Google Play" title="Google Play" src="https://pluspng.com/img-png/get-it-on-google-play-badge-png--2194.png" width="140">
   </a>
 </p>
 
