@@ -14,6 +14,7 @@ advancedVersioning {
 }
 
 android {
+    namespace "io.ionic.starter"
     compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
         applicationId "com.brentspector.rebornpokepedia"
@@ -43,6 +44,8 @@ repositories {
 }
 
 dependencies {
+    implementation "androidx.core:core-splashscreen:$coreSplashScreenVersion"
+    implementation "androidx.coordinatorlayout:coordinatorlayout:$androidxCoordinatorLayoutVersion"
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
     implementation project(':capacitor-android')
