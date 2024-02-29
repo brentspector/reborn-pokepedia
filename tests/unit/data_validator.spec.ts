@@ -86,7 +86,7 @@ describe("pokemonData", () => {
 
 describe("tmData", () => {
   it("references valid values from gameLocations", () => {
-    for (const [tmName, tmDetails] of Object.entries(tmLocations)) {
+    for (const [, tmDetails] of Object.entries(tmLocations)) {
       if (tmDetails["location"]) {
         expect(gameLocations).toContain(tmDetails["location"]);
       }
@@ -97,7 +97,7 @@ describe("tmData", () => {
 describe("tmData", () => {
   it("references valid values from gamePoints", () => {
     const gmPoints = gamePoints.map((key) => key["name"]);
-    for (const [tmName, tmDetails] of Object.entries(tmLocations)) {
+    for (const [, tmDetails] of Object.entries(tmLocations)) {
       if (tmDetails["point"]) {
         expect(gmPoints).toContain(tmDetails["point"]);
       }
@@ -107,7 +107,7 @@ describe("tmData", () => {
 
 describe("tutorData", () => {
   it("references valid values from gameLocations", () => {
-    for (const [tutorName, tutorDetails] of Object.entries(tutorLocations)) {
+    for (const [, tutorDetails] of Object.entries(tutorLocations)) {
       if (tutorDetails["location"]) {
         expect(gameLocations).toContain(tutorDetails["location"]);
       }
@@ -118,7 +118,7 @@ describe("tutorData", () => {
 describe("tutorData", () => {
   it("references valid values from gamePoints", () => {
     const gmPoints = gamePoints.map((key) => key["name"]);
-    for (const [tutorName, tutorDetails] of Object.entries(tutorLocations)) {
+    for (const [, tutorDetails] of Object.entries(tutorLocations)) {
       if (tutorDetails["point"]) {
         expect(gmPoints).toContain(tutorDetails["point"]);
       }
