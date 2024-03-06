@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.2.4](https://github.com/brentspector/reborn-pokepedia/compare/v3.2.2...v3.2.4) (2024-03-06)
+
+
+### Bug Fixes
+
+* **pokemon data:** update Dratini and Mareanie Locations ([de25793](https://github.com/brentspector/reborn-pokepedia/commit/de25793e37fcd994143958d51788235d3a02265f)), closes [#31](https://github.com/brentspector/reborn-pokepedia/issues/31)
+
 ### [3.2.3](https://github.com/brentspector/reborn-pokepedia/compare/v3.2.2...v3.2.3) (2022-12-04)
 
 ### [3.2.2](https://github.com/brentspector/reborn-pokepedia/compare/v3.0.0...v3.2.2) (2022-04-23)
