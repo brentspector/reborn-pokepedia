@@ -2546,6 +2546,7 @@ mapRepoint = {
     "229": "Serra",
     "281": "Adrienn",
     "371": "Adrienn",
+    "379": "Hardy",
     "513": "Adrienn",
     "519": "Adrienn",
     "520": "Adrienn",
