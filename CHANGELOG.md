@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.3.1](https://github.com/brentspector/reborn-pokepedia/compare/v3.2.2...v3.3.1) (2024-03-06)
+
+
+### Bug Fixes
+
+* **google advertising id:** removes advertising ID permission ([09ea908](https://github.com/brentspector/reborn-pokepedia/commit/09ea908a609f3dca0089907cea3b3e012cef4e07))
+
 ## [3.3.0](https://github.com/brentspector/reborn-pokepedia/compare/v3.2.4...v3.3.0) (2024-03-06)
 
 ### [3.2.4](https://github.com/brentspector/reborn-pokepedia/compare/v3.2.2...v3.2.4) (2024-03-06)
