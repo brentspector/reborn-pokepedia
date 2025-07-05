@@ -1,6 +1,6 @@
 {
   "name": "reborn-pokepedia",
-  "version": "3.3.3",
+  "version": "3.3.4",
   "private": true,
   "description": "Pokemon Reborn Support App",
   "scripts": {
@@ -34,7 +34,6 @@
     "@typescript-eslint/eslint-plugin": "^7.1.0",
     "@typescript-eslint/parser": "^7.1.0",
     "@vue/cli-plugin-babel": "~5.0.8",
-    "@vue/cli-plugin-e2e-cypress": "~5.0.8",
     "@vue/cli-plugin-eslint": "~5.0.8",
     "@vue/cli-plugin-router": "~5.0.8",
     "@vue/cli-plugin-typescript": "~5.0.8",
