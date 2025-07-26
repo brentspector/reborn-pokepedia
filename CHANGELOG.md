@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.3.5](https://github.com/brentspector/reborn-pokepedia/compare/v3.3.2...v3.3.5) (2025-07-26)
+
+
+### Bug Fixes
+
+* **gradle properties:** update gradle wrapper to 8.9 ([0ae96b7](https://github.com/brentspector/reborn-pokepedia/commit/0ae96b702e73c1503003f655fa6829a643b35f29))
+
 ### [3.3.4](https://github.com/brentspector/reborn-pokepedia/compare/v3.3.2...v3.3.4) (2025-07-05)
 
 ### [3.3.3](https://github.com/brentspector/reborn-pokepedia/compare/v3.3.2...v3.3.3) (2024-07-10)
