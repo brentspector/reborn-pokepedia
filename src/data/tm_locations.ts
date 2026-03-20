@@ -1120,4 +1120,10 @@ export const tutorLocations = [
     point: "Adrienn",
     method: "Mosswater Market",
   },
+  {
+    name: "ZSPLASH",
+    location: "Peridot Ward",
+    point: "Amaria",
+    method: "Mosswater Market",
+  }
 ];
